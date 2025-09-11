@@ -4,7 +4,7 @@ Keras implementation for Deep Embedded Clustering (DEC) paper in ICML 2016
 (https://arxiv.org/abs/1511.06335)
 
 Author:
-    Xifeng Guo. 2017.1.30
+  Junyuan Xie 
 """
 
 from keras.models import Model
