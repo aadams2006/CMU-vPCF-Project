@@ -8,13 +8,14 @@ Author:
 
 from time import time
 import numpy as np
-from keras.models import Model
-from keras.optimizers import SGD
-from keras.utils.vis_utils import plot_model
+from tensorflow.keras.models import Model
+from tensorflow.keras.optimizers import SGD
+from tensorflow.keras.layers import Input, Dense, Layer, InputSpec
 
 from sklearn.cluster import KMeans
 from sklearn import metrics
-
+from DEC import ClusteringLayer
+import os
 
 def autoencoder(dims, act='relu', init='glorot_uniform'):
     """
@@ -55,7 +56,8 @@ class IDEC(object):
                  n_clusters=10,
                  alpha=1.0,
                  gamma=0.1,
-                 init='glorot_uniform'):
+                 init='glorot_uniform',
+                 save_dir='results/idec'):
 
         super(IDEC, self).__init__()
 
@@ -67,13 +69,17 @@ class IDEC(object):
         self.alpha = alpha
         self.gamma = gamma
         self.autoencoder, self.encoder = autoencoder(self.dims, init=init)
+        self.save_dir = save_dir
+        if not os.path.exists(self.save_dir):
+            os.makedirs(self.save_dir)
 
         # prepare IDEC model
         clustering_layer = ClusteringLayer(self.n_clusters, name='clustering')(self.encoder.output)
         self.model = Model(inputs=self.encoder.input,
                            outputs=[clustering_layer, self.autoencoder.output])
+        self.pretrained = False
 
-    def pretrain(self, x, y=None, optimizer='adam', epochs=200, batch_size=256, save_dir='results/temp'):
+    def pretrain(self, x, y=None, optimizer='adam', epochs=200, batch_size=256):
         print('...Pretraining...')
         self.autoencoder.compile(optimizer=optimizer, loss='mse')
 
@@ -81,8 +87,8 @@ class IDEC(object):
         t0 = time()
         self.autoencoder.fit(x, x, batch_size=batch_size, epochs=epochs)
         print('Pretraining time: ', time() - t0)
-        self.autoencoder.save_weights(save_dir + '/ae_weights.h5')
-        print('Pretrained weights are saved to %s/ae_weights.h5' % save_dir)
+        self.autoencoder.save_weights(os.path.join(self.save_dir, 'ae_weights.weights.h5'))
+        print('Pretrained weights are saved to %s/ae_weights.h5' % self.save_dir)
         self.pretrained = True
 
     def load_weights(self, weights):  # load weights of IDEC model
@@ -104,7 +110,7 @@ class IDEC(object):
         self.model.compile(optimizer=optimizer, loss=loss, loss_weights=loss_weights)
 
     def fit(self, x, y=None, maxiter=2e4, batch_size=256, tol=1e-3,
-            update_interval=140, save_dir='./results/idec'):
+            update_interval=140):
 
         print('Update interval', update_interval)
         save_interval = x.shape[0] / batch_size * 5  # 5 epochs
@@ -121,7 +127,7 @@ class IDEC(object):
         # Step 2: deep clustering
         # logging file
         import csv
-        logfile = open(save_dir + '/idec_log.csv', 'w')
+        logfile = open(os.path.join(self.save_dir, 'idec_log.csv'), 'w')
         logwriter = csv.DictWriter(logfile, fieldnames=['iter', 'acc', 'nmi', 'ari', 'L', 'Lc', 'Lr'])
         logwriter.writeheader()
 
@@ -164,14 +170,14 @@ class IDEC(object):
             # save intermediate model
             if ite % save_interval == 0:
                 # save IDEC model checkpoints
-                print('saving model to:', save_dir + '/IDEC_model_' + str(ite) + '.h5')
-                self.model.save_weights(save_dir + '/IDEC_model_' + str(ite) + '.h5')
+                print('saving model to:', os.path.join(self.save_dir, 'IDEC_model_' + str(ite) + '.h5'))
+                self.model.save_weights(os.path.join(self.save_dir, 'IDEC_model_' + str(ite) + '.weights.h5'))
 
             ite += 1
 
         # save the trained model
         logfile.close()
-        print('saving model to:', save_dir + '/IDEC_model_final.h5')
-        self.model.save_weights(save_dir + '/IDEC_model_final.h5')
+        print('saving model to:', os.path.join(self.save_dir, 'IDEC_model_final.h5'))
+        self.model.save_weights(os.path.join(self.save_dir, 'IDEC_model_final.weights.h5'))
 
         return y_pred

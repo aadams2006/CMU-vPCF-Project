@@ -1,19 +1,10 @@
-
-"""
-Keras implementation for Deep Embedded Clustering (DEC) paper in ICML 2016
-(https://arxiv.org/abs/1511.06335)
-
-Author:
-  Junyuan Xie 
-"""
-
-from keras.models import Model
-from keras.layers import Input, Dense, Layer
-from keras.engine.topology import get_source_inputs
-from keras import backend as K
+from tensorflow.keras.models import Model
+from tensorflow.keras.layers import Input, Dense, Layer, InputSpec
+from tensorflow.keras import backend as K
 from sklearn.cluster import KMeans
 from sklearn.metrics import normalized_mutual_info_score, adjusted_rand_score
 import numpy as np
+import os
 
 
 class ClusteringLayer(Layer):
@@ -48,7 +39,7 @@ class ClusteringLayer(Layer):
         assert len(input_shape) == 2
         input_dim = input_shape[1]
         self.input_spec = InputSpec(dtype=K.floatx(), shape=(None, input_dim))
-        self.clusters = self.add_weight((self.n_clusters, input_dim), initializer='glorot_uniform', name='clusters')
+        self.clusters = self.add_weight(shape=(self.n_clusters, input_dim), initializer='glorot_uniform', name='clusters')
         if self.initial_weights is not None:
             self.set_weights(self.initial_weights)
             del self.initial_weights
@@ -80,7 +71,7 @@ class ClusteringLayer(Layer):
 
 
 class DEC(object):
-    def __init__(self, dims, n_clusters=10, alpha=1.0, init='glorot_uniform'):
+    def __init__(self, dims, n_clusters=10, alpha=1.0, init='glorot_uniform', save_dir='results/dec'):
         super(DEC, self).__init__()
         self.dims = dims
         self.input_dim = self.dims[0]
@@ -89,10 +80,14 @@ class DEC(object):
         self.n_clusters = n_clusters
         self.alpha = alpha
         self.autoencoder, self.encoder = self.build_autoencoder(init)
+        self.save_dir = save_dir
+        if not os.path.exists(self.save_dir):
+            os.makedirs(self.save_dir)
 
         # prepare DEC model
         clustering_layer = ClusteringLayer(self.n_clusters, name='clustering')(self.encoder.output)
         self.model = Model(inputs=self.encoder.input, outputs=clustering_layer)
+        self.pretrained = False
 
     def build_autoencoder(self, init):
         """
@@ -125,7 +120,7 @@ class DEC(object):
 
         return Model(inputs=x, outputs=y, name='AE'), Model(inputs=x, outputs=h, name='encoder')
 
-    def pretrain(self, x, optimizer='adam', epochs=200, batch_size=256, save_dir='results/temp'):
+    def pretrain(self, x, optimizer='adam', epochs=200, batch_size=256):
         print('...Pretraining...')
         self.autoencoder.compile(optimizer=optimizer, loss='mse')
 
@@ -134,8 +129,8 @@ class DEC(object):
         t0 = time()
         self.autoencoder.fit(x, x, batch_size=batch_size, epochs=epochs)
         print('Pretraining time: ', time() - t0)
-        self.autoencoder.save_weights(save_dir + '/ae_weights.h5')
-        print('Pretrained weights are saved to %s/ae_weights.h5' % save_dir)
+        self.autoencoder.save_weights(os.path.join(self.save_dir, 'ae_weights.weights.h5'))
+        print('Pretrained weights are saved to %s/ae_weights.h5' % self.save_dir)
         self.pretrained = True
 
     def load_weights(self, weights_path): # load weights of DEC model
@@ -156,7 +151,7 @@ class DEC(object):
     def compile(self, optimizer='sgd', loss='kld'):
         self.model.compile(optimizer=optimizer, loss=loss)
 
-    def fit(self, x, y=None, maxiter=2e4, batch_size=256, tol=1e-3, update_interval=140, save_dir='./results/dec'):
+    def fit(self, x, y=None, maxiter=2e4, batch_size=256, tol=1e-3, update_interval=140):
         print('Update interval', update_interval)
         save_interval = x.shape[0] / batch_size * 5
 
@@ -174,7 +169,7 @@ class DEC(object):
         # Step 3: deep clustering
         # logging file
         import csv
-        logfile = open(save_dir + '/dec_log.csv', 'w')
+        logfile = open(os.path.join(self.save_dir, 'dec_log.csv'), 'w')
         logwriter = csv.DictWriter(logfile, fieldnames=['iter', 'acc', 'nmi', 'ari', 'loss'])
         logwriter.writeheader()
 
@@ -188,9 +183,9 @@ class DEC(object):
                 # evaluate the clustering performance
                 y_pred = q.argmax(1)
                 if y is not None:
-                    acc = np.round(nmi(y, y_pred), 5)
-                    nmi = np.round(nmi(y, y_pred), 5)
-                    ari = np.round(ari(y, y_pred), 5)
+                    acc = np.round(metrics.acc(y, y_pred), 5)
+                    nmi = np.round(normalized_mutual_info_score(y, y_pred), 5)
+                    ari = np.round(adjusted_rand_score(y, y_pred), 5)
                     loss = np.round(loss, 5)
                     logdict = dict(iter=ite, acc=acc, nmi=nmi, ari=ari, loss=loss)
                     logwriter.writerow(logdict)
@@ -215,53 +210,18 @@ class DEC(object):
                                                  y=p[index * batch_size:(index + 1) * batch_size])
                 index += 1
 
+
             # save intermediate model
             if ite % save_interval == 0:
                 # save DEC model checkpoints
-                print('saving model to:', save_dir + '/DEC_model_' + str(ite) + '.h5')
-                self.model.save_weights(save_dir + '/DEC_model_' + str(ite) + '.h5')
+                print('saving model to:', os.path.join(self.save_dir, 'DEC_model_' + str(ite) + '.h5'))
+                self.model.save_weights(os.path.join(self.save_dir, 'DEC_model_' + str(ite) + '.h5'))
 
             ite += 1
 
         # save the trained model
         logfile.close()
-        print('saving model to:', save_dir + '/DEC_model_final.h5')
-        self.model.save_weights(save_dir + '/DEC_model_final.h5')
+        print('saving model to:', os.path.join(self.save_dir, 'DEC_model_final.h5'))
+        self.model.save_weights(os.path.join(self.save_dir, 'DEC_model_final.weights.h5'))
 
         return y_pred
-
-
-def autoencoder(dims, act='relu', init='glorot_uniform'):
-    """
-    Fully connected auto-encoder model, symmetric.
-    Arguments:
-        dims: list of number of units in each layer of encoder. dims[0] is input dim, dims[-1] is units in hidden layer.
-            The decoder is symmetric with encoder. So number of layers of the auto-encoder is 2*len(dims)-1
-        act: activation, not applied to Input, Hidden and Output layers
-    return:
-        (ae_model, encoder_model), Model of autoencoder and model of encoder
-    """
-    n_stacks = len(dims) - 1
-    # input
-    x = Input(shape=(dims[0],), name='input')
-    h = x
-
-    # internal layers in encoder
-    for i in range(n_stacks-1):
-        h = Dense(dims[i + 1], activation=act, kernel_initializer=init, name='encoder_%d' % i)(h)
-
-    # hidden layer
-    h = Dense(dims[-1], kernel_initializer=init, name='encoder_%d' % (n_stacks - 1))(h)  # hidden layer, features are extracted from here
-
-    y = h
-    # internal layers in decoder
-    for i in range(n_stacks-1, 0, -1):
-        y = Dense(dims[i], activation=act, kernel_initializer=init, name='decoder_%d' % i)(y)
-
-    # output
-    y = Dense(dims[0], kernel_initializer=init, name='decoder_0')(y)
-
-    return Model(inputs=x, outputs=y, name='AE'), Model(inputs=x, outputs=h, name='encoder')
-
-nmi = normalized_mutual_info_score
-ari = adjusted_rand_score
