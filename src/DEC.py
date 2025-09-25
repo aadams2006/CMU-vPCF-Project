@@ -129,8 +129,9 @@ class DEC(object):
         t0 = time()
         self.autoencoder.fit(x, x, batch_size=batch_size, epochs=epochs)
         print('Pretraining time: ', time() - t0)
-        self.autoencoder.save_weights(os.path.join(self.save_dir, 'ae_weights.weights.h5'))
-        print('Pretrained weights are saved to %s/ae_weights.h5' % self.save_dir)
+        weights_path = os.path.join(self.save_dir, 'ae_weights.weights.h5')
+        self.autoencoder.save_weights(weights_path)
+        print('Pretrained weights are saved to %s' % weights_path)
         self.pretrained = True
 
     def load_weights(self, weights_path): # load weights of DEC model
@@ -214,14 +215,16 @@ class DEC(object):
             # save intermediate model
             if ite % save_interval == 0:
                 # save DEC model checkpoints
-                print('saving model to:', os.path.join(self.save_dir, 'DEC_model_' + str(ite) + '.h5'))
-                self.model.save_weights(os.path.join(self.save_dir, 'DEC_model_' + str(ite) + '.h5'))
+                checkpoint_path = os.path.join(self.save_dir, f'DEC_model_{ite}.weights.h5')
+                print('saving model to:', checkpoint_path)
+                self.model.save_weights(checkpoint_path)
 
             ite += 1
 
         # save the trained model
         logfile.close()
-        print('saving model to:', os.path.join(self.save_dir, 'DEC_model_final.h5'))
-        self.model.save_weights(os.path.join(self.save_dir, 'DEC_model_final.weights.h5'))
+        final_path = os.path.join(self.save_dir, 'DEC_model_final.weights.h5')
+        print('saving model to:', final_path)
+        self.model.save_weights(final_path)
 
         return y_pred
