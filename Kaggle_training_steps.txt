@@ -1,0 +1,105 @@
+Kaggle Training Playbook
+========================
+
+The checklist below enumerates every step required to train the DEC, IDEC, and
+DBSCAN models from this repository inside a Kaggle Notebook environment.
+
+0. Prerequisites
+----------------
+- Ensure you have an active Kaggle account and are signed in.
+- Export this repository as a `.zip` file or push it to a GitHub repository that
+  Kaggle can access. The notebook expects the `src/` and `notebooks/` folders to
+  be present.
+- Collect the feature matrix (`x.npy`) and, if available, the label array
+  (`y.npy`). If your data is in another format, convert it to NumPy arrays prior
+  to uploading.
+
+1. Stage the project on Kaggle
+------------------------------
+1.1. Navigate to **Datasets ➜ New Dataset** on Kaggle.
+1.2. Upload the repository archive (`CMU-vPCF-Project.zip`) and any required
+     `.npy` files into a new private dataset (e.g., `vpcf-project-data`).
+1.3. After the upload completes, publish the dataset. Note the generated slug –
+     Kaggle will expose the files at `/kaggle/input/vpcf-project-data/` inside
+     notebook sessions.
+
+2. Launch a Kaggle Notebook
+---------------------------
+2.1. Go to **Code ➜ Notebooks ➜ New Notebook**.
+2.2. In the right-hand *Settings* pane:
+     - Under **Data**, click *Add data* and attach the dataset you created in
+       Step 1 (e.g., `vpcf-project-data`).
+     - (Optional) Enable a GPU or TPU accelerator under **Accelerator** if you
+       plan to run long DEC/IDEC training sessions.
+     - (Optional) Change the **Internet** toggle to *Off* to comply with
+       competition rules if necessary; the notebook only needs local files.
+2.3. Choose *Notebook* (not Script) as the editor type to retain the interactive
+     interface.
+
+3. Load the project notebook
+----------------------------
+3.1. Inside the Kaggle editor, expand the file browser on the left.
+3.2. Open the dataset you attached and locate `CMU-vPCF-Project/notebooks/`.
+3.3. Double-click `Kaggle_Training.ipynb` to open it in the main editor pane.
+3.4. Verify that the first markdown cell renders correctly; if it does not,
+     click **File ➜ Save Version** to ensure Kaggle loads the latest files from
+     the dataset.
+
+4. Execute the workflow cells
+-----------------------------
+4.1. **Section 1 – Environment setup**
+     - Run the first code cell. It installs dependencies listed in
+       `requirements.txt` and appends `src/` to `sys.path` so the DEC/IDEC/DBSCAN
+       modules are importable.
+4.2. **Section 2 – Configure data and output directories**
+     - Edit the `data_path` assignment to reference your uploaded features. For
+       example: `Path('/kaggle/input/vpcf-project-data/x.npy')`.
+     - If you uploaded labels, set `labels_path` accordingly; otherwise keep it
+       as `None`.
+     - Adjust `results_root` if you want to save artifacts somewhere other than
+       `/kaggle/working/results`.
+     - Run the cell to create the results directory.
+4.3. **Section 3 – Load the dataset**
+     - Execute the cell. It validates the paths, loads the arrays, and reports
+       their shapes. If it raises `FileNotFoundError`, revisit Step 4.2.
+4.4. **Section 4 – Train DEC**
+     - Review the architecture dimensions and hyperparameters. Modify `dims`,
+       `n_clusters`, `epochs`, `maxiter`, or `batch_size` to suit your dataset
+       size.
+     - Run the cell. It saves pretraining weights to
+       `/kaggle/working/results/dec/` and logs training progress in
+       `dec_log.csv`.
+4.5. **Section 5 – Train IDEC**
+     - Execute the cell. If the autoencoder weights from Step 4 exist, the
+       notebook reuses them. IDEC outputs checkpoints and logs to
+       `/kaggle/working/results/idec/`.
+4.6. **Section 6 – Run DBSCAN baseline**
+     - Adjust `eps` and `min_samples` if needed (smaller `eps` discovers finer
+       clusters; larger `min_samples` suppresses noise).
+     - Run the cell to produce DBSCAN cluster assignments. When labels are
+       supplied, the cell prints accuracy, NMI, and ARI scores with noise points
+       excluded from the evaluation.
+4.7. **Section 7 – Inspect generated artifacts**
+     - Execute the final cell to list every file saved under the results
+       directory. This helps confirm that weights and logs are ready for
+       download.
+
+5. Save and export results
+--------------------------
+5.1. Click **+ Add output** next to any files you want to export (e.g.,
+     `DEC_model_final.weights.h5`, `idec_log.csv`).
+5.2. Use **File ➜ Save Version** to create a checkpoint of the notebook run.
+5.3. After the notebook finishes, download artifacts via the right-hand *Output*
+     panel or by promoting them to a Kaggle dataset.
+
+6. Optional follow-up analyses
+------------------------------
+- Upload the results folder back to this repository for version control.
+- Compare DEC, IDEC, and DBSCAN performance using the metrics printed in the
+  notebook and the CSV logs stored under `/kaggle/working/results/`.
+- Iterate on hyperparameters directly in the notebook; Kaggle sessions persist
+  for the duration of the run, so you can repeatedly edit and re-execute cells.
+
+Completion of the above steps guarantees that the Kaggle environment is fully
+prepared and that all three clustering models are executed with reproducible
+artifacts.
