@@ -13,8 +13,8 @@ from tensorflow.keras.optimizers import SGD
 from tensorflow.keras.layers import Input, Dense, Layer, InputSpec
 
 from sklearn.cluster import KMeans
-from sklearn import metrics
-from DEC import ClusteringLayer
+from . import metrics
+from .DEC import ClusteringLayer
 import os
 
 def autoencoder(dims, act='relu', init='glorot_uniform'):
@@ -141,9 +141,9 @@ class IDEC(object):
                 # evaluate the clustering performance
                 y_pred = q.argmax(1)
                 if y is not None:
-                    acc = np.round(metrics.accuracy_score(y, y_pred), 5)
-                    nmi = np.round(metrics.normalized_mutual_info_score(y, y_pred), 5)
-                    ari = np.round(metrics.adjusted_rand_score(y, y_pred), 5)
+                    acc = np.round(metrics.acc(y, y_pred), 5)
+                    nmi = np.round(metrics.nmi(y, y_pred), 5)
+                    ari = np.round(metrics.ari(y, y_pred), 5)
                     loss = np.round(loss, 5)
                     logdict = dict(iter=ite, acc=acc, nmi=nmi, ari=ari, L=loss[0], Lc=loss[1], Lr=loss[2])
                     logwriter.writerow(logdict)
