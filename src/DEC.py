@@ -5,6 +5,7 @@ from sklearn.cluster import KMeans
 from sklearn.metrics import normalized_mutual_info_score, adjusted_rand_score
 import numpy as np
 import os
+from . import metrics
 
 
 class ClusteringLayer(Layer):
