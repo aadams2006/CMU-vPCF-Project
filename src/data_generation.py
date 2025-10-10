@@ -63,10 +63,8 @@ def adjacency_cooccurrence_features(grid: np.ndarray) -> np.ndarray:
 
 
 def default_regimes():
-    """
-    Interpretable regimes (name, probabilities).
-    You can edit or extend this list as needed.
-    """
+    
+    #Interpretable regimes (name, probabilities).
     return [
         ("uniform",       (0.25, 0.25, 0.25, 0.25)),
         ("class1_heavy",  (0.55, 0.15, 0.15, 0.15)),
@@ -74,6 +72,7 @@ def default_regimes():
         ("class3_heavy",  (0.15, 0.15, 0.55, 0.15)),
         ("class4_heavy",  (0.15, 0.15, 0.15, 0.55)),
         ("bimodal_1_3",   (0.40, 0.10, 0.40, 0.10)),
+        #add more regimes for bimodal class later
     ]
 
 
