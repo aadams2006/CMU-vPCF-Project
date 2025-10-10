@@ -99,19 +99,26 @@ def maybe_save_preview(grid: np.ndarray, path: str):
 
 def build_dataset(
     out_dir: str,
-    num_samples: int = 60,
+    num_samples: int = 150,
     n: int = 100,
     seed: int = 7,
     save_previews: bool = True,
+    samples_per_regime: int | None = None,
 ):
     os.makedirs(out_dir, exist_ok=True)
     rng = np.random.default_rng(seed)
     regimes = default_regimes()
 
-    # Split samples (evenly as possible) across regimes
-    base = num_samples // len(regimes)
-    rem = num_samples % len(regimes)
-    counts = [base + (1 if i < rem else 0) for i in range(len(regimes))]
+    # Determine counts per regime.
+    # If samples_per_regime is provided, give each regime exactly that many samples.
+    if samples_per_regime is not None:
+        counts = [samples_per_regime] * len(regimes)
+        num_samples = samples_per_regime * len(regimes)
+    else:
+        # Split samples (evenly as possible) across regimes.
+        base = num_samples // len(regimes)
+        rem = num_samples % len(regimes)
+        counts = [base + (1 if i < rem else 0) for i in range(len(regimes))]
 
     rows = []
     sample_id = 0
@@ -153,7 +160,8 @@ def build_dataset(
 def main():
     parser = argparse.ArgumentParser(description="Generate simple synthetic grids and interpretable features.")
     parser.add_argument("--out_dir", type=str, default="./simple_grids", help="Output directory.")
-    parser.add_argument("--num_samples", type=int, default=60, help="Total number of samples to generate.")
+    parser.add_argument("--num_samples", type=int, default=150, help="Total number of samples to generate.")
+    parser.add_argument("--samples_per_regime", type=int, default=10, help="Number of samples to generate per regime (overrides --num_samples when set).")
     parser.add_argument("--n", type=int, default=100, help="Grid size (n×n).")
     parser.add_argument("--seed", type=int, default=7, help="RNG seed.")
     parser.add_argument("--no_previews", action="store_true", help="Disable saving preview images.")
@@ -165,6 +173,7 @@ def main():
         n=args.n,
         seed=args.seed,
         save_previews=(not args.no_previews),
+        samples_per_regime=args.samples_per_regime,
     )
 
 
