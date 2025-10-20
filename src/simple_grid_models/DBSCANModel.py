@@ -225,11 +225,14 @@ def main():
     dbscan_labels = dbscan.fit(x)
     print("DBSCAN Labels:", dbscan_labels)
     if len(np.unique(dbscan_labels)) > 1:
-        metrics = dbscan.evaluate(y_true)
+        results_path = os.path.join(os.path.dirname(__file__), "..", "..", "results", "dbscan")
+        metrics = dbscan.evaluate_full(x, y_true, save_csv=os.path.join(results_path, "metrics.csv"))
         print("\n--- DBSCAN Metrics ---")
         print(f"Accuracy: {metrics['acc']:.4f}")
         print(f"Normalized Mutual Information: {metrics['nmi']:.4f}")
         print(f"Adjusted Rand Index: {metrics['ari']:.4f}")
+        print(f"Silhouette Score: {metrics['silhouette']:.4f}")
+        print(f"Metrics saved to {os.path.join(results_path, 'metrics.csv')}")
         print("-" * 30)
     else:
         print("DBSCAN produced a single cluster or only noise.")
