@@ -5,8 +5,9 @@ from dataclasses import dataclass
 from typing import Optional, Dict
 
 import numpy as np
+import pandas as pd
 from sklearn.cluster import DBSCAN
-from sklearn.preprocessing import StandardScaler
+from sklearn.preprocessing import StandardScaler, LabelEncoder
 
 from .. import metrics
 from sklearn.metrics import (
@@ -195,3 +196,43 @@ class DBSCANClustering:
         if self._scaler is None:
             raise RuntimeError("Call `fit` before requesting scaled features.")
         return self._scaler.transform(x)
+
+def main():
+    """Main function to run DBSCAN clustering on the simple grid dataset."""
+    # Load the dataset
+    data_path = os.path.join(os.path.dirname(__file__), "..", "..", "simple_grids", "simple_grid_features.csv")
+    df = pd.read_csv(data_path)
+
+    # Prepare the data
+    feature_cols = [f'h{i+1}' for i in range(4)] + [f'co{i+1:02d}' for i in range(16)]
+    x = df[feature_cols].values.astype('float32')
+    y_true_labels = df['regime'].values
+    
+    # Encode string labels to integers
+    le = LabelEncoder()
+    y_true = le.fit_transform(y_true_labels)
+
+    print("--- Model Features and Targets ---")
+    print(f"Features shape: {x.shape}")
+    print(f"Targets shape: {y_true.shape}")
+    print(f"Feature columns: {feature_cols}")
+    print(f"Target labels (encoded): {np.unique(y_true)}")
+    print("-" * 30)
+
+    # --- Train and Evaluate DBSCAN ---
+    print("--- Training DBSCAN ---")
+    dbscan = DBSCANClustering(eps=0.5, min_samples=5, scale=True)
+    dbscan_labels = dbscan.fit(x)
+    print("DBSCAN Labels:", dbscan_labels)
+    if len(np.unique(dbscan_labels)) > 1:
+        metrics = dbscan.evaluate(y_true)
+        print("\n--- DBSCAN Metrics ---")
+        print(f"Accuracy: {metrics['acc']:.4f}")
+        print(f"Normalized Mutual Information: {metrics['nmi']:.4f}")
+        print(f"Adjusted Rand Index: {metrics['ari']:.4f}")
+        print("-" * 30)
+    else:
+        print("DBSCAN produced a single cluster or only noise.")
+
+if __name__ == "__main__":
+    main()
