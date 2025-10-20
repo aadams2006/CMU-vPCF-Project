@@ -8,7 +8,7 @@ import numpy as np
 from sklearn.cluster import DBSCAN
 from sklearn.preprocessing import StandardScaler
 
-from . import metrics
+from .. import metrics
 
 
 @dataclass

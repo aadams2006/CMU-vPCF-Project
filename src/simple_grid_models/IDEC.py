@@ -13,7 +13,7 @@ from tensorflow.keras.optimizers import SGD
 from tensorflow.keras.layers import Input, Dense, Layer, InputSpec
 
 from sklearn.cluster import KMeans
-from . import metrics
+from .. import metrics
 from .DEC import ClusteringLayer
 import os
 
