@@ -9,6 +9,16 @@ from sklearn.cluster import DBSCAN
 from sklearn.preprocessing import StandardScaler
 
 from .. import metrics
+from sklearn.metrics import (
+    adjusted_rand_score,
+    normalized_mutual_info_score,
+    homogeneity_score,
+    completeness_score,
+    v_measure_score,
+    silhouette_score,
+)
+import csv
+import os
 
 
 @dataclass
@@ -115,6 +125,68 @@ class DBSCANClustering:
         if self._estimator is None:
             raise RuntimeError("Call `fit` before requesting the underlying estimator.")
         return self._estimator
+
+    def evaluate_full(self, X: Optional[np.ndarray], y_true: np.ndarray, save_csv: Optional[str] = None, metric: str = "euclidean") -> Dict[str, float]:
+        """Compute a richer set of clustering evaluation metrics.
+
+        Parameters
+        ----------
+        X: Optional[np.ndarray]
+            Feature matrix used to compute silhouette score. If None, silhouette
+            will be NaN.
+        y_true: np.ndarray
+            Ground-truth labels aligned with the training data.
+        save_csv: Optional[str]
+            If provided, save the metrics to this CSV path (two columns: metric,value).
+        metric: str
+            The distance metric to pass to silhouette_score.
+
+        Returns
+        -------
+        Dict[str, float]
+            Dictionary of computed metrics.
+        """
+        if self.labels_ is None:
+            raise RuntimeError("Call `fit` before requesting evaluation metrics.")
+        if y_true.shape[0] != self.labels_.shape[0]:
+            raise ValueError("Ground truth labels must align with fitted predictions.")
+
+        mask = self.labels_ != -1
+        if not np.any(mask):
+            raise ValueError("All samples were marked as noise; cannot compute metrics.")
+
+        yt = y_true[mask]
+        yp = self.labels_[mask]
+
+        results: Dict[str, float] = {}
+        # Existing and common metrics
+        results["acc"] = float(metrics.acc(yt, yp))
+        results["nmi"] = float(normalized_mutual_info_score(yt, yp))
+        results["ari"] = float(adjusted_rand_score(yt, yp))
+        results["homogeneity"] = float(homogeneity_score(yt, yp))
+        results["completeness"] = float(completeness_score(yt, yp))
+        results["vmeasure"] = float(v_measure_score(yt, yp))
+
+        # Silhouette: requires X and at least 2 clusters
+        if X is None:
+            results["silhouette"] = float("nan")
+        else:
+            Xf = X[mask]
+            unique_labels = np.unique(yp)
+            if unique_labels.size < 2:
+                results["silhouette"] = float("nan")
+            else:
+                results["silhouette"] = float(silhouette_score(Xf, yp, metric=metric))
+
+        if save_csv is not None:
+            os.makedirs(os.path.dirname(save_csv) or ".", exist_ok=True)
+            with open(save_csv, "w", newline="") as f:
+                writer = csv.writer(f)
+                writer.writerow(["metric", "value"])
+                for k, v in results.items():
+                    writer.writerow([k, v])
+
+        return results
 
     def transform(self, x: np.ndarray) -> np.ndarray:
         """Project new samples using the scaling learnt during training."""
