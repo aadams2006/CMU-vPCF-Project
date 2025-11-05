@@ -9,7 +9,7 @@ from .IDEC import IDEC
 
 def main():
     # Load the dataset
-    data_path = "noisy_simple_grids/gaussian/noisy_grid_features_gaussian.csv"
+    data_path = "noisy_simple_grids_hard/gaussian/noisy_grid_features_gaussian.csv"
     df = pd.read_csv(data_path)
 
     # Prepare the data
@@ -37,11 +37,14 @@ def main():
     dbscan_labels = dbscan.fit(x)
     print("DBSCAN Labels:", dbscan_labels)
     if len(np.unique(dbscan_labels)) > 1:
-        metrics = dbscan.evaluate(y_true)
+        results_path = os.path.join(os.path.dirname(__file__), "..", "..", "results", "dbscan")
+        metrics = dbscan.evaluate_full(x, y_true, save_csv=os.path.join(results_path, "noisy_metrics.csv"))
         print("\n--- DBSCAN Metrics ---")
         print(f"Accuracy: {metrics['acc']:.4f}")
         print(f"Normalized Mutual Information: {metrics['nmi']:.4f}")
         print(f"Adjusted Rand Index: {metrics['ari']:.4f}")
+        print(f"Silhouette Score: {metrics['silhouette']:.4f}")
+        print(f"Metrics saved to {os.path.join(results_path, 'noisy_metrics.csv')}")
         print("-" * 30)
     else:
         print("DBSCAN produced a single cluster or only noise.")
@@ -49,7 +52,7 @@ def main():
     # --- Train and Evaluate DEC ---
     print("\n--- Training DEC ---")
     dims = [x.shape[1], 500, 500, 2000, len(np.unique(y_true))]
-    dec = DEC(dims=dims, n_clusters=len(np.unique(y_true)))
+    dec = DEC(dims=dims, n_clusters=len(np.unique(y_true)), save_dir='results/dec/noisy')
     dec.pretrain(x, epochs=50, batch_size=256)
     dec.compile(optimizer='sgd')
     dec_labels = dec.fit(x, y=y_true, maxiter=8000, update_interval=200, batch_size=256)
@@ -57,7 +60,7 @@ def main():
     
     # --- DEC Metrics ---
     print("\n--- DEC Metrics (from log file) ---")
-    dec_log_file = "results/dec/dec_log.csv"
+    dec_log_file = "results/dec/noisy/dec_log.csv"
     if os.path.exists(dec_log_file):
         dec_metrics = pd.read_csv(dec_log_file)
         print(dec_metrics.tail(1))
@@ -68,7 +71,7 @@ def main():
 
     # --- Train and Evaluate IDEC ---
     print("\n--- Training IDEC ---")
-    idec = IDEC(dims=dims, n_clusters=len(np.unique(y_true)))
+    idec = IDEC(dims=dims, n_clusters=len(np.unique(y_true)), save_dir='results/idec/noisy')
     if not idec.pretrained:
         idec.pretrain(x, epochs=50, batch_size=256)
     idec.compile(optimizer='sgd')
@@ -77,7 +80,7 @@ def main():
 
     # --- IDEC Metrics ---
     print("\n--- IDEC Metrics (from log file) ---")
-    idec_log_file = "results/idec/idec_log.csv"
+    idec_log_file = "results/idec/noisy/idec_log.csv"
     if os.path.exists(idec_log_file):
         idec_metrics = pd.read_csv(idec_log_file)
         print(idec_metrics.tail(1))
