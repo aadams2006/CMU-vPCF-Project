@@ -146,6 +146,7 @@ def main():
     dbscan = DBSCANClustering(**best_params)
     dbscan_labels = dbscan.fit(x)
     print("DBSCAN Labels:", dbscan_labels)
+    print(f"Number of noise points: {np.sum(dbscan_labels == -1)}")
     unique_labels = np.unique(dbscan_labels)
     if np.sum(unique_labels != -1) > 0:
         metrics = dbscan.evaluate_full(
