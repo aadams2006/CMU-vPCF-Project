@@ -27,7 +27,7 @@ class DBSCANClustering:
     """Convenience wrapper around :class:`sklearn.cluster.DBSCAN`.
 
     Parameters
-    ----------
+    -----------
     eps: float, default=0.5
         The maximum distance between two samples for one to be considered as in the
         neighborhood of the other. Passed directly to ``DBSCAN``.
