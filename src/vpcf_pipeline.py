@@ -13,9 +13,9 @@ from typing import Iterable, List, Sequence, Tuple
 import numpy as np
 from sklearn.preprocessing import LabelEncoder
 
-from . import metrics
-from .noisy_grid_models.DEC import DEC
-from .noisy_grid_models.IDEC import IDEC
+import metrics
+from DEC import DEC
+from IDEC import IDEC
 
 
 def resolve_data_paths(patterns: Sequence[str]) -> List[str]:
