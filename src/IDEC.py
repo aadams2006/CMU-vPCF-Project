@@ -13,8 +13,8 @@ from tensorflow.keras.optimizers import SGD
 from tensorflow.keras.layers import Input, Dense, Layer, InputSpec
 
 from sklearn.cluster import KMeans
-import metrics
-from DEC import ClusteringLayer
+from . import metrics
+from .DEC import ClusteringLayer
 import os
 
 def autoencoder(dims, act='relu', init='glorot_uniform'):
