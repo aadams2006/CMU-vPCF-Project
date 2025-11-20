@@ -4,14 +4,14 @@ import os
 import pandas as pd
 import tensorflow as tf
 from sklearn.base import BaseEstimator, ClusterMixin
-from sklearn.model_selection import GridSearchCV, PredefinedSplit
+from sklearn.model_selection import GridSearchCV
 from sklearn.preprocessing import LabelEncoder
 from collections import defaultdict
 from typing import Iterable, List, Tuple
 
-from src.DEC import DEC
-from src.IDEC import IDEC
-from src.metrics import nmi, ari, acc
+from .DEC import DEC
+from .IDEC import IDEC
+from .metrics import nmi, ari, acc
 from sklearn.metrics import make_scorer
 
 # Helper function to load data (remains unchanged)
@@ -132,10 +132,14 @@ def run_grid_search():
         'acc': make_scorer(acc)
     }
 
-    # To replicate the original behavior of training and testing on the full dataset,
-    # we use a PredefinedSplit that uses all data for a single "test" fold.
-    # GridSearchCV requires a CV iterator, this is how we provide one without data splitting.
-    ps = PredefinedSplit([-1] * len(x))
+    # Create a custom CV iterator that uses all data for both training and testing
+    # This is a generator that yields (train_indices, test_indices)
+    def custom_cv(n_samples):
+        """Generator that yields a single fold using all data for both train and test."""
+        all_indices = np.arange(n_samples)
+        yield all_indices, all_indices
+    
+    cv = custom_cv(len(x))
 
     results_list = []
 
@@ -147,7 +151,7 @@ def run_grid_search():
         param_grid=param_grid,
         scoring=scoring,
         refit='nmi',  # Refit the best model based on NMI score
-        cv=ps,        # Use the predefined split
+        cv=cv,        # Use the shuffle split
         n_jobs=-1,    # Use all available CPU cores
         verbose=3
     )
@@ -171,7 +175,7 @@ def run_grid_search():
         param_grid=param_grid,
         scoring=scoring,
         refit='nmi',
-        cv=ps,
+        cv=cv,
         n_jobs=-1,
         verbose=3
     )
