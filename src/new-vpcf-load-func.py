@@ -24,7 +24,7 @@ def read_vpcf_frame(filename, frame_index):
 
 ##Implementation
 
-file= 'The path where you save the file vPCF_test_2.h5'
+file= "../data/new-vpcf-data.h5"
 atomic_positions2 = []
 vpcf_origin2 = []
 vpcf_peaks2 = []
