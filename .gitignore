@@ -1,5 +1,18 @@
-results/
+# Environments
+.venv/
+venv/
+Lib/
+Include/
+Scripts/
+
+# Python cache
 __pycache__/
 *.pyc
-node_modules
-.venv/
+*.egg-info
+
+# Node modules
+node_modules/
+
+# Results & Archives
+results/
+notebooks/archive/
