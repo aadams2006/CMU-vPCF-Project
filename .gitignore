@@ -16,3 +16,20 @@ node_modules/
 # Results & Archives
 results/
 notebooks/archive/
+
+# Large data files
+*.h5
+*.hdf5
+*.dm3
+*.dm4
+*.npy
+*.npz
+data/*.h5
+data/*.json
+
+# Specific large files
+vPCF_test_2.h5
+vPCF_test_2.dm3
+
+# Model weights (optional - uncomment if needed)
+# *.weights.h5
