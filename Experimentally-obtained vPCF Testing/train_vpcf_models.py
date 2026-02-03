@@ -23,6 +23,7 @@ from typing import Optional, Tuple
 
 import numpy as np
 import pandas as pd
+from sklearn.metrics import silhouette_score, davies_bouldin_score, calinski_harabasz_score
 
 # Add parent directory to path for imports
 sys.path.insert(0, str(Path(__file__).parent))  # For local imports
@@ -37,6 +38,74 @@ from vpcf_data_loader import (
 )
 from src.DEC import DEC
 from src.IDEC import IDEC
+
+
+def compute_clustering_metrics(
+    x: np.ndarray,
+    labels: np.ndarray,
+    verbose: bool = True
+) -> dict:
+    """
+    Compute clustering evaluation metrics.
+    
+    Parameters
+    ----------
+    x : np.ndarray
+        Feature matrix of shape (n_samples, n_features).
+    labels : np.ndarray
+        Cluster labels from 0 to n_clusters-1.
+    verbose : bool
+        Whether to print metrics.
+        
+    Returns
+    -------
+    dict
+        Dictionary with metric names as keys and values as computed metrics.
+    """
+    n_clusters = len(np.unique(labels))
+    
+    metrics = {
+        'n_samples': x.shape[0],
+        'n_features': x.shape[1],
+        'n_clusters': n_clusters,
+    }
+    
+    # Only compute if we have more than 1 cluster
+    if n_clusters > 1:
+        try:
+            metrics['silhouette_score'] = silhouette_score(x, labels)
+        except Exception as e:
+            if verbose:
+                print(f"  Could not compute silhouette score: {e}")
+            metrics['silhouette_score'] = None
+        
+        try:
+            metrics['davies_bouldin_score'] = davies_bouldin_score(x, labels)
+        except Exception as e:
+            if verbose:
+                print(f"  Could not compute davies_bouldin score: {e}")
+            metrics['davies_bouldin_score'] = None
+        
+        try:
+            metrics['calinski_harabasz_score'] = calinski_harabasz_score(x, labels)
+        except Exception as e:
+            if verbose:
+                print(f"  Could not compute calinski_harabasz score: {e}")
+            metrics['calinski_harabasz_score'] = None
+    
+    if verbose:
+        print("\n  Clustering Metrics:")
+        print(f"    Samples: {metrics['n_samples']}")
+        print(f"    Features: {metrics['n_features']}")
+        print(f"    Clusters: {metrics['n_clusters']}")
+        if metrics.get('silhouette_score') is not None:
+            print(f"    Silhouette Score: {metrics['silhouette_score']:.4f}")
+        if metrics.get('davies_bouldin_score') is not None:
+            print(f"    Davies-Bouldin Index: {metrics['davies_bouldin_score']:.4f}")
+        if metrics.get('calinski_harabasz_score') is not None:
+            print(f"    Calinski-Harabasz Index: {metrics['calinski_harabasz_score']:.4f}")
+    
+    return metrics
 
 
 def get_model_dimensions(
@@ -243,27 +312,33 @@ def train_idec_model(
 
 def save_results(
     labels: np.ndarray,
+    x: np.ndarray,
     save_dir: str,
     model_name: str,
-    source_files: str
+    source_files: str,
+    metrics: Optional[dict] = None
 ) -> None:
     """
-    Save clustering results to CSV.
+    Save clustering results and evaluation metrics to CSV.
     
     Parameters
     ----------
     labels : np.ndarray
         Predicted cluster labels.
+    x : np.ndarray
+        Feature matrix used for clustering.
     save_dir : str
         Directory to save results.
     model_name : str
         Name of the model (dec or idec).
     source_files : str
         Source file paths for reference.
+    metrics : dict, optional
+        Precomputed metrics dictionary.
     """
     os.makedirs(save_dir, exist_ok=True)
     
-    # Save labels
+    # Save cluster assignments
     labels_df = pd.DataFrame({
         'sample_idx': np.arange(len(labels)),
         'cluster': labels
@@ -283,11 +358,27 @@ def save_results(
     stats_df.to_csv(stats_path, index=False)
     print(f"Saved cluster statistics to: {stats_path}")
     
+    # Compute and save evaluation metrics
+    if metrics is None:
+        metrics = compute_clustering_metrics(x, labels, verbose=False)
+    
+    metrics_df = pd.DataFrame([metrics])
+    metrics_path = os.path.join(save_dir, f'{model_name}_metrics.csv')
+    metrics_df.to_csv(metrics_path, index=False)
+    print(f"Saved evaluation metrics to: {metrics_path}")
+    
     # Save metadata
     with open(os.path.join(save_dir, f'{model_name}_metadata.txt'), 'w') as f:
         f.write(f"Source files: {source_files}\n")
         f.write(f"Total samples: {len(labels)}\n")
         f.write(f"Number of clusters: {len(unique)}\n")
+        f.write(f"\nEvaluation Metrics:\n")
+        for key, value in metrics.items():
+            if value is not None:
+                if isinstance(value, float):
+                    f.write(f"  {key}: {value:.6f}\n")
+                else:
+                    f.write(f"  {key}: {value}\n")
 
 
 def run_pipeline(
@@ -436,7 +527,12 @@ def run_pipeline(
         )
         results["dec_model"] = dec_model
         results["dec_labels"] = dec_labels
-        save_results(dec_labels, dec_save_dir, "dec", dataset.source_file or "")
+        
+        # Compute metrics
+        dec_metrics = compute_clustering_metrics(x, dec_labels, verbose=verbose)
+        results["dec_metrics"] = dec_metrics
+        
+        save_results(dec_labels, x, dec_save_dir, "dec", dataset.source_file or "", metrics=dec_metrics)
     
     if model in ["idec", "both"]:
         idec_save_dir = os.path.join(output_dir, "idec")
@@ -454,7 +550,12 @@ def run_pipeline(
         )
         results["idec_model"] = idec_model
         results["idec_labels"] = idec_labels
-        save_results(idec_labels, idec_save_dir, "idec", dataset.source_file or "")
+        
+        # Compute metrics
+        idec_metrics = compute_clustering_metrics(x, idec_labels, verbose=verbose)
+        results["idec_metrics"] = idec_metrics
+        
+        save_results(idec_labels, x, idec_save_dir, "idec", dataset.source_file or "", metrics=idec_metrics)
     
     if verbose:
         print("\n" + "=" * 60)
