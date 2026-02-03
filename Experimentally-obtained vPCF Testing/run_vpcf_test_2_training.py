@@ -22,8 +22,8 @@ from train_vpcf_models import run_pipeline
 
 
 # Pre-configured file paths
-H5_FILE = r"C:\Users\alexg\Downloads\vPCF_test_2.h5"
-DM3_FILE = r"C:\Users\alexg\Downloads\vPCF_test_2.dm3"
+H5_FILE = r"data\vPCF_test_2.h5"
+DM3_FILE = r"data\vPCF_test_2.dm3"
 
 # Output directory
 OUTPUT_DIR = r"C:\Users\alexg\Downloads\CMU vPCF Project\Experimentally-obtained vPCF Testing\results"
