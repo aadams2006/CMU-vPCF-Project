@@ -30,7 +30,7 @@ OUTPUT_DIR = r"C:\Users\alexg\Downloads\CMU vPCF Project\Experimentally-obtained
 
 
 def train_on_h5_only(
-    n_clusters: int = 10,
+    n_clusters: int = 3,
     feature_method: str = "flatten",
     model: str = "both",
     **kwargs
@@ -65,7 +65,7 @@ def train_on_h5_only(
 
 
 def train_on_dm3_only(
-    n_clusters: int = 10,
+    n_clusters: int = 3,
     feature_method: str = "flatten",
     model: str = "both",
     **kwargs
@@ -100,7 +100,7 @@ def train_on_dm3_only(
 
 
 def train_on_both_files(
-    n_clusters: int = 10,
+    n_clusters: int = 3,
     feature_method: str = "flatten",
     model: str = "both",
     **kwargs
@@ -169,7 +169,7 @@ def main():
     parser.add_argument(
         "--n-clusters",
         type=int,
-        default=10,
+        default=3,
         help="Number of clusters."
     )
     parser.add_argument(

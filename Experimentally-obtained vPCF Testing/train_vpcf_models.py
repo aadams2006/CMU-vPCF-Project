@@ -38,6 +38,7 @@ from vpcf_data_loader import (
 )
 from src.DEC import DEC
 from src.IDEC import IDEC
+from cluster_inspection import create_cluster_inspection_report
 
 
 def compute_clustering_metrics(
@@ -316,10 +317,11 @@ def save_results(
     save_dir: str,
     model_name: str,
     source_files: str,
-    metrics: Optional[dict] = None
+    metrics: Optional[dict] = None,
+    ground_truth_labels: Optional[np.ndarray] = None
 ) -> None:
     """
-    Save clustering results and evaluation metrics to CSV.
+    Save clustering results and evaluation metrics to CSV, including detailed cluster inspection reports.
     
     Parameters
     ----------
@@ -335,6 +337,8 @@ def save_results(
         Source file paths for reference.
     metrics : dict, optional
         Precomputed metrics dictionary.
+    ground_truth_labels : np.ndarray, optional
+        Ground truth labels for comparison.
     """
     os.makedirs(save_dir, exist_ok=True)
     
@@ -378,6 +382,17 @@ def save_results(
                 if isinstance(value, float):
                     f.write(f"  {key}: {value:.6f}\n")
                 else:
+                    f.write(f"  {key}: {value}\n")
+    
+    # Generate comprehensive cluster inspection reports
+    print("\n" + "="*60)
+    create_cluster_inspection_report(
+        labels,
+        model_name=model_name,
+        sample_names=None,  # Could be enhanced with sample names from dataset
+        ground_truth_labels=ground_truth_labels,
+        save_dir=save_dir
+    )
                     f.write(f"  {key}: {value}\n")
 
 
@@ -532,7 +547,7 @@ def run_pipeline(
         dec_metrics = compute_clustering_metrics(x, dec_labels, verbose=verbose)
         results["dec_metrics"] = dec_metrics
         
-        save_results(dec_labels, x, dec_save_dir, "dec", dataset.source_file or "", metrics=dec_metrics)
+        save_results(dec_labels, x, dec_save_dir, "dec", dataset.source_file or "", metrics=dec_metrics, ground_truth_labels=y)
     
     if model in ["idec", "both"]:
         idec_save_dir = os.path.join(output_dir, "idec")
@@ -555,7 +570,7 @@ def run_pipeline(
         idec_metrics = compute_clustering_metrics(x, idec_labels, verbose=verbose)
         results["idec_metrics"] = idec_metrics
         
-        save_results(idec_labels, x, idec_save_dir, "idec", dataset.source_file or "", metrics=idec_metrics)
+        save_results(idec_labels, x, idec_save_dir, "idec", dataset.source_file or "", metrics=idec_metrics, ground_truth_labels=y)
     
     if verbose:
         print("\n" + "=" * 60)
@@ -598,7 +613,7 @@ def build_argument_parser() -> argparse.ArgumentParser:
     parser.add_argument(
         "--n-clusters",
         type=int,
-        default=10,
+        default=3,
         help="Number of clusters to find."
     )
     
