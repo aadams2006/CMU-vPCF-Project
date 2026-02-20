@@ -1,4 +1,4 @@
-"""
+r"""
 Quick-start script for training DEC/IDEC on vPCF_test_2 data files.
 
 This script is pre-configured for:

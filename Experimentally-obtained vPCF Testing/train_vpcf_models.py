@@ -383,17 +383,16 @@ def save_results(
                     f.write(f"  {key}: {value:.6f}\n")
                 else:
                     f.write(f"  {key}: {value}\n")
-    
+
     # Generate comprehensive cluster inspection reports
     print("\n" + "="*60)
     create_cluster_inspection_report(
         labels,
         model_name=model_name,
-        sample_names=None,  # Could be enhanced with sample names from dataset
+        sample_names=None,
         ground_truth_labels=ground_truth_labels,
         save_dir=save_dir
     )
-                    f.write(f"  {key}: {value}\n")
 
 
 def run_pipeline(
