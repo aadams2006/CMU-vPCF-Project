@@ -571,6 +571,165 @@ class VPCFClusterMapper:
             'n_samples_in_h5': self.n_samples,
             'vpcf_shape': self.vpcf_shape
         }
+    
+    def get_sample_metadata(
+        self,
+        sample_id: int,
+        include_vpcf_image: bool = False
+    ) -> Dict[str, any]:
+        """
+        Get complete metadata for a single sample.
+        
+        Parameters
+        ----------
+        sample_id : int
+            Sample index in H5 file (0-based)
+        include_vpcf_image : bool
+            Whether to include the vPCF image array (large, ~8MB per sample)
+            
+        Returns
+        -------
+        dict
+            Complete sample metadata:
+            {
+                'sample_id': int,
+                'atomic_positions': [x, y],
+                'vpcf_origin': [x, y],
+                'vpcf_shape': tuple,
+                'vpcf_image': ndarray (if include_vpcf_image=True),
+                'vpcf_peaks_shape': tuple (if available),
+            }
+        """
+        if sample_id < 0 or sample_id >= self.n_samples:
+            raise IndexError(f"Sample ID {sample_id} out of range [0, {self.n_samples})")
+        
+        metadata = {'sample_id': sample_id}
+        
+        with h5py.File(self.h5_filepath, 'r') as f:
+            grp = f["experiments"]
+            
+            # Atomic positions (coordinates in STEM image)
+            if self.has_atomic_positions:
+                metadata['atomic_positions'] = grp["atomic_positions"][sample_id][:]
+            
+            # vPCF origin point
+            if self.has_vpcf_origin:
+                metadata['vpcf_origin'] = grp["vpcf_origin"][sample_id][:]
+            
+            # vPCF image shape
+            metadata['vpcf_shape'] = grp["vpcf_images"][sample_id].shape
+            
+            # vPCF image (optionally)
+            if include_vpcf_image:
+                metadata['vpcf_image'] = grp["vpcf_images"][sample_id][:]
+            
+            # Peaks shape if available
+            if "peaks_shapes" in grp:
+                metadata['vpcf_peaks_shape'] = grp["peaks_shapes"][sample_id][:]
+        
+        return metadata
+    
+    def inspect_h5_full_structure(self) -> Dict[str, any]:
+        """
+        Inspect and return complete H5 file structure including attributes.
+        
+        Useful for understanding what metadata is available in the file.
+        
+        Returns
+        -------
+        dict
+            Complete structure information
+        """
+        structure = {}
+        
+        with h5py.File(self.h5_filepath, 'r') as f:
+            # Root attributes
+            structure['root_attributes'] = dict(f.attrs)
+            
+            # Groups and their contents
+            structure['groups'] = {}
+            for group_name in f.keys():
+                if isinstance(f[group_name], h5py.Group):
+                    grp = f[group_name]
+                    structure['groups'][group_name] = {
+                        'attributes': dict(grp.attrs),
+                        'datasets': {}
+                    }
+                    
+                    # Datasets in this group
+                    for ds_name in grp.keys():
+                        if isinstance(grp[ds_name], h5py.Dataset):
+                            ds = grp[ds_name]
+                            structure['groups'][group_name]['datasets'][ds_name] = {
+                                'shape': ds.shape,
+                                'dtype': str(ds.dtype),
+                                'attributes': dict(ds.attrs)
+                            }
+        
+        return structure
+    
+    def print_h5_structure(self) -> None:
+        """Print human-readable H5 file structure."""
+        structure = self.inspect_h5_full_structure()
+        
+        print("\n" + "=" * 70)
+        print(f"H5 FILE STRUCTURE: {self.h5_filepath}")
+        print("=" * 70)
+        
+        if structure['root_attributes']:
+            print("\n[Root Attributes]")
+            for key, val in structure['root_attributes'].items():
+                print(f"  {key}: {val}")
+        
+        for group_name, group_info in structure['groups'].items():
+            print(f"\n[Group: {group_name}]")
+            
+            if group_info['attributes']:
+                for key, val in group_info['attributes'].items():
+                    print(f"  Attr {key}: {val}")
+            
+            print(f"  Datasets:")
+            for ds_name, ds_info in group_info['datasets'].items():
+                print(f"    {ds_name}")
+                print(f"      Shape: {ds_info['shape']}, Dtype: {ds_info['dtype']}")
+                if ds_info['attributes']:
+                    for key, val in ds_info['attributes'].items():
+                        print(f"      Attr {key}: {val}")
+    
+    def get_samples_by_metadata_filter(
+        self,
+        filter_func
+    ) -> List[int]:
+        """
+        Get sample indices that match a filter function.
+        
+        Parameters
+        ----------
+        filter_func : callable
+            Function that takes sample_id and returns True/False
+            
+        Returns
+        -------
+        list
+            Sample indices matching the filter
+            
+        Example
+        -------
+        # Get all samples with atomic_x > 1000
+        samples = mapper.get_samples_by_metadata_filter(
+            lambda sid: mapper.get_sample_metadata(sid)['atomic_positions'][0] > 1000
+        )
+        """
+        matching_samples = []
+        for sample_id in range(self.n_samples):
+            try:
+                if filter_func(sample_id):
+                    matching_samples.append(sample_id)
+            except Exception as e:
+                if self.verbose:
+                    print(f"Error filtering sample {sample_id}: {e}")
+        
+        return matching_samples
 
 
 # =============================================================================
