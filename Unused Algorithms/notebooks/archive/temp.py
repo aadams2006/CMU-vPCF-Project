@@ -1,0 +1,1 @@
+import sys; sys.path.append('../src'); from DEC import DEC; import numpy as np; x = np.load('x.npy'); dims = [5, 500, 500, 2000, 10]; dec = DEC(dims=dims, n_clusters=4); dec.pretrain(x, epochs=200)
