@@ -19,13 +19,16 @@ sys.path.insert(0, str(Path(__file__).parent))
 
 from train_vpcf_models import run_pipeline
 
+# Get the script's parent directory (the main project directory)
+SCRIPT_DIR = Path(__file__).parent
+PROJECT_DIR = SCRIPT_DIR.parent
 
-# Pre-configured file paths
-H5_FILE = r"data\1730_poled_TaN_cropped_100.h5"
+# Pre-configured file paths (relative to script location)
+H5_FILE = str(PROJECT_DIR / "data" / "1730_poled_TaN_cropped_100.h5")
 DM3_FILE = None
 
 # Output directory (relative to script location)
-OUTPUT_DIR = r"../results"
+OUTPUT_DIR = str(PROJECT_DIR / "results")
 
 
 def train_on_h5_only(
