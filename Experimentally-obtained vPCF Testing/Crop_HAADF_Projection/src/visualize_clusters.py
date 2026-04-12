@@ -20,7 +20,7 @@ class ClusterVisualizer:
     """Visualize vPCF cluster assignments on original image coordinates."""
     
     def __init__(self, 
-                 metadata_file: str,
+                 h5_file: str,
                  clustering_results_dir: str,
                  method: str = 'dec'):
         """
@@ -28,15 +28,15 @@ class ClusterVisualizer:
         
         Parameters
         ----------
-        metadata_file : str
-            Path to all_samples_metadata.json
+        h5_file : str
+            Path to the H5 data file (e.g., Crop_HAADF_Projection_80pixels.h5)
         clustering_results_dir : str
             Path to clustering results directory
         method : str
             'dec' or 'idec'
         """
         self.mapper = VPCFToImageMapper(
-            metadata_file=metadata_file,
+            h5_file=h5_file,
             clustering_results_dir=clustering_results_dir,
             method=method
         )
@@ -267,7 +267,7 @@ class ClusterVisualizer:
         return fig
     
     def compare_dec_vs_idec(self,
-                           metadata_file: str,
+                           h5_file: str,
                            figsize: tuple = (20, 8),
                            title: str = None) -> plt.Figure:
         """
@@ -275,8 +275,8 @@ class ClusterVisualizer:
         
         Parameters
         ----------
-        metadata_file : str
-            Path to metadata file
+        h5_file : str
+            Path to H5 data file
         figsize : tuple
             Figure size
         title : str
@@ -288,10 +288,10 @@ class ClusterVisualizer:
             Figure object
         """
         # Create visualizers for both methods
-        dec_vis = ClusterVisualizer(metadata_file, 
+        dec_vis = ClusterVisualizer(h5_file, 
                                    str(Path(self.mapper.clustering_results_dir).parent),
                                    method='dec')
-        idec_vis = ClusterVisualizer(metadata_file,
+        idec_vis = ClusterVisualizer(h5_file,
                                     str(Path(self.mapper.clustering_results_dir).parent),
                                     method='idec')
         
@@ -351,7 +351,7 @@ class ClusterVisualizer:
 
 if __name__ == "__main__":
     workspace_root = Path(__file__).parent.parent
-    metadata_file = str(workspace_root / "results" / "all_samples_metadata.json")
+    h5_file = str(workspace_root / "data" / "Crop_HAADF_Projection_80pixels.h5")
     clustering_dec_dir = str(workspace_root / "results" / "h5_only" / "dec")
     clustering_idec_dir = str(workspace_root / "results" / "h5_only" / "idec")
     
@@ -363,7 +363,7 @@ if __name__ == "__main__":
     print("DEC Visualizations:")
     print("-" * 70)
     
-    dec_vis = ClusterVisualizer(metadata_file, clustering_dec_dir, method='dec')
+    dec_vis = ClusterVisualizer(h5_file, clustering_dec_dir, method='dec')
     
     # 1. Scatter plot
     print("1. Creating scatter plot...")
@@ -407,7 +407,7 @@ if __name__ == "__main__":
     print("IDEC Visualizations:")
     print("-" * 70)
     
-    idec_vis = ClusterVisualizer(metadata_file, clustering_idec_dir, method='idec')
+    idec_vis = ClusterVisualizer(h5_file, clustering_idec_dir, method='idec')
     
     # 1. Scatter plot
     print("1. Creating scatter plot...")

@@ -13,13 +13,14 @@ from pathlib import Path
 from typing import Dict, List, Optional, Tuple
 import pandas as pd
 import numpy as np
+import h5py
 
 
 class VPCFToImageMapper:
     """Maps vPCF clustering results back to original image coordinates."""
     
     def __init__(self, 
-                 metadata_file: str,
+                 h5_file: str,
                  clustering_results_dir: str,
                  method: str = 'dec'):
         """
@@ -27,44 +28,52 @@ class VPCFToImageMapper:
         
         Parameters
         ----------
-        metadata_file : str
-            Path to all_samples_metadata.json or all_samples_metadata.csv
+        h5_file : str
+            Path to the H5 data file (e.g., 1730_poled_TaN_cropped_100.h5)
         clustering_results_dir : str
             Path to clustering results directory (e.g., h5_only/dec/)
         method : str, optional
             Clustering method: 'dec' or 'idec' (default: 'dec')
         """
-        self.metadata_file = Path(metadata_file)
+        self.h5_file = Path(h5_file)
         self.clustering_results_dir = Path(clustering_results_dir)
         self.method = method
         
-        # Load metadata
+        # Load metadata from H5 file
         self._load_metadata()
         
         # Load cluster assignments
         self._load_cluster_assignments()
     
     def _load_metadata(self):
-        """Load metadata from JSON or CSV file."""
-        if self.metadata_file.suffix == '.json':
-            with open(self.metadata_file, 'r') as f:
-                data = json.load(f)
-            self.metadata = data['samples']
-            self.total_samples = data['total_samples']
-        else:
-            # CSV file
-            df = pd.read_csv(self.metadata_file)
+        """Load metadata from H5 file."""
+        if not self.h5_file.exists():
+            raise FileNotFoundError(f"H5 file not found: {self.h5_file}")
+        
+        with h5py.File(self.h5_file, 'r') as f:
+            exp = f['experiments']
+            
+            # Get dimensions
+            self.total_samples = len(exp['atomic_positions'])
+            
+            # Load metadata into dictionary
             self.metadata = {}
-            for idx, row in df.iterrows():
-                self.metadata[str(idx)] = {
-                    'sample_id': idx,
-                    'atomic_positions': [row['atomic_positions_x'], row['atomic_positions_y']],
-                    'vpcf_origin': [row['vpcf_origin_x'], row['vpcf_origin_y']],
-                    'vpcf_shape': tuple(map(int, row['vpcf_image_shape'].strip('()').split(', '))),
-                    'peaks_shape': row['peaks_shape'],
-                    'crystal_label': row['crystal_label']
+            
+            atomic_positions = exp['atomic_positions'][:]
+            vpcf_origins = exp['vpcf_origin'][:]
+            peaks_shapes = exp['peaks_shapes'][:]
+            
+            for i in range(self.total_samples):
+                self.metadata[str(i)] = {
+                    'sample_id': i,
+                    'atomic_positions': [float(atomic_positions[i, 0]), float(atomic_positions[i, 1])],
+                    'vpcf_origin': [float(vpcf_origins[i, 0]), float(vpcf_origins[i, 1])],
+                    'vpcf_shape': (999, 999),  # From the H5 file structure
+                    'peaks_shape': tuple(peaks_shapes[i]),
+                    'crystal_label': 'N/A'  # Not available in H5 file
                 }
-            self.total_samples = len(self.metadata)
+        
+        print(f"Loaded metadata for {self.total_samples} samples from {self.h5_file.name}")
     
     def _load_cluster_assignments(self):
         """Load cluster assignments from CSV file."""
@@ -268,12 +277,12 @@ if __name__ == "__main__":
     
     # Configure paths based on your workspace structure
     workspace_root = Path(__file__).parent.parent
-    metadata_file = workspace_root / "results" / "all_samples_metadata.json"
+    h5_file = workspace_root / "data" / "1730_poled_TaN_cropped_100.h5"
     clustering_dir = workspace_root / "results" / "h5_only" / "dec"
     
     # Initialize mapper
     mapper = VPCFToImageMapper(
-        metadata_file=str(metadata_file),
+        h5_file=str(h5_file),
         clustering_results_dir=str(clustering_dir),
         method='dec'
     )
