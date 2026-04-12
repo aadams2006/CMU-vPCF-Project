@@ -7,7 +7,7 @@ DEC/IDEC clustering models on experimentally obtained vPCF data.
 Modules:
 - vpcf_data_loader: Data loading and preprocessing utilities
 - train_vpcf_models: Training pipeline for DEC/IDEC models
-- run_vpcf_test_2_training: Quick-start script for vPCF_test_2 files
+- run_vpcf_test_2_training: Quick-start script for 1730_poled_TaN_cropped files
 """
 
 from .vpcf_data_loader import (

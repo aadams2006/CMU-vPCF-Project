@@ -20,7 +20,7 @@ def example_basic_usage():
     print("=" * 70)
     
     # Initialize mapper with H5 file
-    h5_file = Path("data/vPCF_test_2.h5")
+    h5_file = Path("data/1730_poled_TaN_cropped_100.h5")
     mapper = VPCFClusterMapper(h5_file, verbose=True)
     
     # Retrieve vPCF data and metadata for sample 0
@@ -144,11 +144,11 @@ def example_map_to_stem(mapper):
     print("=" * 70)
     
     sample_id = 0
-    dm3_file = Path("data/vPCF_test_2.dm3")
+    dm3_file = None  # No DM3 file available for 1730 data
     
     mapping = mapper.map_to_stem_if_available(
         sample_id=sample_id,
-        dm3_filepath=dm3_file if dm3_file.exists() else None
+        dm3_filepath=dm3_file
     )
     
     print(f"\nvPCF to STEM Mapping for Sample {sample_id}:")
@@ -162,7 +162,7 @@ def example_create_all_cluster_analysis():
     print("EXAMPLE 7: Batch Analysis - All Clusters")
     print("=" * 70)
     
-    h5_file = Path("data/vPCF_test_2.h5")
+    h5_file = Path("data/1730_poled_TaN_cropped_100.h5")
     
     # Check if DEC results exist
     dec_results_path = Path("results/dec/vpcf/DEC_detailed_cluster_report.csv")
@@ -202,10 +202,10 @@ def main():
     print("=" * 70)
     
     # Initialize mapper
-    h5_file = Path("data/vPCF_test_2.h5")
+    h5_file = Path("data/1730_poled_TaN_cropped_100.h5")
     if not h5_file.exists():
         print(f"\nError: H5 file not found at {h5_file}")
-        print("Please ensure the vPCF_test_2.h5 file is in the data/ directory.")
+        print("Please ensure the 1730_poled_TaN_cropped_100.h5 file is in the data/ directory.")
         return
     
     mapper = example_basic_usage()

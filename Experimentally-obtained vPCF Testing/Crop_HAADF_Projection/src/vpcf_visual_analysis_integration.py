@@ -318,7 +318,7 @@ def create_integrated_visual_analysis(
 
 def main():
     """Example of integrated workflow."""
-    h5_file = Path("data/vPCF_test_2.h5")
+    h5_file = Path("data/Crop_HAADF_Projection_80pixels.h5")
     
     # Check for inspection results
     dec_results = Path("results/dec/vpcf/DEC_detailed_cluster_report.csv")

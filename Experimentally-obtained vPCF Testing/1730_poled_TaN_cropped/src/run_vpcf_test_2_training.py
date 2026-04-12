@@ -1,9 +1,8 @@
 r"""
-Quick-start script for training DEC/IDEC on vPCF_test_2 data files.
+Quick-start script for training DEC/IDEC on 1730_poled_TaN_cropped data files.
 
 This script is pre-configured for:
-- C:\Users\alexg\Downloads\vPCF_test_2.h5
-- C:\Users\alexg\Downloads\vPCF_test_2.dm3
+- 1730_poled_TaN_cropped_100.h5
 
 Usage:
     python run_vpcf_test_2_training.py --model both
@@ -22,11 +21,11 @@ from train_vpcf_models import run_pipeline
 
 
 # Pre-configured file paths
-H5_FILE = r"data\vPCF_test_2.h5"
-DM3_FILE = r"data\vPCF_test_2.dm3"
+H5_FILE = r"data\1730_poled_TaN_cropped_100.h5"
+DM3_FILE = None
 
-# Output directory
-OUTPUT_DIR = r"C:\Users\alexg\Downloads\CMU vPCF Project\Experimentally-obtained vPCF Testing\results"
+# Output directory (relative to script location)
+OUTPUT_DIR = r"../results"
 
 
 def train_on_h5_only(
@@ -150,7 +149,7 @@ def main():
     import argparse
     
     parser = argparse.ArgumentParser(
-        description="Train DEC/IDEC on vPCF_test_2 data files."
+        description="Train DEC/IDEC on 1730_poled_TaN_cropped data files."
     )
     parser.add_argument(
         "--source",
