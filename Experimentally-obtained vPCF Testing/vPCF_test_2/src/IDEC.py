@@ -97,6 +97,9 @@ class IDEC(object):
     def extract_features(self, x):
         return self.encoder.predict(x)
 
+    def get_cluster_centers(self):
+        return self.model.get_layer(name='clustering').get_weights()[0]
+
     def predict(self, x):  # predict cluster labels using the output of clustering layer
         q, _ = self.model.predict(x, verbose=0)
         return q.argmax(1)
