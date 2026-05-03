@@ -317,6 +317,7 @@ def save_results(
     save_dir: str,
     model_name: str,
     source_files: str,
+    model: Optional[object] = None,
     metrics: Optional[dict] = None,
     ground_truth_labels: Optional[np.ndarray] = None
 ) -> None:
@@ -335,6 +336,8 @@ def save_results(
         Name of the model (dec or idec).
     source_files : str
         Source file paths for reference.
+    model : object, optional
+        Trained model with get_cluster_centers() method.
     metrics : dict, optional
         Precomputed metrics dictionary.
     ground_truth_labels : np.ndarray, optional
@@ -361,6 +364,20 @@ def save_results(
     stats_path = os.path.join(save_dir, f'{model_name}_cluster_stats.csv')
     stats_df.to_csv(stats_path, index=False)
     print(f"Saved cluster statistics to: {stats_path}")
+    
+    # Save cluster centers if model is provided
+    if model is not None:
+        try:
+            cluster_centers = model.get_cluster_centers()
+            # Create DataFrame with cluster center coordinates
+            center_cols = {f'dim_{i}': cluster_centers[:, i] for i in range(cluster_centers.shape[1])}
+            center_cols['cluster'] = unique
+            centers_df = pd.DataFrame(center_cols)
+            centers_path = os.path.join(save_dir, f'{model_name}_cluster_centers.csv')
+            centers_df.to_csv(centers_path, index=False)
+            print(f"Saved cluster centers to: {centers_path}")
+        except Exception as e:
+            print(f"Warning: Could not save cluster centers: {e}")
     
     # Compute and save evaluation metrics
     if metrics is None:
@@ -546,7 +563,7 @@ def run_pipeline(
         dec_metrics = compute_clustering_metrics(x, dec_labels, verbose=verbose)
         results["dec_metrics"] = dec_metrics
         
-        save_results(dec_labels, x, dec_save_dir, "dec", dataset.source_file or "", metrics=dec_metrics, ground_truth_labels=y)
+        save_results(dec_labels, x, dec_save_dir, "dec", dataset.source_file or "", model=dec_model, metrics=dec_metrics, ground_truth_labels=y)
     
     if model in ["idec", "both"]:
         idec_save_dir = os.path.join(output_dir, "idec")
@@ -569,7 +586,7 @@ def run_pipeline(
         idec_metrics = compute_clustering_metrics(x, idec_labels, verbose=verbose)
         results["idec_metrics"] = idec_metrics
         
-        save_results(idec_labels, x, idec_save_dir, "idec", dataset.source_file or "", metrics=idec_metrics, ground_truth_labels=y)
+        save_results(idec_labels, x, idec_save_dir, "idec", dataset.source_file or "", model=idec_model, metrics=idec_metrics, ground_truth_labels=y)
     
     if verbose:
         print("\n" + "=" * 60)
