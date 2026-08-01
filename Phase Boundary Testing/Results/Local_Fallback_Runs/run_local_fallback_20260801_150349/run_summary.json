@@ -1,0 +1,38 @@
+{
+  "dataset": {
+    "source_file": "synthetic_fallback",
+    "n_samples": 420,
+    "feature_dim": 2
+  },
+  "training_config": {
+    "model": "fallback_local",
+    "n_clusters": 3,
+    "feature_method": "synthetic",
+    "normalize": "none",
+    "output_dir": "E:\\Users\\Alex\\phase_boundary_local_runs\\run_local_fallback_20260801_150349"
+  },
+  "models": {
+    "dec": {
+      "n_samples": 420,
+      "n_features": 2,
+      "n_clusters": 3,
+      "cluster_size_min": 138,
+      "cluster_size_max": 141,
+      "silhouette_score": 0.587576062307637,
+      "davies_bouldin_score": 0.5798298797952942,
+      "calinski_harabasz_score": 1081.189548985115,
+      "fallback_note": "Synthetic fallback because the original H5/DM3 data was not available in this workspace."
+    },
+    "idec": {
+      "n_samples": 420,
+      "n_features": 2,
+      "n_clusters": 3,
+      "cluster_size_min": 138,
+      "cluster_size_max": 141,
+      "silhouette_score": 0.587576062307637,
+      "davies_bouldin_score": 0.5798298797952942,
+      "calinski_harabasz_score": 1081.1895489851152,
+      "fallback_note": "Synthetic fallback because the original H5/DM3 data was not available in this workspace."
+    }
+  }
+}
