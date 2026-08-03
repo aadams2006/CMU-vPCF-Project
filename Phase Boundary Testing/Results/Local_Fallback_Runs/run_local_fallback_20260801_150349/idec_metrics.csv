@@ -1,0 +1,2 @@
+n_samples,n_features,n_clusters,cluster_size_min,cluster_size_max,silhouette_score,davies_bouldin_score,calinski_harabasz_score,fallback_note
+420,2,3,138,141,0.587576062307637,0.5798298797952942,1081.1895489851152,Synthetic fallback because the original H5/DM3 data was not available in this workspace.
