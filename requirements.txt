@@ -1,9 +1,11 @@
 tensorflow
 numpy
+scipy
 scikit-learn
 matplotlib
 jupyter
 h5py
 pandas
+Pillow
 hyperspy
 tqdm

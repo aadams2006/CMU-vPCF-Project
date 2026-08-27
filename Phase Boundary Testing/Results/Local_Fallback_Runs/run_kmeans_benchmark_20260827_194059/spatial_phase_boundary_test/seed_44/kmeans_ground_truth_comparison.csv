@@ -1,0 +1,10 @@
+predicted_cluster_raw,mapped_ground_truth_cluster,ground_truth_cluster,sample_count,percentage_of_predicted_cluster
+0,1,0,10,0.8703220191470844
+0,1,1,1132,98.52045256744995
+0,1,2,7,0.6092254134029591
+1,0,0,951,99.0625
+1,0,1,9,0.9375
+1,0,2,0,0.0
+2,2,0,0,0.0
+2,2,1,6,0.6230529595015576
+2,2,2,957,99.37694704049844

@@ -1,0 +1,10 @@
+[
+  {
+    "run_dir": "run_kmeans_benchmark_20260827_194059",
+    "timestamp_utc": "20260827_194059",
+    "run_type": "local_kmeans_benchmark",
+    "algorithms": [
+      "kmeans"
+    ]
+  }
+]

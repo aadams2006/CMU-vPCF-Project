@@ -1,12 +1,18 @@
-"""Utilities for saving cluster assignment inspection reports."""
+"""Utilities for saving auditable cluster-assignment reports."""
 
 from __future__ import annotations
 
+import json
 import os
 from typing import Dict, List, Optional
 
 import numpy as np
 import pandas as pd
+
+try:
+    from .metrics import confusion_matrix_table, optimal_label_mapping, remap_labels
+except ImportError:
+    from metrics import confusion_matrix_table, optimal_label_mapping, remap_labels
 
 
 def create_cluster_report(
@@ -15,13 +21,14 @@ def create_cluster_report(
     sample_names: Optional[np.ndarray] = None,
     ground_truth_labels: Optional[np.ndarray] = None,
     save_dir: str = "results",
+    ignore_label: Optional[int] = None,
 ) -> pd.DataFrame:
-    """Create and save a detailed sample-level cluster report."""
+    """Create a sample-level report while preserving raw cluster IDs."""
     os.makedirs(save_dir, exist_ok=True)
-
+    labels = np.asarray(labels).reshape(-1)
     report_data = {
         "sample_idx": np.arange(len(labels)),
-        "predicted_cluster": labels,
+        "predicted_cluster_raw": labels,
     }
 
     if sample_names is not None:
@@ -30,10 +37,18 @@ def create_cluster_report(
         report_data["sample_name"] = sample_names
 
     if ground_truth_labels is not None:
-        if len(ground_truth_labels) != len(labels):
+        truth = np.asarray(ground_truth_labels).reshape(-1)
+        if len(truth) != len(labels):
             raise ValueError("ground_truth_labels length mismatch.")
-        report_data["ground_truth_cluster"] = ground_truth_labels
-        report_data["matches_ground_truth"] = labels == ground_truth_labels
+        mapping = optimal_label_mapping(truth, labels, ignore_label=ignore_label)
+        matched = remap_labels(labels, mapping)
+        valid = np.ones(len(truth), dtype=bool)
+        if ignore_label is not None:
+            valid &= truth != ignore_label
+        report_data["predicted_cluster_matched"] = matched
+        report_data["ground_truth_cluster"] = truth
+        report_data["is_evaluated"] = valid
+        report_data["matches_ground_truth"] = valid & (matched == truth)
 
     report_df = pd.DataFrame(report_data)
     report_path = os.path.join(save_dir, f"{model_name}_detailed_cluster_report.csv")
@@ -47,24 +62,26 @@ def create_cluster_composition(
     model_name: str = "model",
     sample_names: Optional[np.ndarray] = None,
     save_dir: str = "results",
-) -> Dict[int, List[int]]:
+) -> Dict[int, List[object]]:
     """Create and save cluster membership summaries."""
     os.makedirs(save_dir, exist_ok=True)
+    labels = np.asarray(labels).reshape(-1)
+    if sample_names is not None and len(sample_names) != len(labels):
+        raise ValueError("sample_names length mismatch.")
 
     n_samples = len(labels)
     unique_clusters = np.unique(labels)
-    composition: Dict[int, List[int]] = {}
+    composition: Dict[int, List[object]] = {}
+    rows = []
 
     for cluster_id in unique_clusters:
         sample_indices = np.where(labels == cluster_id)[0]
-        if sample_names is not None:
-            composition[int(cluster_id)] = list(sample_names[sample_indices])
-        else:
-            composition[int(cluster_id)] = list(map(int, sample_indices))
-
-    rows = []
-    for cluster_id in unique_clusters:
-        samples = composition[int(cluster_id)]
+        samples = (
+            list(np.asarray(sample_names)[sample_indices])
+            if sample_names is not None
+            else list(map(int, sample_indices))
+        )
+        composition[int(cluster_id)] = samples
         rows.append(
             {
                 "cluster_id": int(cluster_id),
@@ -73,23 +90,23 @@ def create_cluster_composition(
                 "samples": ";".join(map(str, samples)),
             }
         )
-
-    composition_df = pd.DataFrame(rows)
-    composition_path = os.path.join(save_dir, f"{model_name}_cluster_composition.csv")
-    composition_df.to_csv(composition_path, index=False)
-    print(f"Saved cluster composition to: {composition_path}")
-
-    for cluster_id in unique_clusters:
-        samples = composition[int(cluster_id)]
-        cluster_samples_df = pd.DataFrame(
+        pd.DataFrame(
             {
-                "sample_index": samples if sample_names is None else range(len(samples)),
-                "sample_name": samples,
+                "sample_idx": sample_indices,
+                "sample_name": (
+                    np.asarray(sample_names)[sample_indices]
+                    if sample_names is not None
+                    else sample_indices
+                ),
             }
+        ).to_csv(
+            os.path.join(save_dir, f"{model_name}_cluster_{int(cluster_id)}_samples.csv"),
+            index=False,
         )
-        cluster_file = os.path.join(save_dir, f"{model_name}_cluster_{cluster_id}_samples.csv")
-        cluster_samples_df.to_csv(cluster_file, index=False)
 
+    composition_path = os.path.join(save_dir, f"{model_name}_cluster_composition.csv")
+    pd.DataFrame(rows).to_csv(composition_path, index=False)
+    print(f"Saved cluster composition to: {composition_path}")
     return composition
 
 
@@ -98,52 +115,73 @@ def create_ground_truth_comparison(
     ground_truth_labels: np.ndarray,
     model_name: str = "model",
     save_dir: str = "results",
+    ignore_label: Optional[int] = None,
 ) -> pd.DataFrame:
-    """Create and save predicted-vs-ground-truth comparison tables."""
+    """Save mapping, confusion, and matched predicted-vs-reference tables."""
     os.makedirs(save_dir, exist_ok=True)
-
-    if len(predicted_labels) != len(ground_truth_labels):
+    pred = np.asarray(predicted_labels).reshape(-1)
+    truth = np.asarray(ground_truth_labels).reshape(-1)
+    if len(pred) != len(truth):
         raise ValueError("Label length mismatch.")
 
-    matches = predicted_labels == ground_truth_labels
-    accuracy = float(np.sum(matches) / len(predicted_labels))
-    unique_pred = np.unique(predicted_labels)
-    unique_true = np.unique(ground_truth_labels)
+    mapping = optimal_label_mapping(truth, pred, ignore_label=ignore_label)
+    matched = remap_labels(pred, mapping)
+    valid = np.ones(len(truth), dtype=bool)
+    if ignore_label is not None:
+        valid &= truth != ignore_label
+    matches = valid & (matched == truth)
 
+    mapping_path = os.path.join(save_dir, f"{model_name}_label_mapping.json")
+    with open(mapping_path, "w", encoding="utf-8") as handle:
+        json.dump({str(key): int(value) for key, value in mapping.items()}, handle, indent=2)
+
+    unique_pred = np.unique(pred)
+    unique_true = np.unique(truth[valid])
     comparison_rows = []
     for pred_cluster in sorted(unique_pred):
-        pred_mask = predicted_labels == pred_cluster
+        pred_mask = valid & (pred == pred_cluster)
         pred_count = int(np.sum(pred_mask))
         for true_cluster in sorted(unique_true):
-            overlap = int(np.sum(pred_mask & (ground_truth_labels == true_cluster)))
-            overlap_pct = (overlap / pred_count * 100.0) if pred_count else 0.0
+            overlap = int(np.sum(pred_mask & (truth == true_cluster)))
             comparison_rows.append(
                 {
-                    "predicted_cluster": int(pred_cluster),
+                    "predicted_cluster_raw": int(pred_cluster),
+                    "mapped_ground_truth_cluster": int(mapping[int(pred_cluster)]),
                     "ground_truth_cluster": int(true_cluster),
                     "sample_count": overlap,
-                    "percentage_of_pred_cluster": overlap_pct,
+                    "percentage_of_predicted_cluster": (
+                        overlap / pred_count * 100.0 if pred_count else 0.0
+                    ),
                 }
             )
-
     comparison_df = pd.DataFrame(comparison_rows)
-    comparison_path = os.path.join(save_dir, f"{model_name}_ground_truth_comparison.csv")
-    comparison_df.to_csv(comparison_path, index=False)
-    print(f"Saved ground truth comparison to: {comparison_path}")
+    comparison_df.to_csv(
+        os.path.join(save_dir, f"{model_name}_ground_truth_comparison.csv"),
+        index=False,
+    )
 
+    classes, matrix = confusion_matrix_table(truth, pred, ignore_label=ignore_label)
+    confusion_df = pd.DataFrame(
+        matrix,
+        index=[f"true_{int(value)}" for value in classes],
+        columns=[f"predicted_{int(value)}" for value in classes],
+    )
+    confusion_df.index.name = "ground_truth"
+    confusion_df.to_csv(os.path.join(save_dir, f"{model_name}_confusion_matrix.csv"))
+
+    evaluated = int(valid.sum())
+    correct = int(matches.sum())
     summary_path = os.path.join(save_dir, f"{model_name}_comparison_summary.txt")
     with open(summary_path, "w", encoding="utf-8") as handle:
         handle.write("Cluster Prediction vs Ground Truth Comparison\n")
         handle.write("=" * 50 + "\n\n")
-        handle.write(f"Total samples: {len(predicted_labels)}\n")
-        handle.write(f"Correctly predicted: {int(np.sum(matches))} ({accuracy * 100:.2f}%)\n")
-        handle.write(
-            f"Incorrectly predicted: {len(predicted_labels) - int(np.sum(matches))} "
-            f"({(1.0 - accuracy) * 100:.2f}%)\n\n"
-        )
+        handle.write("Cluster IDs were aligned with maximum-overlap Hungarian matching.\n")
+        handle.write(f"Total samples: {len(pred)}\n")
+        handle.write(f"Evaluated samples: {evaluated}\n")
+        handle.write(f"Correct after matching: {correct} ({correct / evaluated * 100:.2f}%)\n")
+        handle.write(f"Incorrect after matching: {evaluated - correct}\n")
         handle.write(f"Predicted clusters: {len(unique_pred)}\n")
-        handle.write(f"Ground truth clusters: {len(unique_true)}\n")
-
+        handle.write(f"Ground-truth clusters: {len(unique_true)}\n")
     return comparison_df
 
 
@@ -153,17 +191,17 @@ def create_cluster_inspection_report(
     sample_names: Optional[np.ndarray] = None,
     ground_truth_labels: Optional[np.ndarray] = None,
     save_dir: str = "results",
+    ignore_label: Optional[int] = None,
 ) -> Dict[str, object]:
-    """Create the full cluster inspection artifact set."""
+    """Create the complete cluster-inspection artifact set."""
     print(f"\nGenerating cluster inspection reports for {model_name}...")
-    print(f"Save directory: {save_dir}")
-
     detailed_report = create_cluster_report(
         predicted_labels,
         model_name=model_name,
         sample_names=sample_names,
         ground_truth_labels=ground_truth_labels,
         save_dir=save_dir,
+        ignore_label=ignore_label,
     )
     composition = create_cluster_composition(
         predicted_labels,
@@ -171,33 +209,33 @@ def create_cluster_inspection_report(
         sample_names=sample_names,
         save_dir=save_dir,
     )
-
     results: Dict[str, object] = {
         "detailed_report": detailed_report,
         "composition": composition,
     }
-
     if ground_truth_labels is not None:
         results["comparison"] = create_ground_truth_comparison(
             predicted_labels,
             ground_truth_labels,
             model_name=model_name,
             save_dir=save_dir,
+            ignore_label=ignore_label,
         )
 
-    unique_clusters = np.unique(predicted_labels)
+    labels = np.asarray(predicted_labels).reshape(-1)
+    unique_clusters = np.unique(labels)
     summary_path = os.path.join(save_dir, f"{model_name}_inspection_summary.txt")
     with open(summary_path, "w", encoding="utf-8") as handle:
         handle.write(f"Cluster Inspection Report for {model_name}\n")
         handle.write("=" * 50 + "\n\n")
-        handle.write(f"Total samples: {len(predicted_labels)}\n")
+        handle.write(f"Total samples: {len(labels)}\n")
         handle.write(f"Number of clusters: {len(unique_clusters)}\n\n")
-        handle.write("Cluster Sizes:\n")
+        handle.write("Raw Cluster Sizes:\n")
         for cluster_id in sorted(unique_clusters):
-            size = int(np.sum(predicted_labels == cluster_id))
-            pct = (size / len(predicted_labels)) * 100.0
-            handle.write(f"  Cluster {int(cluster_id)}: {size} samples ({pct:.1f}%)\n")
-
+            size = int(np.sum(labels == cluster_id))
+            handle.write(
+                f"  Cluster {int(cluster_id)}: {size} samples "
+                f"({size / len(labels) * 100:.1f}%)\n"
+            )
     print(f"Saved inspection summary to: {summary_path}")
     return results
-

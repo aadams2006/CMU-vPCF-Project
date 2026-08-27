@@ -2,11 +2,19 @@
 
 from __future__ import annotations
 
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from pathlib import Path
-from typing import Dict, List, Optional, Tuple, Union
+from typing import Dict, List, Optional, Sequence, Tuple, Union
 
 import numpy as np
+import pandas as pd
+
+try:
+    from PIL import Image
+
+    HAS_PIL = True
+except ImportError:
+    HAS_PIL = False
 
 try:
     import h5py
@@ -234,12 +242,30 @@ class VPCFDataset:
     labels: Optional[np.ndarray] = None
     source_file: Optional[str] = None
     sample_names: Optional[np.ndarray] = None
+    spatial_shape: Optional[Tuple[int, int]] = None
+    ground_truth_source: Optional[str] = None
+    metadata: Dict[str, object] = field(default_factory=dict)
 
     def __post_init__(self) -> None:
+        self.features = np.asarray(self.features, dtype=np.float32)
+        if self.features.ndim != 2:
+            raise ValueError("features must be a 2-D matrix.")
         self.feature_dim = int(self.features.shape[1])
         self.n_samples = int(self.features.shape[0])
         if self.sample_names is None:
             self.sample_names = np.array([f"sample_{idx:06d}" for idx in range(self.n_samples)])
+        else:
+            self.sample_names = np.asarray(self.sample_names)
+            if len(self.sample_names) != self.n_samples:
+                raise ValueError("sample_names must contain one name per sample.")
+        if self.labels is not None:
+            self.labels = np.asarray(self.labels).reshape(-1)
+            if len(self.labels) != self.n_samples:
+                raise ValueError("labels must contain one value per sample.")
+        if self.spatial_shape is not None:
+            self.spatial_shape = (int(self.spatial_shape[0]), int(self.spatial_shape[1]))
+            if np.prod(self.spatial_shape) != self.n_samples:
+                raise ValueError("spatial_shape must contain exactly one cell per sample.")
 
     def __len__(self) -> int:
         return self.n_samples
@@ -249,6 +275,188 @@ class VPCFDataset:
             f"VPCFDataset(n_samples={self.n_samples}, "
             f"feature_dim={self.feature_dim}, has_labels={self.labels is not None})"
         )
+
+
+def _select_label_column(frame: pd.DataFrame, label_column: Optional[str]) -> str:
+    if label_column is not None:
+        if label_column not in frame.columns:
+            raise ValueError(
+                f"Ground-truth column '{label_column}' was not found. "
+                f"Available columns: {list(frame.columns)}"
+            )
+        return label_column
+
+    candidates = (
+        "label",
+        "labels",
+        "ground_truth",
+        "ground_truth_label",
+        "ground_truth_cluster",
+        "phase",
+        "class",
+    )
+    lowered = {str(column).lower(): str(column) for column in frame.columns}
+    for candidate in candidates:
+        if candidate in lowered:
+            return lowered[candidate]
+    if frame.shape[1] == 1:
+        return str(frame.columns[0])
+    raise ValueError(
+        "Ground-truth CSV has multiple columns. Pass an explicit label column; "
+        f"available columns are {list(frame.columns)}."
+    )
+
+
+def _apply_label_map(
+    labels: np.ndarray,
+    label_map: Optional[Dict[str, int]],
+) -> np.ndarray:
+    if not label_map:
+        return labels
+    normalized = {str(key): int(value) for key, value in label_map.items()}
+    output = np.empty(labels.size, dtype=np.int64)
+    missing = []
+    for idx, value in enumerate(labels.reshape(-1)):
+        key = str(value)
+        if key not in normalized:
+            missing.append(key)
+        else:
+            output[idx] = normalized[key]
+    if missing:
+        raise ValueError(
+            "The label map does not cover these ground-truth values: "
+            + ", ".join(sorted(set(missing)))
+        )
+    return output
+
+
+def load_ground_truth_labels(
+    filename: Union[str, Path],
+    expected_samples: Optional[int] = None,
+    dataset_key: Optional[str] = None,
+    label_column: Optional[str] = None,
+    label_map: Optional[Dict[str, int]] = None,
+) -> Tuple[np.ndarray, Optional[Tuple[int, int]], Dict[str, object]]:
+    """Load an aligned machine-readable label vector or phase mask.
+
+    Supported inputs are NPY/NPZ, CSV/TSV/TXT, HDF5 datasets, and grayscale or
+    color label-mask images. A color image is encoded by unique RGBA values; no
+    legend removal, cropping, or registration is guessed automatically.
+    """
+    path = Path(filename)
+    if not path.is_file():
+        raise FileNotFoundError(f"Ground-truth file does not exist: {path}")
+
+    ext = path.suffix.lower()
+    spatial_shape: Optional[Tuple[int, int]] = None
+    metadata: Dict[str, object] = {"source_file": str(path), "format": ext}
+
+    if ext == ".npy":
+        values = np.load(path, allow_pickle=False)
+    elif ext == ".npz":
+        with np.load(path, allow_pickle=False) as archive:
+            keys = list(archive.files)
+            if dataset_key is None:
+                if len(keys) != 1:
+                    raise ValueError(
+                        f"NPZ contains {keys}; pass the intended ground-truth dataset key."
+                    )
+                dataset_key = keys[0]
+            if dataset_key not in archive:
+                raise ValueError(f"Dataset key '{dataset_key}' was not found in {keys}.")
+            values = np.asarray(archive[dataset_key])
+            metadata["dataset_key"] = dataset_key
+    elif ext in {".h5", ".hdf5", ".hdf"}:
+        if not HAS_H5PY:
+            raise ImportError("h5py is required to load HDF5 ground truth.")
+        if dataset_key is None:
+            raise ValueError("An explicit dataset key is required for HDF5 ground truth.")
+        with h5py.File(path, "r") as handle:
+            if dataset_key not in handle:
+                raise ValueError(f"Dataset key '{dataset_key}' was not found in {path}.")
+            values = np.asarray(handle[dataset_key])
+        metadata["dataset_key"] = dataset_key
+    elif ext in {".csv", ".tsv"}:
+        frame = pd.read_csv(path, sep="\t" if ext == ".tsv" else ",")
+        selected_column = _select_label_column(frame, label_column)
+        values = frame[selected_column].to_numpy()
+        metadata["label_column"] = selected_column
+    elif ext == ".txt":
+        values = np.loadtxt(path)
+    elif ext in {".png", ".tif", ".tiff", ".bmp"}:
+        if not HAS_PIL:
+            raise ImportError("Pillow is required to load image label masks.")
+        image_values = np.asarray(Image.open(path))
+        spatial_shape = (int(image_values.shape[0]), int(image_values.shape[1]))
+        if image_values.ndim == 2:
+            values = image_values
+        elif image_values.ndim == 3:
+            flat_colors = image_values.reshape(-1, image_values.shape[-1])
+            unique_colors, encoded = np.unique(flat_colors, axis=0, return_inverse=True)
+            values = encoded.reshape(spatial_shape)
+            metadata["color_to_label"] = {
+                str(tuple(map(int, color))): int(idx)
+                for idx, color in enumerate(unique_colors)
+            }
+        else:
+            raise ValueError(f"Unsupported label-mask dimensionality: {image_values.ndim}")
+    else:
+        raise ValueError(f"Unsupported ground-truth format: {ext}")
+
+    values = np.asarray(values)
+    if values.ndim == 2 and spatial_shape is None:
+        spatial_shape = (int(values.shape[0]), int(values.shape[1]))
+    labels = _apply_label_map(values.reshape(-1), label_map)
+    if not np.issubdtype(labels.dtype, np.number):
+        unique_values, labels = np.unique(labels.astype(str), return_inverse=True)
+        metadata["value_to_label"] = {
+            str(value): int(idx) for idx, value in enumerate(unique_values)
+        }
+    labels = np.asarray(labels, dtype=np.int64)
+
+    if expected_samples is not None and labels.size != int(expected_samples):
+        raise ValueError(
+            f"Ground truth contains {labels.size} labels but the dataset contains "
+            f"{int(expected_samples)} samples. Provide an aligned mask/vector; "
+            "reference figures with legends are not valid label masks."
+        )
+    metadata["n_labels"] = int(labels.size)
+    metadata["class_values"] = [int(value) for value in np.unique(labels)]
+    metadata["spatial_shape"] = list(spatial_shape) if spatial_shape else None
+    return labels, spatial_shape, metadata
+
+
+def attach_ground_truth(
+    dataset: VPCFDataset,
+    filename: Union[str, Path],
+    dataset_key: Optional[str] = None,
+    label_column: Optional[str] = None,
+    label_map: Optional[Dict[str, int]] = None,
+    spatial_shape: Optional[Sequence[int]] = None,
+) -> VPCFDataset:
+    """Attach validated aligned ground truth to an existing dataset."""
+    labels, inferred_shape, metadata = load_ground_truth_labels(
+        filename,
+        expected_samples=dataset.n_samples,
+        dataset_key=dataset_key,
+        label_column=label_column,
+        label_map=label_map,
+    )
+    resolved_shape = (
+        (int(spatial_shape[0]), int(spatial_shape[1]))
+        if spatial_shape is not None
+        else inferred_shape
+    )
+    return VPCFDataset(
+        features=dataset.features,
+        raw_images=dataset.raw_images,
+        labels=labels,
+        source_file=dataset.source_file,
+        sample_names=dataset.sample_names,
+        spatial_shape=resolved_shape,
+        ground_truth_source=str(filename),
+        metadata={**dataset.metadata, "ground_truth": metadata},
+    )
 
 
 def _extract_features(images: np.ndarray, feature_method: str) -> np.ndarray:
@@ -364,6 +572,13 @@ def combine_datasets(*datasets: VPCFDataset) -> VPCFDataset:
         labels=labels,
         source_file=source_files,
         sample_names=sample_names,
+        spatial_shape=None,
+        ground_truth_source=(
+            ", ".join(dataset.ground_truth_source or "unknown" for dataset in datasets)
+            if labels is not None
+            else None
+        ),
+        metadata={"combined_sources": [dataset.metadata for dataset in datasets]},
     )
 
 
@@ -373,6 +588,7 @@ def check_dependencies() -> Dict[str, bool]:
         "h5py": HAS_H5PY,
         "hyperspy": HAS_HYPERSPY,
         "ncempy": HAS_NCEMPY,
+        "pillow": HAS_PIL,
     }
 
 

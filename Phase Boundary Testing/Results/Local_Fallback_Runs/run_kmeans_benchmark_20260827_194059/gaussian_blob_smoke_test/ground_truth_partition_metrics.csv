@@ -1,0 +1,2 @@
+n_samples,n_features,n_clusters,cluster_size_min,cluster_size_max,cluster_size_mean,cluster_size_std,cluster_imbalance_ratio,silhouette_score,davies_bouldin_score,calinski_harabasz_score,n_labeled_samples,matched_accuracy,normalized_mutual_info,adjusted_rand_index,macro_f1,weighted_f1,label_mapping
+420,2,3,140,140,140.0,0.0,1.0,0.5716455865729766,0.5965051912765603,1028.2757151278997,420,1.0,1.0,1.0,1.0,1.0,"{""0"": 0, ""1"": 1, ""2"": 2}"

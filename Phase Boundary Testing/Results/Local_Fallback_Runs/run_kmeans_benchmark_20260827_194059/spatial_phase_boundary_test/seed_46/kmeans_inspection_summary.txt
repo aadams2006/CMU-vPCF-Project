@@ -1,0 +1,10 @@
+Cluster Inspection Report for kmeans
+==================================================
+
+Total samples: 3072
+Number of clusters: 3
+
+Raw Cluster Sizes:
+  Cluster 0: 1149 samples (37.4%)
+  Cluster 1: 963 samples (31.3%)
+  Cluster 2: 960 samples (31.2%)
