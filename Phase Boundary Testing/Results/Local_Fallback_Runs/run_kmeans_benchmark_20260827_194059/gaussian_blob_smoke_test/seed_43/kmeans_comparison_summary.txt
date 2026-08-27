@@ -1,0 +1,10 @@
+Cluster Prediction vs Ground Truth Comparison
+==================================================
+
+Cluster IDs were aligned with maximum-overlap Hungarian matching.
+Total samples: 420
+Evaluated samples: 420
+Correct after matching: 411 (97.86%)
+Incorrect after matching: 9
+Predicted clusters: 3
+Ground-truth clusters: 3

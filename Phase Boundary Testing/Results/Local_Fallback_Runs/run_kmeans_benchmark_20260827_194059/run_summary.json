@@ -1,0 +1,714 @@
+{
+  "run_type": "local_kmeans_benchmark",
+  "algorithm": "sklearn.cluster.KMeans",
+  "deep_models_trained": false,
+  "research_data_used": false,
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "cluster_count_candidates": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "benchmarks": [
+    {
+      "name": "gaussian_blob_smoke_test",
+      "n_samples": 420,
+      "n_features": 2,
+      "n_ground_truth_clusters": 3,
+      "spatial_shape": null,
+      "metrics_by_seed": [
+        {
+          "algorithm": "sklearn.cluster.KMeans",
+          "seed": 42,
+          "n_samples": 420,
+          "n_features": 2,
+          "n_clusters": 3,
+          "cluster_size_min": 138,
+          "cluster_size_max": 141,
+          "cluster_size_mean": 140.0,
+          "cluster_size_std": 1.4142135623730951,
+          "cluster_imbalance_ratio": 1.0217391304347827,
+          "silhouette_score": 0.587576062307637,
+          "davies_bouldin_score": 0.5798298797952942,
+          "calinski_harabasz_score": 1081.189548985115,
+          "n_labeled_samples": 420,
+          "matched_accuracy": 0.9785714285714285,
+          "normalized_mutual_info": 0.9023663657283763,
+          "adjusted_rand_index": 0.9368173864732003,
+          "macro_f1": 0.9785708799508437,
+          "weighted_f1": 0.9785708799508438,
+          "label_mapping": {
+            "0": 1,
+            "1": 2,
+            "2": 0
+          }
+        },
+        {
+          "algorithm": "sklearn.cluster.KMeans",
+          "seed": 43,
+          "n_samples": 420,
+          "n_features": 2,
+          "n_clusters": 3,
+          "cluster_size_min": 138,
+          "cluster_size_max": 141,
+          "cluster_size_mean": 140.0,
+          "cluster_size_std": 1.4142135623730951,
+          "cluster_imbalance_ratio": 1.0217391304347827,
+          "silhouette_score": 0.587576062307637,
+          "davies_bouldin_score": 0.5798298797952942,
+          "calinski_harabasz_score": 1081.1895489851152,
+          "n_labeled_samples": 420,
+          "matched_accuracy": 0.9785714285714285,
+          "normalized_mutual_info": 0.9023663657283761,
+          "adjusted_rand_index": 0.9368173864732003,
+          "macro_f1": 0.9785708799508437,
+          "weighted_f1": 0.9785708799508438,
+          "label_mapping": {
+            "0": 0,
+            "1": 1,
+            "2": 2
+          }
+        },
+        {
+          "algorithm": "sklearn.cluster.KMeans",
+          "seed": 44,
+          "n_samples": 420,
+          "n_features": 2,
+          "n_clusters": 3,
+          "cluster_size_min": 138,
+          "cluster_size_max": 141,
+          "cluster_size_mean": 140.0,
+          "cluster_size_std": 1.4142135623730951,
+          "cluster_imbalance_ratio": 1.0217391304347827,
+          "silhouette_score": 0.587576062307637,
+          "davies_bouldin_score": 0.5798298797952942,
+          "calinski_harabasz_score": 1081.189548985115,
+          "n_labeled_samples": 420,
+          "matched_accuracy": 0.9785714285714285,
+          "normalized_mutual_info": 0.9023663657283763,
+          "adjusted_rand_index": 0.9368173864732003,
+          "macro_f1": 0.9785708799508437,
+          "weighted_f1": 0.9785708799508438,
+          "label_mapping": {
+            "0": 2,
+            "1": 1,
+            "2": 0
+          }
+        },
+        {
+          "algorithm": "sklearn.cluster.KMeans",
+          "seed": 45,
+          "n_samples": 420,
+          "n_features": 2,
+          "n_clusters": 3,
+          "cluster_size_min": 138,
+          "cluster_size_max": 141,
+          "cluster_size_mean": 140.0,
+          "cluster_size_std": 1.4142135623730951,
+          "cluster_imbalance_ratio": 1.0217391304347827,
+          "silhouette_score": 0.587576062307637,
+          "davies_bouldin_score": 0.5798298797952942,
+          "calinski_harabasz_score": 1081.1895489851152,
+          "n_labeled_samples": 420,
+          "matched_accuracy": 0.9785714285714285,
+          "normalized_mutual_info": 0.9023663657283761,
+          "adjusted_rand_index": 0.9368173864732003,
+          "macro_f1": 0.9785708799508437,
+          "weighted_f1": 0.9785708799508438,
+          "label_mapping": {
+            "0": 0,
+            "1": 1,
+            "2": 2
+          }
+        },
+        {
+          "algorithm": "sklearn.cluster.KMeans",
+          "seed": 46,
+          "n_samples": 420,
+          "n_features": 2,
+          "n_clusters": 3,
+          "cluster_size_min": 138,
+          "cluster_size_max": 141,
+          "cluster_size_mean": 140.0,
+          "cluster_size_std": 1.4142135623730951,
+          "cluster_imbalance_ratio": 1.0217391304347827,
+          "silhouette_score": 0.587576062307637,
+          "davies_bouldin_score": 0.5798298797952942,
+          "calinski_harabasz_score": 1081.189548985115,
+          "n_labeled_samples": 420,
+          "matched_accuracy": 0.9785714285714285,
+          "normalized_mutual_info": 0.9023663657283763,
+          "adjusted_rand_index": 0.9368173864732003,
+          "macro_f1": 0.9785708799508437,
+          "weighted_f1": 0.9785708799508438,
+          "label_mapping": {
+            "0": 2,
+            "1": 1,
+            "2": 0
+          }
+        }
+      ],
+      "metrics_aggregate": [
+        {
+          "metric": "adjusted_rand_index",
+          "n": 5,
+          "mean": 0.9368173864732003,
+          "std": 0.0,
+          "confidence": 0.95,
+          "ci_low": 0.9368173864732003,
+          "ci_high": 0.9368173864732003
+        },
+        {
+          "metric": "calinski_harabasz_score",
+          "n": 5,
+          "mean": 1081.189548985115,
+          "std": 1.6077746776921858e-13,
+          "confidence": 0.95,
+          "ci_low": 1081.1895489851147,
+          "ci_high": 1081.1895489851152
+        },
+        {
+          "metric": "cluster_imbalance_ratio",
+          "n": 5,
+          "mean": 1.0217391304347827,
+          "std": 0.0,
+          "confidence": 0.95,
+          "ci_low": 1.0217391304347827,
+          "ci_high": 1.0217391304347827
+        },
+        {
+          "metric": "cluster_size_max",
+          "n": 5,
+          "mean": 141.0,
+          "std": 0.0,
+          "confidence": 0.95,
+          "ci_low": 141.0,
+          "ci_high": 141.0
+        },
+        {
+          "metric": "cluster_size_mean",
+          "n": 5,
+          "mean": 140.0,
+          "std": 0.0,
+          "confidence": 0.95,
+          "ci_low": 140.0,
+          "ci_high": 140.0
+        },
+        {
+          "metric": "cluster_size_min",
+          "n": 5,
+          "mean": 138.0,
+          "std": 0.0,
+          "confidence": 0.95,
+          "ci_low": 138.0,
+          "ci_high": 138.0
+        },
+        {
+          "metric": "cluster_size_std",
+          "n": 5,
+          "mean": 1.4142135623730951,
+          "std": 0.0,
+          "confidence": 0.95,
+          "ci_low": 1.4142135623730951,
+          "ci_high": 1.4142135623730951
+        },
+        {
+          "metric": "davies_bouldin_score",
+          "n": 5,
+          "mean": 0.5798298797952942,
+          "std": 0.0,
+          "confidence": 0.95,
+          "ci_low": 0.5798298797952942,
+          "ci_high": 0.5798298797952942
+        },
+        {
+          "metric": "macro_f1",
+          "n": 5,
+          "mean": 0.9785708799508438,
+          "std": 1.2412670766236366e-16,
+          "confidence": 0.95,
+          "ci_low": 0.9785708799508437,
+          "ci_high": 0.9785708799508439
+        },
+        {
+          "metric": "matched_accuracy",
+          "n": 5,
+          "mean": 0.9785714285714284,
+          "std": 1.2412670766236366e-16,
+          "confidence": 0.95,
+          "ci_low": 0.9785714285714283,
+          "ci_high": 0.9785714285714285
+        },
+        {
+          "metric": "n_labeled_samples",
+          "n": 5,
+          "mean": 420.0,
+          "std": 0.0,
+          "confidence": 0.95,
+          "ci_low": 420.0,
+          "ci_high": 420.0
+        },
+        {
+          "metric": "normalized_mutual_info",
+          "n": 5,
+          "mean": 0.9023663657283763,
+          "std": 7.850462293418876e-17,
+          "confidence": 0.95,
+          "ci_low": 0.9023663657283761,
+          "ci_high": 0.9023663657283764
+        },
+        {
+          "metric": "silhouette_score",
+          "n": 5,
+          "mean": 0.587576062307637,
+          "std": 0.0,
+          "confidence": 0.95,
+          "ci_low": 0.587576062307637,
+          "ci_high": 0.587576062307637
+        },
+        {
+          "metric": "weighted_f1",
+          "n": 5,
+          "mean": 0.9785708799508438,
+          "std": 0.0,
+          "confidence": 0.95,
+          "ci_low": 0.9785708799508438,
+          "ci_high": 0.9785708799508438
+        }
+      ],
+      "cluster_count_recommendation": {
+        "scope": "synthetic geometry diagnostic",
+        "best_silhouette_k": 3,
+        "best_davies_bouldin_k": 3,
+        "best_calinski_harabasz_k": 3,
+        "warning": "These internal criteria do not establish semantic phase correctness."
+      }
+    },
+    {
+      "name": "spatial_phase_boundary_test",
+      "n_samples": 3072,
+      "n_features": 6,
+      "n_ground_truth_clusters": 3,
+      "spatial_shape": [
+        48,
+        64
+      ],
+      "metrics_by_seed": [
+        {
+          "algorithm": "sklearn.cluster.KMeans",
+          "seed": 42,
+          "n_samples": 3072,
+          "n_features": 6,
+          "n_clusters": 3,
+          "cluster_size_min": 960,
+          "cluster_size_max": 1149,
+          "cluster_size_mean": 1024.0,
+          "cluster_size_std": 88.39683252243827,
+          "cluster_imbalance_ratio": 1.196875,
+          "silhouette_score": 0.5669231290341136,
+          "davies_bouldin_score": 0.6308507435240033,
+          "calinski_harabasz_score": 5620.989585946068,
+          "n_labeled_samples": 3072,
+          "matched_accuracy": 0.9895833333333334,
+          "normalized_mutual_info": 0.9443265740198207,
+          "adjusted_rand_index": 0.9682147705668558,
+          "macro_f1": 0.9898085993861335,
+          "weighted_f1": 0.9895851623770913,
+          "label_mapping": {
+            "0": 2,
+            "1": 1,
+            "2": 0
+          },
+          "boundary_tolerance_px": 1.0,
+          "true_boundary_pixels": 192,
+          "predicted_boundary_pixels": 230,
+          "boundary_precision": 0.9739130434782609,
+          "boundary_recall": 1.0,
+          "boundary_f1": 0.986784140969163,
+          "boundary_iou_exact": 0.7583333333333333,
+          "boundary_dice_exact": 0.8625592417061612,
+          "mean_symmetric_boundary_distance_px": 0.14333005064985443,
+          "boundary_distance_p95_px": 1.0
+        },
+        {
+          "algorithm": "sklearn.cluster.KMeans",
+          "seed": 43,
+          "n_samples": 3072,
+          "n_features": 6,
+          "n_clusters": 3,
+          "cluster_size_min": 960,
+          "cluster_size_max": 1149,
+          "cluster_size_mean": 1024.0,
+          "cluster_size_std": 88.39683252243827,
+          "cluster_imbalance_ratio": 1.196875,
+          "silhouette_score": 0.5669231290341136,
+          "davies_bouldin_score": 0.6308507435240033,
+          "calinski_harabasz_score": 5620.989585946068,
+          "n_labeled_samples": 3072,
+          "matched_accuracy": 0.9895833333333334,
+          "normalized_mutual_info": 0.9443265740198207,
+          "adjusted_rand_index": 0.9682147705668558,
+          "macro_f1": 0.9898085993861335,
+          "weighted_f1": 0.9895851623770913,
+          "label_mapping": {
+            "0": 1,
+            "1": 2,
+            "2": 0
+          },
+          "boundary_tolerance_px": 1.0,
+          "true_boundary_pixels": 192,
+          "predicted_boundary_pixels": 230,
+          "boundary_precision": 0.9739130434782609,
+          "boundary_recall": 1.0,
+          "boundary_f1": 0.986784140969163,
+          "boundary_iou_exact": 0.7583333333333333,
+          "boundary_dice_exact": 0.8625592417061612,
+          "mean_symmetric_boundary_distance_px": 0.14333005064985443,
+          "boundary_distance_p95_px": 1.0
+        },
+        {
+          "algorithm": "sklearn.cluster.KMeans",
+          "seed": 44,
+          "n_samples": 3072,
+          "n_features": 6,
+          "n_clusters": 3,
+          "cluster_size_min": 960,
+          "cluster_size_max": 1149,
+          "cluster_size_mean": 1024.0,
+          "cluster_size_std": 88.39683252243827,
+          "cluster_imbalance_ratio": 1.196875,
+          "silhouette_score": 0.5669231290341136,
+          "davies_bouldin_score": 0.6308507435240033,
+          "calinski_harabasz_score": 5620.9895859460685,
+          "n_labeled_samples": 3072,
+          "matched_accuracy": 0.9895833333333334,
+          "normalized_mutual_info": 0.9443265740198205,
+          "adjusted_rand_index": 0.9682147705668558,
+          "macro_f1": 0.9898085993861335,
+          "weighted_f1": 0.9895851623770913,
+          "label_mapping": {
+            "0": 1,
+            "1": 0,
+            "2": 2
+          },
+          "boundary_tolerance_px": 1.0,
+          "true_boundary_pixels": 192,
+          "predicted_boundary_pixels": 230,
+          "boundary_precision": 0.9739130434782609,
+          "boundary_recall": 1.0,
+          "boundary_f1": 0.986784140969163,
+          "boundary_iou_exact": 0.7583333333333333,
+          "boundary_dice_exact": 0.8625592417061612,
+          "mean_symmetric_boundary_distance_px": 0.14333005064985443,
+          "boundary_distance_p95_px": 1.0
+        },
+        {
+          "algorithm": "sklearn.cluster.KMeans",
+          "seed": 45,
+          "n_samples": 3072,
+          "n_features": 6,
+          "n_clusters": 3,
+          "cluster_size_min": 960,
+          "cluster_size_max": 1149,
+          "cluster_size_mean": 1024.0,
+          "cluster_size_std": 88.39683252243827,
+          "cluster_imbalance_ratio": 1.196875,
+          "silhouette_score": 0.5669231290341136,
+          "davies_bouldin_score": 0.6308507435240033,
+          "calinski_harabasz_score": 5620.989585946068,
+          "n_labeled_samples": 3072,
+          "matched_accuracy": 0.9895833333333334,
+          "normalized_mutual_info": 0.9443265740198207,
+          "adjusted_rand_index": 0.9682147705668558,
+          "macro_f1": 0.9898085993861335,
+          "weighted_f1": 0.9895851623770913,
+          "label_mapping": {
+            "0": 2,
+            "1": 1,
+            "2": 0
+          },
+          "boundary_tolerance_px": 1.0,
+          "true_boundary_pixels": 192,
+          "predicted_boundary_pixels": 230,
+          "boundary_precision": 0.9739130434782609,
+          "boundary_recall": 1.0,
+          "boundary_f1": 0.986784140969163,
+          "boundary_iou_exact": 0.7583333333333333,
+          "boundary_dice_exact": 0.8625592417061612,
+          "mean_symmetric_boundary_distance_px": 0.14333005064985443,
+          "boundary_distance_p95_px": 1.0
+        },
+        {
+          "algorithm": "sklearn.cluster.KMeans",
+          "seed": 46,
+          "n_samples": 3072,
+          "n_features": 6,
+          "n_clusters": 3,
+          "cluster_size_min": 960,
+          "cluster_size_max": 1149,
+          "cluster_size_mean": 1024.0,
+          "cluster_size_std": 88.39683252243827,
+          "cluster_imbalance_ratio": 1.196875,
+          "silhouette_score": 0.5669231290341136,
+          "davies_bouldin_score": 0.6308507435240033,
+          "calinski_harabasz_score": 5620.989585946068,
+          "n_labeled_samples": 3072,
+          "matched_accuracy": 0.9895833333333334,
+          "normalized_mutual_info": 0.9443265740198207,
+          "adjusted_rand_index": 0.9682147705668558,
+          "macro_f1": 0.9898085993861335,
+          "weighted_f1": 0.9895851623770913,
+          "label_mapping": {
+            "0": 1,
+            "1": 2,
+            "2": 0
+          },
+          "boundary_tolerance_px": 1.0,
+          "true_boundary_pixels": 192,
+          "predicted_boundary_pixels": 230,
+          "boundary_precision": 0.9739130434782609,
+          "boundary_recall": 1.0,
+          "boundary_f1": 0.986784140969163,
+          "boundary_iou_exact": 0.7583333333333333,
+          "boundary_dice_exact": 0.8625592417061612,
+          "mean_symmetric_boundary_distance_px": 0.14333005064985443,
+          "boundary_distance_p95_px": 1.0
+        }
+      ],
+      "metrics_aggregate": [
+        {
+          "metric": "adjusted_rand_index",
+          "n": 5,
+          "mean": 0.9682147705668559,
+          "std": 1.2412670766236366e-16,
+          "confidence": 0.95,
+          "ci_low": 0.9682147705668558,
+          "ci_high": 0.968214770566856
+        },
+        {
+          "metric": "boundary_dice_exact",
+          "n": 5,
+          "mean": 0.8625592417061612,
+          "std": 0.0,
+          "confidence": 0.95,
+          "ci_low": 0.8625592417061612,
+          "ci_high": 0.8625592417061612
+        },
+        {
+          "metric": "boundary_distance_p95_px",
+          "n": 5,
+          "mean": 1.0,
+          "std": 0.0,
+          "confidence": 0.95,
+          "ci_low": 1.0,
+          "ci_high": 1.0
+        },
+        {
+          "metric": "boundary_f1",
+          "n": 5,
+          "mean": 0.986784140969163,
+          "std": 0.0,
+          "confidence": 0.95,
+          "ci_low": 0.986784140969163,
+          "ci_high": 0.986784140969163
+        },
+        {
+          "metric": "boundary_iou_exact",
+          "n": 5,
+          "mean": 0.7583333333333333,
+          "std": 0.0,
+          "confidence": 0.95,
+          "ci_low": 0.7583333333333333,
+          "ci_high": 0.7583333333333333
+        },
+        {
+          "metric": "boundary_precision",
+          "n": 5,
+          "mean": 0.9739130434782609,
+          "std": 0.0,
+          "confidence": 0.95,
+          "ci_low": 0.9739130434782609,
+          "ci_high": 0.9739130434782609
+        },
+        {
+          "metric": "boundary_recall",
+          "n": 5,
+          "mean": 1.0,
+          "std": 0.0,
+          "confidence": 0.95,
+          "ci_low": 1.0,
+          "ci_high": 1.0
+        },
+        {
+          "metric": "boundary_tolerance_px",
+          "n": 5,
+          "mean": 1.0,
+          "std": 0.0,
+          "confidence": 0.95,
+          "ci_low": 1.0,
+          "ci_high": 1.0
+        },
+        {
+          "metric": "calinski_harabasz_score",
+          "n": 5,
+          "mean": 5620.989585946068,
+          "std": 4.547473508864641e-13,
+          "confidence": 0.95,
+          "ci_low": 5620.989585946067,
+          "ci_high": 5620.9895859460685
+        },
+        {
+          "metric": "cluster_imbalance_ratio",
+          "n": 5,
+          "mean": 1.196875,
+          "std": 0.0,
+          "confidence": 0.95,
+          "ci_low": 1.196875,
+          "ci_high": 1.196875
+        },
+        {
+          "metric": "cluster_size_max",
+          "n": 5,
+          "mean": 1149.0,
+          "std": 0.0,
+          "confidence": 0.95,
+          "ci_low": 1149.0,
+          "ci_high": 1149.0
+        },
+        {
+          "metric": "cluster_size_mean",
+          "n": 5,
+          "mean": 1024.0,
+          "std": 0.0,
+          "confidence": 0.95,
+          "ci_low": 1024.0,
+          "ci_high": 1024.0
+        },
+        {
+          "metric": "cluster_size_min",
+          "n": 5,
+          "mean": 960.0,
+          "std": 0.0,
+          "confidence": 0.95,
+          "ci_low": 960.0,
+          "ci_high": 960.0
+        },
+        {
+          "metric": "cluster_size_std",
+          "n": 5,
+          "mean": 88.39683252243827,
+          "std": 0.0,
+          "confidence": 0.95,
+          "ci_low": 88.39683252243827,
+          "ci_high": 88.39683252243827
+        },
+        {
+          "metric": "davies_bouldin_score",
+          "n": 5,
+          "mean": 0.6308507435240033,
+          "std": 0.0,
+          "confidence": 0.95,
+          "ci_low": 0.6308507435240033,
+          "ci_high": 0.6308507435240033
+        },
+        {
+          "metric": "macro_f1",
+          "n": 5,
+          "mean": 0.9898085993861334,
+          "std": 1.2412670766236366e-16,
+          "confidence": 0.95,
+          "ci_low": 0.9898085993861333,
+          "ci_high": 0.9898085993861335
+        },
+        {
+          "metric": "matched_accuracy",
+          "n": 5,
+          "mean": 0.9895833333333334,
+          "std": 0.0,
+          "confidence": 0.95,
+          "ci_low": 0.9895833333333334,
+          "ci_high": 0.9895833333333334
+        },
+        {
+          "metric": "mean_symmetric_boundary_distance_px",
+          "n": 5,
+          "mean": 0.14333005064985443,
+          "std": 0.0,
+          "confidence": 0.95,
+          "ci_low": 0.14333005064985443,
+          "ci_high": 0.14333005064985443
+        },
+        {
+          "metric": "n_labeled_samples",
+          "n": 5,
+          "mean": 3072.0,
+          "std": 0.0,
+          "confidence": 0.95,
+          "ci_low": 3072.0,
+          "ci_high": 3072.0
+        },
+        {
+          "metric": "normalized_mutual_info",
+          "n": 5,
+          "mean": 0.9443265740198207,
+          "std": 1.1102230246251565e-16,
+          "confidence": 0.95,
+          "ci_low": 0.9443265740198206,
+          "ci_high": 0.9443265740198208
+        },
+        {
+          "metric": "predicted_boundary_pixels",
+          "n": 5,
+          "mean": 230.0,
+          "std": 0.0,
+          "confidence": 0.95,
+          "ci_low": 230.0,
+          "ci_high": 230.0
+        },
+        {
+          "metric": "silhouette_score",
+          "n": 5,
+          "mean": 0.5669231290341136,
+          "std": 0.0,
+          "confidence": 0.95,
+          "ci_low": 0.5669231290341136,
+          "ci_high": 0.5669231290341136
+        },
+        {
+          "metric": "true_boundary_pixels",
+          "n": 5,
+          "mean": 192.0,
+          "std": 0.0,
+          "confidence": 0.95,
+          "ci_low": 192.0,
+          "ci_high": 192.0
+        },
+        {
+          "metric": "weighted_f1",
+          "n": 5,
+          "mean": 0.9895851623770913,
+          "std": 0.0,
+          "confidence": 0.95,
+          "ci_low": 0.9895851623770913,
+          "ci_high": 0.9895851623770913
+        }
+      ],
+      "cluster_count_recommendation": {
+        "scope": "synthetic geometry diagnostic",
+        "best_silhouette_k": 3,
+        "best_davies_bouldin_k": 3,
+        "best_calinski_harabasz_k": 3,
+        "warning": "These internal criteria do not establish semantic phase correctness."
+      }
+    }
+  ]
+}

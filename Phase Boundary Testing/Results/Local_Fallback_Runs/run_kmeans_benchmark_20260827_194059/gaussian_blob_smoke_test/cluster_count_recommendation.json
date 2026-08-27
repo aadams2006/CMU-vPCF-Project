@@ -1,0 +1,7 @@
+{
+  "scope": "synthetic geometry diagnostic",
+  "best_silhouette_k": 3,
+  "best_davies_bouldin_k": 3,
+  "best_calinski_harabasz_k": 3,
+  "warning": "These internal criteria do not establish semantic phase correctness."
+}

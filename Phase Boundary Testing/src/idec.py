@@ -63,6 +63,7 @@ class IDEC:
         gamma: float = 0.1,
         init: str = "glorot_uniform",
         save_dir: str = "results/idec",
+        random_state: int = 42,
     ):
         self.dims = dims
         self.input_dim = dims[0]
@@ -70,6 +71,7 @@ class IDEC:
         self.n_clusters = n_clusters
         self.alpha = alpha
         self.gamma = gamma
+        self.random_state = int(random_state)
         self.save_dir = save_dir
         os.makedirs(self.save_dir, exist_ok=True)
 
@@ -130,8 +132,15 @@ class IDEC:
         print("Update interval", update_interval)
         save_interval = max(1, int(np.ceil(x.shape[0] / batch_size * 5)))
 
+        if not self.pretrained:
+            self.pretrain(x, batch_size=batch_size)
+
         print("Initializing cluster centers with k-means.")
-        kmeans = KMeans(n_clusters=self.n_clusters, n_init=20)
+        kmeans = KMeans(
+            n_clusters=self.n_clusters,
+            n_init=20,
+            random_state=self.random_state,
+        )
         y_pred = kmeans.fit_predict(self.encoder.predict(x, verbose=0))
         y_pred_last = np.copy(y_pred)
         self.model.get_layer(name="clustering").set_weights([kmeans.cluster_centers_])
@@ -142,6 +151,7 @@ class IDEC:
             logwriter.writeheader()
 
             loss = [0.0, 0.0, 0.0]
+            rng = np.random.default_rng(self.random_state)
             for iteration in range(int(maxiter)):
                 if iteration % update_interval == 0:
                     q, _ = self.model.predict(x, verbose=0)
@@ -176,7 +186,7 @@ class IDEC:
                         print("Reached tolerance threshold. Stopping training.")
                         break
 
-                batch_idx = np.random.choice(x.shape[0], batch_size)
+                batch_idx = rng.choice(x.shape[0], batch_size)
                 loss = self.model.train_on_batch(x=x[batch_idx], y=[p[batch_idx], x[batch_idx]])
 
                 if iteration % save_interval == 0:
@@ -187,4 +197,5 @@ class IDEC:
         final_path = os.path.join(self.save_dir, "IDEC_model_final.weights.h5")
         print("Saving final IDEC model to:", final_path)
         self.model.save_weights(final_path)
-        return y_pred
+        final_q, _ = self.model.predict(x, verbose=0)
+        return final_q.argmax(1)

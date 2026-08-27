@@ -80,12 +80,14 @@ class DEC:
         alpha: float = 1.0,
         init: str = "glorot_uniform",
         save_dir: str = "results/dec",
+        random_state: int = 42,
     ):
         self.dims = dims
         self.input_dim = self.dims[0]
         self.n_stacks = len(self.dims) - 1
         self.n_clusters = n_clusters
         self.alpha = alpha
+        self.random_state = int(random_state)
         self.save_dir = save_dir
         os.makedirs(self.save_dir, exist_ok=True)
 
@@ -178,7 +180,11 @@ class DEC:
             self.pretrain(x, batch_size=batch_size)
 
         print("Initializing cluster centers with k-means.")
-        kmeans = KMeans(n_clusters=self.n_clusters, n_init=20)
+        kmeans = KMeans(
+            n_clusters=self.n_clusters,
+            n_init=20,
+            random_state=self.random_state,
+        )
         y_pred = kmeans.fit_predict(self.encoder.predict(x, verbose=0))
         y_pred_last = np.copy(y_pred)
         self.model.get_layer(name="clustering").set_weights([kmeans.cluster_centers_])
@@ -234,4 +240,5 @@ class DEC:
         final_path = os.path.join(self.save_dir, "DEC_model_final.weights.h5")
         print("Saving final DEC model to:", final_path)
         self.model.save_weights(final_path)
-        return y_pred
+        final_q = self.model.predict(x, verbose=0)
+        return final_q.argmax(1)
