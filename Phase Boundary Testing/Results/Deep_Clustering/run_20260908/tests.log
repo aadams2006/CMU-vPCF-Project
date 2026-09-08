@@ -1,0 +1,52 @@
+test_both_models_train_and_reload_exact_outputs (test_deep_benchmark.DeepBenchmarkTests.test_both_models_train_and_reload_exact_outputs) ... ok
+test_extra_cluster_edges_are_penalized (test_deep_benchmark.DeepBenchmarkTests.test_extra_cluster_edges_are_penalized) ... ok
+test_initialization_failure_propagates_without_fallback (test_deep_benchmark.DeepBenchmarkTests.test_initialization_failure_propagates_without_fallback) ... ok
+test_target_formula_and_detachment (test_deep_benchmark.DeepBenchmarkTests.test_target_formula_and_detachment) ... ok
+test_aggregate_metrics_reports_confidence_interval (test_metrics.ClusteringMetricTests.test_aggregate_metrics_reports_confidence_interval) ... ok
+test_boundary_metrics_are_label_permutation_invariant (test_metrics.ClusteringMetricTests.test_boundary_metrics_are_label_permutation_invariant) ... ok
+test_confusion_matrix_uses_matched_ids (test_metrics.ClusteringMetricTests.test_confusion_matrix_uses_matched_ids) ... ok
+test_pairwise_stability_is_label_invariant (test_metrics.ClusteringMetricTests.test_pairwise_stability_is_label_invariant) ... ok
+test_permuted_cluster_ids_are_perfect (test_metrics.ClusteringMetricTests.test_permuted_cluster_ids_are_perfect) ... ok
+test_shifted_boundary_is_penalized (test_metrics.ClusteringMetricTests.test_shifted_boundary_is_penalized) ... ok
+test_kmeans_pipeline_saves_complete_repeated_seed_artifacts (test_training_pipeline.PipelineIntegrationTests.test_kmeans_pipeline_saves_complete_repeated_seed_artifacts) ... ok
+test_local_fallback_never_labels_kmeans_as_deep_model (test_training_pipeline.PipelineIntegrationTests.test_local_fallback_never_labels_kmeans_as_deep_model) ... ok
+test_dataset_validates_spatial_shape (test_vpcf_data_loader.GroundTruthLoaderTests.test_dataset_validates_spatial_shape) ... ok
+test_loads_and_collapses_image_mask (test_vpcf_data_loader.GroundTruthLoaderTests.test_loads_and_collapses_image_mask) ... ok
+test_loads_csv_label_column (test_vpcf_data_loader.GroundTruthLoaderTests.test_loads_csv_label_column) ... ok
+test_reference_figure_size_mismatch_is_rejected (test_vpcf_data_loader.GroundTruthLoaderTests.test_reference_figure_size_mismatch_is_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 31.223s
+
+OK
+
+Generating cluster inspection reports for kmeans...
+Saved detailed cluster report to: C:\Users\alexg\AppData\Local\Temp\tmpcedx92f3\run\seed_1\kmeans\kmeans_detailed_cluster_report.csv
+Saved cluster composition to: C:\Users\alexg\AppData\Local\Temp\tmpcedx92f3\run\seed_1\kmeans\kmeans_cluster_composition.csv
+Saved inspection summary to: C:\Users\alexg\AppData\Local\Temp\tmpcedx92f3\run\seed_1\kmeans\kmeans_inspection_summary.txt
+
+Generating cluster inspection reports for kmeans...
+Saved detailed cluster report to: C:\Users\alexg\AppData\Local\Temp\tmpcedx92f3\run\seed_2\kmeans\kmeans_detailed_cluster_report.csv
+Saved cluster composition to: C:\Users\alexg\AppData\Local\Temp\tmpcedx92f3\run\seed_2\kmeans\kmeans_cluster_composition.csv
+Saved inspection summary to: C:\Users\alexg\AppData\Local\Temp\tmpcedx92f3\run\seed_2\kmeans\kmeans_inspection_summary.txt
+
+Generating cluster inspection reports for kmeans...
+Saved detailed cluster report to: C:\Users\alexg\AppData\Local\Temp\tmpwkaayfup\run_kmeans_benchmark_20260908_183412\gaussian_blob_smoke_test\seed_42\kmeans_detailed_cluster_report.csv
+Saved cluster composition to: C:\Users\alexg\AppData\Local\Temp\tmpwkaayfup\run_kmeans_benchmark_20260908_183412\gaussian_blob_smoke_test\seed_42\kmeans_cluster_composition.csv
+Saved inspection summary to: C:\Users\alexg\AppData\Local\Temp\tmpwkaayfup\run_kmeans_benchmark_20260908_183412\gaussian_blob_smoke_test\seed_42\kmeans_inspection_summary.txt
+
+Generating cluster inspection reports for kmeans...
+Saved detailed cluster report to: C:\Users\alexg\AppData\Local\Temp\tmpwkaayfup\run_kmeans_benchmark_20260908_183412\gaussian_blob_smoke_test\seed_43\kmeans_detailed_cluster_report.csv
+Saved cluster composition to: C:\Users\alexg\AppData\Local\Temp\tmpwkaayfup\run_kmeans_benchmark_20260908_183412\gaussian_blob_smoke_test\seed_43\kmeans_cluster_composition.csv
+Saved inspection summary to: C:\Users\alexg\AppData\Local\Temp\tmpwkaayfup\run_kmeans_benchmark_20260908_183412\gaussian_blob_smoke_test\seed_43\kmeans_inspection_summary.txt
+
+Generating cluster inspection reports for kmeans...
+Saved detailed cluster report to: C:\Users\alexg\AppData\Local\Temp\tmpwkaayfup\run_kmeans_benchmark_20260908_183412\spatial_phase_boundary_test\seed_42\kmeans_detailed_cluster_report.csv
+Saved cluster composition to: C:\Users\alexg\AppData\Local\Temp\tmpwkaayfup\run_kmeans_benchmark_20260908_183412\spatial_phase_boundary_test\seed_42\kmeans_cluster_composition.csv
+Saved inspection summary to: C:\Users\alexg\AppData\Local\Temp\tmpwkaayfup\run_kmeans_benchmark_20260908_183412\spatial_phase_boundary_test\seed_42\kmeans_inspection_summary.txt
+
+Generating cluster inspection reports for kmeans...
+Saved detailed cluster report to: C:\Users\alexg\AppData\Local\Temp\tmpwkaayfup\run_kmeans_benchmark_20260908_183412\spatial_phase_boundary_test\seed_43\kmeans_detailed_cluster_report.csv
+Saved cluster composition to: C:\Users\alexg\AppData\Local\Temp\tmpwkaayfup\run_kmeans_benchmark_20260908_183412\spatial_phase_boundary_test\seed_43\kmeans_cluster_composition.csv
+Saved inspection summary to: C:\Users\alexg\AppData\Local\Temp\tmpwkaayfup\run_kmeans_benchmark_20260908_183412\spatial_phase_boundary_test\seed_43\kmeans_inspection_summary.txt
+Local K-means benchmark completed: C:\Users\alexg\AppData\Local\Temp\tmpwkaayfup\run_kmeans_benchmark_20260908_183412

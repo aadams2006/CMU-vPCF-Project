@@ -1,0 +1,111 @@
+SEARCH DEC_00 {'latent_dim': 3, 'n_clusters': 3, 'clustering_weight': 1.0, 'pretrain_epochs': 75, 'learning_rate': 0.001, 'cluster_epochs': 150, 'update_interval': 5}
+RESULT DEC_00 ARI=0.9372752499776796 status=ok counts=[1111, 953, 1008]
+SEARCH DEC_01 {'latent_dim': 3, 'n_clusters': 3, 'clustering_weight': 10.0, 'pretrain_epochs': 25, 'learning_rate': 0.001, 'cluster_epochs': 150, 'update_interval': 5}
+RESULT DEC_01 ARI=0.5025555018062456 status=ok counts=[1958, 77, 1037]
+SEARCH DEC_02 {'latent_dim': 1, 'n_clusters': 2, 'clustering_weight': 10.0, 'pretrain_epochs': 75, 'learning_rate': 0.003, 'cluster_epochs': 150, 'update_interval': 5}
+RESULT DEC_02 ARI=0.5582398382086158 status=ok counts=[1877, 1195]
+SEARCH DEC_03 {'latent_dim': 3, 'n_clusters': 2, 'clustering_weight': 0.1, 'pretrain_epochs': 150, 'learning_rate': 0.0003, 'cluster_epochs': 150, 'update_interval': 5}
+RESULT DEC_03 ARI=0.5348799706961761 status=ok counts=[2111, 961]
+SEARCH DEC_04 {'latent_dim': 4, 'n_clusters': 2, 'clustering_weight': 1.0, 'pretrain_epochs': 25, 'learning_rate': 0.0003, 'cluster_epochs': 150, 'update_interval': 5}
+RESULT DEC_04 ARI=0.5257607665249875 status=ok counts=[1017, 2055]
+SEARCH DEC_05 {'latent_dim': 2, 'n_clusters': 2, 'clustering_weight': 0.01, 'pretrain_epochs': 25, 'learning_rate': 0.003, 'cluster_epochs': 150, 'update_interval': 5}
+RESULT DEC_05 ARI=0.5410116076647586 status=ok counts=[1781, 1291]
+SEARCH DEC_06 {'latent_dim': 4, 'n_clusters': 3, 'clustering_weight': 10.0, 'pretrain_epochs': 25, 'learning_rate': 0.0003, 'cluster_epochs': 150, 'update_interval': 5}
+RESULT DEC_06 ARI=0.523360369335079 status=ok counts=[1009, 37, 2026]
+SEARCH DEC_07 {'latent_dim': 2, 'n_clusters': 3, 'clustering_weight': 1.0, 'pretrain_epochs': 150, 'learning_rate': 0.003, 'cluster_epochs': 150, 'update_interval': 5}
+RESULT DEC_07 ARI=0.8894400103669882 status=ok counts=[905, 1150, 1017]
+SEARCH DEC_08 {'latent_dim': 2, 'n_clusters': 5, 'clustering_weight': 10.0, 'pretrain_epochs': 25, 'learning_rate': 0.003, 'cluster_epochs': 150, 'update_interval': 5}
+RESULT DEC_08 ARI=0.7557542112059358 status=ok counts=[459, 1119, 904, 140, 450]
+SEARCH DEC_09 {'latent_dim': 1, 'n_clusters': 3, 'clustering_weight': 1.0, 'pretrain_epochs': 150, 'learning_rate': 0.003, 'cluster_epochs': 150, 'update_interval': 5}
+RESULT DEC_09 ARI=0.893470340003898 status=ok counts=[1038, 982, 1052]
+SEARCH DEC_10 {'latent_dim': 1, 'n_clusters': 4, 'clustering_weight': 0.01, 'pretrain_epochs': 75, 'learning_rate': 0.003, 'cluster_epochs': 150, 'update_interval': 5}
+RESULT DEC_10 ARI=0.7788202922902207 status=ok counts=[758, 956, 974, 384]
+SEARCH DEC_11 {'latent_dim': 2, 'n_clusters': 5, 'clustering_weight': 0.1, 'pretrain_epochs': 75, 'learning_rate': 0.001, 'cluster_epochs': 150, 'update_interval': 5}
+RESULT DEC_11 ARI=0.7357625412758982 status=ok counts=[958, 707, 306, 898, 203]
+SEARCH DEC_12 {'latent_dim': 2, 'n_clusters': 2, 'clustering_weight': 10.0, 'pretrain_epochs': 25, 'learning_rate': 0.001, 'cluster_epochs': 150, 'update_interval': 5}
+RESULT DEC_12 ARI=0.5456147132477901 status=ok counts=[1790, 1282]
+SEARCH DEC_13 {'latent_dim': 4, 'n_clusters': 2, 'clustering_weight': 1.0, 'pretrain_epochs': 75, 'learning_rate': 0.0003, 'cluster_epochs': 150, 'update_interval': 5}
+RESULT DEC_13 ARI=0.5262540141080876 status=ok counts=[1016, 2056]
+SEARCH DEC_14 {'latent_dim': 2, 'n_clusters': 4, 'clustering_weight': 0.01, 'pretrain_epochs': 150, 'learning_rate': 0.001, 'cluster_epochs': 150, 'update_interval': 5}
+RESULT DEC_14 ARI=0.9121556610045235 status=ok counts=[1064, 897, 981, 130]
+SEARCH DEC_15 {'latent_dim': 1, 'n_clusters': 2, 'clustering_weight': 0.01, 'pretrain_epochs': 75, 'learning_rate': 0.003, 'cluster_epochs': 150, 'update_interval': 5}
+RESULT DEC_15 ARI=0.5582398382086158 status=ok counts=[1877, 1195]
+SEARCH DEC_16 {'latent_dim': 1, 'n_clusters': 4, 'clustering_weight': 0.1, 'pretrain_epochs': 150, 'learning_rate': 0.001, 'cluster_epochs': 150, 'update_interval': 5}
+RESULT DEC_16 ARI=0.7992741843915445 status=ok counts=[985, 887, 916, 284]
+SEARCH DEC_17 {'latent_dim': 2, 'n_clusters': 3, 'clustering_weight': 0.1, 'pretrain_epochs': 150, 'learning_rate': 0.0003, 'cluster_epochs': 150, 'update_interval': 5}
+RESULT DEC_17 ARI=0.6072423231917311 status=ok counts=[582, 1291, 1199]
+SEARCH DEC_18 {'latent_dim': 2, 'n_clusters': 5, 'clustering_weight': 0.01, 'pretrain_epochs': 75, 'learning_rate': 0.0003, 'cluster_epochs': 150, 'update_interval': 5}
+RESULT DEC_18 ARI=0.5613418969784753 status=ok counts=[76, 1119, 1715, 95, 67]
+SEARCH DEC_19 {'latent_dim': 3, 'n_clusters': 4, 'clustering_weight': 0.01, 'pretrain_epochs': 25, 'learning_rate': 0.0003, 'cluster_epochs': 150, 'update_interval': 5}
+RESULT DEC_19 ARI=0.6221527437834038 status=ok counts=[15, 1551, 981, 525]
+SEARCH DEC_20 {'latent_dim': 2, 'n_clusters': 4, 'clustering_weight': 10.0, 'pretrain_epochs': 75, 'learning_rate': 0.0003, 'cluster_epochs': 150, 'update_interval': 5}
+RESULT DEC_20 ARI=0.5662727037805134 status=ok counts=[98, 96, 1136, 1742]
+SEARCH DEC_21 {'latent_dim': 3, 'n_clusters': 3, 'clustering_weight': 0.01, 'pretrain_epochs': 150, 'learning_rate': 0.0003, 'cluster_epochs': 150, 'update_interval': 5}
+RESULT DEC_21 ARI=0.9449082511800564 status=ok counts=[992, 939, 1141]
+SEARCH DEC_22 {'latent_dim': 2, 'n_clusters': 5, 'clustering_weight': 1.0, 'pretrain_epochs': 150, 'learning_rate': 0.001, 'cluster_epochs': 150, 'update_interval': 5}
+RESULT DEC_22 ARI=0.8063277417840298 status=ok counts=[899, 287, 928, 828, 130]
+SEARCH DEC_23 {'latent_dim': 3, 'n_clusters': 2, 'clustering_weight': 1.0, 'pretrain_epochs': 25, 'learning_rate': 0.0003, 'cluster_epochs': 150, 'update_interval': 5}
+RESULT DEC_23 ARI=0.5309819100857687 status=ok counts=[2074, 998]
+SEARCH IDEC_00 {'latent_dim': 3, 'n_clusters': 3, 'clustering_weight': 1.0, 'pretrain_epochs': 75, 'learning_rate': 0.001, 'cluster_epochs': 150, 'update_interval': 5}
+RESULT IDEC_00 ARI=0.9516555733704101 status=ok counts=[1124, 966, 982]
+SEARCH IDEC_01 {'latent_dim': 2, 'n_clusters': 5, 'clustering_weight': 0.1, 'pretrain_epochs': 150, 'learning_rate': 0.003, 'cluster_epochs': 150, 'update_interval': 5}
+RESULT IDEC_01 ARI=0.7737660005547673 status=ok counts=[909, 881, 354, 146, 782]
+SEARCH IDEC_02 {'latent_dim': 3, 'n_clusters': 4, 'clustering_weight': 10.0, 'pretrain_epochs': 25, 'learning_rate': 0.003, 'cluster_epochs': 150, 'update_interval': 5}
+RESULT IDEC_02 ARI=0.8766255155498486 status=ok counts=[1020, 885, 1026, 141]
+SEARCH IDEC_03 {'latent_dim': 2, 'n_clusters': 3, 'clustering_weight': 10.0, 'pretrain_epochs': 25, 'learning_rate': 0.0003, 'cluster_epochs': 150, 'update_interval': 5}
+RESULT IDEC_03 ARI=0.5553695869668588 status=ok counts=[58, 1772, 1242]
+SEARCH IDEC_04 {'latent_dim': 1, 'n_clusters': 3, 'clustering_weight': 0.1, 'pretrain_epochs': 75, 'learning_rate': 0.0003, 'cluster_epochs': 150, 'update_interval': 5}
+RESULT IDEC_04 ARI=0.5820443453498209 status=ok counts=[452, 1010, 1610]
+SEARCH IDEC_05 {'latent_dim': 2, 'n_clusters': 3, 'clustering_weight': 0.01, 'pretrain_epochs': 25, 'learning_rate': 0.001, 'cluster_epochs': 150, 'update_interval': 5}
+RESULT IDEC_05 ARI=0.8190764392063088 status=ok counts=[1005, 1262, 805]
+SEARCH IDEC_06 {'latent_dim': 2, 'n_clusters': 2, 'clustering_weight': 10.0, 'pretrain_epochs': 150, 'learning_rate': 0.0003, 'cluster_epochs': 150, 'update_interval': 5}
+RESULT IDEC_06 ARI=0.5598788035379564 status=ok counts=[1826, 1246]
+SEARCH IDEC_07 {'latent_dim': 1, 'n_clusters': 4, 'clustering_weight': 10.0, 'pretrain_epochs': 150, 'learning_rate': 0.001, 'cluster_epochs': 150, 'update_interval': 5}
+RESULT IDEC_07 ARI=0.8021631733341317 status=ok counts=[979, 889, 919, 285]
+SEARCH IDEC_08 {'latent_dim': 2, 'n_clusters': 5, 'clustering_weight': 1.0, 'pretrain_epochs': 25, 'learning_rate': 0.003, 'cluster_epochs': 150, 'update_interval': 5}
+RESULT IDEC_08 ARI=0.7598765746727109 status=ok counts=[453, 1017, 916, 191, 495]
+SEARCH IDEC_09 {'latent_dim': 3, 'n_clusters': 3, 'clustering_weight': 0.01, 'pretrain_epochs': 150, 'learning_rate': 0.001, 'cluster_epochs': 150, 'update_interval': 5}
+RESULT IDEC_09 ARI=0.9517832488369262 status=ok counts=[957, 1140, 975]
+SEARCH IDEC_10 {'latent_dim': 4, 'n_clusters': 2, 'clustering_weight': 1.0, 'pretrain_epochs': 75, 'learning_rate': 0.0003, 'cluster_epochs': 150, 'update_interval': 5}
+RESULT IDEC_10 ARI=0.5218439113135125 status=ok counts=[1025, 2047]
+SEARCH IDEC_11 {'latent_dim': 3, 'n_clusters': 5, 'clustering_weight': 0.1, 'pretrain_epochs': 75, 'learning_rate': 0.003, 'cluster_epochs': 150, 'update_interval': 5}
+RESULT IDEC_11 ARI=0.8191213852919826 status=ok counts=[958, 861, 887, 221, 145]
+SEARCH IDEC_12 {'latent_dim': 2, 'n_clusters': 5, 'clustering_weight': 0.1, 'pretrain_epochs': 25, 'learning_rate': 0.003, 'cluster_epochs': 150, 'update_interval': 5}
+RESULT IDEC_12 ARI=0.7696145920522437 status=ok counts=[736, 968, 928, 281, 159]
+SEARCH IDEC_13 {'latent_dim': 3, 'n_clusters': 4, 'clustering_weight': 10.0, 'pretrain_epochs': 25, 'learning_rate': 0.0003, 'cluster_epochs': 150, 'update_interval': 5}
+RESULT IDEC_13 ARI=0.8421603633421452 status=ok counts=[30, 1054, 1084, 904]
+SEARCH IDEC_14 {'latent_dim': 4, 'n_clusters': 5, 'clustering_weight': 1.0, 'pretrain_epochs': 75, 'learning_rate': 0.0003, 'cluster_epochs': 150, 'update_interval': 5}
+RESULT IDEC_14 ARI=0.5378570006622776 status=ok counts=[14, 997, 464, 29, 1568]
+SEARCH IDEC_15 {'latent_dim': 1, 'n_clusters': 2, 'clustering_weight': 0.1, 'pretrain_epochs': 25, 'learning_rate': 0.003, 'cluster_epochs': 150, 'update_interval': 5}
+RESULT IDEC_15 ARI=0.5391080182599604 status=ok counts=[975, 2097]
+SEARCH IDEC_16 {'latent_dim': 4, 'n_clusters': 5, 'clustering_weight': 10.0, 'pretrain_epochs': 150, 'learning_rate': 0.003, 'cluster_epochs': 150, 'update_interval': 5}
+RESULT IDEC_16 ARI=0.7586108231080535 status=ok counts=[508, 876, 957, 581, 150]
+SEARCH IDEC_17 {'latent_dim': 2, 'n_clusters': 5, 'clustering_weight': 1.0, 'pretrain_epochs': 75, 'learning_rate': 0.003, 'cluster_epochs': 150, 'update_interval': 5}
+RESULT IDEC_17 ARI=0.8060040303991391 status=ok counts=[539, 1076, 966, 357, 134]
+SEARCH IDEC_18 {'latent_dim': 2, 'n_clusters': 2, 'clustering_weight': 0.01, 'pretrain_epochs': 25, 'learning_rate': 0.003, 'cluster_epochs': 150, 'update_interval': 5}
+RESULT IDEC_18 ARI=0.520454011343576 status=ok counts=[1030, 2042]
+SEARCH IDEC_19 {'latent_dim': 1, 'n_clusters': 4, 'clustering_weight': 1.0, 'pretrain_epochs': 150, 'learning_rate': 0.0003, 'cluster_epochs': 150, 'update_interval': 5}
+RESULT IDEC_19 ARI=0.8135258384672264 status=ok counts=[775, 1111, 941, 245]
+SEARCH IDEC_20 {'latent_dim': 4, 'n_clusters': 3, 'clustering_weight': 0.1, 'pretrain_epochs': 75, 'learning_rate': 0.003, 'cluster_epochs': 150, 'update_interval': 5}
+RESULT IDEC_20 ARI=0.9410539601952105 status=ok counts=[996, 1117, 959]
+SEARCH IDEC_21 {'latent_dim': 1, 'n_clusters': 4, 'clustering_weight': 1.0, 'pretrain_epochs': 75, 'learning_rate': 0.003, 'cluster_epochs': 150, 'update_interval': 5}
+RESULT IDEC_21 ARI=0.8072396901166645 status=ok counts=[811, 951, 966, 344]
+SEARCH IDEC_22 {'latent_dim': 1, 'n_clusters': 2, 'clustering_weight': 1.0, 'pretrain_epochs': 150, 'learning_rate': 0.001, 'cluster_epochs': 150, 'update_interval': 5}
+RESULT IDEC_22 ARI=0.545767843721944 status=ok counts=[1945, 1127]
+SEARCH IDEC_23 {'latent_dim': 4, 'n_clusters': 2, 'clustering_weight': 0.1, 'pretrain_epochs': 150, 'learning_rate': 0.003, 'cluster_epochs': 150, 'update_interval': 5}
+RESULT IDEC_23 ARI=0.5275834039686735 status=ok counts=[1010, 2062]
+FINAL KMeans seed=42
+FINAL KMeans seed=43
+FINAL KMeans seed=44
+FINAL KMeans seed=45
+FINAL KMeans seed=46
+FINAL DEC seed=42
+FINAL DEC seed=43
+FINAL DEC seed=44
+FINAL DEC seed=45
+FINAL DEC seed=46
+FINAL IDEC seed=42
+FINAL IDEC seed=43
+FINAL IDEC seed=44
+FINAL IDEC seed=45
+FINAL IDEC seed=46

@@ -1,9 +1,21 @@
 # Phase-boundary model evaluation
 
-This directory contains two deliberately separate workflows:
+This directory contains three deliberately separate workflows:
 
 1. `Phase_Boundary_Training_Local_Fallback.py` is a dependency-light **K-means benchmark**. It does not train DEC or IDEC and never labels its outputs as either deep model.
 2. `src/train_phase_boundary_models.py` trains and compares plain K-means, DEC, and IDEC on the same vPCF feature matrix.
+3. `run_deep_benchmark.py` performs actual PyTorch DEC/IDEC training on the saved synthetic spatial benchmark, independently searches each model's hyperparameters using validation ARI, and then evaluates frozen configurations over five separate training seeds. It has no fallback training path.
+
+## Audited deep-model benchmark
+
+Install `requirements-deep.txt`, then run:
+
+```bash
+python run_deep_benchmark.py --output Results/deep_benchmark --trials 24
+python -m unittest discover -s tests -p test_deep_benchmark.py -v
+```
+
+The output includes `REPORT.md` with every search configuration, `all_search_configurations.csv`, separate final seed metrics and confidence intervals, saved ground-truth labels and input arrays, learned embeddings, fitted centers, checkpoints, and runtime evidence of encoder/center updates. K-means is explicitly logged as center initialization only for the deep models. Raw boundary metrics preserve extra cluster edges; phase-matched metrics are also retained for baseline compatibility. The existing research-data workflow remains available for separately supplied H5/DM3 data.
 
 The repository currently does not contain the research H5/DM3 files or an aligned machine-readable phase mask. The images under `Data/images/` are visual references; `ref-image.png` includes a legend and is not automatically used as ground truth.
 
@@ -68,3 +80,7 @@ The Colab notebook exposes the same model, seed, cluster-count, ground-truth, ma
 - DEC/IDEC claims require their TensorFlow training artifacts and actual method names in metadata.
 - Semantic phase claims require aligned machine-readable labels or independent physical validation.
 - Phase-boundary claims require an aligned spatial grid and boundary metrics, not only sample-level clustering scores.
+
+## Completed DEC / IDEC experiment — 2026-09-08
+
+[Full findings and every hyperparameter configuration](Results/Deep_Clustering/run_20260908/REPORT.md) are saved with [all run artifacts](Results/Deep_Clustering/run_20260908/). The archive includes 48 search runs, 10 final deep-model runs, five K-means baseline runs, checkpoints, fitted centers, learned embeddings, synthetic labels, scores, uncertainty, plots, runtime logs, source snapshots, and an SHA-256 inventory. All 16 final tests passed. IDEC is the preferred deep model; K-means remains strongest on this synthetic benchmark. No research H5/DM3 data were used.

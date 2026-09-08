@@ -1,0 +1,67 @@
+test_both_models_train_and_reload_exact_outputs (test_deep_benchmark.DeepBenchmarkTests.test_both_models_train_and_reload_exact_outputs) ... 
+  test_both_models_train_and_reload_exact_outputs (test_deep_benchmark.DeepBenchmarkTests.test_both_models_train_and_reload_exact_outputs) (name='DEC') ... ERROR
+  test_both_models_train_and_reload_exact_outputs (test_deep_benchmark.DeepBenchmarkTests.test_both_models_train_and_reload_exact_outputs) (name='IDEC') ... ERROR
+test_extra_cluster_edges_are_penalized (test_deep_benchmark.DeepBenchmarkTests.test_extra_cluster_edges_are_penalized) ... ok
+test_initialization_failure_propagates_without_fallback (test_deep_benchmark.DeepBenchmarkTests.test_initialization_failure_propagates_without_fallback) ... ok
+test_target_formula_and_detachment (test_deep_benchmark.DeepBenchmarkTests.test_target_formula_and_detachment) ... ok
+
+======================================================================
+ERROR: test_both_models_train_and_reload_exact_outputs (test_deep_benchmark.DeepBenchmarkTests.test_both_models_train_and_reload_exact_outputs) (name='DEC')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Python312\Lib\shutil.py", line 633, in _rmtree_unsafe
+    os.unlink(fullname)
+PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\alexg\\AppData\\Local\\Temp\\tmp9pg_5sg5\\learned_outputs.npz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\alexg\Documents\Codex\2026-09-08\github-plugin-github-openai-curated-remote\work\CMU-vPCF-Project\Phase Boundary Testing\tests\test_deep_benchmark.py", line 27, in test_both_models_train_and_reload_exact_outputs
+    with self.subTest(name=name), tempfile.TemporaryDirectory() as tmp:
+  File "C:\Python312\Lib\tempfile.py", line 946, in __exit__
+    self.cleanup()
+  File "C:\Python312\Lib\tempfile.py", line 950, in cleanup
+    self._rmtree(self.name, ignore_errors=self._ignore_cleanup_errors)
+  File "C:\Python312\Lib\tempfile.py", line 930, in _rmtree
+    _shutil.rmtree(name, onexc=onexc)
+  File "C:\Python312\Lib\shutil.py", line 781, in rmtree
+    return _rmtree_unsafe(path, onexc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\shutil.py", line 635, in _rmtree_unsafe
+    onexc(os.unlink, fullname, err)
+  File "C:\Python312\Lib\tempfile.py", line 905, in onexc
+    _os.unlink(path)
+PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\alexg\\AppData\\Local\\Temp\\tmp9pg_5sg5\\learned_outputs.npz'
+
+======================================================================
+ERROR: test_both_models_train_and_reload_exact_outputs (test_deep_benchmark.DeepBenchmarkTests.test_both_models_train_and_reload_exact_outputs) (name='IDEC')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Python312\Lib\shutil.py", line 633, in _rmtree_unsafe
+    os.unlink(fullname)
+PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\alexg\\AppData\\Local\\Temp\\tmp_cvb1i3g\\learned_outputs.npz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\alexg\Documents\Codex\2026-09-08\github-plugin-github-openai-curated-remote\work\CMU-vPCF-Project\Phase Boundary Testing\tests\test_deep_benchmark.py", line 27, in test_both_models_train_and_reload_exact_outputs
+    with self.subTest(name=name), tempfile.TemporaryDirectory() as tmp:
+  File "C:\Python312\Lib\tempfile.py", line 946, in __exit__
+    self.cleanup()
+  File "C:\Python312\Lib\tempfile.py", line 950, in cleanup
+    self._rmtree(self.name, ignore_errors=self._ignore_cleanup_errors)
+  File "C:\Python312\Lib\tempfile.py", line 930, in _rmtree
+    _shutil.rmtree(name, onexc=onexc)
+  File "C:\Python312\Lib\shutil.py", line 781, in rmtree
+    return _rmtree_unsafe(path, onexc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\shutil.py", line 635, in _rmtree_unsafe
+    onexc(os.unlink, fullname, err)
+  File "C:\Python312\Lib\tempfile.py", line 905, in onexc
+    _os.unlink(path)
+PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\alexg\\AppData\\Local\\Temp\\tmp_cvb1i3g\\learned_outputs.npz'
+
+----------------------------------------------------------------------
+Ran 4 tests in 19.731s
+
+FAILED (errors=2)

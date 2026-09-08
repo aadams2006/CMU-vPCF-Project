@@ -1,0 +1,6 @@
+16 unit/integration tests passed.
+48 independent search configurations completed (24 per model).
+10 final deep-model runs completed, separate from search; 5 K-means runs reproduced the earlier baseline.
+58 deep-training logs checked: positive encoder and center movement, 150 clustering steps, no fallback.
+Saved final benchmark features and labels match the earlier committed dataset.
+All five requested hyperparameters vary in each independent search.
