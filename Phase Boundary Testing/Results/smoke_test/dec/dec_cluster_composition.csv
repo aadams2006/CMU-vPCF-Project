@@ -1,0 +1,4 @@
+cluster_id,sample_count,percentage,samples
+0,2,16.666666666666664,h5_frame_000005;h5_frame_000006
+1,4,33.33333333333333,h5_frame_000002;h5_frame_000003;h5_frame_000004;h5_frame_000007
+2,6,50.0,h5_frame_000000;h5_frame_000001;h5_frame_000008;h5_frame_000009;h5_frame_000010;h5_frame_000011

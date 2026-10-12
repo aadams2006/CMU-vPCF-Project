@@ -1,0 +1,2 @@
+seed,model_a,model_b,adjusted_rand_index,normalized_mutual_info
+42,dec,idec,1.0,1.0

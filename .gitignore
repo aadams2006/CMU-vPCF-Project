@@ -33,3 +33,30 @@ vPCF_test_2.dm3
 
 # Model weights (optional - uncomment if needed)
 # *.weights.h5
+
+# Reproducible K=6 comparison and K=3/K=6 map-back artifacts (2026-10-12).
+!Phase Boundary Testing/Results/
+Phase Boundary Testing/Results/*
+!Phase Boundary Testing/Results/Deep_Clustering/
+Phase Boundary Testing/Results/Deep_Clustering/*
+!Phase Boundary Testing/Results/Deep_Clustering/run_k6_20261012/
+!Phase Boundary Testing/Results/Deep_Clustering/run_k6_20261012/**
+!Phase Boundary Testing/Results/Full_Runs/
+Phase Boundary Testing/Results/Full_Runs/*
+!Phase Boundary Testing/Results/Full_Runs/synthetic_h5_k6_20261012/
+!Phase Boundary Testing/Results/Full_Runs/synthetic_h5_k6_20261012/**
+!Phase Boundary Testing/Results/Full_Runs/synthetic_h5_map_back_k3_20261012/
+!Phase Boundary Testing/Results/Full_Runs/synthetic_h5_map_back_k3_20261012/**
+!Phase Boundary Testing/Results/Full_Runs/synthetic_h5_map_back_k6_20261012/
+!Phase Boundary Testing/Results/Full_Runs/synthetic_h5_map_back_k6_20261012/**
+!Phase Boundary Testing/Results/k6_20261012.log
+!Phase Boundary Testing/Results/synthetic_h5_k6_20261012.log
+!Phase Boundary Testing/Results/k6_tests_20261012.log
+!Phase Boundary Testing/Results/Full_Runs/synthetic_cluster_regions_20261012/
+!Phase Boundary Testing/Results/Full_Runs/synthetic_cluster_regions_20261012/**
+!Phase Boundary Testing/Results/Full_Runs/cluster_regions_20261012.log
+!Phase Boundary Testing/Results/Full_Runs/cluster_regions_tests_20261012.log
+
+# Preserve the original K=3 H5 smoke-test artifacts used by saved-model inference.
+!Phase Boundary Testing/Results/smoke_test/
+!Phase Boundary Testing/Results/smoke_test/**

@@ -1,0 +1,934 @@
+{
+  ".gitattributes": {
+    "bytes": 9,
+    "sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+  },
+  "final_benchmark.npz": {
+    "bytes": 148966,
+    "sha256": "51ece9dff03585cfdb21655d5b100d52c27273afc6d35bcedc923cdb6e668f4e"
+  },
+  "final_metrics_aggregate.csv": {
+    "bytes": 10116,
+    "sha256": "59e49ecb7fbfcf8b4ca7d2d303533b186b4cdbe3d144756865063b943ac15813"
+  },
+  "final_metrics_by_seed.csv": {
+    "bytes": 10383,
+    "sha256": "e092fcbab9f26d7ec2ea8a36103baec7eb7c7ca1cb9c7de9fe4e8ffc88bdeca9"
+  },
+  "final_pairwise_stability.csv": {
+    "bytes": 1565,
+    "sha256": "0525554ae161b65b59e2295c61ed348ac7a685eeb7b530a34c6e331ab7c66094"
+  },
+  "final_scaler.npz": {
+    "bytes": 600,
+    "sha256": "651d62063d78f4f1a23fc0bdfaffc8b3c41d6587d4abe641d25ec6f6723c4891"
+  },
+  "manifest.json": {
+    "bytes": 898,
+    "sha256": "fbbcdd4f1d36cf0c56c88c93ebdb6f9460dba1ec7f0ca17cc987e6356e1e6710"
+  },
+  "REPORT.md": {
+    "bytes": 782,
+    "sha256": "26fcd747ac24e67a65344b20a2a91af9f0ba0ee4c81fcd1f32ba22ead36c0bc7"
+  },
+  "selected_configs.json": {
+    "bytes": 417,
+    "sha256": "cd0f1f4a15f7dbcd49d60d4b201cd0eafd9c9ba0e48819bd9c5fdd4940a61916"
+  },
+  "verification.txt": {
+    "bytes": 268,
+    "sha256": "b696b47c199d5baee8ed6ab6efc6aa0b098b4e4548e4841f20f47f91b6087c63"
+  },
+  "map_back_k3\\all_samples_metadata.json": {
+    "bytes": 929478,
+    "sha256": "7c9db736b8b1cb6a43f1691d74dc18ee9340bac1bcfd1c023259311ae94c77f7"
+  },
+  "map_back_k3\\mapping_summary.csv": {
+    "bytes": 332,
+    "sha256": "f5fce5fc89f3ee554b544329ec94e769b461a2cb8f606f180f7d9d171805fcba"
+  },
+  "map_back_k3\\README.md": {
+    "bytes": 401,
+    "sha256": "2251669dac99a456f4f9a6b3c228b83c847407370150d1d2a4a0f6767a132254"
+  },
+  "map_back_k3\\synthetic_feature_channel_0.npy": {
+    "bytes": 24704,
+    "sha256": "303d85951061bf4f00c49c60e509a2fe8be2cdfbae8a9bb61cf8a5b305bceb38"
+  },
+  "map_back_k6\\all_samples_metadata.json": {
+    "bytes": 929478,
+    "sha256": "7c9db736b8b1cb6a43f1691d74dc18ee9340bac1bcfd1c023259311ae94c77f7"
+  },
+  "map_back_k6\\mapping_summary.csv": {
+    "bytes": 332,
+    "sha256": "c8e3a1807b806cb3c6af55a72ee738a5221e71b502d416aaca9b2af5fa3a6c9e"
+  },
+  "map_back_k6\\README.md": {
+    "bytes": 401,
+    "sha256": "2251669dac99a456f4f9a6b3c228b83c847407370150d1d2a4a0f6767a132254"
+  },
+  "map_back_k6\\synthetic_feature_channel_0.npy": {
+    "bytes": 24704,
+    "sha256": "303d85951061bf4f00c49c60e509a2fe8be2cdfbae8a9bb61cf8a5b305bceb38"
+  },
+  "final\\DEC_42\\initial_assignments.npy": {
+    "bytes": 12416,
+    "sha256": "07adf0fbd46c222664539a4d61267a1c63228ac9d4445ab072b9bc3f5dd2ab6f"
+  },
+  "final\\DEC_42\\initial_centers.npy": {
+    "bytes": 200,
+    "sha256": "df588502b329f9e27e6d9899d5729426e4ce31502e95f6a7c19d78280d64ecc0"
+  },
+  "final\\DEC_42\\learned_outputs.npz": {
+    "bytes": 100798,
+    "sha256": "a40c69b8923d63625abbc4614e89d7f0a12e35e4badfcfa4e0249c0bcbf1dda4"
+  },
+  "final\\DEC_42\\loss_history.json": {
+    "bytes": 29659,
+    "sha256": "cc20642e4267512429a5ac9dad351d8f394f34883ed99ea9bd5f645016d72bb0"
+  },
+  "final\\DEC_42\\model.pt": {
+    "bytes": 11158,
+    "sha256": "70de104a29f2a7ffa6551c1c7b1ea7462fec5a57b9388334abb2a1f0d7c8a996"
+  },
+  "final\\DEC_42\\runtime.jsonl": {
+    "bytes": 1069,
+    "sha256": "8de3de055ba8a0bb8d442797320bd1dfc3a2673e189b9b231864d059576e78cb"
+  },
+  "final\\DEC_43\\initial_assignments.npy": {
+    "bytes": 12416,
+    "sha256": "fceeb4359914596796a89c415f87e02cac73db82cdea033e9db902fd4bb46fd5"
+  },
+  "final\\DEC_43\\initial_centers.npy": {
+    "bytes": 200,
+    "sha256": "4d8f9d9cb227df0dca87ec6c396ffba67276af85bacda758d003bc43a9b34fe5"
+  },
+  "final\\DEC_43\\learned_outputs.npz": {
+    "bytes": 101795,
+    "sha256": "637d0375a605221245674165775dc7f2593b6079711b416704746c655ba99282"
+  },
+  "final\\DEC_43\\loss_history.json": {
+    "bytes": 29655,
+    "sha256": "c530bda134bcf3872d3d0024771b35fccd059d0f078461d8016e6208f323ff7a"
+  },
+  "final\\DEC_43\\model.pt": {
+    "bytes": 11158,
+    "sha256": "d29bd0aeba0eb7a58beb73ca8149d9cf88ab77a82dae3bfcb414ecef1559312e"
+  },
+  "final\\DEC_43\\runtime.jsonl": {
+    "bytes": 1068,
+    "sha256": "bdf345a7663bcdd66d123e11b7b0a5dc26f092d666973b2b9f39fc3c1f1a88df"
+  },
+  "final\\DEC_44\\initial_assignments.npy": {
+    "bytes": 12416,
+    "sha256": "32dad7a77c6226a2eb81fd69e8bab57e3f774752631914e772bf67eccb4a5ddf"
+  },
+  "final\\DEC_44\\initial_centers.npy": {
+    "bytes": 200,
+    "sha256": "be27fee526a7bea1ae095f0902e866b6d6540355ea89c70bf342d894cd092f67"
+  },
+  "final\\DEC_44\\learned_outputs.npz": {
+    "bytes": 99917,
+    "sha256": "9097d5859ad457abd5085b6b884102948f28f263811f428a264850668f439254"
+  },
+  "final\\DEC_44\\loss_history.json": {
+    "bytes": 29659,
+    "sha256": "7c100497842d99b2a2204ee042e4350d67e40cdb78b46e5bc226bc05e12c9f9b"
+  },
+  "final\\DEC_44\\model.pt": {
+    "bytes": 11158,
+    "sha256": "36e9196ba6b47a9db67fb2a327ecb0d7323b8590291822a49b4a28f73a260256"
+  },
+  "final\\DEC_44\\runtime.jsonl": {
+    "bytes": 1067,
+    "sha256": "37cc049cc17c983831602d500ab4a36a8e6949c445fc624898c9a49c53bc1d89"
+  },
+  "final\\DEC_45\\initial_assignments.npy": {
+    "bytes": 12416,
+    "sha256": "e01e05c071a7d1a825818bf8f6e036354382490bdf52981cc849a6435c55116c"
+  },
+  "final\\DEC_45\\initial_centers.npy": {
+    "bytes": 200,
+    "sha256": "405a8b8551d377356a0babd4953a472bc9a0b55f6963bbc7dc923246196a8176"
+  },
+  "final\\DEC_45\\learned_outputs.npz": {
+    "bytes": 100947,
+    "sha256": "3709142743c242b9f3165445e5b99005dfc7ef200066e60f79ba187528b5d6b5"
+  },
+  "final\\DEC_45\\loss_history.json": {
+    "bytes": 29666,
+    "sha256": "008f5135e6d19d278ac9b9bf5c9518c87aa32dc6ebb4f2a8c5ca3d27bc5c478a"
+  },
+  "final\\DEC_45\\model.pt": {
+    "bytes": 11158,
+    "sha256": "1ba26dac11b7a3a02528be1cd028301627dcb1b74d559d71e252b9a35f78e9ee"
+  },
+  "final\\DEC_45\\runtime.jsonl": {
+    "bytes": 1069,
+    "sha256": "cd96c00238870c3d9ca910010d8c16c5217537dd85661012c33b846be56b8f09"
+  },
+  "final\\DEC_46\\initial_assignments.npy": {
+    "bytes": 12416,
+    "sha256": "8b0a78409f08e0f7f939a0d6ae4ddbfda147cb8dd74ef832b42890d18d2b86d5"
+  },
+  "final\\DEC_46\\initial_centers.npy": {
+    "bytes": 200,
+    "sha256": "4a9074a07b2f2c7cb7a3db96fe94dd0fe5d9e0183d316269fdad199a6cf2a8b0"
+  },
+  "final\\DEC_46\\learned_outputs.npz": {
+    "bytes": 100625,
+    "sha256": "dfe9cc7c18a3461651c1ae4ad9fe36d41b15c9463a02dbaa8483b1180171f1b5"
+  },
+  "final\\DEC_46\\loss_history.json": {
+    "bytes": 29706,
+    "sha256": "69a135270b0b4e13e70dfa8d638275501cf919fbcaea0c635a07074069983cb3"
+  },
+  "final\\DEC_46\\model.pt": {
+    "bytes": 11158,
+    "sha256": "39dd3de1b379da1946c944e95dc73869a435c439d354399b2fec04ca18f2591e"
+  },
+  "final\\DEC_46\\runtime.jsonl": {
+    "bytes": 1068,
+    "sha256": "41dc4694c6eb9709de8730f59ace02a3bc1a9534d11b7e9f924d2519f42610c1"
+  },
+  "final\\IDEC_42\\initial_assignments.npy": {
+    "bytes": 12416,
+    "sha256": "48da01198f0fc9620d6a1a3d334a6a01c5495ce8ba56d49b545e9a6f148181a0"
+  },
+  "final\\IDEC_42\\initial_centers.npy": {
+    "bytes": 200,
+    "sha256": "ccc779f568512d9151be049f9d7ba7da78964929fc1e7895d12d5c65d5a50b14"
+  },
+  "final\\IDEC_42\\learned_outputs.npz": {
+    "bytes": 101964,
+    "sha256": "c49c590d36ae43d3b2fbfdd4bace68d76d6c60e5077406861ccf1d9be3624767"
+  },
+  "final\\IDEC_42\\loss_history.json": {
+    "bytes": 29495,
+    "sha256": "1d87437759505766db88de7c0545861496a38f441f4fc6ecf568b37845aa433a"
+  },
+  "final\\IDEC_42\\model.pt": {
+    "bytes": 11158,
+    "sha256": "2719ea1789c0de696cf4ef5b01d8cc7ed0e67523313eba7386afac4d45fe9710"
+  },
+  "final\\IDEC_42\\runtime.jsonl": {
+    "bytes": 1085,
+    "sha256": "df051fc6b760e0462e125f25610b9bc576f48d947bd9dcc8b2034065e0efff77"
+  },
+  "final\\IDEC_43\\initial_assignments.npy": {
+    "bytes": 12416,
+    "sha256": "abf75464fcfc1d41e7e6410ed8ca4dd2a127bed00040e472ce1a60d2e8e4b28f"
+  },
+  "final\\IDEC_43\\initial_centers.npy": {
+    "bytes": 200,
+    "sha256": "b408e68a348046486368c63a8c0eb7e2c69a6fc59a45e21c2490198a538074d8"
+  },
+  "final\\IDEC_43\\learned_outputs.npz": {
+    "bytes": 102367,
+    "sha256": "3ad7733ab475470529e46327b3ed7c3b4fd7a9e3898deaaf30967a5e6798fe22"
+  },
+  "final\\IDEC_43\\loss_history.json": {
+    "bytes": 29573,
+    "sha256": "07187ca0ac772ba64706e5da3168b52ad59da818f2e4eae1ae9e347d24b85e82"
+  },
+  "final\\IDEC_43\\model.pt": {
+    "bytes": 11158,
+    "sha256": "5953a3caa6d6bb34074028006d88f51f5a29f70fe593af7500939b801eee74d2"
+  },
+  "final\\IDEC_43\\runtime.jsonl": {
+    "bytes": 1085,
+    "sha256": "6732dd2554f19e1ab905b5dc2da6f93d89c57d02cfec2926d33107a687578393"
+  },
+  "final\\IDEC_44\\initial_assignments.npy": {
+    "bytes": 12416,
+    "sha256": "0677bf186189b9ea6a807e80aabb2eca110610caf159674455ec6b0f4d353ae7"
+  },
+  "final\\IDEC_44\\initial_centers.npy": {
+    "bytes": 200,
+    "sha256": "2aab5d1310dda5efa65f812e011c6971e717c1745ce1952c7875dc65cc6e61ae"
+  },
+  "final\\IDEC_44\\learned_outputs.npz": {
+    "bytes": 102107,
+    "sha256": "d58977078632eeb755090ac4a4a050e54fe56b9f62063e81ef737fea7e60e536"
+  },
+  "final\\IDEC_44\\loss_history.json": {
+    "bytes": 29571,
+    "sha256": "4b6c95746f2a8851be4e779b0c1e91264f6e33fcc7c36031a400469652d1e5cc"
+  },
+  "final\\IDEC_44\\model.pt": {
+    "bytes": 11158,
+    "sha256": "24953f04ed94736d68a123ee42ace705c3c3ca8bf58ddbec1e270c9c3034cb59"
+  },
+  "final\\IDEC_44\\runtime.jsonl": {
+    "bytes": 1087,
+    "sha256": "3557e9b335f3dfc21902f639bcde0a49595e1612f4b18cc6a214c62b5c653fc1"
+  },
+  "final\\IDEC_45\\initial_assignments.npy": {
+    "bytes": 12416,
+    "sha256": "2dd381ec442f27043b7db2d32e9281d891547425c606d8fe3ca5810445ef480c"
+  },
+  "final\\IDEC_45\\initial_centers.npy": {
+    "bytes": 200,
+    "sha256": "6de7509feb44687c60e6d24f9cd1d86095fe6c82ba697a747f9f9df9fd314371"
+  },
+  "final\\IDEC_45\\learned_outputs.npz": {
+    "bytes": 102733,
+    "sha256": "6386b9b80c4d97e026fd0f30f732fbb5048d76a61235944c16f7e63fb9050295"
+  },
+  "final\\IDEC_45\\loss_history.json": {
+    "bytes": 29554,
+    "sha256": "7b986f04ce77c89ab29f1017b78e53ca810ee453641648a392d75a6721565a2f"
+  },
+  "final\\IDEC_45\\model.pt": {
+    "bytes": 11158,
+    "sha256": "63662aa291f66a7ccd979024c120346c72414a0650da3937ed9feaa1464331db"
+  },
+  "final\\IDEC_45\\runtime.jsonl": {
+    "bytes": 1087,
+    "sha256": "fa6429d29fb78b93e78ec2045d3ba4b1021470065116a123a1d9d28ff8fae1fc"
+  },
+  "final\\IDEC_46\\initial_assignments.npy": {
+    "bytes": 12416,
+    "sha256": "1ec9822f2b28dcd0c1e9c0fc7e2aaac76be07327be41e8f6ec641f159e44615d"
+  },
+  "final\\IDEC_46\\initial_centers.npy": {
+    "bytes": 200,
+    "sha256": "9301e356710918bbb4bc178286f23a006992dca65323e2db71c1583bb1b8ac73"
+  },
+  "final\\IDEC_46\\learned_outputs.npz": {
+    "bytes": 102893,
+    "sha256": "15d485fcb931ce17c3f1edd15c86c3a6f931897f267d8ae6343069acd6391886"
+  },
+  "final\\IDEC_46\\loss_history.json": {
+    "bytes": 29543,
+    "sha256": "82b52803e24c1fd99c334ef1e80612b9f08161692f9df3dd5ff7fa2ca5e0fc89"
+  },
+  "final\\IDEC_46\\model.pt": {
+    "bytes": 11158,
+    "sha256": "d73f7071ebc9a5a5b08ef4db2d9872db63d6f5bea3f9b72b6f1dc89588a3dfc2"
+  },
+  "final\\IDEC_46\\runtime.jsonl": {
+    "bytes": 1086,
+    "sha256": "8f1e0a3d2671ad948bdbdda98714d55226b8fc771b905bb50a27d5fa4480d0bb"
+  },
+  "final\\KMeans_42\\learned_outputs.npz": {
+    "bytes": 1381,
+    "sha256": "68f7a98904bbc30986d554eabffdd678184113a98a88e47bb7687d22702e9b85"
+  },
+  "final\\KMeans_43\\learned_outputs.npz": {
+    "bytes": 1401,
+    "sha256": "b602ab7997dc42bf4af4dea766b4547979beb0821027ec8edd8413aa66f42f72"
+  },
+  "final\\KMeans_44\\learned_outputs.npz": {
+    "bytes": 1394,
+    "sha256": "eeeba4275585ad48ec5f88e0b4be1cb22404f3dc672a455dd07a2ff881692ab0"
+  },
+  "final\\KMeans_45\\learned_outputs.npz": {
+    "bytes": 1390,
+    "sha256": "7c2a0a68ffff603306942b8e77f1ff1876dad7b58685ce37354f40c4e4d39934"
+  },
+  "final\\KMeans_46\\learned_outputs.npz": {
+    "bytes": 1382,
+    "sha256": "27af5ecc46da6dc057420ee945c7f9084eccf74ffe2d9b591472e4e9aec4e60d"
+  },
+  "map_back_k3\\DEC_42\\cluster_regions.png": {
+    "bytes": 74703,
+    "sha256": "31dc90254e3159d4eee447bebfe6c487b95127e0cc33b82792d84bd2c946a109"
+  },
+  "map_back_k3\\DEC_42\\dec_cluster_labels.csv": {
+    "bytes": 23486,
+    "sha256": "bfbb76a9ad03f6d75831a07b2a7ca65b1cfa29324f87476bc4db7d6eee1e88a2"
+  },
+  "map_back_k3\\DEC_42\\mapped_coordinates.csv": {
+    "bytes": 70468,
+    "sha256": "d6dd8a7a0a7b04cd373da6cacd0df74b197655e324d300d46d854283cbe6beb0"
+  },
+  "map_back_k3\\DEC_42\\map_back.png": {
+    "bytes": 69038,
+    "sha256": "a0c8e2f8a2ff86530fcd12a84e7e7d909f2e43a875b89bc8df47b9fa60eae1c3"
+  },
+  "map_back_k3\\DEC_42\\raw_cluster_map.npy": {
+    "bytes": 24704,
+    "sha256": "782fe0ad2c7eb4d78a695745c32da5d0d52c8d408ad09d31b823d91fe40f8572"
+  },
+  "map_back_k3\\DEC_43\\cluster_regions.png": {
+    "bytes": 74675,
+    "sha256": "b857ac84a377599024b6f364ee02e75b6883d0e75b996ff5ecebfe9a5351616e"
+  },
+  "map_back_k3\\DEC_43\\dec_cluster_labels.csv": {
+    "bytes": 23486,
+    "sha256": "ce8937cc3d1a61f09a8832e807d5d51d4596420262d95cd9f423a68f20c82ba2"
+  },
+  "map_back_k3\\DEC_43\\mapped_coordinates.csv": {
+    "bytes": 70468,
+    "sha256": "7924676bc44e3380b731d29c3800fb342ef4c6c793dcda544f7d57d3b764de30"
+  },
+  "map_back_k3\\DEC_43\\map_back.png": {
+    "bytes": 69143,
+    "sha256": "2759cd05466675ad49c36a6b14a56c0117714431ddaed09b8dab8633f9e49ff2"
+  },
+  "map_back_k3\\DEC_43\\raw_cluster_map.npy": {
+    "bytes": 24704,
+    "sha256": "8509e14fdc031a1026e7a0a2039aac224712c7266470691413a72dc3b3df14a2"
+  },
+  "map_back_k3\\DEC_44\\cluster_regions.png": {
+    "bytes": 74065,
+    "sha256": "1f9d69be5846cd3139446fc3e0c9ec9db8282322a91861d325d985296d26c16f"
+  },
+  "map_back_k3\\DEC_44\\dec_cluster_labels.csv": {
+    "bytes": 23486,
+    "sha256": "cf8ad3cd1edd2301da0ff23fada1a00380e45f80370e0360d277554cff7f31fb"
+  },
+  "map_back_k3\\DEC_44\\mapped_coordinates.csv": {
+    "bytes": 70468,
+    "sha256": "00ff17c062cddb7f3f7fd410882a36676b7b5fe31c55b1d8b00c1944ef5cc0e5"
+  },
+  "map_back_k3\\DEC_44\\map_back.png": {
+    "bytes": 68479,
+    "sha256": "d22b56b85702ae66d6b571c832f6a206e461ea18eb27904ab253f553f481c5cc"
+  },
+  "map_back_k3\\DEC_44\\raw_cluster_map.npy": {
+    "bytes": 24704,
+    "sha256": "acab7c16eca26e0dcba017bb6847c9807fdf422a497d0df866f195e6298983ec"
+  },
+  "map_back_k3\\DEC_45\\cluster_regions.png": {
+    "bytes": 74562,
+    "sha256": "b7cbf96d60cbdfc65e7d273949512e048952e4567ab747c5685f16bd5dc29668"
+  },
+  "map_back_k3\\DEC_45\\dec_cluster_labels.csv": {
+    "bytes": 23486,
+    "sha256": "92773c11673c72a2a615eb7bd058c97a65ebc50a1808d61d7aa4e17b3c64a2a5"
+  },
+  "map_back_k3\\DEC_45\\mapped_coordinates.csv": {
+    "bytes": 70468,
+    "sha256": "fb086613e63c3dc5f97ed9dfd32e14d93c6eb5c36e5bd6af264aaea8590dbfbf"
+  },
+  "map_back_k3\\DEC_45\\map_back.png": {
+    "bytes": 68934,
+    "sha256": "cf260faf6013412003813bff6a2c0376a5cfec762645d69f82769f51d905e347"
+  },
+  "map_back_k3\\DEC_45\\raw_cluster_map.npy": {
+    "bytes": 24704,
+    "sha256": "fb2dea1ca225fd283aef40173d5624b9f08a41dfb2c894b055dfc91543c42cbe"
+  },
+  "map_back_k3\\DEC_46\\cluster_regions.png": {
+    "bytes": 76594,
+    "sha256": "564b946e7ebf66c28b179cca0087924832eb541a3d0aa8f7e317502e64d1b668"
+  },
+  "map_back_k3\\DEC_46\\dec_cluster_labels.csv": {
+    "bytes": 23486,
+    "sha256": "d1be4ff7474efffbc2f090e471ffa2f740ef0ecef04a852cab142a6a4b2752f5"
+  },
+  "map_back_k3\\DEC_46\\mapped_coordinates.csv": {
+    "bytes": 70468,
+    "sha256": "db6ec6cef131c01f13aef1166b50494b2fa8a0097c5ad51299f1d76a9dde0231"
+  },
+  "map_back_k3\\DEC_46\\map_back.png": {
+    "bytes": 71112,
+    "sha256": "620cf2904b96fc21d69bf2daa4a25721ec6bd78c0a256d55565abc40933c9c4e"
+  },
+  "map_back_k3\\DEC_46\\raw_cluster_map.npy": {
+    "bytes": 24704,
+    "sha256": "d33798d6ab12466248345deb501d71f5cbbc0afde23c3325c7953f7c25f89ead"
+  },
+  "map_back_k3\\IDEC_42\\cluster_regions.png": {
+    "bytes": 74621,
+    "sha256": "36de4bc21b4b184fc707b38c3f9fcb9a6cb16fc429f34178e47206850e4c0225"
+  },
+  "map_back_k3\\IDEC_42\\idec_cluster_labels.csv": {
+    "bytes": 23486,
+    "sha256": "bb8d10a6e5ff4b876fe2a723d27cc0841cd9bf3d1e232818eb767bd3a64a8dc0"
+  },
+  "map_back_k3\\IDEC_42\\mapped_coordinates.csv": {
+    "bytes": 70468,
+    "sha256": "b22d7152d8a2f1e308fbbfb2698b1e5d84042c2d42fa505b2fe8e930bd53bc8c"
+  },
+  "map_back_k3\\IDEC_42\\map_back.png": {
+    "bytes": 69006,
+    "sha256": "d59bfa8933cb69ee8ee19d55f209b906e6f31600ed0fdc37b1723483c8fa78fb"
+  },
+  "map_back_k3\\IDEC_42\\raw_cluster_map.npy": {
+    "bytes": 24704,
+    "sha256": "1ff733ec891fe26b9e604d6422f5e8eb97b1c36a9b49085e85450c19f0faff1e"
+  },
+  "map_back_k3\\IDEC_43\\cluster_regions.png": {
+    "bytes": 74503,
+    "sha256": "b6e82a65bb905c4df937a20fd4962ad300fc98b75cecf1f7739dba74ce909280"
+  },
+  "map_back_k3\\IDEC_43\\idec_cluster_labels.csv": {
+    "bytes": 23486,
+    "sha256": "b57398e141223560a8dfeff7e9360be641fd9eaddef9f6ea2a341bdfdac3c0bb"
+  },
+  "map_back_k3\\IDEC_43\\mapped_coordinates.csv": {
+    "bytes": 70468,
+    "sha256": "1e6a42a3044891f3cd022b41693afb4a2ce456ea02d3293f6c7ed8d6892f4e79"
+  },
+  "map_back_k3\\IDEC_43\\map_back.png": {
+    "bytes": 68898,
+    "sha256": "0b8f52fe162c80be5636bc4965c61661d7d068cd2cb4fabc786bdd060a71a36f"
+  },
+  "map_back_k3\\IDEC_43\\raw_cluster_map.npy": {
+    "bytes": 24704,
+    "sha256": "092c063345ad792a09a7b32362ebbf600ee90a5a464b4b686b8420c88d3d6d27"
+  },
+  "map_back_k3\\IDEC_44\\cluster_regions.png": {
+    "bytes": 74179,
+    "sha256": "d311e0e36090136cc10d26ccb471d086dec9a6642d1674bf328f126eefa86c26"
+  },
+  "map_back_k3\\IDEC_44\\idec_cluster_labels.csv": {
+    "bytes": 23486,
+    "sha256": "708b04073ad784075db8db44e4fc5dea646cffb7ab295800b01bec2303ba1d1d"
+  },
+  "map_back_k3\\IDEC_44\\mapped_coordinates.csv": {
+    "bytes": 70468,
+    "sha256": "46c80a34ea1a07acdfb5a381a27f4d2af672f6a9429c3b4f7bea29436634abe9"
+  },
+  "map_back_k3\\IDEC_44\\map_back.png": {
+    "bytes": 68577,
+    "sha256": "a21a92e1a2372109e839b7f697ad41eb99f009cfd32ebb049f9cb959bbdf28f5"
+  },
+  "map_back_k3\\IDEC_44\\raw_cluster_map.npy": {
+    "bytes": 24704,
+    "sha256": "997cad30d37c2cc776cba87b13cc66c5c7aac9e7c8a4a0695990e1ee5c038fb3"
+  },
+  "map_back_k3\\IDEC_45\\cluster_regions.png": {
+    "bytes": 74470,
+    "sha256": "30205a16991c9c62cd8925dc7101dab04de93990f2575ccaa04fa4d33ba77437"
+  },
+  "map_back_k3\\IDEC_45\\idec_cluster_labels.csv": {
+    "bytes": 23486,
+    "sha256": "571605520981547a732fd47cb191edd54d7fc47aa42dc429cec03f3f0c31dff3"
+  },
+  "map_back_k3\\IDEC_45\\mapped_coordinates.csv": {
+    "bytes": 70468,
+    "sha256": "97c1f3c7b42e8a81c3c4f78d061d86e4d5498491202a4f022e33fe7ccc2b9983"
+  },
+  "map_back_k3\\IDEC_45\\map_back.png": {
+    "bytes": 68750,
+    "sha256": "55c503e046add6af4862ab7a3fd55d05d1418f1a4b29cfbda0727d34222e9ff8"
+  },
+  "map_back_k3\\IDEC_45\\raw_cluster_map.npy": {
+    "bytes": 24704,
+    "sha256": "30ec309e9089581fbc8973324b69cf94984c3ad78969d8441911f88cd75d58da"
+  },
+  "map_back_k3\\IDEC_46\\cluster_regions.png": {
+    "bytes": 74556,
+    "sha256": "35554a9dc504e97f4512fc5a89e5c5820bc8623f75059099c5051871a3cb63b5"
+  },
+  "map_back_k3\\IDEC_46\\idec_cluster_labels.csv": {
+    "bytes": 23486,
+    "sha256": "89945e7f7ca16d631a66af3ddcd186a9252cb4eb63ed557573099cacea25b29f"
+  },
+  "map_back_k3\\IDEC_46\\mapped_coordinates.csv": {
+    "bytes": 70468,
+    "sha256": "3bec8c372c8b9b39693e9a6a1148e71f55cfb950b1e4108aaedaf0649fa708d7"
+  },
+  "map_back_k3\\IDEC_46\\map_back.png": {
+    "bytes": 68986,
+    "sha256": "33f85ffe49e08d8c7b76fc6e9bc7c33535e0d0bd2110791b923fc964f8f0653b"
+  },
+  "map_back_k3\\IDEC_46\\raw_cluster_map.npy": {
+    "bytes": 24704,
+    "sha256": "1a080374ff7679323e48118107c060e50753193fb539f9308fcb1233419e48b9"
+  },
+  "map_back_k3\\KMeans_42\\cluster_regions.png": {
+    "bytes": 75305,
+    "sha256": "83b637b674c6782d604ed1f95dfe399f233000abe962e979e89c391eb2ffc3fa"
+  },
+  "map_back_k3\\KMeans_42\\kmeans_cluster_labels.csv": {
+    "bytes": 23486,
+    "sha256": "6cc296b6897efe6c89b9326c3bad5a9f38e4491410d2d464db2b8aaa94e3a5cf"
+  },
+  "map_back_k3\\KMeans_42\\mapped_coordinates.csv": {
+    "bytes": 70468,
+    "sha256": "f5f96daa6991c65b7251f7d7dde77faf647480bbccdf3eb99df37b5c4b07f526"
+  },
+  "map_back_k3\\KMeans_42\\map_back.png": {
+    "bytes": 69357,
+    "sha256": "48241ae4e63e19be6fac2bd8c0e97a8fcaab3083457b38cb8611ed90a69fb790"
+  },
+  "map_back_k3\\KMeans_42\\raw_cluster_map.npy": {
+    "bytes": 24704,
+    "sha256": "048378256e49d20bec41407d509f6a3319ddd73a496ee7ef4b1bdd072b974c2a"
+  },
+  "map_back_k3\\KMeans_43\\cluster_regions.png": {
+    "bytes": 75183,
+    "sha256": "475a3eedc82e824cf04fb1dbfb1339894bb035a207fb83d938d4e24dfa2abfb5"
+  },
+  "map_back_k3\\KMeans_43\\kmeans_cluster_labels.csv": {
+    "bytes": 23486,
+    "sha256": "d2c529663d134e405385eaed7a0631e66349894eba7d2d160ddb092113ee8e51"
+  },
+  "map_back_k3\\KMeans_43\\mapped_coordinates.csv": {
+    "bytes": 70468,
+    "sha256": "ffb78abbad27d5d8fcebe2981dc0bae1caabf69f015bc48ccba613b97f1901d8"
+  },
+  "map_back_k3\\KMeans_43\\map_back.png": {
+    "bytes": 69452,
+    "sha256": "7ae03b5c52c1585d3b139f97ea9d4e4de47277ea1f5e413328ce436a823fab52"
+  },
+  "map_back_k3\\KMeans_43\\raw_cluster_map.npy": {
+    "bytes": 24704,
+    "sha256": "b25d808f5d1f02e09202faca31ea99db992b3a6d533e8931cbde1ff335a599d8"
+  },
+  "map_back_k3\\KMeans_44\\cluster_regions.png": {
+    "bytes": 74826,
+    "sha256": "a9e6986d91275fda6f006c74189a363c49fac31b818155642ff85a5bd354a8cf"
+  },
+  "map_back_k3\\KMeans_44\\kmeans_cluster_labels.csv": {
+    "bytes": 23486,
+    "sha256": "b9425fbbee6b0bb39df4e277d4160c75ddcf1ed5c87a2171089231a371974f96"
+  },
+  "map_back_k3\\KMeans_44\\mapped_coordinates.csv": {
+    "bytes": 70468,
+    "sha256": "6ddf65f3226d0e22cdebee4a5f3335aa29bfad3b47b9d49680adb2f5971f2f2b"
+  },
+  "map_back_k3\\KMeans_44\\map_back.png": {
+    "bytes": 69315,
+    "sha256": "205563f016a508d984234551fc36b43fbae10847bc5045d6c7e5c090e897e2c9"
+  },
+  "map_back_k3\\KMeans_44\\raw_cluster_map.npy": {
+    "bytes": 24704,
+    "sha256": "a4372d56027903c5efdb12fe01b8a38d47cb6ca5f1d8ad8ebcbee30288050723"
+  },
+  "map_back_k3\\KMeans_45\\cluster_regions.png": {
+    "bytes": 75074,
+    "sha256": "bdbda9a7f45bac3390c4ffd539cc1a23c771df691e87453ffeb68fe78c038b8f"
+  },
+  "map_back_k3\\KMeans_45\\kmeans_cluster_labels.csv": {
+    "bytes": 23486,
+    "sha256": "6cc296b6897efe6c89b9326c3bad5a9f38e4491410d2d464db2b8aaa94e3a5cf"
+  },
+  "map_back_k3\\KMeans_45\\mapped_coordinates.csv": {
+    "bytes": 70468,
+    "sha256": "f5f96daa6991c65b7251f7d7dde77faf647480bbccdf3eb99df37b5c4b07f526"
+  },
+  "map_back_k3\\KMeans_45\\map_back.png": {
+    "bytes": 69266,
+    "sha256": "faed5880fde38b916e4e9bb3985c1f341cb4bb59967eff0770b0349ebc27e0ce"
+  },
+  "map_back_k3\\KMeans_45\\raw_cluster_map.npy": {
+    "bytes": 24704,
+    "sha256": "048378256e49d20bec41407d509f6a3319ddd73a496ee7ef4b1bdd072b974c2a"
+  },
+  "map_back_k3\\KMeans_46\\cluster_regions.png": {
+    "bytes": 75290,
+    "sha256": "a8fda05dfb4c3ba907dcee9d368c4ee32b9c0f80c86fb6fc534ff9c3b1083b97"
+  },
+  "map_back_k3\\KMeans_46\\kmeans_cluster_labels.csv": {
+    "bytes": 23486,
+    "sha256": "d2c529663d134e405385eaed7a0631e66349894eba7d2d160ddb092113ee8e51"
+  },
+  "map_back_k3\\KMeans_46\\mapped_coordinates.csv": {
+    "bytes": 70468,
+    "sha256": "ffb78abbad27d5d8fcebe2981dc0bae1caabf69f015bc48ccba613b97f1901d8"
+  },
+  "map_back_k3\\KMeans_46\\map_back.png": {
+    "bytes": 69531,
+    "sha256": "61c79839cbf6554877810a6e614eb211f34b8cfe3380c1fb42d0d1ad9acf7d59"
+  },
+  "map_back_k3\\KMeans_46\\raw_cluster_map.npy": {
+    "bytes": 24704,
+    "sha256": "b25d808f5d1f02e09202faca31ea99db992b3a6d533e8931cbde1ff335a599d8"
+  },
+  "map_back_k6\\DEC_42\\cluster_regions.png": {
+    "bytes": 79418,
+    "sha256": "37333fd9e0186c848d14cae546df535501f0e8fdbcc5071b153cdb9242f986fc"
+  },
+  "map_back_k6\\DEC_42\\dec_cluster_labels.csv": {
+    "bytes": 23486,
+    "sha256": "82a37b014eb0b898538edec43c08d5e3a7c8ebc71a4cc77c71593521461c9b25"
+  },
+  "map_back_k6\\DEC_42\\mapped_coordinates.csv": {
+    "bytes": 70468,
+    "sha256": "3b9e6d62606ffd84c5e158b6d1d70eb96dea041d811bec13683f3eb571e7715f"
+  },
+  "map_back_k6\\DEC_42\\map_back.png": {
+    "bytes": 73556,
+    "sha256": "33072054eed39c7ed96aabb4a28707170b79690bf5ef750c22d6bbe976d5bc7f"
+  },
+  "map_back_k6\\DEC_42\\raw_cluster_map.npy": {
+    "bytes": 24704,
+    "sha256": "13b74a6283229de7032a122d780f7da022f2471ff5f03ff4f938a4ff96f11300"
+  },
+  "map_back_k6\\DEC_43\\cluster_regions.png": {
+    "bytes": 79613,
+    "sha256": "4c52ea3e8cf64561c32df78f81e8a420581f74548db8cbd5d6740003ef1a4b33"
+  },
+  "map_back_k6\\DEC_43\\dec_cluster_labels.csv": {
+    "bytes": 23486,
+    "sha256": "fb5cae97bf93055d9f722381737b949c5259e8494552394e50d980a6b50d646a"
+  },
+  "map_back_k6\\DEC_43\\mapped_coordinates.csv": {
+    "bytes": 70468,
+    "sha256": "9dda8aaf0c00f9c7fd7385b0c11ec9c89e91ab69e14853c40bb19d93f891006b"
+  },
+  "map_back_k6\\DEC_43\\map_back.png": {
+    "bytes": 73652,
+    "sha256": "792c2e6fe1efc3f99e9adb6e335d10b6558cf9ed265e5449979590e27df734c0"
+  },
+  "map_back_k6\\DEC_43\\raw_cluster_map.npy": {
+    "bytes": 24704,
+    "sha256": "707b4276c87dc40684a0671948292204a58615fd0bfb5ad4cc11b8070a3e4cb6"
+  },
+  "map_back_k6\\DEC_44\\cluster_regions.png": {
+    "bytes": 78121,
+    "sha256": "9bbf9f214356042fb4b0f04ddab89a6a618f769e31c5f7570d2e5150978e8a53"
+  },
+  "map_back_k6\\DEC_44\\dec_cluster_labels.csv": {
+    "bytes": 23486,
+    "sha256": "7dd8872de15670f866870eeebfe336ef56ba3465f8c63f508da8ea1d02f63348"
+  },
+  "map_back_k6\\DEC_44\\mapped_coordinates.csv": {
+    "bytes": 70468,
+    "sha256": "cc435daa39b224686c6deb37845ebcc6645b1415a9798f8c0fcb918e68cd1b05"
+  },
+  "map_back_k6\\DEC_44\\map_back.png": {
+    "bytes": 72080,
+    "sha256": "bd25a4f1524f642f660808fc8cc7b51218f4fe80571b26751bd8b147c3f80818"
+  },
+  "map_back_k6\\DEC_44\\raw_cluster_map.npy": {
+    "bytes": 24704,
+    "sha256": "b5f2c81b433187ca9470c99e613b6ca4ce2846a605874574949733ee4048c4d0"
+  },
+  "map_back_k6\\DEC_45\\cluster_regions.png": {
+    "bytes": 78788,
+    "sha256": "be4c7982cec0f89a3f625a7c0101233a3d70c411bfb0cdf6d58f1cac8175d2f1"
+  },
+  "map_back_k6\\DEC_45\\dec_cluster_labels.csv": {
+    "bytes": 23486,
+    "sha256": "67e8fa93778871d65288d435d38d67df6403a2fb7286292393aa42398f7f33ee"
+  },
+  "map_back_k6\\DEC_45\\mapped_coordinates.csv": {
+    "bytes": 70468,
+    "sha256": "ea60a5f188ca5540761dad3ee6cda210ae7e03aff25b79a244035dbac0176d41"
+  },
+  "map_back_k6\\DEC_45\\map_back.png": {
+    "bytes": 73110,
+    "sha256": "edf4dff0635acc31f988e519753f93d4c7a38a47dd0725d45d7d34d8299d30f3"
+  },
+  "map_back_k6\\DEC_45\\raw_cluster_map.npy": {
+    "bytes": 24704,
+    "sha256": "58c33ce2779f8bce07f802e3027483b52f20bac78b8588f9d1d82221fe40c91f"
+  },
+  "map_back_k6\\DEC_46\\cluster_regions.png": {
+    "bytes": 81562,
+    "sha256": "0631d2fcf619818ab3a9a0ed3e6bb9dc2422963bf16332e57651c35fce9dcfb1"
+  },
+  "map_back_k6\\DEC_46\\dec_cluster_labels.csv": {
+    "bytes": 23486,
+    "sha256": "650dfc6ab89d8b8a89cbc1ff3a6a3419b8b4d743484649a766cc9f065eaa8062"
+  },
+  "map_back_k6\\DEC_46\\mapped_coordinates.csv": {
+    "bytes": 70468,
+    "sha256": "3368e2baf638f948d2b52f44608cab3b4be69596892f0959740617af2039c987"
+  },
+  "map_back_k6\\DEC_46\\map_back.png": {
+    "bytes": 76262,
+    "sha256": "db5bd888a1a2542d42ac69981a4a9bbe65cf8be10c7b473a1687a59bcfea05bd"
+  },
+  "map_back_k6\\DEC_46\\raw_cluster_map.npy": {
+    "bytes": 24704,
+    "sha256": "5f14a18977d685dbc287666e989d9c07b21e08db24aa254fec954ead736f9bf5"
+  },
+  "map_back_k6\\IDEC_42\\cluster_regions.png": {
+    "bytes": 79470,
+    "sha256": "1c57d8a2e6c9dc11fd9ea46debcd32c2f96a3be97d627233d2ff6969659b3f55"
+  },
+  "map_back_k6\\IDEC_42\\idec_cluster_labels.csv": {
+    "bytes": 23486,
+    "sha256": "5343ce09f8c536156eac93bdcc7acaa64f9f7ccc0f98add12e576de52ae5c33b"
+  },
+  "map_back_k6\\IDEC_42\\mapped_coordinates.csv": {
+    "bytes": 70468,
+    "sha256": "0a530e1ca3136498c91787f5fa0235f0ed74b19cd228d0b4957ffc13367204fd"
+  },
+  "map_back_k6\\IDEC_42\\map_back.png": {
+    "bytes": 73629,
+    "sha256": "9eda1120a9f432a31b987a03aa578f94da2c2d87fccd6de64ed42c91f9df2f8d"
+  },
+  "map_back_k6\\IDEC_42\\raw_cluster_map.npy": {
+    "bytes": 24704,
+    "sha256": "b768b1e1c1133288a6a2cac55b0898bebf21eab1082d67a0b73fd5adf43eabe0"
+  },
+  "map_back_k6\\IDEC_43\\cluster_regions.png": {
+    "bytes": 79123,
+    "sha256": "8750849b78f15c879f9bc88eb8a061ca5c1f1087b58bb28af4ae03055e309177"
+  },
+  "map_back_k6\\IDEC_43\\idec_cluster_labels.csv": {
+    "bytes": 23486,
+    "sha256": "f47e859770f4e80df2cf3741ef5edecb2c3051a2958286b872545c3e7e2c0f28"
+  },
+  "map_back_k6\\IDEC_43\\mapped_coordinates.csv": {
+    "bytes": 70468,
+    "sha256": "ab527ca3224f43045832744357dcf90412b78bf54da0954445a61034c3c17f2a"
+  },
+  "map_back_k6\\IDEC_43\\map_back.png": {
+    "bytes": 72901,
+    "sha256": "bd657414619d2208faef48be33e2aced3101d0ed6b8896f29ad414be598c5ad9"
+  },
+  "map_back_k6\\IDEC_43\\raw_cluster_map.npy": {
+    "bytes": 24704,
+    "sha256": "558baa7c5d3763d49d6e974502545f02ac56134fdbc59a118154e1fc16a628b3"
+  },
+  "map_back_k6\\IDEC_44\\cluster_regions.png": {
+    "bytes": 79920,
+    "sha256": "833b1dc70c809453daad36633358f45159a48edcc72e47486540efa20c495c9a"
+  },
+  "map_back_k6\\IDEC_44\\idec_cluster_labels.csv": {
+    "bytes": 23486,
+    "sha256": "ee8be772795e7bdc14b3cde7c57108b4e6dfb0e69ab352b14ea2d1eb99a5c3d3"
+  },
+  "map_back_k6\\IDEC_44\\mapped_coordinates.csv": {
+    "bytes": 70468,
+    "sha256": "dc91dfefaa8bcb507d28b15e9d99f87fcad1bf244a0d7639e9a09452faaa0687"
+  },
+  "map_back_k6\\IDEC_44\\map_back.png": {
+    "bytes": 73981,
+    "sha256": "acca3bce2b689228bba4a234c0a283ceb7aad953e98e43f5efbe42ef2dc3a4c4"
+  },
+  "map_back_k6\\IDEC_44\\raw_cluster_map.npy": {
+    "bytes": 24704,
+    "sha256": "ecc3600a66dd4a47b890c24e49251f7ae859c8ec6a7905a3451c2f8a09dc92e9"
+  },
+  "map_back_k6\\IDEC_45\\cluster_regions.png": {
+    "bytes": 80582,
+    "sha256": "5d34fe619ea58251404d4afaf26518769a551ea901e5eed1f352d88e27b3be50"
+  },
+  "map_back_k6\\IDEC_45\\idec_cluster_labels.csv": {
+    "bytes": 23486,
+    "sha256": "2393db7c313e6542c47a431f06f93b5b1c34ba298d56d9daccc50d657ca5a332"
+  },
+  "map_back_k6\\IDEC_45\\mapped_coordinates.csv": {
+    "bytes": 70468,
+    "sha256": "dee91b8c096ef0f30da4de04c0e8b67d2a55aad9ba41f2fd117409d15d58ff05"
+  },
+  "map_back_k6\\IDEC_45\\map_back.png": {
+    "bytes": 74277,
+    "sha256": "5fd9c44b79f287ff1e347573cc597ea87ddb9244e0778f994b454e12443e9cf9"
+  },
+  "map_back_k6\\IDEC_45\\raw_cluster_map.npy": {
+    "bytes": 24704,
+    "sha256": "63477b8c21539831126dd232968dcbff2c9c3bb4b3679ee3f3ee8d1c6f4fe4cf"
+  },
+  "map_back_k6\\IDEC_46\\cluster_regions.png": {
+    "bytes": 79847,
+    "sha256": "b67dde99666731cb345ae715c713760b9692103a8114f573b33742add3ce064f"
+  },
+  "map_back_k6\\IDEC_46\\idec_cluster_labels.csv": {
+    "bytes": 23486,
+    "sha256": "366cbdcfd7454c5dd56b5e146bd6857d268e378b0425ce392624bc6093f5a443"
+  },
+  "map_back_k6\\IDEC_46\\mapped_coordinates.csv": {
+    "bytes": 70468,
+    "sha256": "0311965056b9023528befd40246e66964e138a7872cab8178a16185c4ddf5021"
+  },
+  "map_back_k6\\IDEC_46\\map_back.png": {
+    "bytes": 73995,
+    "sha256": "863a30d223b67870940153a28982fa2d2afb1fb9bcd43ba0708214d1dbb2515f"
+  },
+  "map_back_k6\\IDEC_46\\raw_cluster_map.npy": {
+    "bytes": 24704,
+    "sha256": "5bca8618dc8b8ab983adac99cfbe713b9e2be15c58a82dceef927f6867fe3a8a"
+  },
+  "map_back_k6\\KMeans_42\\cluster_regions.png": {
+    "bytes": 80121,
+    "sha256": "4417fba82026dc19178b6e5500717c65b7ed42f0c6f1092ad5297e13ddd92fdb"
+  },
+  "map_back_k6\\KMeans_42\\kmeans_cluster_labels.csv": {
+    "bytes": 23486,
+    "sha256": "d2d35cb5afa04b210721aecaf95965f71fff9165b22c058bad5d211a356e609c"
+  },
+  "map_back_k6\\KMeans_42\\mapped_coordinates.csv": {
+    "bytes": 70468,
+    "sha256": "de6d8fe36c2205ef6c85418af530f69a119727c476a9b556afbf0ace739e62e0"
+  },
+  "map_back_k6\\KMeans_42\\map_back.png": {
+    "bytes": 73279,
+    "sha256": "43e9970be73461d27b6fdaa017753da1c0e53fda71dda091074da5729a029977"
+  },
+  "map_back_k6\\KMeans_42\\raw_cluster_map.npy": {
+    "bytes": 24704,
+    "sha256": "0f0463f5b3780b1dad896206db403425360b54d8e7a8140ba0bb2408d115d1c0"
+  },
+  "map_back_k6\\KMeans_43\\cluster_regions.png": {
+    "bytes": 79566,
+    "sha256": "76f7e9fb61c63c63d4010edd41b5e54d9823c1f0cfdb1c4af4f330efab842631"
+  },
+  "map_back_k6\\KMeans_43\\kmeans_cluster_labels.csv": {
+    "bytes": 23486,
+    "sha256": "989775aac74da0e9e9cb3a431f8f75a86c8122f4a1658b0e3cb411eec50eef68"
+  },
+  "map_back_k6\\KMeans_43\\mapped_coordinates.csv": {
+    "bytes": 70468,
+    "sha256": "77f867f1885d90da475a4b1a2b875bcd6c47e82af0d261971b8d983ebff6c745"
+  },
+  "map_back_k6\\KMeans_43\\map_back.png": {
+    "bytes": 73441,
+    "sha256": "df9603a1c3c1a0bdb747834779382b0fb7a501f89fe26156204835253c002ba0"
+  },
+  "map_back_k6\\KMeans_43\\raw_cluster_map.npy": {
+    "bytes": 24704,
+    "sha256": "1ba494b356d73eb334b7b8216991bf32d5a348d539d0bb301900c809fe956c68"
+  },
+  "map_back_k6\\KMeans_44\\cluster_regions.png": {
+    "bytes": 79225,
+    "sha256": "0e0db1c8ea3369559838cd5bf87a432ebdeaf7fce0e8534666d6c64298915d05"
+  },
+  "map_back_k6\\KMeans_44\\kmeans_cluster_labels.csv": {
+    "bytes": 23486,
+    "sha256": "0e1a9c36468323591e758c4f86306b3eaf148ebe78e241587c74564c3f9e0dd7"
+  },
+  "map_back_k6\\KMeans_44\\mapped_coordinates.csv": {
+    "bytes": 70468,
+    "sha256": "810bfe4e7e90f6206ea4a7f8e2d11c3ece3e44b0cc832f6b56405906eb2dde76"
+  },
+  "map_back_k6\\KMeans_44\\map_back.png": {
+    "bytes": 73357,
+    "sha256": "1ca2741f5cfd7ec459f78a11146232a31f7d9d7ee16c4bb7124ca12191e4cb59"
+  },
+  "map_back_k6\\KMeans_44\\raw_cluster_map.npy": {
+    "bytes": 24704,
+    "sha256": "d08b53aac7d9f484874a6db405eb7d25fb137db631aec416aa3bd975be6eb13d"
+  },
+  "map_back_k6\\KMeans_45\\cluster_regions.png": {
+    "bytes": 79498,
+    "sha256": "eae376a465b8142fd6acb2b53ed20a2722f60cdbfbb5eb8f342a3e78507fa236"
+  },
+  "map_back_k6\\KMeans_45\\kmeans_cluster_labels.csv": {
+    "bytes": 23486,
+    "sha256": "cfdb126a0e5d6788fe5c00b53e3b1d940a036107af3092fe05f5b01e208c17bd"
+  },
+  "map_back_k6\\KMeans_45\\mapped_coordinates.csv": {
+    "bytes": 70468,
+    "sha256": "8141e6d7365227f09063f69253e4adeea2606e93bd468be0c69916d9ac4a9f46"
+  },
+  "map_back_k6\\KMeans_45\\map_back.png": {
+    "bytes": 72949,
+    "sha256": "39dbdbe5966b38bf5e6c175a3b029dee8a5794e848849dc566d43e8c106d4081"
+  },
+  "map_back_k6\\KMeans_45\\raw_cluster_map.npy": {
+    "bytes": 24704,
+    "sha256": "8c3ad2fa0ce1936807c2ba3e3b3a2d90c8d78d3f6e4d487eb54711bd676635cb"
+  },
+  "map_back_k6\\KMeans_46\\cluster_regions.png": {
+    "bytes": 79915,
+    "sha256": "08945192876ff1a23fe2fcfafe92deb42a6b948399861339e5a342796adb2f18"
+  },
+  "map_back_k6\\KMeans_46\\kmeans_cluster_labels.csv": {
+    "bytes": 23486,
+    "sha256": "c178d7af964fdf9d1b26f0a83cf098f0d270ff72fed1022267a721a913f528e0"
+  },
+  "map_back_k6\\KMeans_46\\mapped_coordinates.csv": {
+    "bytes": 70468,
+    "sha256": "15aaf28298c4b9296231b2a9f6fd3028a055956aa6ca1926a61d72de98919b20"
+  },
+  "map_back_k6\\KMeans_46\\map_back.png": {
+    "bytes": 73635,
+    "sha256": "ce67512cb1bf62aafc6ad48631f15bb7daecb7f1873d2e518bf45f7a4b0c2ce0"
+  },
+  "map_back_k6\\KMeans_46\\raw_cluster_map.npy": {
+    "bytes": 24704,
+    "sha256": "c09a97dcce05c65eef2107e6432dba3ca14920d457741f327f092b7a07a64087"
+  }
+}

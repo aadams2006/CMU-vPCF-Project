@@ -1,0 +1,10 @@
+Cluster Inspection Report for idec
+==================================================
+
+Total samples: 12
+Number of clusters: 3
+
+Cluster Sizes:
+  Cluster 0: 5 samples (41.7%)
+  Cluster 1: 6 samples (50.0%)
+  Cluster 2: 1 samples (8.3%)

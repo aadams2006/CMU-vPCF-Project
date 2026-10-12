@@ -1,0 +1,13 @@
+sample_idx,sample_name,cluster_raw
+0,h5_frame_000000,2
+1,h5_frame_000001,2
+2,h5_frame_000002,3
+3,h5_frame_000003,0
+4,h5_frame_000004,5
+5,h5_frame_000005,1
+6,h5_frame_000006,4
+7,h5_frame_000007,3
+8,h5_frame_000008,2
+9,h5_frame_000009,2
+10,h5_frame_000010,2
+11,h5_frame_000011,2

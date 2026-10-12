@@ -1,0 +1,2 @@
+n_samples,n_features,n_clusters,cluster_size_min,cluster_size_max,cluster_size_mean,cluster_size_std,cluster_imbalance_ratio,silhouette_score,davies_bouldin_score,calinski_harabasz_score,accuracy,normalized_mutual_info,adjusted_rand_index
+12,7,3,1,6,4.0,2.160246899469287,6.0,0.3982659876346588,0.7730326047248304,6.067519187927246,,,

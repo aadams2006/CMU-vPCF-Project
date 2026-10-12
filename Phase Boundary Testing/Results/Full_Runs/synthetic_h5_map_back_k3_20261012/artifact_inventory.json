@@ -1,0 +1,46 @@
+{
+  ".gitattributes": {
+    "bytes": 9,
+    "sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+  },
+  "all_samples_metadata.json": {
+    "bytes": 127424,
+    "sha256": "40df012869325b4110877bda26764b97d82376cb85766644793f5564d0a18ee4"
+  },
+  "manifest.json": {
+    "bytes": 1283,
+    "sha256": "d57a65cf01df2c2c8260dff7dcdf84d662d40bc9909b31892a095b03c8c3da6f"
+  },
+  "mapping_summary.csv": {
+    "bytes": 151,
+    "sha256": "dfb83dd53dd076ca77fc97d24f2022b376e288603f2dee599f5b41cb42ddd5ce"
+  },
+  "README.md": {
+    "bytes": 497,
+    "sha256": "8483ff6d5ca16c99bfdc5ea07f69b43d033d6ee3f3c38269b773cd9bc1298945"
+  },
+  "dec\\mapped_assignments.npz": {
+    "bytes": 1093,
+    "sha256": "b857e83426fbf75d48ccfe3173d6ea795d0cb14888b638914ad8e708a97a724f"
+  },
+  "dec\\mapped_coordinates.csv": {
+    "bytes": 603,
+    "sha256": "4f098dcc24c619263fcd08ca867302feddf1ddd117195329f5e0cb35a7cff22a"
+  },
+  "dec\\original_haadf_map_back.png": {
+    "bytes": 425912,
+    "sha256": "0b743f9ac6859fb5415e4c512f263bede8a292e43e048a2b75bb05b50b03e536"
+  },
+  "idec\\mapped_assignments.npz": {
+    "bytes": 1091,
+    "sha256": "f7cfdcd8041e56598cce5526d61dd8719080233889b95f98fa45f363e2a3667e"
+  },
+  "idec\\mapped_coordinates.csv": {
+    "bytes": 603,
+    "sha256": "347939f4cf3fb69d91ff2399a25e7cbb62c70ef8492a35f91e66dae538e34998"
+  },
+  "idec\\original_haadf_map_back.png": {
+    "bytes": 425493,
+    "sha256": "9854274b1a5d27299806477dd2467d4fcc595cf56ad18350e791c4b6d62e41fa"
+  }
+}

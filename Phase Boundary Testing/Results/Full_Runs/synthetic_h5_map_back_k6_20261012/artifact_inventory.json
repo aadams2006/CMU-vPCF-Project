@@ -1,0 +1,54 @@
+{
+  ".gitattributes": {
+    "bytes": 9,
+    "sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+  },
+  "all_samples_metadata.json": {
+    "bytes": 127424,
+    "sha256": "40df012869325b4110877bda26764b97d82376cb85766644793f5564d0a18ee4"
+  },
+  "manifest.json": {
+    "bytes": 1326,
+    "sha256": "088c91f79f72617b64a7685ae13fff8d20ffadc4fc4d5167aa9921cbd9099ef6"
+  },
+  "mapping_summary.csv": {
+    "bytes": 167,
+    "sha256": "1a4e1dcb8e40aa868e1d9d2c5a9e902600f98ae558c265f5922da4d487220312"
+  },
+  "README.md": {
+    "bytes": 497,
+    "sha256": "8483ff6d5ca16c99bfdc5ea07f69b43d033d6ee3f3c38269b773cd9bc1298945"
+  },
+  "seed_42\\dec\\dec_cluster_labels.csv": {
+    "bytes": 82,
+    "sha256": "fbfafb6e7cc4d2455d7bd1160d054bdd1f84a8cdbece9935ef9e4c1e1f1cb768"
+  },
+  "seed_42\\dec\\mapped_assignments.npz": {
+    "bytes": 1098,
+    "sha256": "9aa1641e4711bc713ed6cf209300d9a2f1a21b7cb9a4ea7e0f986632a51c116d"
+  },
+  "seed_42\\dec\\mapped_coordinates.csv": {
+    "bytes": 603,
+    "sha256": "79b0c3a0111d494e19abc66e6c2e9a8ecfd5cf9405c1af2fdf6614340c668b9b"
+  },
+  "seed_42\\dec\\original_haadf_map_back.png": {
+    "bytes": 427500,
+    "sha256": "300fda58cb43144365ed91f52537896ffaded61b2ea609cac6ac4109ceb28523"
+  },
+  "seed_42\\idec\\idec_cluster_labels.csv": {
+    "bytes": 82,
+    "sha256": "fbfafb6e7cc4d2455d7bd1160d054bdd1f84a8cdbece9935ef9e4c1e1f1cb768"
+  },
+  "seed_42\\idec\\mapped_assignments.npz": {
+    "bytes": 1098,
+    "sha256": "9aa1641e4711bc713ed6cf209300d9a2f1a21b7cb9a4ea7e0f986632a51c116d"
+  },
+  "seed_42\\idec\\mapped_coordinates.csv": {
+    "bytes": 603,
+    "sha256": "79b0c3a0111d494e19abc66e6c2e9a8ecfd5cf9405c1af2fdf6614340c668b9b"
+  },
+  "seed_42\\idec\\original_haadf_map_back.png": {
+    "bytes": 427185,
+    "sha256": "436bb558c94b15f4964460f365a1c7ee69c94fa7c0406aa5d689ecc71c011a77"
+  }
+}

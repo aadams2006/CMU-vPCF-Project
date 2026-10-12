@@ -1,0 +1,76 @@
+FINAL KMeans K=6 seed=42
+FINAL KMeans K=6 seed=43
+FINAL KMeans K=6 seed=44
+FINAL KMeans K=6 seed=45
+FINAL KMeans K=6 seed=46
+FINAL DEC K=6 seed=42
+FINAL DEC K=6 seed=43
+FINAL DEC K=6 seed=44
+FINAL DEC K=6 seed=45
+FINAL DEC K=6 seed=46
+FINAL IDEC K=6 seed=42
+FINAL IDEC K=6 seed=43
+FINAL IDEC K=6 seed=44
+FINAL IDEC K=6 seed=45
+FINAL IDEC K=6 seed=46
+Loaded 3072 samples with 3 clusters
+Exported to: Results\Deep_Clustering\run_k6_20261012\map_back_k3\DEC_42\mapped_coordinates.csv
+Loaded 3072 samples with 3 clusters
+Exported to: Results\Deep_Clustering\run_k6_20261012\map_back_k3\DEC_43\mapped_coordinates.csv
+Loaded 3072 samples with 3 clusters
+Exported to: Results\Deep_Clustering\run_k6_20261012\map_back_k3\DEC_44\mapped_coordinates.csv
+Loaded 3072 samples with 3 clusters
+Exported to: Results\Deep_Clustering\run_k6_20261012\map_back_k3\DEC_45\mapped_coordinates.csv
+Loaded 3072 samples with 3 clusters
+Exported to: Results\Deep_Clustering\run_k6_20261012\map_back_k3\DEC_46\mapped_coordinates.csv
+Loaded 3072 samples with 3 clusters
+Exported to: Results\Deep_Clustering\run_k6_20261012\map_back_k3\IDEC_42\mapped_coordinates.csv
+Loaded 3072 samples with 3 clusters
+Exported to: Results\Deep_Clustering\run_k6_20261012\map_back_k3\IDEC_43\mapped_coordinates.csv
+Loaded 3072 samples with 3 clusters
+Exported to: Results\Deep_Clustering\run_k6_20261012\map_back_k3\IDEC_44\mapped_coordinates.csv
+Loaded 3072 samples with 3 clusters
+Exported to: Results\Deep_Clustering\run_k6_20261012\map_back_k3\IDEC_45\mapped_coordinates.csv
+Loaded 3072 samples with 3 clusters
+Exported to: Results\Deep_Clustering\run_k6_20261012\map_back_k3\IDEC_46\mapped_coordinates.csv
+Loaded 3072 samples with 3 clusters
+Exported to: Results\Deep_Clustering\run_k6_20261012\map_back_k3\KMeans_42\mapped_coordinates.csv
+Loaded 3072 samples with 3 clusters
+Exported to: Results\Deep_Clustering\run_k6_20261012\map_back_k3\KMeans_43\mapped_coordinates.csv
+Loaded 3072 samples with 3 clusters
+Exported to: Results\Deep_Clustering\run_k6_20261012\map_back_k3\KMeans_44\mapped_coordinates.csv
+Loaded 3072 samples with 3 clusters
+Exported to: Results\Deep_Clustering\run_k6_20261012\map_back_k3\KMeans_45\mapped_coordinates.csv
+Loaded 3072 samples with 3 clusters
+Exported to: Results\Deep_Clustering\run_k6_20261012\map_back_k3\KMeans_46\mapped_coordinates.csv
+Loaded 3072 samples with 6 clusters
+Exported to: Results\Deep_Clustering\run_k6_20261012\map_back_k6\DEC_42\mapped_coordinates.csv
+Loaded 3072 samples with 6 clusters
+Exported to: Results\Deep_Clustering\run_k6_20261012\map_back_k6\DEC_43\mapped_coordinates.csv
+Loaded 3072 samples with 6 clusters
+Exported to: Results\Deep_Clustering\run_k6_20261012\map_back_k6\DEC_44\mapped_coordinates.csv
+Loaded 3072 samples with 6 clusters
+Exported to: Results\Deep_Clustering\run_k6_20261012\map_back_k6\DEC_45\mapped_coordinates.csv
+Loaded 3072 samples with 6 clusters
+Exported to: Results\Deep_Clustering\run_k6_20261012\map_back_k6\DEC_46\mapped_coordinates.csv
+Loaded 3072 samples with 6 clusters
+Exported to: Results\Deep_Clustering\run_k6_20261012\map_back_k6\IDEC_42\mapped_coordinates.csv
+Loaded 3072 samples with 6 clusters
+Exported to: Results\Deep_Clustering\run_k6_20261012\map_back_k6\IDEC_43\mapped_coordinates.csv
+Loaded 3072 samples with 6 clusters
+Exported to: Results\Deep_Clustering\run_k6_20261012\map_back_k6\IDEC_44\mapped_coordinates.csv
+Loaded 3072 samples with 6 clusters
+Exported to: Results\Deep_Clustering\run_k6_20261012\map_back_k6\IDEC_45\mapped_coordinates.csv
+Loaded 3072 samples with 6 clusters
+Exported to: Results\Deep_Clustering\run_k6_20261012\map_back_k6\IDEC_46\mapped_coordinates.csv
+Loaded 3072 samples with 6 clusters
+Exported to: Results\Deep_Clustering\run_k6_20261012\map_back_k6\KMeans_42\mapped_coordinates.csv
+Loaded 3072 samples with 6 clusters
+Exported to: Results\Deep_Clustering\run_k6_20261012\map_back_k6\KMeans_43\mapped_coordinates.csv
+Loaded 3072 samples with 6 clusters
+Exported to: Results\Deep_Clustering\run_k6_20261012\map_back_k6\KMeans_44\mapped_coordinates.csv
+Loaded 3072 samples with 6 clusters
+Exported to: Results\Deep_Clustering\run_k6_20261012\map_back_k6\KMeans_45\mapped_coordinates.csv
+Loaded 3072 samples with 6 clusters
+Exported to: Results\Deep_Clustering\run_k6_20261012\map_back_k6\KMeans_46\mapped_coordinates.csv
+COMPLETE

@@ -1,0 +1,1 @@
+Identical baseline data verified. Only K changed in frozen configs. All 30 generated-grid maps round-trip exactly to sample assignments. Four H5/DM3 maps verified, 12 samples each, with 3/6 occupied clusters. Repository tests: 16 passed. Visual inspection completed.

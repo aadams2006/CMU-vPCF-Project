@@ -1,0 +1,3 @@
+model,path,mapped_samples,total_source_samples,occupied_clusters
+dec,dec\dec_cluster_labels.csv,12,380,3
+idec,idec\idec_cluster_labels.csv,12,380,3

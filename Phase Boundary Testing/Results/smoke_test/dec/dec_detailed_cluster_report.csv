@@ -1,0 +1,13 @@
+sample_idx,predicted_cluster,sample_name
+0,2,h5_frame_000000
+1,2,h5_frame_000001
+2,1,h5_frame_000002
+3,1,h5_frame_000003
+4,1,h5_frame_000004
+5,0,h5_frame_000005
+6,0,h5_frame_000006
+7,1,h5_frame_000007
+8,2,h5_frame_000008
+9,2,h5_frame_000009
+10,2,h5_frame_000010
+11,2,h5_frame_000011

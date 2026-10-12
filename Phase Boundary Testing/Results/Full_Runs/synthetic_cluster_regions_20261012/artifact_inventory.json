@@ -1,0 +1,150 @@
+{
+  ".gitattributes": {
+    "bytes": 9,
+    "sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+  },
+  "all_samples_metadata.json": {
+    "bytes": 127424,
+    "sha256": "40df012869325b4110877bda26764b97d82376cb85766644793f5564d0a18ee4"
+  },
+  "README.md": {
+    "bytes": 812,
+    "sha256": "30f21c9c98150155ab6d622938310a0f428d14acadf2199a1c25f9d3c140d818"
+  },
+  "statistical_features.npy": {
+    "bytes": 10768,
+    "sha256": "3dada120b1aa9a55661d88ef729bbe66ceacc9cbb2c46f0fbc5612779b734b7a"
+  },
+  "summary.csv": {
+    "bytes": 1084,
+    "sha256": "b22296f4429744ec371a955353e616595b8e02b9dcd5c00a1eacd5d952c49cb9"
+  },
+  "k3\\dec\\all_sample_cluster_labels.png": {
+    "bytes": 561800,
+    "sha256": "608e1d9aae8300cbfe350e4e5fe081b643dd753bfd94f3162f02cb0059412198"
+  },
+  "k3\\dec\\cluster_regions.npz": {
+    "bytes": 101781,
+    "sha256": "a9765d911293a4e08700e845dcf7c52abd91192b62c0205eabf2826210e9f428"
+  },
+  "k3\\dec\\cluster_regions.png": {
+    "bytes": 524970,
+    "sha256": "de966fdcd31e5dd114a204c64d75aa6728663146345aa8bf97e85c7b633397d2"
+  },
+  "k3\\dec\\dec_cluster_labels.csv": {
+    "bytes": 4858,
+    "sha256": "c59a517186d5e707048a05a9315e41b2100e0e658ee08277b72cc98bc8384329"
+  },
+  "k3\\dec\\full_image_inference.npz": {
+    "bytes": 6006,
+    "sha256": "85676b4b8571bdb5cdf50a27eba6c12256555a5ce8252413eaf504294b4fd6dd"
+  },
+  "k3\\dec\\inference_manifest.json": {
+    "bytes": 446,
+    "sha256": "1bdea17acfe467c2e4eac75e6f7f4503a455f3d00d9929d258ed64dc859799fa"
+  },
+  "k3\\dec\\mapped_coordinates.csv": {
+    "bytes": 16924,
+    "sha256": "41496281705f2475b0c514bb50d2b8904a2a1da348abbca93a03a702212a7cc3"
+  },
+  "k3\\dec\\training_normalization.npz": {
+    "bytes": 838,
+    "sha256": "4b7b62e4eec979b3fd96761ad0e6899988b868b83b77a245e878868a3a9c9cbe"
+  },
+  "k3\\idec\\all_sample_cluster_labels.png": {
+    "bytes": 562548,
+    "sha256": "0dc0d640c28c68834d91b4b1c8679f3023e5f23fbeeefa5699c4434ed323d7d6"
+  },
+  "k3\\idec\\cluster_regions.npz": {
+    "bytes": 100369,
+    "sha256": "57df121f92decc02fa70aa993b8f7871c268274e689a1e95522b8b501ca31117"
+  },
+  "k3\\idec\\cluster_regions.png": {
+    "bytes": 508321,
+    "sha256": "0c27fe8ee50e2761e7b755e7882cbb1f51b85fd2bc188a160a5058bd4b4fd10d"
+  },
+  "k3\\idec\\full_image_inference.npz": {
+    "bytes": 6030,
+    "sha256": "da1b5983cd846e7f578e5e03676f798931c1e332192d6f7f302ce62ba3409e3a"
+  },
+  "k3\\idec\\idec_cluster_labels.csv": {
+    "bytes": 4858,
+    "sha256": "6f262873f6e5812b6b40d3a5cdbb9d96346e3bfb72487a990e9d1249f88fafbe"
+  },
+  "k3\\idec\\inference_manifest.json": {
+    "bytes": 449,
+    "sha256": "c31aa033a93f0c9f5292361aaa9a4f2cbb864309d1a96a9b008763bcef77c030"
+  },
+  "k3\\idec\\mapped_coordinates.csv": {
+    "bytes": 16924,
+    "sha256": "faef1c7c067647f17682b19446ac6c077a87c674f44e0b71e26961767d93679a"
+  },
+  "k3\\idec\\training_normalization.npz": {
+    "bytes": 838,
+    "sha256": "4b7b62e4eec979b3fd96761ad0e6899988b868b83b77a245e878868a3a9c9cbe"
+  },
+  "k6\\dec\\all_sample_cluster_labels.png": {
+    "bytes": 564295,
+    "sha256": "5d41b01820322ec8dc212f4823ee7bdb15ccf2f6cc5ca845a756c6702b995e73"
+  },
+  "k6\\dec\\cluster_regions.npz": {
+    "bytes": 103686,
+    "sha256": "239ab4748b1771fa621be772317e5281f936bd6c0e7f82e48bc2aba2e3c31d33"
+  },
+  "k6\\dec\\cluster_regions.png": {
+    "bytes": 558637,
+    "sha256": "562f129cd0af83aa58cc7b73675138a909df79cbf523469c3996f5e91586b610"
+  },
+  "k6\\dec\\dec_cluster_labels.csv": {
+    "bytes": 4858,
+    "sha256": "28c85970994a407492dfcf9ff217f5e92a5b5236a22033436459fb682a5d2d1e"
+  },
+  "k6\\dec\\full_image_inference.npz": {
+    "bytes": 9890,
+    "sha256": "3522fb26bc78f19dae490d210ab1e4425f0307899e407988c0b9a92784856332"
+  },
+  "k6\\dec\\inference_manifest.json": {
+    "bytes": 505,
+    "sha256": "c38c512b3f1f09829fcef6dd0d64866d9c2b89d8fe93a6686ff0a137a7c8854e"
+  },
+  "k6\\dec\\mapped_coordinates.csv": {
+    "bytes": 16924,
+    "sha256": "f3014b2a290f88dd66d5245da8d152edbe38b2565e6c04c181631fdcab559d4c"
+  },
+  "k6\\dec\\training_normalization.npz": {
+    "bytes": 838,
+    "sha256": "4b7b62e4eec979b3fd96761ad0e6899988b868b83b77a245e878868a3a9c9cbe"
+  },
+  "k6\\idec\\all_sample_cluster_labels.png": {
+    "bytes": 564280,
+    "sha256": "24236b024aec5a6086b6cc743b058364dd5a259e3b2fb6a575019d7c76a663f1"
+  },
+  "k6\\idec\\cluster_regions.npz": {
+    "bytes": 103561,
+    "sha256": "efb5c45274c72a54cc26ca09b1807ec32c5685edfb39e0951fa91ba0e3d39dc0"
+  },
+  "k6\\idec\\cluster_regions.png": {
+    "bytes": 558016,
+    "sha256": "edf00a2918b9c388341e7a64dd9934cf38e7a2e8bf8ba6d4fac783f4b335b296"
+  },
+  "k6\\idec\\full_image_inference.npz": {
+    "bytes": 9896,
+    "sha256": "982e7ef42ffe4269fceb8b5ffd14a649ec717d9180421607dfe7ee8ea41debb2"
+  },
+  "k6\\idec\\idec_cluster_labels.csv": {
+    "bytes": 4858,
+    "sha256": "2b67af770c94688ae34df6c2012d94e2ac55ff678c028073babd1adf5f1fecb3"
+  },
+  "k6\\idec\\inference_manifest.json": {
+    "bytes": 508,
+    "sha256": "e1dcdb92d4b53a9dc8426ec9519657d40822069ca3db6e42764bbaf9cff7ca45"
+  },
+  "k6\\idec\\mapped_coordinates.csv": {
+    "bytes": 16924,
+    "sha256": "07acd4d8887d65c1d06a033ec062fb19f98ce074b9024da54616d3326138114b"
+  },
+  "k6\\idec\\training_normalization.npz": {
+    "bytes": 838,
+    "sha256": "4b7b62e4eec979b3fd96761ad0e6899988b868b83b77a245e878868a3a9c9cbe"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "model": "dec",
+  "k": 3,
+  "training_samples": 12,
+  "inferred_samples": 368,
+  "occupied_clusters": 3,
+  "cluster_counts": [
+    64,
+    173,
+    143
+  ],
+  "saved_training_label_disagreements": 0,
+  "weights": "C:\\Users\\alexg\\Downloads\\CMU vPCF Project\\Phase Boundary Testing\\Results\\smoke_test\\dec\\DEC_model_final.weights.h5",
+  "weights_sha256": "485420af50b3d1e9927ba72a5730afec3cb9eb334249a3dd391aa3e0fe2f9f25"
+}

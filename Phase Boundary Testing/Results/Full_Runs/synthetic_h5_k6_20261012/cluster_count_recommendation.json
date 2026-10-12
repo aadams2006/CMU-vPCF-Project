@@ -1,0 +1,7 @@
+{
+  "scope": "internal-geometry heuristic only",
+  "warning": "Internal metrics measure compactness/separation and do not establish semantic phase correctness.",
+  "best_silhouette_k": 2,
+  "best_davies_bouldin_k": 7,
+  "best_calinski_harabasz_k": 7
+}

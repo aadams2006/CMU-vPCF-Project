@@ -1,5 +1,65 @@
 # Phase-boundary model evaluation
 
+## Region-style map-back figures
+
+See [MAP_BACK_LOGIC.md](MAP_BACK_LOGIC.md) for how the existing coordinate mapper
+is reused and how full-image inference and nearest-sample region visualization
+extend it. Cluster names are retained in legends and removed from the images.
+
+`Results/Full_Runs/synthetic_cluster_regions_20261012/` contains region maps
+and reference-style colored atomic sites for K=3 and K=6 DEC/IDEC. All 380
+original H5 samples are assigned by the saved models; models remain trained on
+the original 12-frame subset. The other 368 assignments are inference, using
+the original training normalization. Reloaded predictions reproduce all 12
+saved assignments exactly for each of the four models.
+
+Each model folder saves `cluster_regions.png` (original HAADF with region colors,
+plus a region mask; cluster names appear only in the legend), `all_sample_cluster_labels.png`, coordinate CSVs,
+probabilities, and a pixel-region NPZ with the nearest source sample and distance.
+Regions extend the nearest atomic sample's assignment to neighboring pixels;
+there is no smoothing or use of reference labels. These are visualization
+boundaries, not measured phase boundaries. Cluster numbers are specific to each
+run and do not identify a physical phase by themselves.
+
+Reproduce with Python including TensorFlow, h5py, ncempy and the repository
+dependencies: `python render_full_image_cluster_regions.py --output Results/Full_Runs/<new-region-run>`.
+The reusable renderer is `src/cluster_region_figures.py`. The existing
+generated-grid map-back folders now also contain `cluster_regions.png`
+for every seed and model at both K values.
+
+## K=6 rerun and K=3/K=6 map-back — 2026-10-12
+
+The saved generated-grid benchmark was rerun with only K changed to six, using
+the selected DEC/IDEC configurations and seeds 42–46. See
+`Results/Deep_Clustering/run_k6_20261012/REPORT.md`. Both `map_back_k3/` and
+`map_back_k6/` contain coordinate CSVs, raw cluster grids and figures for all
+15 final model/seed runs. Reproduce with:
+
+```powershell
+python run_fixed_k_comparison.py --output Results/Deep_Clustering/<new-run> --k 6
+```
+
+Local source H5/DM3 files also exist under `Data/` (they are excluded from Git).
+The earlier `Results/smoke_test/` used only the first 12 of 380 H5 frames,
+statistical features with min-max normalization, one pretraining epoch and
+two refinement iterations. That smoke-test configuration was rerun at K=6 in
+`Results/Full_Runs/synthetic_h5_k6_20261012/`; it is not a full boundary study.
+Original-image overlays for the existing K=3 assignments and new K=6 assignments
+are in `Results/Full_Runs/synthetic_h5_map_back_k3_20261012/` and
+`Results/Full_Runs/synthetic_h5_map_back_k6_20261012/`.
+
+```powershell
+../.venv/Scripts/python.exe src/train_phase_boundary_models.py --source h5 --model both --n-clusters 6 --feature-method statistical --normalize minmax --max-frames 12 --pretrain-epochs 1 --maxiter 2 --update-interval 1 --batch-size 4 --seeds 42 --output-dir Results/Full_Runs/<new-h5-run>
+python src/map_h5_clusters.py --run Results/smoke_test --output Results/Full_Runs/<new-k3-map>
+python src/map_h5_clusters.py --run Results/Full_Runs/<new-h5-run> --output Results/Full_Runs/<new-k6-map>
+```
+
+Both map-back scripts reuse the existing `VPCFToImageMapper`. The H5 script uses
+original H5 frame IDs and atomic x/y pixel coordinates on the original DM3;
+the generated-grid script maps only to its own 48×64 synthetic grid. These
+datasets cannot be registered to each other. Raw cluster IDs are preserved;
+bulk/interface semantics are not inferred from the presentation image.
+
 This directory contains three deliberately separate workflows:
 
 1. `Phase_Boundary_Training_Local_Fallback.py` is a dependency-light **K-means benchmark**. It does not train DEC or IDEC and never labels its outputs as either deep model.

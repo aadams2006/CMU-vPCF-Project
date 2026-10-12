@@ -1,0 +1,16 @@
+model,seed,requested_k,occupied_clusters,mapped_samples
+DEC,42,6,6,3072
+DEC,43,6,6,3072
+DEC,44,6,6,3072
+DEC,45,6,6,3072
+DEC,46,6,6,3072
+IDEC,42,6,6,3072
+IDEC,43,6,6,3072
+IDEC,44,6,6,3072
+IDEC,45,6,6,3072
+IDEC,46,6,6,3072
+KMeans,42,6,6,3072
+KMeans,43,6,6,3072
+KMeans,44,6,6,3072
+KMeans,45,6,6,3072
+KMeans,46,6,6,3072

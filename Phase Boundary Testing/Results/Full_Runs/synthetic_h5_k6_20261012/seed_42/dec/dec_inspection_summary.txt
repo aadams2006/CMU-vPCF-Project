@@ -1,0 +1,13 @@
+Cluster Inspection Report for dec
+==================================================
+
+Total samples: 12
+Number of clusters: 6
+
+Raw Cluster Sizes:
+  Cluster 0: 1 samples (8.3%)
+  Cluster 1: 1 samples (8.3%)
+  Cluster 2: 6 samples (50.0%)
+  Cluster 3: 2 samples (16.7%)
+  Cluster 4: 1 samples (8.3%)
+  Cluster 5: 1 samples (8.3%)

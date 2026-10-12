@@ -1,0 +1,61 @@
+{
+  "scope": "full DEC/IDEC/K-means evaluation",
+  "dataset": {
+    "source_file": "C:\\Users\\alexg\\Downloads\\CMU vPCF Project\\Phase Boundary Testing\\Data\\SyntheticModel_HfO_80pm_vPCFs_65.h5",
+    "ground_truth_source": null,
+    "n_samples": 12,
+    "feature_dim": 7,
+    "spatial_shape": null,
+    "ground_truth_clusters": null
+  },
+  "training_config": {
+    "h5_file": "C:\\Users\\alexg\\Downloads\\CMU vPCF Project\\Phase Boundary Testing\\Data\\SyntheticModel_HfO_80pm_vPCFs_65.h5",
+    "dm3_file": null,
+    "ground_truth_file": null,
+    "ground_truth_dataset": null,
+    "ground_truth_column": null,
+    "label_map": null,
+    "model": "both",
+    "resolved_models": [
+      "dec",
+      "idec"
+    ],
+    "n_clusters": 6,
+    "seeds": [
+      42
+    ],
+    "cluster_counts": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "allow_cluster_mismatch": false,
+    "ignore_label": null,
+    "boundary_tolerance": 1.0,
+    "feature_method": "statistical",
+    "normalize": "minmax",
+    "downsample_factor": null,
+    "max_frames": 12,
+    "hidden_dims": [
+      500,
+      500,
+      2000
+    ],
+    "pretrain_epochs": 1,
+    "maxiter": 2,
+    "update_interval": 1,
+    "batch_size": 4,
+    "gamma": 0.1
+  },
+  "artifacts": {
+    "metrics_by_seed": "metrics_by_seed.csv",
+    "metrics_aggregate": "metrics_aggregate.csv",
+    "stability_pairwise": "stability_pairwise.csv",
+    "stability_aggregate": "stability_aggregate.csv",
+    "cross_model_agreement": "cross_model_agreement.csv",
+    "cluster_count_sweep": "cluster_count_sweep_by_seed.csv"
+  }
+}

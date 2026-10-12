@@ -1,0 +1,105 @@
+2026-10-12 18:57:38.154596: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-10-12 18:57:43.309850: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-10-12 18:57:46.953735: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 AVX_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Checking dependencies:
+  [YES] h5py
+  [YES] hyperspy
+  [NO] ncempy
+  [YES] pillow
+File: C:\Users\alexg\Downloads\CMU vPCF Project\Phase Boundary Testing\Data\SyntheticModel_HfO_80pm_vPCFs_65.h5
+Extension: .h5
+Size: 757.86 MB
+Frame count: 380
+HDF5 structure:
+  root/
+  experiments/
+    - atomic_positions
+    - peaks_shapes
+    - vpcf_images
+    - vpcf_origin
+    - vpcf_peaks
+Loaded 12 vPCF images from C:\Users\alexg\Downloads\CMU vPCF Project\Phase Boundary Testing\Data\SyntheticModel_HfO_80pm_vPCFs_65.h5 with shape (12, 999, 999)
+
+Training DEC seed=42, architecture=[7, 500, 500, 2000, 6]
+...Pretraining DEC autoencoder...
+
+[1m1/3[0m [32m======[0m[37m==============[0m [1m13s[0m 7s/step - loss: 0.3646
+[1m2/3[0m [32m=============[0m[37m=======[0m [1m0s[0m 53ms/step - loss: 0.3499
+[1m3/3[0m [32m====================[0m[37m[0m [1m7s[0m 85ms/step - loss: 0.2684
+2026-10-12 18:57:55.118982: E tensorflow/core/framework/node_def_util.cc:680] NodeDef mentions attribute use_unbounded_threadpool which is not in the op definition: Op<name=MapDataset; signature=input_dataset:variant, other_arguments: -> handle:variant; attr=f:func; attr=Targuments:list(type),min=0; attr=output_types:list(type),min=1; attr=output_shapes:list(shape),min=1; attr=use_inter_op_parallelism:bool,default=true; attr=preserve_cardinality:bool,default=false; attr=force_synchronous:bool,default=false; attr=metadata:string,default=""> This may be expected if your graph generating binary is newer  than this binary. Unknown attributes will be ignored. NodeDef: {{node ParallelMapDatasetV2/_14}}
+Pretraining time: 7.28734278678894
+Pretrained weights saved to Results\Full_Runs\synthetic_h5_k6_20261012\seed_42\dec\ae_weights.weights.h5
+Update interval 1
+Initializing cluster centers with k-means.
+Saving model checkpoint to: Results\Full_Runs\synthetic_h5_k6_20261012\seed_42\dec\DEC_model_0.weights.h5
+delta_label 0.0 < tol 0.001
+Reached tolerance threshold. Stopping training.
+Saving final DEC model to: Results\Full_Runs\synthetic_h5_k6_20261012\seed_42\dec\DEC_model_final.weights.h5
+
+Clustering metrics:
+  n_samples: 12
+  n_features: 7
+  n_clusters: 6
+  cluster_size_min: 1
+  cluster_size_max: 6
+  cluster_size_mean: 2.0
+  cluster_size_std: 1.8257418583505538
+  cluster_imbalance_ratio: 6.0
+  silhouette_score: 0.5748053193092346
+  davies_bouldin_score: 0.08399570696854736
+  calinski_harabasz_score: 485.8752746582031
+  n_labeled_samples: None
+  matched_accuracy: None
+  normalized_mutual_info: None
+  adjusted_rand_index: None
+  macro_f1: None
+  weighted_f1: None
+  label_mapping: None
+
+Generating cluster inspection reports for dec...
+Saved detailed cluster report to: Results\Full_Runs\synthetic_h5_k6_20261012\seed_42\dec\dec_detailed_cluster_report.csv
+Saved cluster composition to: Results\Full_Runs\synthetic_h5_k6_20261012\seed_42\dec\dec_cluster_composition.csv
+Saved inspection summary to: Results\Full_Runs\synthetic_h5_k6_20261012\seed_42\dec\dec_inspection_summary.txt
+
+Training IDEC seed=42, architecture=[7, 500, 500, 2000, 6], gamma=0.1
+...Pretraining IDEC autoencoder...
+
+[1m1/3[0m [32m======[0m[37m==============[0m [1m17s[0m 9s/step - loss: 0.3646
+[1m3/3[0m [32m====================[0m[37m[0m [1m9s[0m 23ms/step - loss: 0.2684
+2026-10-12 18:58:07.908951: E tensorflow/core/framework/node_def_util.cc:680] NodeDef mentions attribute use_unbounded_threadpool which is not in the op definition: Op<name=MapDataset; signature=input_dataset:variant, other_arguments: -> handle:variant; attr=f:func; attr=Targuments:list(type),min=0; attr=output_types:list(type),min=1; attr=output_shapes:list(shape),min=1; attr=use_inter_op_parallelism:bool,default=true; attr=preserve_cardinality:bool,default=false; attr=force_synchronous:bool,default=false; attr=metadata:string,default=""> This may be expected if your graph generating binary is newer  than this binary. Unknown attributes will be ignored. NodeDef: {{node ParallelMapDatasetV2/_14}}
+Pretraining time: 8.7003755569458
+Pretrained weights saved to Results\Full_Runs\synthetic_h5_k6_20261012\seed_42\idec\ae_weights.weights.h5
+Update interval 1
+Initializing cluster centers with k-means.
+Saving model checkpoint to: Results\Full_Runs\synthetic_h5_k6_20261012\seed_42\idec\IDEC_model_0.weights.h5
+delta_label 0.0 < tol 0.001
+Reached tolerance threshold. Stopping training.
+Saving final IDEC model to: Results\Full_Runs\synthetic_h5_k6_20261012\seed_42\idec\IDEC_model_final.weights.h5
+
+Clustering metrics:
+  n_samples: 12
+  n_features: 7
+  n_clusters: 6
+  cluster_size_min: 1
+  cluster_size_max: 6
+  cluster_size_mean: 2.0
+  cluster_size_std: 1.8257418583505538
+  cluster_imbalance_ratio: 6.0
+  silhouette_score: 0.5748053193092346
+  davies_bouldin_score: 0.08399570696854736
+  calinski_harabasz_score: 485.8752746582031
+  n_labeled_samples: None
+  matched_accuracy: None
+  normalized_mutual_info: None
+  adjusted_rand_index: None
+  macro_f1: None
+  weighted_f1: None
+  label_mapping: None
+
+Generating cluster inspection reports for idec...
+Saved detailed cluster report to: Results\Full_Runs\synthetic_h5_k6_20261012\seed_42\idec\idec_detailed_cluster_report.csv
+Saved cluster composition to: Results\Full_Runs\synthetic_h5_k6_20261012\seed_42\idec\idec_cluster_composition.csv
+Saved inspection summary to: Results\Full_Runs\synthetic_h5_k6_20261012\seed_42\idec\idec_inspection_summary.txt
+
+Saved complete run artifacts to: Results\Full_Runs\synthetic_h5_k6_20261012

@@ -1,0 +1,34 @@
+{
+  "baseline": "C:\\Users\\alexg\\Downloads\\CMU vPCF Project\\Phase Boundary Testing\\Results\\Deep_Clustering\\run_20260908",
+  "requested_k": 6,
+  "final_seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "protocol": "Saved selected configurations; only cluster count changed; no new search",
+  "dataset_sha256": "51ece9dff03585cfdb21655d5b100d52c27273afc6d35bcedc923cdb6e668f4e",
+  "torch": "2.7.1+cpu",
+  "configs": {
+    "DEC": {
+      "latent_dim": 3,
+      "n_clusters": 6,
+      "clustering_weight": 0.01,
+      "pretrain_epochs": 150,
+      "learning_rate": 0.0003,
+      "cluster_epochs": 150,
+      "update_interval": 5
+    },
+    "IDEC": {
+      "latent_dim": 3,
+      "n_clusters": 6,
+      "clustering_weight": 0.01,
+      "pretrain_epochs": 150,
+      "learning_rate": 0.001,
+      "cluster_epochs": 150,
+      "update_interval": 5
+    }
+  }
+}

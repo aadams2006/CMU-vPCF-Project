@@ -1,0 +1,15 @@
+{
+  "model": "idec",
+  "k": 3,
+  "training_samples": 12,
+  "inferred_samples": 368,
+  "occupied_clusters": 3,
+  "cluster_counts": [
+    182,
+    157,
+    41
+  ],
+  "saved_training_label_disagreements": 0,
+  "weights": "C:\\Users\\alexg\\Downloads\\CMU vPCF Project\\Phase Boundary Testing\\Results\\smoke_test\\idec\\IDEC_model_final.weights.h5",
+  "weights_sha256": "a439b71a25d9c8b65fb2fd99e610cd5c740f761da264704a39ac49a58f355c21"
+}
