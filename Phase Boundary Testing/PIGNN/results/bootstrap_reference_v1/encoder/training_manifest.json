@@ -1,0 +1,39 @@
+{
+  "config": {
+    "peak_schema": "vpcffit_y_x_sigma_y_sigma_x_ellipticity",
+    "coordinate_scale": 128.0,
+    "coordinate_units": "source_pixels_uncalibrated",
+    "neighbors": 6,
+    "encoder_mode": "orientation_aware",
+    "hidden_dim": 32,
+    "embedding_dim": 32,
+    "message_layers": 2,
+    "epochs": 40,
+    "learning_rate": 0.001,
+    "jitter_std": 0.002,
+    "geometry_weight": 0.1,
+    "temperature": 0.1,
+    "seed": 42
+  },
+  "training_graphs": 51,
+  "reference_classes": 51,
+  "source_inputs": "C:\\Users\\alexg\\Downloads\\CMU vPCF Project\\Phase Boundary Testing\\PIGNN\\results\\bootstrap_reference_v1\\inputs",
+  "input_manifest_sha256": "60ae6ae596356b7dd1bcdc346e627a160ffd13280de491742e7f0f2323c93e26",
+  "graph_archive_sha256": "31fc9b7e295a531f0f380b95f4072e556f26b3bec9e00ccbdae4c1c8df535ba6",
+  "encoder_parameter_movement": 1.4908852577209473,
+  "fresh_instance_reload_passed": true,
+  "independent_test_samples": 0,
+  "independent_validation_samples": 0,
+  "source_code_sha256": {
+    "src\\pignn\\data.py": "410be8fee1a5c5f134a88042bf70626bd886db1f9eff51aa9af035b16ff23eb7",
+    "src\\pignn\\encoder.py": "970b7f81f9ffaaac5e220568fc265ec7142ec9674bdc55194c115f12a1f22f5e",
+    "src\\pignn\\graphs.py": "814ca48fe29380f37a3d1fb63b5daad6b6c5cc64181504d0508518f17df8a6fe",
+    "src\\pignn\\splits.py": "ed89f9e207f2012fdd7c8050ecd9507dfde7fa0138ef0848915fbe31a5dd51ac",
+    "src\\pignn\\training.py": "25b5df8c63bea4ae8fdd93c131a2f67cbd155d893065140069cd56c941de0489",
+    "src\\pignn\\__init__.py": "a896fd21c8eaa23fa8dffb37ea3eed2895a7ff97562ed1f659a5f4dc54a1d414"
+  },
+  "python": "3.12.5",
+  "torch": "2.7.1+cpu",
+  "numpy": "2.3.3",
+  "warning": "One parent reference per label; augmentation views are training data, not independent validation."
+}

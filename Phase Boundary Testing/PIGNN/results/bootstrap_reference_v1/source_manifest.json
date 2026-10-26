@@ -1,0 +1,18 @@
+{
+  "src\\pignn\\data.py": "410be8fee1a5c5f134a88042bf70626bd886db1f9eff51aa9af035b16ff23eb7",
+  "src\\pignn\\encoder.py": "970b7f81f9ffaaac5e220568fc265ec7142ec9674bdc55194c115f12a1f22f5e",
+  "src\\pignn\\graphs.py": "814ca48fe29380f37a3d1fb63b5daad6b6c5cc64181504d0508518f17df8a6fe",
+  "src\\pignn\\splits.py": "ed89f9e207f2012fdd7c8050ecd9507dfde7fa0138ef0848915fbe31a5dd51ac",
+  "src\\pignn\\training.py": "25b5df8c63bea4ae8fdd93c131a2f67cbd155d893065140069cd56c941de0489",
+  "src\\pignn\\__init__.py": "a896fd21c8eaa23fa8dffb37ea3eed2895a7ff97562ed1f659a5f4dc54a1d414",
+  "scripts\\pignn_pipeline.py": "014b61a65cc26bf9e8df33a15a8a2aaca3fd44f4c0cbdf2b2dde9903d5776e94",
+  "scripts\\verify_run.py": "8d6eefa0a83086d9c2a630461302e381d464fa869937c92be6b0bb102e130208",
+  "tests\\test_foundation.py": "304cce2701751b34a021c950459b42db9af9f077d721dcddd1c0ffd368fea767",
+  "configs\\default.json": "6c01b1fd10cd9571faac2b118b811c0a998e4cc5a5a4a558264e3266cfe52326",
+  "docs\\DATA_CONTRACT.md": "24b743ac4751a7f937dfd97f054c6d97cc9e768b12acb61faa36a1f187591e8e",
+  "docs\\DESIGN.md": "dd5d8eeed8af02b1c3fd6868930bf8f51d402e2a0009b864127069501a4002b5",
+  "docs\\EVALUATION.md": "a748a82af39dc723d850981f2f1ff0fe6d982af374832d426a55e049ef9d2d7a",
+  "docs\\REFERENCES.md": "604d64c690070b44e8f7dd7b94e497b4acc0f3e2a044d0794a9469ee79ab12ad",
+  "README.md": "ebd24e40b4006606bdfeb98d0bfe096562b209dbb2f292ebbc1565b49a4104c4",
+  "pyproject.toml": "3a3a5420397f01193ce61e90c2655ea911d3f16c6229ef2cf97e202161b42890"
+}

@@ -1,5 +1,12 @@
 # Phase-boundary model evaluation
 
+## PIGNN graph and reference-encoder development
+
+All new physics-informed graph-model development is under [PIGNN/](PIGNN/README.md).
+It includes the local peak and spatial graph inputs, reference-library encoder,
+training/export scripts, tests and a cited design/evaluation rationale. It does
+not change the DEC/IDEC baseline or claim validated interface recognition.
+
 ## Full original-image K=6 training on all 380 vPCFs
 
 `run_full_sample_k6.py` trains fresh DEC/IDEC networks on every original H5

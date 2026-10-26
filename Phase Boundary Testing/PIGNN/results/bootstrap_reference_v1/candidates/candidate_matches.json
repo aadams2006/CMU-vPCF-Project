@@ -1,0 +1,4182 @@
+[
+  {
+    "sample_idx": 0,
+    "sample_id": "h5:000000",
+    "atomic_xy": [
+      301.0,
+      61.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.0313495397567749,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 1,
+    "sample_id": "h5:000001",
+    "atomic_xy": [
+      200.0,
+      335.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.03935408219695091,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 2,
+    "sample_id": "h5:000002",
+    "atomic_xy": [
+      251.0,
+      188.0
+    ],
+    "candidate_reference": "Ortho-Pbca_001",
+    "squared_distance": 0.10162783414125443,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 3,
+    "sample_id": "h5:000003",
+    "atomic_xy": [
+      352.0,
+      285.0
+    ],
+    "candidate_reference": "Ortho-Pbca_001",
+    "squared_distance": 0.0619431734085083,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 4,
+    "sample_id": "h5:000004",
+    "atomic_xy": [
+      98.0,
+      463.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.0714719370007515,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 5,
+    "sample_id": "h5:000005",
+    "atomic_xy": [
+      42.0,
+      12.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.08138895779848099,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 6,
+    "sample_id": "h5:000006",
+    "atomic_xy": [
+      452.0,
+      11.0
+    ],
+    "candidate_reference": "Rhombo-R3m_100",
+    "squared_distance": 0.08342773467302322,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 7,
+    "sample_id": "h5:000007",
+    "atomic_xy": [
+      327.0,
+      261.0
+    ],
+    "candidate_reference": "Ortho-Pbca_001",
+    "squared_distance": 0.05892622470855713,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 8,
+    "sample_id": "h5:000008",
+    "atomic_xy": [
+      352.0,
+      412.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.04717886075377464,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 9,
+    "sample_id": "h5:000009",
+    "atomic_xy": [
+      301.0,
+      137.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.032080888748168945,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 10,
+    "sample_id": "h5:000010",
+    "atomic_xy": [
+      149.0,
+      436.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.04049051180481911,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 11,
+    "sample_id": "h5:000011",
+    "atomic_xy": [
+      200.0,
+      436.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.040641725063323975,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 12,
+    "sample_id": "h5:000012",
+    "atomic_xy": [
+      301.0,
+      36.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.06165432557463646,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 13,
+    "sample_id": "h5:000013",
+    "atomic_xy": [
+      301.0,
+      214.0
+    ],
+    "candidate_reference": "Ortho-Pbca_001",
+    "squared_distance": 0.09906237572431564,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 14,
+    "sample_id": "h5:000014",
+    "atomic_xy": [
+      73.0,
+      362.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.039726853370666504,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 15,
+    "sample_id": "h5:000015",
+    "atomic_xy": [
+      402.0,
+      214.0
+    ],
+    "candidate_reference": "Ortho-Pbca_001",
+    "squared_distance": 0.0896620824933052,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 16,
+    "sample_id": "h5:000016",
+    "atomic_xy": [
+      48.0,
+      261.0
+    ],
+    "candidate_reference": "Ortho-Pbca_001",
+    "squared_distance": 0.15457642078399658,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 17,
+    "sample_id": "h5:000017",
+    "atomic_xy": [
+      149.0,
+      285.0
+    ],
+    "candidate_reference": "Rhombo-R3m_100",
+    "squared_distance": 0.08823423832654953,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 18,
+    "sample_id": "h5:000018",
+    "atomic_xy": [
+      250.0,
+      486.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.09058237820863724,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 19,
+    "sample_id": "h5:000019",
+    "atomic_xy": [
+      375.0,
+      188.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.02943754382431507,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 20,
+    "sample_id": "h5:000020",
+    "atomic_xy": [
+      174.0,
+      385.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.040216442197561264,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 21,
+    "sample_id": "h5:000021",
+    "atomic_xy": [
+      351.0,
+      61.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.03380197659134865,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 22,
+    "sample_id": "h5:000022",
+    "atomic_xy": [
+      251.0,
+      261.0
+    ],
+    "candidate_reference": "Ortho-Pbca_001",
+    "squared_distance": 0.08028578013181686,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 23,
+    "sample_id": "h5:000023",
+    "atomic_xy": [
+      22.0,
+      486.0
+    ],
+    "candidate_reference": "Rhombo-R3m_100",
+    "squared_distance": 0.11388128995895386,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 24,
+    "sample_id": "h5:000024",
+    "atomic_xy": [
+      377.0,
+      312.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.042680203914642334,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 25,
+    "sample_id": "h5:000025",
+    "atomic_xy": [
+      352.0,
+      436.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.043100833892822266,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 26,
+    "sample_id": "h5:000026",
+    "atomic_xy": [
+      454.0,
+      385.0
+    ],
+    "candidate_reference": "Rhombo-R3m_100",
+    "squared_distance": 0.07402008771896362,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 27,
+    "sample_id": "h5:000027",
+    "atomic_xy": [
+      125.0,
+      112.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.03809500113129616,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 28,
+    "sample_id": "h5:000028",
+    "atomic_xy": [
+      174.0,
+      335.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.03842109069228172,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 29,
+    "sample_id": "h5:000029",
+    "atomic_xy": [
+      200.0,
+      285.0
+    ],
+    "candidate_reference": "Rhombo-R3m_100",
+    "squared_distance": 0.08860844373703003,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 30,
+    "sample_id": "h5:000030",
+    "atomic_xy": [
+      403.0,
+      486.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.09043354541063309,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 31,
+    "sample_id": "h5:000031",
+    "atomic_xy": [
+      151.0,
+      237.0
+    ],
+    "candidate_reference": "Ortho-Pbca_001",
+    "squared_distance": 0.26845982670783997,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 32,
+    "sample_id": "h5:000032",
+    "atomic_xy": [
+      375.0,
+      214.0
+    ],
+    "candidate_reference": "Ortho-Pbca_001",
+    "squared_distance": 0.06913305073976517,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 33,
+    "sample_id": "h5:000033",
+    "atomic_xy": [
+      276.0,
+      463.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.06884384155273438,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 34,
+    "sample_id": "h5:000034",
+    "atomic_xy": [
+      200.0,
+      486.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.09099233895540237,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 35,
+    "sample_id": "h5:000035",
+    "atomic_xy": [
+      149.0,
+      362.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.039774179458618164,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 36,
+    "sample_id": "h5:000036",
+    "atomic_xy": [
+      327.0,
+      486.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.09919679909944534,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 37,
+    "sample_id": "h5:000037",
+    "atomic_xy": [
+      276.0,
+      436.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.03921794891357422,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 38,
+    "sample_id": "h5:000038",
+    "atomic_xy": [
+      377.0,
+      362.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.044728994369506836,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 39,
+    "sample_id": "h5:000039",
+    "atomic_xy": [
+      42.0,
+      62.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.02665257640182972,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 40,
+    "sample_id": "h5:000040",
+    "atomic_xy": [
+      301.0,
+      239.0
+    ],
+    "candidate_reference": "Ortho-Pbca_001",
+    "squared_distance": 0.06472337245941162,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 41,
+    "sample_id": "h5:000041",
+    "atomic_xy": [
+      452.0,
+      163.0
+    ],
+    "candidate_reference": "Rhombo-R3m_100",
+    "squared_distance": 0.07427436858415604,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 42,
+    "sample_id": "h5:000042",
+    "atomic_xy": [
+      301.0,
+      436.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.041097283363342285,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 43,
+    "sample_id": "h5:000043",
+    "atomic_xy": [
+      22.0,
+      412.0
+    ],
+    "candidate_reference": "Rhombo-R3m_100",
+    "squared_distance": 0.11165934056043625,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 44,
+    "sample_id": "h5:000044",
+    "atomic_xy": [
+      200.0,
+      362.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.039659615606069565,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 45,
+    "sample_id": "h5:000045",
+    "atomic_xy": [
+      479.0,
+      335.0
+    ],
+    "candidate_reference": "Rhombo-R3m_100",
+    "squared_distance": 0.11070460826158524,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 46,
+    "sample_id": "h5:000046",
+    "atomic_xy": [
+      375.0,
+      36.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.06266021728515625,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 47,
+    "sample_id": "h5:000047",
+    "atomic_xy": [
+      149.0,
+      261.0
+    ],
+    "candidate_reference": "Ortho-Pbca_001",
+    "squared_distance": 0.26351138949394226,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 48,
+    "sample_id": "h5:000048",
+    "atomic_xy": [
+      351.0,
+      163.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.03659665584564209,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 49,
+    "sample_id": "h5:000049",
+    "atomic_xy": [
+      375.0,
+      112.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.03425085172057152,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 50,
+    "sample_id": "h5:000050",
+    "atomic_xy": [
+      276.0,
+      486.0
+    ],
+    "candidate_reference": "Rhombo-R3m_100",
+    "squared_distance": 0.0949050709605217,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 51,
+    "sample_id": "h5:000051",
+    "atomic_xy": [
+      73.0,
+      312.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.03819805383682251,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 52,
+    "sample_id": "h5:000052",
+    "atomic_xy": [
+      403.0,
+      436.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.0449451245367527,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 53,
+    "sample_id": "h5:000053",
+    "atomic_xy": [
+      452.0,
+      213.0
+    ],
+    "candidate_reference": "Ortho-Pbca_001",
+    "squared_distance": 0.12269891053438187,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 54,
+    "sample_id": "h5:000054",
+    "atomic_xy": [
+      227.0,
+      237.0
+    ],
+    "candidate_reference": "Ortho-Pbca_001",
+    "squared_distance": 0.1402345895767212,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 55,
+    "sample_id": "h5:000055",
+    "atomic_xy": [
+      200.0,
+      261.0
+    ],
+    "candidate_reference": "Ortho-Pbca_001",
+    "squared_distance": 0.06076109781861305,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 56,
+    "sample_id": "h5:000056",
+    "atomic_xy": [
+      174.0,
+      463.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.07135415077209473,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 57,
+    "sample_id": "h5:000057",
+    "atomic_xy": [
+      250.0,
+      137.0
+    ],
+    "candidate_reference": "Ortho-Pbca_001",
+    "squared_distance": 0.03692084923386574,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 58,
+    "sample_id": "h5:000058",
+    "atomic_xy": [
+      452.0,
+      61.0
+    ],
+    "candidate_reference": "Rhombo-R3m_100",
+    "squared_distance": 0.07774317264556885,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 59,
+    "sample_id": "h5:000059",
+    "atomic_xy": [
+      274.0,
+      87.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.07852351665496826,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 60,
+    "sample_id": "h5:000060",
+    "atomic_xy": [
+      276.0,
+      335.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.039882540702819824,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 61,
+    "sample_id": "h5:000061",
+    "atomic_xy": [
+      73.0,
+      486.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.09210562705993652,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 62,
+    "sample_id": "h5:000062",
+    "atomic_xy": [
+      352.0,
+      486.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.09036553651094437,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 63,
+    "sample_id": "h5:000063",
+    "atomic_xy": [
+      200.0,
+      385.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.03931188955903053,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 64,
+    "sample_id": "h5:000064",
+    "atomic_xy": [
+      428.0,
+      335.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.04056751728057861,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 65,
+    "sample_id": "h5:000065",
+    "atomic_xy": [
+      125.0,
+      12.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.07608163356781006,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 66,
+    "sample_id": "h5:000066",
+    "atomic_xy": [
+      454.0,
+      436.0
+    ],
+    "candidate_reference": "Rhombo-R3m_100",
+    "squared_distance": 0.07512234896421432,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 67,
+    "sample_id": "h5:000067",
+    "atomic_xy": [
+      251.0,
+      385.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.04040825739502907,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 68,
+    "sample_id": "h5:000068",
+    "atomic_xy": [
+      377.0,
+      463.0
+    ],
+    "candidate_reference": "Rhombo-R3m_100",
+    "squared_distance": 0.06863229721784592,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 69,
+    "sample_id": "h5:000069",
+    "atomic_xy": [
+      178.0,
+      12.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.07447516918182373,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 70,
+    "sample_id": "h5:000070",
+    "atomic_xy": [
+      377.0,
+      335.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.04519110918045044,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 71,
+    "sample_id": "h5:000071",
+    "atomic_xy": [
+      230.0,
+      213.0
+    ],
+    "candidate_reference": "Ortho-Pbca_100",
+    "squared_distance": 0.07957196235656738,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 72,
+    "sample_id": "h5:000072",
+    "atomic_xy": [
+      149.0,
+      412.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.04042285680770874,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 73,
+    "sample_id": "h5:000073",
+    "atomic_xy": [
+      479.0,
+      385.0
+    ],
+    "candidate_reference": "Rhombo-R3m_100",
+    "squared_distance": 0.11056727916002274,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 74,
+    "sample_id": "h5:000074",
+    "atomic_xy": [
+      151.0,
+      186.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.03856778144836426,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 75,
+    "sample_id": "h5:000075",
+    "atomic_xy": [
+      225.0,
+      335.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.039931897073984146,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 76,
+    "sample_id": "h5:000076",
+    "atomic_xy": [
+      452.0,
+      137.0
+    ],
+    "candidate_reference": "Rhombo-R3m_100",
+    "squared_distance": 0.07589525729417801,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 77,
+    "sample_id": "h5:000077",
+    "atomic_xy": [
+      47.0,
+      285.0
+    ],
+    "candidate_reference": "Rhombo-R3m_100",
+    "squared_distance": 0.11695140600204468,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 78,
+    "sample_id": "h5:000078",
+    "atomic_xy": [
+      301.0,
+      385.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.040092822164297104,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 79,
+    "sample_id": "h5:000079",
+    "atomic_xy": [
+      324.0,
+      163.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.03405141457915306,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 80,
+    "sample_id": "h5:000080",
+    "atomic_xy": [
+      250.0,
+      61.0
+    ],
+    "candidate_reference": "Ortho-Pbca_001",
+    "squared_distance": 0.07640862464904785,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 81,
+    "sample_id": "h5:000081",
+    "atomic_xy": [
+      98.0,
+      486.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.09341603517532349,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 82,
+    "sample_id": "h5:000082",
+    "atomic_xy": [
+      324.0,
+      10.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.08196008205413818,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 83,
+    "sample_id": "h5:000083",
+    "atomic_xy": [
+      403.0,
+      386.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.04514860734343529,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 84,
+    "sample_id": "h5:000084",
+    "atomic_xy": [
+      351.0,
+      239.0
+    ],
+    "candidate_reference": "Ortho-Pbca_001",
+    "squared_distance": 0.03786689415574074,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 85,
+    "sample_id": "h5:000085",
+    "atomic_xy": [
+      352.0,
+      261.0
+    ],
+    "candidate_reference": "Ortho-Pbca_001",
+    "squared_distance": 0.057504892349243164,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 86,
+    "sample_id": "h5:000086",
+    "atomic_xy": [
+      301.0,
+      335.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.041810452938079834,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 87,
+    "sample_id": "h5:000087",
+    "atomic_xy": [
+      274.0,
+      112.0
+    ],
+    "candidate_reference": "Ortho-Pbca_001",
+    "squared_distance": 0.07584583759307861,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 88,
+    "sample_id": "h5:000088",
+    "atomic_xy": [
+      19.0,
+      213.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.14723695814609528,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 89,
+    "sample_id": "h5:000089",
+    "atomic_xy": [
+      402.0,
+      61.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.032278236001729965,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 90,
+    "sample_id": "h5:000090",
+    "atomic_xy": [
+      204.0,
+      136.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.08076441287994385,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 91,
+    "sample_id": "h5:000091",
+    "atomic_xy": [
+      121.0,
+      237.0
+    ],
+    "candidate_reference": "Ortho-Pbca_001",
+    "squared_distance": 0.24351239204406738,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 92,
+    "sample_id": "h5:000092",
+    "atomic_xy": [
+      98.0,
+      436.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.04381221532821655,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 93,
+    "sample_id": "h5:000093",
+    "atomic_xy": [
+      95.0,
+      12.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.07525491714477539,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 94,
+    "sample_id": "h5:000094",
+    "atomic_xy": [
+      452.0,
+      239.0
+    ],
+    "candidate_reference": "Ortho-Pbca_001",
+    "squared_distance": 0.09530306607484818,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 95,
+    "sample_id": "h5:000095",
+    "atomic_xy": [
+      402.0,
+      163.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.02999102883040905,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 96,
+    "sample_id": "h5:000096",
+    "atomic_xy": [
+      453.0,
+      362.0
+    ],
+    "candidate_reference": "Rhombo-R3m_100",
+    "squared_distance": 0.07588440179824829,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 97,
+    "sample_id": "h5:000097",
+    "atomic_xy": [
+      174.0,
+      136.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.03828632831573486,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 98,
+    "sample_id": "h5:000098",
+    "atomic_xy": [
+      22.0,
+      312.0
+    ],
+    "candidate_reference": "Rhombo-R3m_100",
+    "squared_distance": 0.11026507616043091,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 99,
+    "sample_id": "h5:000099",
+    "atomic_xy": [
+      301.0,
+      10.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.08270776271820068,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 100,
+    "sample_id": "h5:000100",
+    "atomic_xy": [
+      428.0,
+      261.0
+    ],
+    "candidate_reference": "Ortho-Pbca_001",
+    "squared_distance": 0.07191508263349533,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 101,
+    "sample_id": "h5:000101",
+    "atomic_xy": [
+      375.0,
+      163.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.029574749991297722,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 102,
+    "sample_id": "h5:000102",
+    "atomic_xy": [
+      73.0,
+      335.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.03961741924285889,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 103,
+    "sample_id": "h5:000103",
+    "atomic_xy": [
+      230.0,
+      163.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.07310450077056885,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 104,
+    "sample_id": "h5:000104",
+    "atomic_xy": [
+      428.0,
+      436.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.040434595197439194,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 105,
+    "sample_id": "h5:000105",
+    "atomic_xy": [
+      402.0,
+      11.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.0823889970779419,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 106,
+    "sample_id": "h5:000106",
+    "atomic_xy": [
+      454.0,
+      486.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.09279680997133255,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 107,
+    "sample_id": "h5:000107",
+    "atomic_xy": [
+      251.0,
+      163.0
+    ],
+    "candidate_reference": "Ortho-Pbca_001",
+    "squared_distance": 0.036397695541381836,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 108,
+    "sample_id": "h5:000108",
+    "atomic_xy": [
+      20.0,
+      163.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.13855640590190887,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 109,
+    "sample_id": "h5:000109",
+    "atomic_xy": [
+      327.0,
+      463.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.06887340545654297,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 110,
+    "sample_id": "h5:000110",
+    "atomic_xy": [
+      351.0,
+      11.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.08353209495544434,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 111,
+    "sample_id": "h5:000111",
+    "atomic_xy": [
+      324.0,
+      213.0
+    ],
+    "candidate_reference": "Ortho-Pbca_001",
+    "squared_distance": 0.08280860632658005,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 112,
+    "sample_id": "h5:000112",
+    "atomic_xy": [
+      178.0,
+      62.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.037672996520996094,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 113,
+    "sample_id": "h5:000113",
+    "atomic_xy": [
+      425.0,
+      11.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.08181929588317871,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 114,
+    "sample_id": "h5:000114",
+    "atomic_xy": [
+      324.0,
+      137.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.03393632173538208,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 115,
+    "sample_id": "h5:000115",
+    "atomic_xy": [
+      22.0,
+      436.0
+    ],
+    "candidate_reference": "Rhombo-R3m_100",
+    "squared_distance": 0.11394423991441727,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 116,
+    "sample_id": "h5:000116",
+    "atomic_xy": [
+      95.0,
+      213.0
+    ],
+    "candidate_reference": "Monoclinic_100",
+    "squared_distance": 0.08455001562833786,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 117,
+    "sample_id": "h5:000117",
+    "atomic_xy": [
+      98.0,
+      335.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.040906310081481934,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 118,
+    "sample_id": "h5:000118",
+    "atomic_xy": [
+      251.0,
+      412.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.04185140132904053,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 119,
+    "sample_id": "h5:000119",
+    "atomic_xy": [
+      200.0,
+      112.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.08397649973630905,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 120,
+    "sample_id": "h5:000120",
+    "atomic_xy": [
+      425.0,
+      87.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.032910946756601334,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 121,
+    "sample_id": "h5:000121",
+    "atomic_xy": [
+      151.0,
+      35.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.02616584487259388,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 122,
+    "sample_id": "h5:000122",
+    "atomic_xy": [
+      48.0,
+      436.0
+    ],
+    "candidate_reference": "Rhombo-R3m_100",
+    "squared_distance": 0.07540905475616455,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 123,
+    "sample_id": "h5:000123",
+    "atomic_xy": [
+      48.0,
+      486.0
+    ],
+    "candidate_reference": "Rhombo-R3m_100",
+    "squared_distance": 0.09172684699296951,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 124,
+    "sample_id": "h5:000124",
+    "atomic_xy": [
+      125.0,
+      62.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.038047969341278076,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 125,
+    "sample_id": "h5:000125",
+    "atomic_xy": [
+      251.0,
+      285.0
+    ],
+    "candidate_reference": "Ortho-Pbca_001",
+    "squared_distance": 0.0892709419131279,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 126,
+    "sample_id": "h5:000126",
+    "atomic_xy": [
+      22.0,
+      362.0
+    ],
+    "candidate_reference": "Rhombo-R3m_100",
+    "squared_distance": 0.11289113014936447,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 127,
+    "sample_id": "h5:000127",
+    "atomic_xy": [
+      402.0,
+      36.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.06323474645614624,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 128,
+    "sample_id": "h5:000128",
+    "atomic_xy": [
+      274.0,
+      163.0
+    ],
+    "candidate_reference": "Ortho-Pbca_001",
+    "squared_distance": 0.06767601519823074,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 129,
+    "sample_id": "h5:000129",
+    "atomic_xy": [
+      452.0,
+      112.0
+    ],
+    "candidate_reference": "Rhombo-R3m_100",
+    "squared_distance": 0.07574421167373657,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 130,
+    "sample_id": "h5:000130",
+    "atomic_xy": [
+      204.0,
+      237.0
+    ],
+    "candidate_reference": "Ortho-Pbca_001",
+    "squared_distance": 0.1396573930978775,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 131,
+    "sample_id": "h5:000131",
+    "atomic_xy": [
+      377.0,
+      285.0
+    ],
+    "candidate_reference": "Ortho-Pbca_001",
+    "squared_distance": 0.04903364181518555,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 132,
+    "sample_id": "h5:000132",
+    "atomic_xy": [
+      428.0,
+      285.0
+    ],
+    "candidate_reference": "Ortho-Pbca_001",
+    "squared_distance": 0.04944312945008278,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 133,
+    "sample_id": "h5:000133",
+    "atomic_xy": [
+      403.0,
+      362.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.04567837715148926,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 134,
+    "sample_id": "h5:000134",
+    "atomic_xy": [
+      351.0,
+      87.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.03496360778808594,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 135,
+    "sample_id": "h5:000135",
+    "atomic_xy": [
+      324.0,
+      112.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.032810091972351074,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 136,
+    "sample_id": "h5:000136",
+    "atomic_xy": [
+      174.0,
+      312.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.03925901651382446,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 137,
+    "sample_id": "h5:000137",
+    "atomic_xy": [
+      274.0,
+      188.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.07175499945878983,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 138,
+    "sample_id": "h5:000138",
+    "atomic_xy": [
+      250.0,
+      436.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.03946107625961304,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 139,
+    "sample_id": "h5:000139",
+    "atomic_xy": [
+      98.0,
+      312.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.04220998287200928,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 140,
+    "sample_id": "h5:000140",
+    "atomic_xy": [
+      327.0,
+      335.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.04424864426255226,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 141,
+    "sample_id": "h5:000141",
+    "atomic_xy": [
+      174.0,
+      486.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.09131669253110886,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 142,
+    "sample_id": "h5:000142",
+    "atomic_xy": [
+      274.0,
+      61.0
+    ],
+    "candidate_reference": "Ortho-Pbca_001",
+    "squared_distance": 0.08064281940460205,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 143,
+    "sample_id": "h5:000143",
+    "atomic_xy": [
+      98.0,
+      35.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.02564018778502941,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 144,
+    "sample_id": "h5:000144",
+    "atomic_xy": [
+      274.0,
+      214.0
+    ],
+    "candidate_reference": "Ortho-Pbca_001",
+    "squared_distance": 0.03796720504760742,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 145,
+    "sample_id": "h5:000145",
+    "atomic_xy": [
+      99.0,
+      136.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.038349151611328125,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 146,
+    "sample_id": "h5:000146",
+    "atomic_xy": [
+      476.0,
+      163.0
+    ],
+    "candidate_reference": "Rhombo-R3m_100",
+    "squared_distance": 0.12190168350934982,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 147,
+    "sample_id": "h5:000147",
+    "atomic_xy": [
+      73.0,
+      261.0
+    ],
+    "candidate_reference": "Ortho-Pbca_001",
+    "squared_distance": 0.21404147148132324,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 148,
+    "sample_id": "h5:000148",
+    "atomic_xy": [
+      174.0,
+      261.0
+    ],
+    "candidate_reference": "Ortho-Pbca_110",
+    "squared_distance": 0.2668326497077942,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 149,
+    "sample_id": "h5:000149",
+    "atomic_xy": [
+      377.0,
+      436.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.043456193059682846,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 150,
+    "sample_id": "h5:000150",
+    "atomic_xy": [
+      151.0,
+      136.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.03930461406707764,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 151,
+    "sample_id": "h5:000151",
+    "atomic_xy": [
+      42.0,
+      213.0
+    ],
+    "candidate_reference": "Ortho-Pbca_100",
+    "squared_distance": 0.10701703280210495,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 152,
+    "sample_id": "h5:000152",
+    "atomic_xy": [
+      327.0,
+      412.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.04269242659211159,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 153,
+    "sample_id": "h5:000153",
+    "atomic_xy": [
+      403.0,
+      412.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.04480898007750511,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 154,
+    "sample_id": "h5:000154",
+    "atomic_xy": [
+      274.0,
+      137.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.08183813840150833,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 155,
+    "sample_id": "h5:000155",
+    "atomic_xy": [
+      123.0,
+      412.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.03975844383239746,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 156,
+    "sample_id": "h5:000156",
+    "atomic_xy": [
+      225.0,
+      362.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.040947914123535156,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 157,
+    "sample_id": "h5:000157",
+    "atomic_xy": [
+      125.0,
+      213.0
+    ],
+    "candidate_reference": "Monoclinic_100",
+    "squared_distance": 0.10788298398256302,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 158,
+    "sample_id": "h5:000158",
+    "atomic_xy": [
+      250.0,
+      10.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.0927501916885376,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 159,
+    "sample_id": "h5:000159",
+    "atomic_xy": [
+      452.0,
+      87.0
+    ],
+    "candidate_reference": "Rhombo-R3m_100",
+    "squared_distance": 0.07678074389696121,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 160,
+    "sample_id": "h5:000160",
+    "atomic_xy": [
+      324.0,
+      188.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.03217422962188721,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 161,
+    "sample_id": "h5:000161",
+    "atomic_xy": [
+      72.0,
+      213.0
+    ],
+    "candidate_reference": "Monoclinic_100",
+    "squared_distance": 0.08873368054628372,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 162,
+    "sample_id": "h5:000162",
+    "atomic_xy": [
+      453.0,
+      412.0
+    ],
+    "candidate_reference": "Rhombo-R3m_100",
+    "squared_distance": 0.07467431575059891,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 163,
+    "sample_id": "h5:000163",
+    "atomic_xy": [
+      227.0,
+      186.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.10796761512756348,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 164,
+    "sample_id": "h5:000164",
+    "atomic_xy": [
+      276.0,
+      362.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.04086983576416969,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 165,
+    "sample_id": "h5:000165",
+    "atomic_xy": [
+      174.0,
+      35.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.023661255836486816,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 166,
+    "sample_id": "h5:000166",
+    "atomic_xy": [
+      178.0,
+      213.0
+    ],
+    "candidate_reference": "Monoclinic_100",
+    "squared_distance": 0.07151483744382858,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 167,
+    "sample_id": "h5:000167",
+    "atomic_xy": [
+      151.0,
+      85.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.038603901863098145,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 168,
+    "sample_id": "h5:000168",
+    "atomic_xy": [
+      121.0,
+      186.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.03911149501800537,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 169,
+    "sample_id": "h5:000169",
+    "atomic_xy": [
+      149.0,
+      335.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.039940595626831055,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 170,
+    "sample_id": "h5:000170",
+    "atomic_xy": [
+      174.0,
+      186.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.040882229804992676,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 171,
+    "sample_id": "h5:000171",
+    "atomic_xy": [
+      73.0,
+      412.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.042253971099853516,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 172,
+    "sample_id": "h5:000172",
+    "atomic_xy": [
+      301.0,
+      486.0
+    ],
+    "candidate_reference": "Rhombo-R3m_100",
+    "squared_distance": 0.09519010037183762,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 173,
+    "sample_id": "h5:000173",
+    "atomic_xy": [
+      276.0,
+      261.0
+    ],
+    "candidate_reference": "Ortho-Pbca_001",
+    "squared_distance": 0.07003176212310791,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 174,
+    "sample_id": "h5:000174",
+    "atomic_xy": [
+      174.0,
+      436.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.04141771420836449,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 175,
+    "sample_id": "h5:000175",
+    "atomic_xy": [
+      301.0,
+      261.0
+    ],
+    "candidate_reference": "Ortho-Pbca_001",
+    "squared_distance": 0.08635931462049484,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 176,
+    "sample_id": "h5:000176",
+    "atomic_xy": [
+      351.0,
+      188.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.03314077854156494,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 177,
+    "sample_id": "h5:000177",
+    "atomic_xy": [
+      327.0,
+      386.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.044382575899362564,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 178,
+    "sample_id": "h5:000178",
+    "atomic_xy": [
+      19.0,
+      62.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.13691681623458862,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 179,
+    "sample_id": "h5:000179",
+    "atomic_xy": [
+      46.0,
+      186.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.029209790751338005,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 180,
+    "sample_id": "h5:000180",
+    "atomic_xy": [
+      174.0,
+      362.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.038678646087646484,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 181,
+    "sample_id": "h5:000181",
+    "atomic_xy": [
+      225.0,
+      386.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.040899038314819336,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 182,
+    "sample_id": "h5:000182",
+    "atomic_xy": [
+      95.0,
+      113.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.03862142935395241,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 183,
+    "sample_id": "h5:000183",
+    "atomic_xy": [
+      204.0,
+      35.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.07444418221712112,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 184,
+    "sample_id": "h5:000184",
+    "atomic_xy": [
+      475.0,
+      11.0
+    ],
+    "candidate_reference": "Rhombo-R3m_100",
+    "squared_distance": 0.11410362273454666,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 185,
+    "sample_id": "h5:000185",
+    "atomic_xy": [
+      402.0,
+      137.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.03166460990905762,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 186,
+    "sample_id": "h5:000186",
+    "atomic_xy": [
+      324.0,
+      87.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.03211111202836037,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 187,
+    "sample_id": "h5:000187",
+    "atomic_xy": [
+      148.0,
+      112.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.03923940658569336,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 188,
+    "sample_id": "h5:000188",
+    "atomic_xy": [
+      98.0,
+      385.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.03973471745848656,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 189,
+    "sample_id": "h5:000189",
+    "atomic_xy": [
+      428.0,
+      312.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.03978026285767555,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 190,
+    "sample_id": "h5:000190",
+    "atomic_xy": [
+      428.0,
+      463.0
+    ],
+    "candidate_reference": "Rhombo-R3m_100",
+    "squared_distance": 0.06966585665941238,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 191,
+    "sample_id": "h5:000191",
+    "atomic_xy": [
+      148.0,
+      12.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.07542824000120163,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 192,
+    "sample_id": "h5:000192",
+    "atomic_xy": [
+      301.0,
+      463.0
+    ],
+    "candidate_reference": "Rhombo-R3m_100",
+    "squared_distance": 0.06921952217817307,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 193,
+    "sample_id": "h5:000193",
+    "atomic_xy": [
+      95.0,
+      62.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.04150950908660889,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 194,
+    "sample_id": "h5:000194",
+    "atomic_xy": [
+      375.0,
+      61.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.034621477127075195,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 195,
+    "sample_id": "h5:000195",
+    "atomic_xy": [
+      378.0,
+      385.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.04414522647857666,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 196,
+    "sample_id": "h5:000196",
+    "atomic_xy": [
+      479.0,
+      436.0
+    ],
+    "candidate_reference": "Rhombo-R3m_100",
+    "squared_distance": 0.1100258156657219,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 197,
+    "sample_id": "h5:000197",
+    "atomic_xy": [
+      428.0,
+      486.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.09013640135526657,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 198,
+    "sample_id": "h5:000198",
+    "atomic_xy": [
+      402.0,
+      239.0
+    ],
+    "candidate_reference": "Ortho-Pbca_001",
+    "squared_distance": 0.07973682135343552,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 199,
+    "sample_id": "h5:000199",
+    "atomic_xy": [
+      200.0,
+      12.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.08622706681489944,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 200,
+    "sample_id": "h5:000200",
+    "atomic_xy": [
+      274.0,
+      11.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.08076422661542892,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 201,
+    "sample_id": "h5:000201",
+    "atomic_xy": [
+      301.0,
+      312.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.03939724341034889,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 202,
+    "sample_id": "h5:000202",
+    "atomic_xy": [
+      46.0,
+      237.0
+    ],
+    "candidate_reference": "Ortho-Pbca_001",
+    "squared_distance": 0.12882757186889648,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 203,
+    "sample_id": "h5:000203",
+    "atomic_xy": [
+      230.0,
+      62.0
+    ],
+    "candidate_reference": "Ortho-Pbca_001",
+    "squared_distance": 0.09583711624145508,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 204,
+    "sample_id": "h5:000204",
+    "atomic_xy": [
+      48.0,
+      463.0
+    ],
+    "candidate_reference": "Rhombo-R3m_100",
+    "squared_distance": 0.053231894969940186,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 205,
+    "sample_id": "h5:000205",
+    "atomic_xy": [
+      479.0,
+      312.0
+    ],
+    "candidate_reference": "Rhombo-R3m_100",
+    "squared_distance": 0.11127214878797531,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 206,
+    "sample_id": "h5:000206",
+    "atomic_xy": [
+      351.0,
+      137.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.033573150634765625,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 207,
+    "sample_id": "h5:000207",
+    "atomic_xy": [
+      402.0,
+      87.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.031128644943237305,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 208,
+    "sample_id": "h5:000208",
+    "atomic_xy": [
+      225.0,
+      312.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.038775090128183365,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 209,
+    "sample_id": "h5:000209",
+    "atomic_xy": [
+      402.0,
+      188.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.03168904781341553,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 210,
+    "sample_id": "h5:000210",
+    "atomic_xy": [
+      98.0,
+      412.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.04062014818191528,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 211,
+    "sample_id": "h5:000211",
+    "atomic_xy": [
+      375.0,
+      239.0
+    ],
+    "candidate_reference": "Ortho-Pbca_001",
+    "squared_distance": 0.04462623968720436,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 212,
+    "sample_id": "h5:000212",
+    "atomic_xy": [
+      98.0,
+      285.0
+    ],
+    "candidate_reference": "Rhombo-R3m_100",
+    "squared_distance": 0.0960734486579895,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 213,
+    "sample_id": "h5:000213",
+    "atomic_xy": [
+      124.0,
+      436.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.03988492116332054,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 214,
+    "sample_id": "h5:000214",
+    "atomic_xy": [
+      352.0,
+      463.0
+    ],
+    "candidate_reference": "Rhombo-R3m_100",
+    "squared_distance": 0.06926745176315308,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 215,
+    "sample_id": "h5:000215",
+    "atomic_xy": [
+      250.0,
+      463.0
+    ],
+    "candidate_reference": "Rhombo-R3m_100",
+    "squared_distance": 0.06903904676437378,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 216,
+    "sample_id": "h5:000216",
+    "atomic_xy": [
+      453.0,
+      463.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.09462327510118484,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 217,
+    "sample_id": "h5:000217",
+    "atomic_xy": [
+      377.0,
+      486.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.0901324674487114,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 218,
+    "sample_id": "h5:000218",
+    "atomic_xy": [
+      352.0,
+      386.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.04433107376098633,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 219,
+    "sample_id": "h5:000219",
+    "atomic_xy": [
+      149.0,
+      486.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.09155546873807907,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 220,
+    "sample_id": "h5:000220",
+    "atomic_xy": [
+      351.0,
+      112.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.03338026627898216,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 221,
+    "sample_id": "h5:000221",
+    "atomic_xy": [
+      276.0,
+      312.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.03967922925949097,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 222,
+    "sample_id": "h5:000222",
+    "atomic_xy": [
+      301.0,
+      87.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.03156458958983421,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 223,
+    "sample_id": "h5:000223",
+    "atomic_xy": [
+      227.0,
+      35.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.07541262358427048,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 224,
+    "sample_id": "h5:000224",
+    "atomic_xy": [
+      476.0,
+      87.0
+    ],
+    "candidate_reference": "Rhombo-R3m_100",
+    "squared_distance": 0.12767773866653442,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 225,
+    "sample_id": "h5:000225",
+    "atomic_xy": [
+      403.0,
+      285.0
+    ],
+    "candidate_reference": "Ortho-Pbca_001",
+    "squared_distance": 0.0654679536819458,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 226,
+    "sample_id": "h5:000226",
+    "atomic_xy": [
+      48.0,
+      412.0
+    ],
+    "candidate_reference": "Rhombo-R3m_100",
+    "squared_distance": 0.0759158656001091,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 227,
+    "sample_id": "h5:000227",
+    "atomic_xy": [
+      327.0,
+      362.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.04618525877594948,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 228,
+    "sample_id": "h5:000228",
+    "atomic_xy": [
+      402.0,
+      112.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.03385031223297119,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 229,
+    "sample_id": "h5:000229",
+    "atomic_xy": [
+      72.0,
+      112.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.04178643226623535,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 230,
+    "sample_id": "h5:000230",
+    "atomic_xy": [
+      69.0,
+      237.0
+    ],
+    "candidate_reference": "Ortho-Pbca_001",
+    "squared_distance": 0.1761873960494995,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 231,
+    "sample_id": "h5:000231",
+    "atomic_xy": [
+      352.0,
+      311.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.04271829128265381,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 232,
+    "sample_id": "h5:000232",
+    "atomic_xy": [
+      250.0,
+      362.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.03941136226058006,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 233,
+    "sample_id": "h5:000233",
+    "atomic_xy": [
+      276.0,
+      285.0
+    ],
+    "candidate_reference": "Ortho-Pbca_001",
+    "squared_distance": 0.06060498580336571,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 234,
+    "sample_id": "h5:000234",
+    "atomic_xy": [
+      204.0,
+      86.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.08247815817594528,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 235,
+    "sample_id": "h5:000235",
+    "atomic_xy": [
+      327.0,
+      312.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.039226170629262924,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 236,
+    "sample_id": "h5:000236",
+    "atomic_xy": [
+      225.0,
+      261.0
+    ],
+    "candidate_reference": "Ortho-Pbca_001",
+    "squared_distance": 0.08436465263366699,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 237,
+    "sample_id": "h5:000237",
+    "atomic_xy": [
+      124.0,
+      335.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.03928518295288086,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 238,
+    "sample_id": "h5:000238",
+    "atomic_xy": [
+      428.0,
+      362.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.04525399208068848,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 239,
+    "sample_id": "h5:000239",
+    "atomic_xy": [
+      121.0,
+      85.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.038525938987731934,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 240,
+    "sample_id": "h5:000240",
+    "atomic_xy": [
+      327.0,
+      436.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.03973889723420143,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 241,
+    "sample_id": "h5:000241",
+    "atomic_xy": [
+      327.0,
+      285.0
+    ],
+    "candidate_reference": "Ortho-Pbca_001",
+    "squared_distance": 0.049577001482248306,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 242,
+    "sample_id": "h5:000242",
+    "atomic_xy": [
+      148.0,
+      62.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.0388718843460083,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 243,
+    "sample_id": "h5:000243",
+    "atomic_xy": [
+      454.0,
+      335.0
+    ],
+    "candidate_reference": "Rhombo-R3m_100",
+    "squared_distance": 0.07524245977401733,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 244,
+    "sample_id": "h5:000244",
+    "atomic_xy": [
+      73.0,
+      285.0
+    ],
+    "candidate_reference": "Ortho-Pbca_001",
+    "squared_distance": 0.09856342524290085,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 245,
+    "sample_id": "h5:000245",
+    "atomic_xy": [
+      425.0,
+      188.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.030745744705200195,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 246,
+    "sample_id": "h5:000246",
+    "atomic_xy": [
+      48.0,
+      335.0
+    ],
+    "candidate_reference": "Rhombo-R3m_100",
+    "squared_distance": 0.07378607243299484,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 247,
+    "sample_id": "h5:000247",
+    "atomic_xy": [
+      352.0,
+      362.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.04686582460999489,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 248,
+    "sample_id": "h5:000248",
+    "atomic_xy": [
+      274.0,
+      239.0
+    ],
+    "candidate_reference": "Ortho-Pbca_001",
+    "squared_distance": 0.08144354820251465,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 249,
+    "sample_id": "h5:000249",
+    "atomic_xy": [
+      22.0,
+      463.0
+    ],
+    "candidate_reference": "Rhombo-R3m_100",
+    "squared_distance": 0.08861910551786423,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 250,
+    "sample_id": "h5:000250",
+    "atomic_xy": [
+      251.0,
+      239.0
+    ],
+    "candidate_reference": "Ortho-Pbca_001",
+    "squared_distance": 0.10120224952697754,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 251,
+    "sample_id": "h5:000251",
+    "atomic_xy": [
+      200.0,
+      463.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.07001817971467972,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 252,
+    "sample_id": "h5:000252",
+    "atomic_xy": [
+      227.0,
+      136.0
+    ],
+    "candidate_reference": "Ortho-Pbca_001",
+    "squared_distance": 0.08778655529022217,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 253,
+    "sample_id": "h5:000253",
+    "atomic_xy": [
+      149.0,
+      463.0
+    ],
+    "candidate_reference": "Rhombo-R3m_100",
+    "squared_distance": 0.07112591713666916,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 254,
+    "sample_id": "h5:000254",
+    "atomic_xy": [
+      250.0,
+      87.0
+    ],
+    "candidate_reference": "Ortho-Pbca_001",
+    "squared_distance": 0.08816378563642502,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 255,
+    "sample_id": "h5:000255",
+    "atomic_xy": [
+      425.0,
+      163.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.033002737909555435,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 256,
+    "sample_id": "h5:000256",
+    "atomic_xy": [
+      230.0,
+      112.0
+    ],
+    "candidate_reference": "Ortho-Pbca_001",
+    "squared_distance": 0.09679174423217773,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 257,
+    "sample_id": "h5:000257",
+    "atomic_xy": [
+      403.0,
+      261.0
+    ],
+    "candidate_reference": "Ortho-Pbca_001",
+    "squared_distance": 0.09847330302000046,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 258,
+    "sample_id": "h5:000258",
+    "atomic_xy": [
+      301.0,
+      188.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.031701330095529556,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 259,
+    "sample_id": "h5:000259",
+    "atomic_xy": [
+      301.0,
+      285.0
+    ],
+    "candidate_reference": "Ortho-Pbca_001",
+    "squared_distance": 0.06915485113859177,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 260,
+    "sample_id": "h5:000260",
+    "atomic_xy": [
+      46.0,
+      35.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.03850865364074707,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 261,
+    "sample_id": "h5:000261",
+    "atomic_xy": [
+      301.0,
+      112.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.031932830810546875,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 262,
+    "sample_id": "h5:000262",
+    "atomic_xy": [
+      230.0,
+      12.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.08338797092437744,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 263,
+    "sample_id": "h5:000263",
+    "atomic_xy": [
+      124.0,
+      486.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.09188174456357956,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 264,
+    "sample_id": "h5:000264",
+    "atomic_xy": [
+      251.0,
+      36.0
+    ],
+    "candidate_reference": "Ortho-Pbca_001",
+    "squared_distance": 0.057319045066833496,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 265,
+    "sample_id": "h5:000265",
+    "atomic_xy": [
+      403.0,
+      312.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.040929973125457764,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 266,
+    "sample_id": "h5:000266",
+    "atomic_xy": [
+      274.0,
+      36.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.0860586166381836,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 267,
+    "sample_id": "h5:000267",
+    "atomic_xy": [
+      250.0,
+      112.0
+    ],
+    "candidate_reference": "Ortho-Pbca_001",
+    "squared_distance": 0.062127113342285156,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 268,
+    "sample_id": "h5:000268",
+    "atomic_xy": [
+      20.0,
+      12.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.15730416774749756,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 269,
+    "sample_id": "h5:000269",
+    "atomic_xy": [
+      324.0,
+      61.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.03180539608001709,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 270,
+    "sample_id": "h5:000270",
+    "atomic_xy": [
+      375.0,
+      86.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.03567063808441162,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 271,
+    "sample_id": "h5:000271",
+    "atomic_xy": [
+      425.0,
+      239.0
+    ],
+    "candidate_reference": "Ortho-Pbca_001",
+    "squared_distance": 0.05124807730317116,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 272,
+    "sample_id": "h5:000272",
+    "atomic_xy": [
+      225.0,
+      285.0
+    ],
+    "candidate_reference": "Ortho-Pbca_001",
+    "squared_distance": 0.08248984813690186,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 273,
+    "sample_id": "h5:000273",
+    "atomic_xy": [
+      250.0,
+      335.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.03880942240357399,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 274,
+    "sample_id": "h5:000274",
+    "atomic_xy": [
+      251.0,
+      213.0
+    ],
+    "candidate_reference": "Ortho-Pbca_001",
+    "squared_distance": 0.11009789258241653,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 275,
+    "sample_id": "h5:000275",
+    "atomic_xy": [
+      377.0,
+      412.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.0452805794775486,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 276,
+    "sample_id": "h5:000276",
+    "atomic_xy": [
+      453.0,
+      261.0
+    ],
+    "candidate_reference": "Ortho-Pbca_001",
+    "squared_distance": 0.0842822790145874,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 277,
+    "sample_id": "h5:000277",
+    "atomic_xy": [
+      301.0,
+      163.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.03086412139236927,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 278,
+    "sample_id": "h5:000278",
+    "atomic_xy": [
+      251.0,
+      312.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.03934597969055176,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 279,
+    "sample_id": "h5:000279",
+    "atomic_xy": [
+      324.0,
+      239.0
+    ],
+    "candidate_reference": "Ortho-Pbca_001",
+    "squared_distance": 0.09172940999269485,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 280,
+    "sample_id": "h5:000280",
+    "atomic_xy": [
+      479.0,
+      285.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.1676781177520752,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 281,
+    "sample_id": "h5:000281",
+    "atomic_xy": [
+      476.0,
+      239.0
+    ],
+    "candidate_reference": "Ortho-Pbca_001",
+    "squared_distance": 0.16106832027435303,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 282,
+    "sample_id": "h5:000282",
+    "atomic_xy": [
+      476.0,
+      188.0
+    ],
+    "candidate_reference": "Rhombo-R3m_100",
+    "squared_distance": 0.09685975313186646,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 283,
+    "sample_id": "h5:000283",
+    "atomic_xy": [
+      124.0,
+      285.0
+    ],
+    "candidate_reference": "Rhombo-R3m_100",
+    "squared_distance": 0.09536558389663696,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 284,
+    "sample_id": "h5:000284",
+    "atomic_xy": [
+      301.0,
+      362.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.04069089889526367,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 285,
+    "sample_id": "h5:000285",
+    "atomic_xy": [
+      16.0,
+      237.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.14645330607891083,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 286,
+    "sample_id": "h5:000286",
+    "atomic_xy": [
+      174.0,
+      237.0
+    ],
+    "candidate_reference": "Ortho-Pbca_001",
+    "squared_distance": 0.2571757733821869,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 287,
+    "sample_id": "h5:000287",
+    "atomic_xy": [
+      324.0,
+      36.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.06245017424225807,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 288,
+    "sample_id": "h5:000288",
+    "atomic_xy": [
+      148.0,
+      213.0
+    ],
+    "candidate_reference": "Monoclinic_100",
+    "squared_distance": 0.10239230841398239,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 289,
+    "sample_id": "h5:000289",
+    "atomic_xy": [
+      276.0,
+      385.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.040645238012075424,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 290,
+    "sample_id": "h5:000290",
+    "atomic_xy": [
+      227.0,
+      85.0
+    ],
+    "candidate_reference": "Ortho-Pbca_001",
+    "squared_distance": 0.0766512081027031,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 291,
+    "sample_id": "h5:000291",
+    "atomic_xy": [
+      454.0,
+      312.0
+    ],
+    "candidate_reference": "Rhombo-R3m_100",
+    "squared_distance": 0.07484227418899536,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 292,
+    "sample_id": "h5:000292",
+    "atomic_xy": [
+      22.0,
+      285.0
+    ],
+    "candidate_reference": "Rhombo-R3m_100",
+    "squared_distance": 0.1559702754020691,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 293,
+    "sample_id": "h5:000293",
+    "atomic_xy": [
+      48.0,
+      362.0
+    ],
+    "candidate_reference": "Rhombo-R3m_100",
+    "squared_distance": 0.07506722211837769,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 294,
+    "sample_id": "h5:000294",
+    "atomic_xy": [
+      16.0,
+      86.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.14324283599853516,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 295,
+    "sample_id": "h5:000295",
+    "atomic_xy": [
+      200.0,
+      213.0
+    ],
+    "candidate_reference": "Ortho-Pbca_100",
+    "squared_distance": 0.08717560768127441,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 296,
+    "sample_id": "h5:000296",
+    "atomic_xy": [
+      178.0,
+      112.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.03854096308350563,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 297,
+    "sample_id": "h5:000297",
+    "atomic_xy": [
+      479.0,
+      463.0
+    ],
+    "candidate_reference": "Rhombo-R3m_100",
+    "squared_distance": 0.1056547686457634,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 298,
+    "sample_id": "h5:000298",
+    "atomic_xy": [
+      16.0,
+      136.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.13766050338745117,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 299,
+    "sample_id": "h5:000299",
+    "atomic_xy": [
+      98.0,
+      261.0
+    ],
+    "candidate_reference": "Ortho-Pbca_001",
+    "squared_distance": 0.28251662850379944,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 300,
+    "sample_id": "h5:000300",
+    "atomic_xy": [
+      72.0,
+      12.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.07602690905332565,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 301,
+    "sample_id": "h5:000301",
+    "atomic_xy": [
+      174.0,
+      412.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.04077065363526344,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 302,
+    "sample_id": "h5:000302",
+    "atomic_xy": [
+      452.0,
+      188.0
+    ],
+    "candidate_reference": "Rhombo-R3m_100",
+    "squared_distance": 0.07437563687562943,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 303,
+    "sample_id": "h5:000303",
+    "atomic_xy": [
+      68.0,
+      85.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.04090208187699318,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 304,
+    "sample_id": "h5:000304",
+    "atomic_xy": [
+      98.0,
+      186.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.039224863052368164,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 305,
+    "sample_id": "h5:000305",
+    "atomic_xy": [
+      375.0,
+      11.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.08244992047548294,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 306,
+    "sample_id": "h5:000306",
+    "atomic_xy": [
+      46.0,
+      136.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.02894735522568226,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 307,
+    "sample_id": "h5:000307",
+    "atomic_xy": [
+      47.0,
+      312.0
+    ],
+    "candidate_reference": "Rhombo-R3m_100",
+    "squared_distance": 0.07502944022417068,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 308,
+    "sample_id": "h5:000308",
+    "atomic_xy": [
+      352.0,
+      335.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.043942272663116455,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 309,
+    "sample_id": "h5:000309",
+    "atomic_xy": [
+      225.0,
+      486.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.0906515121459961,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 310,
+    "sample_id": "h5:000310",
+    "atomic_xy": [
+      403.0,
+      463.0
+    ],
+    "candidate_reference": "Rhombo-R3m_100",
+    "squared_distance": 0.06924563646316528,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 311,
+    "sample_id": "h5:000311",
+    "atomic_xy": [
+      121.0,
+      35.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.025950074195861816,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 312,
+    "sample_id": "h5:000312",
+    "atomic_xy": [
+      73.0,
+      463.0
+    ],
+    "candidate_reference": "Rhombo-R3m_100",
+    "squared_distance": 0.06962411850690842,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 313,
+    "sample_id": "h5:000313",
+    "atomic_xy": [
+      378.0,
+      261.0
+    ],
+    "candidate_reference": "Ortho-Pbca_001",
+    "squared_distance": 0.06483328342437744,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 314,
+    "sample_id": "h5:000314",
+    "atomic_xy": [
+      375.0,
+      137.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.03236841782927513,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 315,
+    "sample_id": "h5:000315",
+    "atomic_xy": [
+      200.0,
+      412.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.03970443829894066,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 316,
+    "sample_id": "h5:000316",
+    "atomic_xy": [
+      452.0,
+      36.0
+    ],
+    "candidate_reference": "Rhombo-R3m_100",
+    "squared_distance": 0.05349666252732277,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 317,
+    "sample_id": "h5:000317",
+    "atomic_xy": [
+      149.0,
+      312.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.04005086421966553,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 318,
+    "sample_id": "h5:000318",
+    "atomic_xy": [
+      351.0,
+      36.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.06297124177217484,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 319,
+    "sample_id": "h5:000319",
+    "atomic_xy": [
+      475.0,
+      137.0
+    ],
+    "candidate_reference": "Rhombo-R3m_100",
+    "squared_distance": 0.12077779322862625,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 320,
+    "sample_id": "h5:000320",
+    "atomic_xy": [
+      69.0,
+      35.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.030260682106018066,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 321,
+    "sample_id": "h5:000321",
+    "atomic_xy": [
+      22.0,
+      335.0
+    ],
+    "candidate_reference": "Rhombo-R3m_100",
+    "squared_distance": 0.11162978410720825,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 322,
+    "sample_id": "h5:000322",
+    "atomic_xy": [
+      403.0,
+      335.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.04381120577454567,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 323,
+    "sample_id": "h5:000323",
+    "atomic_xy": [
+      479.0,
+      486.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.15024948120117188,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 324,
+    "sample_id": "h5:000324",
+    "atomic_xy": [
+      425.0,
+      61.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.032553255558013916,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 325,
+    "sample_id": "h5:000325",
+    "atomic_xy": [
+      125.0,
+      163.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.038100000470876694,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 326,
+    "sample_id": "h5:000326",
+    "atomic_xy": [
+      351.0,
+      214.0
+    ],
+    "candidate_reference": "Ortho-Pbca_001",
+    "squared_distance": 0.07286381721496582,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 327,
+    "sample_id": "h5:000327",
+    "atomic_xy": [
+      225.0,
+      412.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.0393369235098362,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 328,
+    "sample_id": "h5:000328",
+    "atomic_xy": [
+      48.0,
+      386.0
+    ],
+    "candidate_reference": "Rhombo-R3m_100",
+    "squared_distance": 0.07451022416353226,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 329,
+    "sample_id": "h5:000329",
+    "atomic_xy": [
+      174.0,
+      285.0
+    ],
+    "candidate_reference": "Rhombo-R3m_100",
+    "squared_distance": 0.09036463499069214,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 330,
+    "sample_id": "h5:000330",
+    "atomic_xy": [
+      46.0,
+      85.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.034765783697366714,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 331,
+    "sample_id": "h5:000331",
+    "atomic_xy": [
+      200.0,
+      312.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.03832155466079712,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 332,
+    "sample_id": "h5:000332",
+    "atomic_xy": [
+      42.0,
+      163.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.027488945052027702,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 333,
+    "sample_id": "h5:000333",
+    "atomic_xy": [
+      121.0,
+      136.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.03785979375243187,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 334,
+    "sample_id": "h5:000334",
+    "atomic_xy": [
+      454.0,
+      285.0
+    ],
+    "candidate_reference": "Ortho-Pbca_001",
+    "squared_distance": 0.12198471277952194,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 335,
+    "sample_id": "h5:000335",
+    "atomic_xy": [
+      124.0,
+      261.0
+    ],
+    "candidate_reference": "Ortho-Pbca_001",
+    "squared_distance": 0.16459369659423828,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 336,
+    "sample_id": "h5:000336",
+    "atomic_xy": [
+      476.0,
+      112.0
+    ],
+    "candidate_reference": "Rhombo-R3m_100",
+    "squared_distance": 0.1270257979631424,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 337,
+    "sample_id": "h5:000337",
+    "atomic_xy": [
+      73.0,
+      385.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.042043447494506836,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 338,
+    "sample_id": "h5:000338",
+    "atomic_xy": [
+      276.0,
+      412.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.04323899745941162,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 339,
+    "sample_id": "h5:000339",
+    "atomic_xy": [
+      425.0,
+      214.0
+    ],
+    "candidate_reference": "Ortho-Pbca_001",
+    "squared_distance": 0.08527148514986038,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 340,
+    "sample_id": "h5:000340",
+    "atomic_xy": [
+      476.0,
+      36.0
+    ],
+    "candidate_reference": "Rhombo-R3m_100",
+    "squared_distance": 0.09992604702711105,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 341,
+    "sample_id": "h5:000341",
+    "atomic_xy": [
+      428.0,
+      412.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.04207956790924072,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 342,
+    "sample_id": "h5:000342",
+    "atomic_xy": [
+      425.0,
+      112.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.03157353401184082,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 343,
+    "sample_id": "h5:000343",
+    "atomic_xy": [
+      428.0,
+      386.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.0441780686378479,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 344,
+    "sample_id": "h5:000344",
+    "atomic_xy": [
+      149.0,
+      386.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.041109438985586166,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 345,
+    "sample_id": "h5:000345",
+    "atomic_xy": [
+      22.0,
+      386.0
+    ],
+    "candidate_reference": "Rhombo-R3m_100",
+    "squared_distance": 0.11144816130399704,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 346,
+    "sample_id": "h5:000346",
+    "atomic_xy": [
+      225.0,
+      436.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.040602028369903564,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 347,
+    "sample_id": "h5:000347",
+    "atomic_xy": [
+      479.0,
+      362.0
+    ],
+    "candidate_reference": "Rhombo-R3m_100",
+    "squared_distance": 0.11192816495895386,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 348,
+    "sample_id": "h5:000348",
+    "atomic_xy": [
+      98.0,
+      85.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.03874409198760986,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 349,
+    "sample_id": "h5:000349",
+    "atomic_xy": [
+      124.0,
+      362.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.04073691368103027,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 350,
+    "sample_id": "h5:000350",
+    "atomic_xy": [
+      425.0,
+      137.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.031249819323420525,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 351,
+    "sample_id": "h5:000351",
+    "atomic_xy": [
+      479.0,
+      261.0
+    ],
+    "candidate_reference": "Ortho-Pbca_001",
+    "squared_distance": 0.15489159524440765,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 352,
+    "sample_id": "h5:000352",
+    "atomic_xy": [
+      425.0,
+      36.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.06411410123109818,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 353,
+    "sample_id": "h5:000353",
+    "atomic_xy": [
+      200.0,
+      62.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.0878833532333374,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 354,
+    "sample_id": "h5:000354",
+    "atomic_xy": [
+      174.0,
+      86.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.038535598665475845,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 355,
+    "sample_id": "h5:000355",
+    "atomic_xy": [
+      476.0,
+      213.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.1939326673746109,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 356,
+    "sample_id": "h5:000356",
+    "atomic_xy": [
+      475.0,
+      61.0
+    ],
+    "candidate_reference": "Rhombo-R3m_100",
+    "squared_distance": 0.12513643503189087,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 357,
+    "sample_id": "h5:000357",
+    "atomic_xy": [
+      124.0,
+      312.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.03987538814544678,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 358,
+    "sample_id": "h5:000358",
+    "atomic_xy": [
+      204.0,
+      186.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.07802295684814453,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 359,
+    "sample_id": "h5:000359",
+    "atomic_xy": [
+      16.0,
+      186.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.13883519172668457,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 360,
+    "sample_id": "h5:000360",
+    "atomic_xy": [
+      124.0,
+      385.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.04062032699584961,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 361,
+    "sample_id": "h5:000361",
+    "atomic_xy": [
+      178.0,
+      163.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.039870500564575195,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 362,
+    "sample_id": "h5:000362",
+    "atomic_xy": [
+      16.0,
+      35.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.12776720523834229,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 363,
+    "sample_id": "h5:000363",
+    "atomic_xy": [
+      225.0,
+      463.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.06936740130186081,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 364,
+    "sample_id": "h5:000364",
+    "atomic_xy": [
+      479.0,
+      412.0
+    ],
+    "candidate_reference": "Rhombo-R3m_100",
+    "squared_distance": 0.11181122064590454,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 365,
+    "sample_id": "h5:000365",
+    "atomic_xy": [
+      72.0,
+      163.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.04131484031677246,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 366,
+    "sample_id": "h5:000366",
+    "atomic_xy": [
+      301.0,
+      412.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.03924822807312012,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 367,
+    "sample_id": "h5:000367",
+    "atomic_xy": [
+      147.0,
+      163.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.038872361183166504,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 368,
+    "sample_id": "h5:000368",
+    "atomic_xy": [
+      200.0,
+      163.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.08259367942810059,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 369,
+    "sample_id": "h5:000369",
+    "atomic_xy": [
+      95.0,
+      163.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.03943753242492676,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 370,
+    "sample_id": "h5:000370",
+    "atomic_xy": [
+      69.0,
+      136.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.0414658822119236,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 371,
+    "sample_id": "h5:000371",
+    "atomic_xy": [
+      124.0,
+      463.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.07192838191986084,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 372,
+    "sample_id": "h5:000372",
+    "atomic_xy": [
+      20.0,
+      112.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.13839101791381836,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 373,
+    "sample_id": "h5:000373",
+    "atomic_xy": [
+      98.0,
+      362.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.040126923471689224,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 374,
+    "sample_id": "h5:000374",
+    "atomic_xy": [
+      72.0,
+      62.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.04428088292479515,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 375,
+    "sample_id": "h5:000375",
+    "atomic_xy": [
+      98.0,
+      237.0
+    ],
+    "candidate_reference": "Ortho-Pbca_001",
+    "squared_distance": 0.2515066862106323,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 376,
+    "sample_id": "h5:000376",
+    "atomic_xy": [
+      22.0,
+      261.0
+    ],
+    "candidate_reference": "Ortho-Pbca_001",
+    "squared_distance": 0.14521680772304535,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 377,
+    "sample_id": "h5:000377",
+    "atomic_xy": [
+      42.0,
+      113.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.02978461980819702,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 378,
+    "sample_id": "h5:000378",
+    "atomic_xy": [
+      73.0,
+      436.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.04204917326569557,
+    "status": "unvalidated_library_candidate"
+  },
+  {
+    "sample_idx": 379,
+    "sample_id": "h5:000379",
+    "atomic_xy": [
+      68.0,
+      186.0
+    ],
+    "candidate_reference": "Ortho-Pca21_100",
+    "squared_distance": 0.039893027395009995,
+    "status": "unvalidated_library_candidate"
+  }
+]

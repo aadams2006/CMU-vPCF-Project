@@ -1,0 +1,10 @@
+{
+  "samples": 380,
+  "checkpoint_sha256": "54c7088f6ea124c40ad13dacfdd2e5355c9c685b5d8384f658446352cb3d44fe",
+  "input_archive_sha256": "5bc838530bdfecc59004011a15483483c6a960b6ab040dc7e80cfe937616b0cb",
+  "calibrated_probabilities": false,
+  "unknown_rejection_calibrated": false,
+  "physical_units_verified": false,
+  "interface_classifier_trained": false,
+  "warning": "Nearest reference candidates only; cross-source calibration and physical labels remain unvalidated."
+}

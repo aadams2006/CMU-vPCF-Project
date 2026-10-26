@@ -1,0 +1,242 @@
+[
+  {
+    "epoch": 1,
+    "loss": 3.8910508155822754,
+    "reference_class_loss": 3.8700621128082275,
+    "denoising_edge_distance_mse": 0.20988619327545166
+  },
+  {
+    "epoch": 2,
+    "loss": 3.825692892074585,
+    "reference_class_loss": 3.8050262928009033,
+    "denoising_edge_distance_mse": 0.2066669762134552
+  },
+  {
+    "epoch": 3,
+    "loss": 3.7341887950897217,
+    "reference_class_loss": 3.7134859561920166,
+    "denoising_edge_distance_mse": 0.20702823996543884
+  },
+  {
+    "epoch": 4,
+    "loss": 3.6177515983581543,
+    "reference_class_loss": 3.5970728397369385,
+    "denoising_edge_distance_mse": 0.20678797364234924
+  },
+  {
+    "epoch": 5,
+    "loss": 3.4556081295013428,
+    "reference_class_loss": 3.435098886489868,
+    "denoising_edge_distance_mse": 0.20509162545204163
+  },
+  {
+    "epoch": 6,
+    "loss": 3.2403147220611572,
+    "reference_class_loss": 3.21989107131958,
+    "denoising_edge_distance_mse": 0.20423679053783417
+  },
+  {
+    "epoch": 7,
+    "loss": 3.036050319671631,
+    "reference_class_loss": 3.015591859817505,
+    "denoising_edge_distance_mse": 0.204584538936615
+  },
+  {
+    "epoch": 8,
+    "loss": 2.8138461112976074,
+    "reference_class_loss": 2.793400526046753,
+    "denoising_edge_distance_mse": 0.2044549435377121
+  },
+  {
+    "epoch": 9,
+    "loss": 2.567805051803589,
+    "reference_class_loss": 2.547426700592041,
+    "denoising_edge_distance_mse": 0.20378437638282776
+  },
+  {
+    "epoch": 10,
+    "loss": 2.3111655712127686,
+    "reference_class_loss": 2.290865659713745,
+    "denoising_edge_distance_mse": 0.2029999941587448
+  },
+  {
+    "epoch": 11,
+    "loss": 2.0025503635406494,
+    "reference_class_loss": 1.9823046922683716,
+    "denoising_edge_distance_mse": 0.20245742797851562
+  },
+  {
+    "epoch": 12,
+    "loss": 1.7138736248016357,
+    "reference_class_loss": 1.693705439567566,
+    "denoising_edge_distance_mse": 0.20168212056159973
+  },
+  {
+    "epoch": 13,
+    "loss": 1.5469032526016235,
+    "reference_class_loss": 1.5267878770828247,
+    "denoising_edge_distance_mse": 0.20115399360656738
+  },
+  {
+    "epoch": 14,
+    "loss": 1.5679749250411987,
+    "reference_class_loss": 1.5479320287704468,
+    "denoising_edge_distance_mse": 0.2004292905330658
+  },
+  {
+    "epoch": 15,
+    "loss": 1.3716081380844116,
+    "reference_class_loss": 1.351676344871521,
+    "denoising_edge_distance_mse": 0.19931769371032715
+  },
+  {
+    "epoch": 16,
+    "loss": 1.6907883882522583,
+    "reference_class_loss": 1.670997142791748,
+    "denoising_edge_distance_mse": 0.19791275262832642
+  },
+  {
+    "epoch": 17,
+    "loss": 1.2193399667739868,
+    "reference_class_loss": 1.1996856927871704,
+    "denoising_edge_distance_mse": 0.19654273986816406
+  },
+  {
+    "epoch": 18,
+    "loss": 1.422736644744873,
+    "reference_class_loss": 1.403236985206604,
+    "denoising_edge_distance_mse": 0.19499698281288147
+  },
+  {
+    "epoch": 19,
+    "loss": 1.4163010120391846,
+    "reference_class_loss": 1.3969581127166748,
+    "denoising_edge_distance_mse": 0.1934293955564499
+  },
+  {
+    "epoch": 20,
+    "loss": 1.252038836479187,
+    "reference_class_loss": 1.232846975326538,
+    "denoising_edge_distance_mse": 0.1919184774160385
+  },
+  {
+    "epoch": 21,
+    "loss": 1.2631888389587402,
+    "reference_class_loss": 1.2441192865371704,
+    "denoising_edge_distance_mse": 0.19069601595401764
+  },
+  {
+    "epoch": 22,
+    "loss": 1.296401023864746,
+    "reference_class_loss": 1.2775057554244995,
+    "denoising_edge_distance_mse": 0.1889525055885315
+  },
+  {
+    "epoch": 23,
+    "loss": 1.196968913078308,
+    "reference_class_loss": 1.1783008575439453,
+    "denoising_edge_distance_mse": 0.18668103218078613
+  },
+  {
+    "epoch": 24,
+    "loss": 1.2868543863296509,
+    "reference_class_loss": 1.2683895826339722,
+    "denoising_edge_distance_mse": 0.1846478283405304
+  },
+  {
+    "epoch": 25,
+    "loss": 1.2673977613449097,
+    "reference_class_loss": 1.2491294145584106,
+    "denoising_edge_distance_mse": 0.18268291652202606
+  },
+  {
+    "epoch": 26,
+    "loss": 1.1884278059005737,
+    "reference_class_loss": 1.1703399419784546,
+    "denoising_edge_distance_mse": 0.1808781921863556
+  },
+  {
+    "epoch": 27,
+    "loss": 1.1938115358352661,
+    "reference_class_loss": 1.1759016513824463,
+    "denoising_edge_distance_mse": 0.17909926176071167
+  },
+  {
+    "epoch": 28,
+    "loss": 1.2162764072418213,
+    "reference_class_loss": 1.1985375881195068,
+    "denoising_edge_distance_mse": 0.1773877590894699
+  },
+  {
+    "epoch": 29,
+    "loss": 1.136606216430664,
+    "reference_class_loss": 1.1190685033798218,
+    "denoising_edge_distance_mse": 0.17537741363048553
+  },
+  {
+    "epoch": 30,
+    "loss": 1.1649450063705444,
+    "reference_class_loss": 1.1475998163223267,
+    "denoising_edge_distance_mse": 0.17345143854618073
+  },
+  {
+    "epoch": 31,
+    "loss": 1.1543614864349365,
+    "reference_class_loss": 1.1372028589248657,
+    "denoising_edge_distance_mse": 0.17158585786819458
+  },
+  {
+    "epoch": 32,
+    "loss": 1.1031774282455444,
+    "reference_class_loss": 1.0861817598342896,
+    "denoising_edge_distance_mse": 0.1699562966823578
+  },
+  {
+    "epoch": 33,
+    "loss": 1.1111338138580322,
+    "reference_class_loss": 1.0942970514297485,
+    "denoising_edge_distance_mse": 0.1683674454689026
+  },
+  {
+    "epoch": 34,
+    "loss": 1.1069892644882202,
+    "reference_class_loss": 1.0903245210647583,
+    "denoising_edge_distance_mse": 0.16664782166481018
+  },
+  {
+    "epoch": 35,
+    "loss": 1.0624927282333374,
+    "reference_class_loss": 1.0460129976272583,
+    "denoising_edge_distance_mse": 0.1647970974445343
+  },
+  {
+    "epoch": 36,
+    "loss": 1.080819845199585,
+    "reference_class_loss": 1.0645115375518799,
+    "denoising_edge_distance_mse": 0.1630825698375702
+  },
+  {
+    "epoch": 37,
+    "loss": 1.0637286901474,
+    "reference_class_loss": 1.0475754737854004,
+    "denoising_edge_distance_mse": 0.16153162717819214
+  },
+  {
+    "epoch": 38,
+    "loss": 1.0285998582839966,
+    "reference_class_loss": 1.0125991106033325,
+    "denoising_edge_distance_mse": 0.1600072830915451
+  },
+  {
+    "epoch": 39,
+    "loss": 1.0444756746292114,
+    "reference_class_loss": 1.0286206007003784,
+    "denoising_edge_distance_mse": 0.15855079889297485
+  },
+  {
+    "epoch": 40,
+    "loss": 1.0227638483047485,
+    "reference_class_loss": 1.0070682764053345,
+    "denoising_edge_distance_mse": 0.15695521235466003
+  }
+]

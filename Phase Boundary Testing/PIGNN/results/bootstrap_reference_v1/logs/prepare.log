@@ -1,0 +1,23 @@
+{
+  "stage": "graph_input_preparation",
+  "reference_graphs": 51,
+  "local_sample_graphs": 380,
+  "spatial_nodes": 380,
+  "spatial_directed_edges": 2454,
+  "sources": {
+    "C:\\Users\\alexg\\Downloads\\CMU vPCF Project\\Unused Data\\data\\saved_vpcfs\\HfO_vPCFs_from_simulation_maxIndex1.json": "bbea7bba8412180acfd345435901f2f86eaa920f003a589bb954e633335b2289",
+    "C:\\Users\\alexg\\Downloads\\CMU vPCF Project\\Phase Boundary Testing\\Data\\SyntheticModel_HfO_80pm_vPCFs_65.h5": "e75be49618e783ebc4356d9842853aa694c704b16153c4d50f678d137bb6167d",
+    "C:\\Users\\alexg\\Downloads\\CMU vPCF Project\\Phase Boundary Testing\\PIGNN\\configs\\default.json": "6c01b1fd10cd9571faac2b118b811c0a998e4cc5a5a4a558264e3266cfe52326"
+  },
+  "physical_calibration_verified": false,
+  "physical_sample_footprint_known": false,
+  "graph_archive_roundtrip_passed": true,
+  "source_code_sha256": {
+    "src\\pignn\\data.py": "410be8fee1a5c5f134a88042bf70626bd886db1f9eff51aa9af035b16ff23eb7",
+    "src\\pignn\\encoder.py": "970b7f81f9ffaaac5e220568fc265ec7142ec9674bdc55194c115f12a1f22f5e",
+    "src\\pignn\\graphs.py": "814ca48fe29380f37a3d1fb63b5daad6b6c5cc64181504d0508518f17df8a6fe",
+    "src\\pignn\\splits.py": "ed89f9e207f2012fdd7c8050ecd9507dfde7fa0138ef0848915fbe31a5dd51ac",
+    "src\\pignn\\training.py": "25b5df8c63bea4ae8fdd93c131a2f67cbd155d893065140069cd56c941de0489",
+    "src\\pignn\\__init__.py": "a896fd21c8eaa23fa8dffb37ea3eed2895a7ff97562ed1f659a5f4dc54a1d414"
+  }
+}

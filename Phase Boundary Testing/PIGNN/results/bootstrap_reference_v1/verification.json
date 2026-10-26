@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "reference_graphs": 51,
+  "local_sample_graphs": 380,
+  "graph_integrity_and_identity_checks": true,
+  "spatial_coordinate_join": true,
+  "trained_checkpoint_reload": true,
+  "independent_candidate_distance_checks": true,
+  "representation_parameter_movement": 1.1718108654022217,
+  "physical_phase_accuracy_validated": false
+}

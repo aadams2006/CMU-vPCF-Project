@@ -1,0 +1,3450 @@
+[
+  {
+    "kind": "reference",
+    "sample_id": "library:Monoclinic_001",
+    "label": "Monoclinic_001",
+    "nodes": 121,
+    "directed_edges": 830,
+    "parent_group": "Monoclinic"
+  },
+  {
+    "kind": "reference",
+    "sample_id": "library:Monoclinic_010",
+    "label": "Monoclinic_010",
+    "nodes": 83,
+    "directed_edges": 552,
+    "parent_group": "Monoclinic"
+  },
+  {
+    "kind": "reference",
+    "sample_id": "library:Monoclinic_011",
+    "label": "Monoclinic_011",
+    "nodes": 63,
+    "directed_edges": 420,
+    "parent_group": "Monoclinic"
+  },
+  {
+    "kind": "reference",
+    "sample_id": "library:Monoclinic_10-1",
+    "label": "Monoclinic_10-1",
+    "nodes": 39,
+    "directed_edges": 268,
+    "parent_group": "Monoclinic"
+  },
+  {
+    "kind": "reference",
+    "sample_id": "library:Monoclinic_100",
+    "label": "Monoclinic_100",
+    "nodes": 113,
+    "directed_edges": 764,
+    "parent_group": "Monoclinic"
+  },
+  {
+    "kind": "reference",
+    "sample_id": "library:Monoclinic_101",
+    "label": "Monoclinic_101",
+    "nodes": 31,
+    "directed_edges": 208,
+    "parent_group": "Monoclinic"
+  },
+  {
+    "kind": "reference",
+    "sample_id": "library:Monoclinic_11-1",
+    "label": "Monoclinic_11-1",
+    "nodes": 242,
+    "directed_edges": 1550,
+    "parent_group": "Monoclinic"
+  },
+  {
+    "kind": "reference",
+    "sample_id": "library:Monoclinic_110",
+    "label": "Monoclinic_110",
+    "nodes": 59,
+    "directed_edges": 396,
+    "parent_group": "Monoclinic"
+  },
+  {
+    "kind": "reference",
+    "sample_id": "library:Monoclinic_111",
+    "label": "Monoclinic_111",
+    "nodes": 212,
+    "directed_edges": 1376,
+    "parent_group": "Monoclinic"
+  },
+  {
+    "kind": "reference",
+    "sample_id": "library:Ortho-Pbca_001",
+    "label": "Ortho-Pbca_001",
+    "nodes": 77,
+    "directed_edges": 512,
+    "parent_group": "Ortho-Pbca"
+  },
+  {
+    "kind": "reference",
+    "sample_id": "library:Ortho-Pbca_010",
+    "label": "Ortho-Pbca_010",
+    "nodes": 77,
+    "directed_edges": 496,
+    "parent_group": "Ortho-Pbca"
+  },
+  {
+    "kind": "reference",
+    "sample_id": "library:Ortho-Pbca_011",
+    "label": "Ortho-Pbca_011",
+    "nodes": 147,
+    "directed_edges": 1000,
+    "parent_group": "Ortho-Pbca"
+  },
+  {
+    "kind": "reference",
+    "sample_id": "library:Ortho-Pbca_100",
+    "label": "Ortho-Pbca_100",
+    "nodes": 113,
+    "directed_edges": 744,
+    "parent_group": "Ortho-Pbca"
+  },
+  {
+    "kind": "reference",
+    "sample_id": "library:Ortho-Pbca_101",
+    "label": "Ortho-Pbca_101",
+    "nodes": 63,
+    "directed_edges": 440,
+    "parent_group": "Ortho-Pbca"
+  },
+  {
+    "kind": "reference",
+    "sample_id": "library:Ortho-Pbca_110",
+    "label": "Ortho-Pbca_110",
+    "nodes": 280,
+    "directed_edges": 1894,
+    "parent_group": "Ortho-Pbca"
+  },
+  {
+    "kind": "reference",
+    "sample_id": "library:Ortho-Pbca_111",
+    "label": "Ortho-Pbca_111",
+    "nodes": 108,
+    "directed_edges": 708,
+    "parent_group": "Ortho-Pbca"
+  },
+  {
+    "kind": "reference",
+    "sample_id": "library:Ortho-Pca21_00-1",
+    "label": "Ortho-Pca21_00-1",
+    "nodes": 113,
+    "directed_edges": 744,
+    "parent_group": "Ortho-Pca21"
+  },
+  {
+    "kind": "reference",
+    "sample_id": "library:Ortho-Pca21_001",
+    "label": "Ortho-Pca21_001",
+    "nodes": 113,
+    "directed_edges": 744,
+    "parent_group": "Ortho-Pca21"
+  },
+  {
+    "kind": "reference",
+    "sample_id": "library:Ortho-Pca21_01-1",
+    "label": "Ortho-Pca21_01-1",
+    "nodes": 39,
+    "directed_edges": 268,
+    "parent_group": "Ortho-Pca21"
+  },
+  {
+    "kind": "reference",
+    "sample_id": "library:Ortho-Pca21_010",
+    "label": "Ortho-Pca21_010",
+    "nodes": 77,
+    "directed_edges": 496,
+    "parent_group": "Ortho-Pca21"
+  },
+  {
+    "kind": "reference",
+    "sample_id": "library:Ortho-Pca21_011",
+    "label": "Ortho-Pca21_011",
+    "nodes": 39,
+    "directed_edges": 268,
+    "parent_group": "Ortho-Pca21"
+  },
+  {
+    "kind": "reference",
+    "sample_id": "library:Ortho-Pca21_10-1",
+    "label": "Ortho-Pca21_10-1",
+    "nodes": 63,
+    "directed_edges": 444,
+    "parent_group": "Ortho-Pca21"
+  },
+  {
+    "kind": "reference",
+    "sample_id": "library:Ortho-Pca21_100",
+    "label": "Ortho-Pca21_100",
+    "nodes": 77,
+    "directed_edges": 512,
+    "parent_group": "Ortho-Pca21"
+  },
+  {
+    "kind": "reference",
+    "sample_id": "library:Ortho-Pca21_101",
+    "label": "Ortho-Pca21_101",
+    "nodes": 63,
+    "directed_edges": 444,
+    "parent_group": "Ortho-Pca21"
+  },
+  {
+    "kind": "reference",
+    "sample_id": "library:Ortho-Pca21_11-1",
+    "label": "Ortho-Pca21_11-1",
+    "nodes": 233,
+    "directed_edges": 1522,
+    "parent_group": "Ortho-Pca21"
+  },
+  {
+    "kind": "reference",
+    "sample_id": "library:Ortho-Pca21_110",
+    "label": "Ortho-Pca21_110",
+    "nodes": 61,
+    "directed_edges": 424,
+    "parent_group": "Ortho-Pca21"
+  },
+  {
+    "kind": "reference",
+    "sample_id": "library:Ortho-Pca21_111",
+    "label": "Ortho-Pca21_111",
+    "nodes": 233,
+    "directed_edges": 1520,
+    "parent_group": "Ortho-Pca21"
+  },
+  {
+    "kind": "reference",
+    "sample_id": "library:Rhombo-R3_-1-1-1",
+    "label": "Rhombo-R3_-1-1-1",
+    "nodes": 343,
+    "directed_edges": 2286,
+    "parent_group": "Rhombo-R3"
+  },
+  {
+    "kind": "reference",
+    "sample_id": "library:Rhombo-R3_0-1-1",
+    "label": "Rhombo-R3_0-1-1",
+    "nodes": 63,
+    "directed_edges": 436,
+    "parent_group": "Rhombo-R3"
+  },
+  {
+    "kind": "reference",
+    "sample_id": "library:Rhombo-R3_00-1",
+    "label": "Rhombo-R3_00-1",
+    "nodes": 185,
+    "directed_edges": 1316,
+    "parent_group": "Rhombo-R3"
+  },
+  {
+    "kind": "reference",
+    "sample_id": "library:Rhombo-R3_1-1-1",
+    "label": "Rhombo-R3_1-1-1",
+    "nodes": 337,
+    "directed_edges": 2260,
+    "parent_group": "Rhombo-R3"
+  },
+  {
+    "kind": "reference",
+    "sample_id": "library:Rhombo-R3_1-10",
+    "label": "Rhombo-R3_1-10",
+    "nodes": 61,
+    "directed_edges": 424,
+    "parent_group": "Rhombo-R3"
+  },
+  {
+    "kind": "reference",
+    "sample_id": "library:Rhombo-R3_10-1",
+    "label": "Rhombo-R3_10-1",
+    "nodes": 63,
+    "directed_edges": 436,
+    "parent_group": "Rhombo-R3"
+  },
+  {
+    "kind": "reference",
+    "sample_id": "library:Rhombo-R3_100",
+    "label": "Rhombo-R3_100",
+    "nodes": 185,
+    "directed_edges": 1316,
+    "parent_group": "Rhombo-R3"
+  },
+  {
+    "kind": "reference",
+    "sample_id": "library:Rhombo-R3_11-1",
+    "label": "Rhombo-R3_11-1",
+    "nodes": 341,
+    "directed_edges": 2352,
+    "parent_group": "Rhombo-R3"
+  },
+  {
+    "kind": "reference",
+    "sample_id": "library:Rhombo-R3_110",
+    "label": "Rhombo-R3_110",
+    "nodes": 64,
+    "directed_edges": 442,
+    "parent_group": "Rhombo-R3"
+  },
+  {
+    "kind": "reference",
+    "sample_id": "library:Rhombo-R3_111",
+    "label": "Rhombo-R3_111",
+    "nodes": 343,
+    "directed_edges": 2284,
+    "parent_group": "Rhombo-R3"
+  },
+  {
+    "kind": "reference",
+    "sample_id": "library:Rhombo-R3m_-1-1-1",
+    "label": "Rhombo-R3m_-1-1-1",
+    "nodes": 107,
+    "directed_edges": 708,
+    "parent_group": "Rhombo-R3m"
+  },
+  {
+    "kind": "reference",
+    "sample_id": "library:Rhombo-R3m_0-1-1",
+    "label": "Rhombo-R3m_0-1-1",
+    "nodes": 39,
+    "directed_edges": 268,
+    "parent_group": "Rhombo-R3m"
+  },
+  {
+    "kind": "reference",
+    "sample_id": "library:Rhombo-R3m_00-1",
+    "label": "Rhombo-R3m_00-1",
+    "nodes": 49,
+    "directed_edges": 362,
+    "parent_group": "Rhombo-R3m"
+  },
+  {
+    "kind": "reference",
+    "sample_id": "library:Rhombo-R3m_1-1-1",
+    "label": "Rhombo-R3m_1-1-1",
+    "nodes": 107,
+    "directed_edges": 700,
+    "parent_group": "Rhombo-R3m"
+  },
+  {
+    "kind": "reference",
+    "sample_id": "library:Rhombo-R3m_10-1",
+    "label": "Rhombo-R3m_10-1",
+    "nodes": 39,
+    "directed_edges": 268,
+    "parent_group": "Rhombo-R3m"
+  },
+  {
+    "kind": "reference",
+    "sample_id": "library:Rhombo-R3m_100",
+    "label": "Rhombo-R3m_100",
+    "nodes": 49,
+    "directed_edges": 360,
+    "parent_group": "Rhombo-R3m"
+  },
+  {
+    "kind": "reference",
+    "sample_id": "library:Rhombo-R3m_11-1",
+    "label": "Rhombo-R3m_11-1",
+    "nodes": 107,
+    "directed_edges": 708,
+    "parent_group": "Rhombo-R3m"
+  },
+  {
+    "kind": "reference",
+    "sample_id": "library:Rhombo-R3m_110",
+    "label": "Rhombo-R3m_110",
+    "nodes": 43,
+    "directed_edges": 296,
+    "parent_group": "Rhombo-R3m"
+  },
+  {
+    "kind": "reference",
+    "sample_id": "library:Rhombo-R3m_111",
+    "label": "Rhombo-R3m_111",
+    "nodes": 107,
+    "directed_edges": 708,
+    "parent_group": "Rhombo-R3m"
+  },
+  {
+    "kind": "reference",
+    "sample_id": "library:Tetragonal_001",
+    "label": "Tetragonal_001",
+    "nodes": 61,
+    "directed_edges": 416,
+    "parent_group": "Tetragonal"
+  },
+  {
+    "kind": "reference",
+    "sample_id": "library:Tetragonal_100",
+    "label": "Tetragonal_100",
+    "nodes": 39,
+    "directed_edges": 268,
+    "parent_group": "Tetragonal"
+  },
+  {
+    "kind": "reference",
+    "sample_id": "library:Tetragonal_101",
+    "label": "Tetragonal_101",
+    "nodes": 77,
+    "directed_edges": 542,
+    "parent_group": "Tetragonal"
+  },
+  {
+    "kind": "reference",
+    "sample_id": "library:Tetragonal_110",
+    "label": "Tetragonal_110",
+    "nodes": 61,
+    "directed_edges": 400,
+    "parent_group": "Tetragonal"
+  },
+  {
+    "kind": "reference",
+    "sample_id": "library:Tetragonal_111",
+    "label": "Tetragonal_111",
+    "nodes": 43,
+    "directed_edges": 300,
+    "parent_group": "Tetragonal"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000000",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 464,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000001",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 458,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000002",
+    "label": null,
+    "nodes": 101,
+    "directed_edges": 716,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000003",
+    "label": null,
+    "nodes": 79,
+    "directed_edges": 544,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000004",
+    "label": null,
+    "nodes": 59,
+    "directed_edges": 416,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000005",
+    "label": null,
+    "nodes": 63,
+    "directed_edges": 444,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000006",
+    "label": null,
+    "nodes": 43,
+    "directed_edges": 306,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000007",
+    "label": null,
+    "nodes": 143,
+    "directed_edges": 1012,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000008",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 456,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000009",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 456,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000010",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 460,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000011",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 460,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000012",
+    "label": null,
+    "nodes": 61,
+    "directed_edges": 420,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000013",
+    "label": null,
+    "nodes": 81,
+    "directed_edges": 556,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000014",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 456,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000015",
+    "label": null,
+    "nodes": 81,
+    "directed_edges": 550,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000016",
+    "label": null,
+    "nodes": 171,
+    "directed_edges": 1210,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000017",
+    "label": null,
+    "nodes": 59,
+    "directed_edges": 428,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000018",
+    "label": null,
+    "nodes": 49,
+    "directed_edges": 348,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000019",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 456,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000020",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 460,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000021",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 456,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000022",
+    "label": null,
+    "nodes": 197,
+    "directed_edges": 1406,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000023",
+    "label": null,
+    "nodes": 31,
+    "directed_edges": 220,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000024",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 460,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000025",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 456,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000026",
+    "label": null,
+    "nodes": 61,
+    "directed_edges": 424,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000027",
+    "label": null,
+    "nodes": 85,
+    "directed_edges": 580,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000028",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 456,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000029",
+    "label": null,
+    "nodes": 59,
+    "directed_edges": 428,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000030",
+    "label": null,
+    "nodes": 49,
+    "directed_edges": 348,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000031",
+    "label": null,
+    "nodes": 199,
+    "directed_edges": 1448,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000032",
+    "label": null,
+    "nodes": 81,
+    "directed_edges": 546,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000033",
+    "label": null,
+    "nodes": 59,
+    "directed_edges": 416,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000034",
+    "label": null,
+    "nodes": 49,
+    "directed_edges": 348,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000035",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 460,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000036",
+    "label": null,
+    "nodes": 45,
+    "directed_edges": 324,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000037",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 456,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000038",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 456,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000039",
+    "label": null,
+    "nodes": 105,
+    "directed_edges": 704,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000040",
+    "label": null,
+    "nodes": 115,
+    "directed_edges": 822,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000041",
+    "label": null,
+    "nodes": 59,
+    "directed_edges": 420,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000042",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 460,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000043",
+    "label": null,
+    "nodes": 51,
+    "directed_edges": 352,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000044",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 460,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000045",
+    "label": null,
+    "nodes": 51,
+    "directed_edges": 352,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000046",
+    "label": null,
+    "nodes": 61,
+    "directed_edges": 416,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000047",
+    "label": null,
+    "nodes": 190,
+    "directed_edges": 1350,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000048",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 464,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000049",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 460,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000050",
+    "label": null,
+    "nodes": 45,
+    "directed_edges": 332,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000051",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 460,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000052",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 460,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000053",
+    "label": null,
+    "nodes": 63,
+    "directed_edges": 446,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000054",
+    "label": null,
+    "nodes": 239,
+    "directed_edges": 1690,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000055",
+    "label": null,
+    "nodes": 145,
+    "directed_edges": 1006,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000056",
+    "label": null,
+    "nodes": 59,
+    "directed_edges": 420,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000057",
+    "label": null,
+    "nodes": 123,
+    "directed_edges": 840,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000058",
+    "label": null,
+    "nodes": 59,
+    "directed_edges": 420,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000059",
+    "label": null,
+    "nodes": 79,
+    "directed_edges": 548,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000060",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 460,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000061",
+    "label": null,
+    "nodes": 49,
+    "directed_edges": 348,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000062",
+    "label": null,
+    "nodes": 49,
+    "directed_edges": 348,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000063",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 460,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000064",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 460,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000065",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 480,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000066",
+    "label": null,
+    "nodes": 61,
+    "directed_edges": 424,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000067",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 460,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000068",
+    "label": null,
+    "nodes": 59,
+    "directed_edges": 424,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000069",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 480,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000070",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 456,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000071",
+    "label": null,
+    "nodes": 229,
+    "directed_edges": 1632,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000072",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 464,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000073",
+    "label": null,
+    "nodes": 51,
+    "directed_edges": 356,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000074",
+    "label": null,
+    "nodes": 85,
+    "directed_edges": 588,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000075",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 464,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000076",
+    "label": null,
+    "nodes": 59,
+    "directed_edges": 416,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000077",
+    "label": null,
+    "nodes": 51,
+    "directed_edges": 372,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000078",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 460,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000079",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 456,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000080",
+    "label": null,
+    "nodes": 103,
+    "directed_edges": 744,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000081",
+    "label": null,
+    "nodes": 49,
+    "directed_edges": 348,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000082",
+    "label": null,
+    "nodes": 51,
+    "directed_edges": 352,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000083",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 460,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000084",
+    "label": null,
+    "nodes": 165,
+    "directed_edges": 1148,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000085",
+    "label": null,
+    "nodes": 131,
+    "directed_edges": 946,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000086",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 456,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000087",
+    "label": null,
+    "nodes": 67,
+    "directed_edges": 472,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000088",
+    "label": null,
+    "nodes": 101,
+    "directed_edges": 712,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000089",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 460,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000090",
+    "label": null,
+    "nodes": 87,
+    "directed_edges": 616,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000091",
+    "label": null,
+    "nodes": 203,
+    "directed_edges": 1462,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000092",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 460,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000093",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 480,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000094",
+    "label": null,
+    "nodes": 163,
+    "directed_edges": 1196,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000095",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 460,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000096",
+    "label": null,
+    "nodes": 61,
+    "directed_edges": 416,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000097",
+    "label": null,
+    "nodes": 85,
+    "directed_edges": 584,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000098",
+    "label": null,
+    "nodes": 51,
+    "directed_edges": 352,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000099",
+    "label": null,
+    "nodes": 51,
+    "directed_edges": 350,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000100",
+    "label": null,
+    "nodes": 121,
+    "directed_edges": 852,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000101",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 456,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000102",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 460,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000103",
+    "label": null,
+    "nodes": 135,
+    "directed_edges": 936,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000104",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 456,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000105",
+    "label": null,
+    "nodes": 51,
+    "directed_edges": 352,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000106",
+    "label": null,
+    "nodes": 45,
+    "directed_edges": 320,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000107",
+    "label": null,
+    "nodes": 117,
+    "directed_edges": 800,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000108",
+    "label": null,
+    "nodes": 65,
+    "directed_edges": 448,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000109",
+    "label": null,
+    "nodes": 59,
+    "directed_edges": 420,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000110",
+    "label": null,
+    "nodes": 51,
+    "directed_edges": 356,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000111",
+    "label": null,
+    "nodes": 81,
+    "directed_edges": 552,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000112",
+    "label": null,
+    "nodes": 85,
+    "directed_edges": 580,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000113",
+    "label": null,
+    "nodes": 51,
+    "directed_edges": 348,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000114",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 464,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000115",
+    "label": null,
+    "nodes": 51,
+    "directed_edges": 352,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000116",
+    "label": null,
+    "nodes": 171,
+    "directed_edges": 1212,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000117",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 460,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000118",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 464,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000119",
+    "label": null,
+    "nodes": 85,
+    "directed_edges": 628,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000120",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 460,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000121",
+    "label": null,
+    "nodes": 93,
+    "directed_edges": 640,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000122",
+    "label": null,
+    "nodes": 61,
+    "directed_edges": 420,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000123",
+    "label": null,
+    "nodes": 45,
+    "directed_edges": 320,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000124",
+    "label": null,
+    "nodes": 85,
+    "directed_edges": 584,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000125",
+    "label": null,
+    "nodes": 59,
+    "directed_edges": 412,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000126",
+    "label": null,
+    "nodes": 51,
+    "directed_edges": 352,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000127",
+    "label": null,
+    "nodes": 61,
+    "directed_edges": 420,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000128",
+    "label": null,
+    "nodes": 73,
+    "directed_edges": 508,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000129",
+    "label": null,
+    "nodes": 59,
+    "directed_edges": 426,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000130",
+    "label": null,
+    "nodes": 231,
+    "directed_edges": 1648,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000131",
+    "label": null,
+    "nodes": 67,
+    "directed_edges": 480,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000132",
+    "label": null,
+    "nodes": 67,
+    "directed_edges": 476,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000133",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 456,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000134",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 460,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000135",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 460,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000136",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 464,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000137",
+    "label": null,
+    "nodes": 79,
+    "directed_edges": 546,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000138",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 460,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000139",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 460,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000140",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 464,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000141",
+    "label": null,
+    "nodes": 49,
+    "directed_edges": 348,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000142",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 492,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000143",
+    "label": null,
+    "nodes": 93,
+    "directed_edges": 628,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000144",
+    "label": null,
+    "nodes": 85,
+    "directed_edges": 594,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000145",
+    "label": null,
+    "nodes": 85,
+    "directed_edges": 588,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000146",
+    "label": null,
+    "nodes": 49,
+    "directed_edges": 348,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000147",
+    "label": null,
+    "nodes": 201,
+    "directed_edges": 1438,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000148",
+    "label": null,
+    "nodes": 177,
+    "directed_edges": 1242,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000149",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 464,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000150",
+    "label": null,
+    "nodes": 85,
+    "directed_edges": 588,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000151",
+    "label": null,
+    "nodes": 163,
+    "directed_edges": 1160,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000152",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 460,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000153",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 464,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000154",
+    "label": null,
+    "nodes": 79,
+    "directed_edges": 548,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000155",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 456,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000156",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 464,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000157",
+    "label": null,
+    "nodes": 173,
+    "directed_edges": 1216,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000158",
+    "label": null,
+    "nodes": 105,
+    "directed_edges": 740,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000159",
+    "label": null,
+    "nodes": 59,
+    "directed_edges": 422,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000160",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 456,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000161",
+    "label": null,
+    "nodes": 183,
+    "directed_edges": 1284,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000162",
+    "label": null,
+    "nodes": 61,
+    "directed_edges": 420,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000163",
+    "label": null,
+    "nodes": 111,
+    "directed_edges": 816,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000164",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 464,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000165",
+    "label": null,
+    "nodes": 93,
+    "directed_edges": 632,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000166",
+    "label": null,
+    "nodes": 169,
+    "directed_edges": 1200,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000167",
+    "label": null,
+    "nodes": 85,
+    "directed_edges": 588,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000168",
+    "label": null,
+    "nodes": 85,
+    "directed_edges": 584,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000169",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 460,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000170",
+    "label": null,
+    "nodes": 85,
+    "directed_edges": 580,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000171",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 460,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000172",
+    "label": null,
+    "nodes": 45,
+    "directed_edges": 332,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000173",
+    "label": null,
+    "nodes": 163,
+    "directed_edges": 1142,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000174",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 460,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000175",
+    "label": null,
+    "nodes": 107,
+    "directed_edges": 772,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000176",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 460,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000177",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 456,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000178",
+    "label": null,
+    "nodes": 65,
+    "directed_edges": 448,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000179",
+    "label": null,
+    "nodes": 105,
+    "directed_edges": 708,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000180",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 456,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000181",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 464,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000182",
+    "label": null,
+    "nodes": 85,
+    "directed_edges": 580,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000183",
+    "label": null,
+    "nodes": 146,
+    "directed_edges": 1054,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000184",
+    "label": null,
+    "nodes": 31,
+    "directed_edges": 220,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000185",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 460,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000186",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 460,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000187",
+    "label": null,
+    "nodes": 85,
+    "directed_edges": 588,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000188",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 460,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000189",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 460,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000190",
+    "label": null,
+    "nodes": 59,
+    "directed_edges": 424,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000191",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 480,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000192",
+    "label": null,
+    "nodes": 59,
+    "directed_edges": 420,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000193",
+    "label": null,
+    "nodes": 85,
+    "directed_edges": 588,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000194",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 460,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000195",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 460,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000196",
+    "label": null,
+    "nodes": 51,
+    "directed_edges": 352,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000197",
+    "label": null,
+    "nodes": 49,
+    "directed_edges": 348,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000198",
+    "label": null,
+    "nodes": 117,
+    "directed_edges": 836,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000199",
+    "label": null,
+    "nodes": 101,
+    "directed_edges": 752,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000200",
+    "label": null,
+    "nodes": 77,
+    "directed_edges": 548,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000201",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 460,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000202",
+    "label": null,
+    "nodes": 183,
+    "directed_edges": 1316,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000203",
+    "label": null,
+    "nodes": 109,
+    "directed_edges": 784,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000204",
+    "label": null,
+    "nodes": 49,
+    "directed_edges": 360,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000205",
+    "label": null,
+    "nodes": 51,
+    "directed_edges": 352,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000206",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 460,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000207",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 460,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000208",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 464,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000209",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 464,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000210",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 460,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000211",
+    "label": null,
+    "nodes": 127,
+    "directed_edges": 914,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000212",
+    "label": null,
+    "nodes": 59,
+    "directed_edges": 428,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000213",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 456,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000214",
+    "label": null,
+    "nodes": 59,
+    "directed_edges": 420,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000215",
+    "label": null,
+    "nodes": 59,
+    "directed_edges": 424,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000216",
+    "label": null,
+    "nodes": 49,
+    "directed_edges": 352,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000217",
+    "label": null,
+    "nodes": 49,
+    "directed_edges": 348,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000218",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 460,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000219",
+    "label": null,
+    "nodes": 49,
+    "directed_edges": 348,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000220",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 464,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000221",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 460,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000222",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 456,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000223",
+    "label": null,
+    "nodes": 151,
+    "directed_edges": 1048,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000224",
+    "label": null,
+    "nodes": 49,
+    "directed_edges": 348,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000225",
+    "label": null,
+    "nodes": 79,
+    "directed_edges": 550,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000226",
+    "label": null,
+    "nodes": 61,
+    "directed_edges": 424,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000227",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 460,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000228",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 460,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000229",
+    "label": null,
+    "nodes": 85,
+    "directed_edges": 584,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000230",
+    "label": null,
+    "nodes": 216,
+    "directed_edges": 1586,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000231",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 464,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000232",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 460,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000233",
+    "label": null,
+    "nodes": 67,
+    "directed_edges": 476,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000234",
+    "label": null,
+    "nodes": 87,
+    "directed_edges": 620,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000235",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 460,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000236",
+    "label": null,
+    "nodes": 177,
+    "directed_edges": 1234,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000237",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 456,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000238",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 464,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000239",
+    "label": null,
+    "nodes": 85,
+    "directed_edges": 584,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000240",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 460,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000241",
+    "label": null,
+    "nodes": 67,
+    "directed_edges": 476,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000242",
+    "label": null,
+    "nodes": 85,
+    "directed_edges": 588,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000243",
+    "label": null,
+    "nodes": 61,
+    "directed_edges": 420,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000244",
+    "label": null,
+    "nodes": 59,
+    "directed_edges": 430,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000245",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 460,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000246",
+    "label": null,
+    "nodes": 61,
+    "directed_edges": 420,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000247",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 464,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000248",
+    "label": null,
+    "nodes": 219,
+    "directed_edges": 1576,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000249",
+    "label": null,
+    "nodes": 43,
+    "directed_edges": 306,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000250",
+    "label": null,
+    "nodes": 241,
+    "directed_edges": 1718,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000251",
+    "label": null,
+    "nodes": 59,
+    "directed_edges": 422,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000252",
+    "label": null,
+    "nodes": 111,
+    "directed_edges": 812,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000253",
+    "label": null,
+    "nodes": 59,
+    "directed_edges": 420,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000254",
+    "label": null,
+    "nodes": 97,
+    "directed_edges": 682,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000255",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 464,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000256",
+    "label": null,
+    "nodes": 115,
+    "directed_edges": 812,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000257",
+    "label": null,
+    "nodes": 111,
+    "directed_edges": 798,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000258",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 460,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000259",
+    "label": null,
+    "nodes": 79,
+    "directed_edges": 542,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000260",
+    "label": null,
+    "nodes": 87,
+    "directed_edges": 604,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000261",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 460,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000262",
+    "label": null,
+    "nodes": 105,
+    "directed_edges": 752,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000263",
+    "label": null,
+    "nodes": 49,
+    "directed_edges": 348,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000264",
+    "label": null,
+    "nodes": 151,
+    "directed_edges": 1050,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000265",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 456,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000266",
+    "label": null,
+    "nodes": 65,
+    "directed_edges": 468,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000267",
+    "label": null,
+    "nodes": 105,
+    "directed_edges": 734,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000268",
+    "label": null,
+    "nodes": 39,
+    "directed_edges": 280,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000269",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 460,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000270",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 464,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000271",
+    "label": null,
+    "nodes": 149,
+    "directed_edges": 1072,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000272",
+    "label": null,
+    "nodes": 59,
+    "directed_edges": 418,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000273",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 456,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000274",
+    "label": null,
+    "nodes": 231,
+    "directed_edges": 1628,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000275",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 464,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000276",
+    "label": null,
+    "nodes": 171,
+    "directed_edges": 1234,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000277",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 456,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000278",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 456,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000279",
+    "label": null,
+    "nodes": 171,
+    "directed_edges": 1202,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000280",
+    "label": null,
+    "nodes": 77,
+    "directed_edges": 532,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000281",
+    "label": null,
+    "nodes": 109,
+    "directed_edges": 818,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000282",
+    "label": null,
+    "nodes": 45,
+    "directed_edges": 320,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000283",
+    "label": null,
+    "nodes": 59,
+    "directed_edges": 428,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000284",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 460,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000285",
+    "label": null,
+    "nodes": 111,
+    "directed_edges": 812,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000286",
+    "label": null,
+    "nodes": 203,
+    "directed_edges": 1484,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000287",
+    "label": null,
+    "nodes": 61,
+    "directed_edges": 420,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000288",
+    "label": null,
+    "nodes": 179,
+    "directed_edges": 1284,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000289",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 460,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000290",
+    "label": null,
+    "nodes": 103,
+    "directed_edges": 736,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000291",
+    "label": null,
+    "nodes": 61,
+    "directed_edges": 420,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000292",
+    "label": null,
+    "nodes": 81,
+    "directed_edges": 566,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000293",
+    "label": null,
+    "nodes": 61,
+    "directed_edges": 422,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000294",
+    "label": null,
+    "nodes": 65,
+    "directed_edges": 460,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000295",
+    "label": null,
+    "nodes": 217,
+    "directed_edges": 1552,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000296",
+    "label": null,
+    "nodes": 85,
+    "directed_edges": 580,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000297",
+    "label": null,
+    "nodes": 43,
+    "directed_edges": 308,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000298",
+    "label": null,
+    "nodes": 65,
+    "directed_edges": 460,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000299",
+    "label": null,
+    "nodes": 197,
+    "directed_edges": 1420,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000300",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 480,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000301",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 464,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000302",
+    "label": null,
+    "nodes": 59,
+    "directed_edges": 422,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000303",
+    "label": null,
+    "nodes": 85,
+    "directed_edges": 584,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000304",
+    "label": null,
+    "nodes": 85,
+    "directed_edges": 588,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000305",
+    "label": null,
+    "nodes": 51,
+    "directed_edges": 352,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000306",
+    "label": null,
+    "nodes": 105,
+    "directed_edges": 712,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000307",
+    "label": null,
+    "nodes": 61,
+    "directed_edges": 420,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000308",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 464,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000309",
+    "label": null,
+    "nodes": 49,
+    "directed_edges": 348,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000310",
+    "label": null,
+    "nodes": 59,
+    "directed_edges": 424,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000311",
+    "label": null,
+    "nodes": 93,
+    "directed_edges": 636,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000312",
+    "label": null,
+    "nodes": 59,
+    "directed_edges": 428,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000313",
+    "label": null,
+    "nodes": 133,
+    "directed_edges": 936,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000314",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 460,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000315",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 464,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000316",
+    "label": null,
+    "nodes": 49,
+    "directed_edges": 352,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000317",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 460,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000318",
+    "label": null,
+    "nodes": 61,
+    "directed_edges": 420,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000319",
+    "label": null,
+    "nodes": 49,
+    "directed_edges": 348,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000320",
+    "label": null,
+    "nodes": 93,
+    "directed_edges": 628,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000321",
+    "label": null,
+    "nodes": 51,
+    "directed_edges": 352,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000322",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 456,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000323",
+    "label": null,
+    "nodes": 31,
+    "directed_edges": 220,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000324",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 460,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000325",
+    "label": null,
+    "nodes": 85,
+    "directed_edges": 580,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000326",
+    "label": null,
+    "nodes": 81,
+    "directed_edges": 558,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000327",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 456,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000328",
+    "label": null,
+    "nodes": 61,
+    "directed_edges": 424,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000329",
+    "label": null,
+    "nodes": 59,
+    "directed_edges": 428,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000330",
+    "label": null,
+    "nodes": 105,
+    "directed_edges": 708,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000331",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 460,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000332",
+    "label": null,
+    "nodes": 105,
+    "directed_edges": 712,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000333",
+    "label": null,
+    "nodes": 85,
+    "directed_edges": 584,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000334",
+    "label": null,
+    "nodes": 63,
+    "directed_edges": 448,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000335",
+    "label": null,
+    "nodes": 182,
+    "directed_edges": 1280,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000336",
+    "label": null,
+    "nodes": 49,
+    "directed_edges": 348,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000337",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 460,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000338",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 460,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000339",
+    "label": null,
+    "nodes": 81,
+    "directed_edges": 556,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000340",
+    "label": null,
+    "nodes": 45,
+    "directed_edges": 320,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000341",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 460,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000342",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 456,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000343",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 464,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000344",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 464,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000345",
+    "label": null,
+    "nodes": 51,
+    "directed_edges": 352,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000346",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 456,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000347",
+    "label": null,
+    "nodes": 51,
+    "directed_edges": 352,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000348",
+    "label": null,
+    "nodes": 85,
+    "directed_edges": 580,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000349",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 464,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000350",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 460,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000351",
+    "label": null,
+    "nodes": 113,
+    "directed_edges": 848,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000352",
+    "label": null,
+    "nodes": 61,
+    "directed_edges": 420,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000353",
+    "label": null,
+    "nodes": 85,
+    "directed_edges": 628,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000354",
+    "label": null,
+    "nodes": 85,
+    "directed_edges": 584,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000355",
+    "label": null,
+    "nodes": 89,
+    "directed_edges": 624,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000356",
+    "label": null,
+    "nodes": 49,
+    "directed_edges": 348,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000357",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 460,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000358",
+    "label": null,
+    "nodes": 87,
+    "directed_edges": 616,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000359",
+    "label": null,
+    "nodes": 65,
+    "directed_edges": 460,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000360",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 464,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000361",
+    "label": null,
+    "nodes": 85,
+    "directed_edges": 580,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000362",
+    "label": null,
+    "nodes": 55,
+    "directed_edges": 394,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000363",
+    "label": null,
+    "nodes": 59,
+    "directed_edges": 416,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000364",
+    "label": null,
+    "nodes": 51,
+    "directed_edges": 352,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000365",
+    "label": null,
+    "nodes": 85,
+    "directed_edges": 588,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000366",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 460,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000367",
+    "label": null,
+    "nodes": 85,
+    "directed_edges": 588,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000368",
+    "label": null,
+    "nodes": 85,
+    "directed_edges": 628,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000369",
+    "label": null,
+    "nodes": 85,
+    "directed_edges": 588,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000370",
+    "label": null,
+    "nodes": 85,
+    "directed_edges": 588,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000371",
+    "label": null,
+    "nodes": 59,
+    "directed_edges": 420,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000372",
+    "label": null,
+    "nodes": 65,
+    "directed_edges": 448,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000373",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 460,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000374",
+    "label": null,
+    "nodes": 85,
+    "directed_edges": 584,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000375",
+    "label": null,
+    "nodes": 205,
+    "directed_edges": 1488,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000376",
+    "label": null,
+    "nodes": 105,
+    "directed_edges": 738,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000377",
+    "label": null,
+    "nodes": 105,
+    "directed_edges": 704,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000378",
+    "label": null,
+    "nodes": 69,
+    "directed_edges": 460,
+    "parent_group": "synthetic_image_1"
+  },
+  {
+    "kind": "sample",
+    "sample_id": "h5:000379",
+    "label": null,
+    "nodes": 85,
+    "directed_edges": 584,
+    "parent_group": "synthetic_image_1"
+  }
+]

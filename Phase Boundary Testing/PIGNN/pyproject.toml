@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vpcf-pignn"
+version = "0.1.0"
+description = "Graph inputs and a geometry-aware reference encoder for vPCF research"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24", "scipy>=1.10", "h5py>=3.8", "torch>=2.2", "matplotlib>=3.7"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

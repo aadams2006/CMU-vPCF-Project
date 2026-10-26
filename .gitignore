@@ -64,3 +64,8 @@ Phase Boundary Testing/Results/Full_Runs/*
 # Fresh all-380 original-vPCF K=6 training and map-back.
 !Phase Boundary Testing/Results/Full_Runs/synthetic_h5_full380_k6_20261025/
 !Phase Boundary Testing/Results/Full_Runs/synthetic_h5_full380_k6_20261025/**
+
+# Audited PIGNN graph/encoder development run, with compact derived graph arrays.
+!Phase Boundary Testing/PIGNN/results/
+!Phase Boundary Testing/PIGNN/results/bootstrap_reference_v1/
+!Phase Boundary Testing/PIGNN/results/bootstrap_reference_v1/**

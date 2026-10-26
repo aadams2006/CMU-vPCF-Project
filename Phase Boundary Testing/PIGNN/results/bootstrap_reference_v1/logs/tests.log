@@ -1,0 +1,18 @@
+test_absolute_atomic_location_is_not_an_encoder_feature (test_foundation.EncoderTests.test_absolute_atomic_location_is_not_an_encoder_feature) ... ok
+test_batch_graphs_do_not_exchange_messages (test_foundation.EncoderTests.test_batch_graphs_do_not_exchange_messages) ... ok
+test_invariant_mode_rigid_rotation_and_reflection (test_foundation.EncoderTests.test_invariant_mode_rigid_rotation_and_reflection) ... ok
+test_node_permutation_invariance (test_foundation.EncoderTests.test_node_permutation_invariance) ... ok
+test_prototypes_average_same_class_only (test_foundation.EncoderTests.test_prototypes_average_same_class_only) ... ok
+test_training_and_checkpoint_reload (test_foundation.EncoderTests.test_training_and_checkpoint_reload) ... ok
+test_archive_roundtrip_without_pickle (test_foundation.GraphTests.test_archive_roundtrip_without_pickle) ... ok
+test_invalid_schema_nan_and_duplicates_rejected (test_foundation.GraphTests.test_invalid_schema_nan_and_duplicates_rejected) ... ok
+test_source_adapters_preserve_labels_ids_and_axis_conventions (test_foundation.GraphTests.test_source_adapters_preserve_labels_ids_and_axis_conventions) ... ok
+test_symmetric_edges_no_loops_and_all_kth_ties (test_foundation.GraphTests.test_symmetric_edges_no_loops_and_all_kth_ties) ... ok
+test_upstream_yx_and_already_centered_contract (test_foundation.GraphTests.test_upstream_yx_and_already_centered_contract) ... ok
+test_parent_leakage_and_duplicate_ids_rejected (test_foundation.SplitTests.test_parent_leakage_and_duplicate_ids_rejected) ... ok
+test_spatial_buffer_and_cross_split_edge_removal (test_foundation.SplitTests.test_spatial_buffer_and_cross_split_edge_removal) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 14.609s
+
+OK

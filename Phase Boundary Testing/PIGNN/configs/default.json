@@ -1,0 +1,16 @@
+{
+  "peak_schema": "vpcffit_y_x_sigma_y_sigma_x_ellipticity",
+  "coordinate_scale": 128.0,
+  "coordinate_units": "source_pixels_uncalibrated",
+  "neighbors": 6,
+  "encoder_mode": "orientation_aware",
+  "hidden_dim": 32,
+  "embedding_dim": 32,
+  "message_layers": 2,
+  "epochs": 40,
+  "learning_rate": 0.001,
+  "jitter_std": 0.002,
+  "geometry_weight": 0.1,
+  "temperature": 0.1,
+  "seed": 42
+}
