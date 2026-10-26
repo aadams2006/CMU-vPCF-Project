@@ -1,5 +1,16 @@
 # Map-back logic for K=3 and K=6
 
+## October 25 full-sample update
+
+`run_full_sample_k6.py` now creates a separate K=6 run in
+`Results/Full_Runs/synthetic_h5_full380_k6_20261025/`. Its DEC/IDEC weights are
+trained fresh on all 380 original samples, so the 12-sample training caveat
+below applies only to the older October 12 artifacts. The new run uses the same
+original coordinate mapper and nearest-sample region renderer. It has no held-out
+test split: all new assignments are in-sample clustering outputs. Each seed has
+its own maps and verified checkpoint. The sections below document the preserved
+October 12 workflow.
+
 The original coordinate mapping is reused. Region filling and full-image
 inference are additions to that mapping, described below.
 

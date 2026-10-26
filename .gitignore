@@ -60,3 +60,7 @@ Phase Boundary Testing/Results/Full_Runs/*
 # Preserve the original K=3 H5 smoke-test artifacts used by saved-model inference.
 !Phase Boundary Testing/Results/smoke_test/
 !Phase Boundary Testing/Results/smoke_test/**
+
+# Fresh all-380 original-vPCF K=6 training and map-back.
+!Phase Boundary Testing/Results/Full_Runs/synthetic_h5_full380_k6_20261025/
+!Phase Boundary Testing/Results/Full_Runs/synthetic_h5_full380_k6_20261025/**

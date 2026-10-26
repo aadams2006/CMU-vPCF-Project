@@ -1,0 +1,7605 @@
+{
+  "total_samples": 380,
+  "samples": {
+    "0": {
+      "sample_id": 0,
+      "atomic_positions": [
+        301.0,
+        61.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "1": {
+      "sample_id": 1,
+      "atomic_positions": [
+        200.0,
+        335.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "2": {
+      "sample_id": 2,
+      "atomic_positions": [
+        251.0,
+        188.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        100,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "3": {
+      "sample_id": 3,
+      "atomic_positions": [
+        352.0,
+        285.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        78,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "4": {
+      "sample_id": 4,
+      "atomic_positions": [
+        98.0,
+        463.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        58,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "5": {
+      "sample_id": 5,
+      "atomic_positions": [
+        42.0,
+        12.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        62,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "6": {
+      "sample_id": 6,
+      "atomic_positions": [
+        452.0,
+        11.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        42,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "7": {
+      "sample_id": 7,
+      "atomic_positions": [
+        327.0,
+        261.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        142,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "8": {
+      "sample_id": 8,
+      "atomic_positions": [
+        352.0,
+        412.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "9": {
+      "sample_id": 9,
+      "atomic_positions": [
+        301.0,
+        137.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "10": {
+      "sample_id": 10,
+      "atomic_positions": [
+        149.0,
+        436.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "11": {
+      "sample_id": 11,
+      "atomic_positions": [
+        200.0,
+        436.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "12": {
+      "sample_id": 12,
+      "atomic_positions": [
+        301.0,
+        36.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        60,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "13": {
+      "sample_id": 13,
+      "atomic_positions": [
+        301.0,
+        214.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        80,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "14": {
+      "sample_id": 14,
+      "atomic_positions": [
+        73.0,
+        362.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "15": {
+      "sample_id": 15,
+      "atomic_positions": [
+        402.0,
+        214.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        80,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "16": {
+      "sample_id": 16,
+      "atomic_positions": [
+        48.0,
+        261.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        170,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "17": {
+      "sample_id": 17,
+      "atomic_positions": [
+        149.0,
+        285.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        58,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "18": {
+      "sample_id": 18,
+      "atomic_positions": [
+        250.0,
+        486.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        48,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "19": {
+      "sample_id": 19,
+      "atomic_positions": [
+        375.0,
+        188.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "20": {
+      "sample_id": 20,
+      "atomic_positions": [
+        174.0,
+        385.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "21": {
+      "sample_id": 21,
+      "atomic_positions": [
+        351.0,
+        61.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "22": {
+      "sample_id": 22,
+      "atomic_positions": [
+        251.0,
+        261.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        196,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "23": {
+      "sample_id": 23,
+      "atomic_positions": [
+        22.0,
+        486.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        30,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "24": {
+      "sample_id": 24,
+      "atomic_positions": [
+        377.0,
+        312.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "25": {
+      "sample_id": 25,
+      "atomic_positions": [
+        352.0,
+        436.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "26": {
+      "sample_id": 26,
+      "atomic_positions": [
+        454.0,
+        385.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        60,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "27": {
+      "sample_id": 27,
+      "atomic_positions": [
+        125.0,
+        112.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        84,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "28": {
+      "sample_id": 28,
+      "atomic_positions": [
+        174.0,
+        335.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "29": {
+      "sample_id": 29,
+      "atomic_positions": [
+        200.0,
+        285.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        58,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "30": {
+      "sample_id": 30,
+      "atomic_positions": [
+        403.0,
+        486.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        48,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "31": {
+      "sample_id": 31,
+      "atomic_positions": [
+        151.0,
+        237.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        198,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "32": {
+      "sample_id": 32,
+      "atomic_positions": [
+        375.0,
+        214.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        80,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "33": {
+      "sample_id": 33,
+      "atomic_positions": [
+        276.0,
+        463.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        58,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "34": {
+      "sample_id": 34,
+      "atomic_positions": [
+        200.0,
+        486.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        48,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "35": {
+      "sample_id": 35,
+      "atomic_positions": [
+        149.0,
+        362.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "36": {
+      "sample_id": 36,
+      "atomic_positions": [
+        327.0,
+        486.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        44,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "37": {
+      "sample_id": 37,
+      "atomic_positions": [
+        276.0,
+        436.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "38": {
+      "sample_id": 38,
+      "atomic_positions": [
+        377.0,
+        362.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "39": {
+      "sample_id": 39,
+      "atomic_positions": [
+        42.0,
+        62.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        104,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "40": {
+      "sample_id": 40,
+      "atomic_positions": [
+        301.0,
+        239.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        114,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "41": {
+      "sample_id": 41,
+      "atomic_positions": [
+        452.0,
+        163.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        58,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "42": {
+      "sample_id": 42,
+      "atomic_positions": [
+        301.0,
+        436.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "43": {
+      "sample_id": 43,
+      "atomic_positions": [
+        22.0,
+        412.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        50,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "44": {
+      "sample_id": 44,
+      "atomic_positions": [
+        200.0,
+        362.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "45": {
+      "sample_id": 45,
+      "atomic_positions": [
+        479.0,
+        335.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        50,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "46": {
+      "sample_id": 46,
+      "atomic_positions": [
+        375.0,
+        36.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        60,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "47": {
+      "sample_id": 47,
+      "atomic_positions": [
+        149.0,
+        261.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        189,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "48": {
+      "sample_id": 48,
+      "atomic_positions": [
+        351.0,
+        163.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "49": {
+      "sample_id": 49,
+      "atomic_positions": [
+        375.0,
+        112.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "50": {
+      "sample_id": 50,
+      "atomic_positions": [
+        276.0,
+        486.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        44,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "51": {
+      "sample_id": 51,
+      "atomic_positions": [
+        73.0,
+        312.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "52": {
+      "sample_id": 52,
+      "atomic_positions": [
+        403.0,
+        436.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "53": {
+      "sample_id": 53,
+      "atomic_positions": [
+        452.0,
+        213.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        62,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "54": {
+      "sample_id": 54,
+      "atomic_positions": [
+        227.0,
+        237.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        238,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "55": {
+      "sample_id": 55,
+      "atomic_positions": [
+        200.0,
+        261.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        144,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "56": {
+      "sample_id": 56,
+      "atomic_positions": [
+        174.0,
+        463.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        58,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "57": {
+      "sample_id": 57,
+      "atomic_positions": [
+        250.0,
+        137.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        122,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "58": {
+      "sample_id": 58,
+      "atomic_positions": [
+        452.0,
+        61.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        58,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "59": {
+      "sample_id": 59,
+      "atomic_positions": [
+        274.0,
+        87.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        78,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "60": {
+      "sample_id": 60,
+      "atomic_positions": [
+        276.0,
+        335.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "61": {
+      "sample_id": 61,
+      "atomic_positions": [
+        73.0,
+        486.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        48,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "62": {
+      "sample_id": 62,
+      "atomic_positions": [
+        352.0,
+        486.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        48,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "63": {
+      "sample_id": 63,
+      "atomic_positions": [
+        200.0,
+        385.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "64": {
+      "sample_id": 64,
+      "atomic_positions": [
+        428.0,
+        335.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "65": {
+      "sample_id": 65,
+      "atomic_positions": [
+        125.0,
+        12.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "66": {
+      "sample_id": 66,
+      "atomic_positions": [
+        454.0,
+        436.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        60,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "67": {
+      "sample_id": 67,
+      "atomic_positions": [
+        251.0,
+        385.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "68": {
+      "sample_id": 68,
+      "atomic_positions": [
+        377.0,
+        463.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        58,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "69": {
+      "sample_id": 69,
+      "atomic_positions": [
+        178.0,
+        12.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "70": {
+      "sample_id": 70,
+      "atomic_positions": [
+        377.0,
+        335.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "71": {
+      "sample_id": 71,
+      "atomic_positions": [
+        230.0,
+        213.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        228,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "72": {
+      "sample_id": 72,
+      "atomic_positions": [
+        149.0,
+        412.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "73": {
+      "sample_id": 73,
+      "atomic_positions": [
+        479.0,
+        385.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        50,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "74": {
+      "sample_id": 74,
+      "atomic_positions": [
+        151.0,
+        186.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        84,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "75": {
+      "sample_id": 75,
+      "atomic_positions": [
+        225.0,
+        335.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "76": {
+      "sample_id": 76,
+      "atomic_positions": [
+        452.0,
+        137.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        58,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "77": {
+      "sample_id": 77,
+      "atomic_positions": [
+        47.0,
+        285.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        50,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "78": {
+      "sample_id": 78,
+      "atomic_positions": [
+        301.0,
+        385.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "79": {
+      "sample_id": 79,
+      "atomic_positions": [
+        324.0,
+        163.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "80": {
+      "sample_id": 80,
+      "atomic_positions": [
+        250.0,
+        61.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        102,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "81": {
+      "sample_id": 81,
+      "atomic_positions": [
+        98.0,
+        486.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        48,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "82": {
+      "sample_id": 82,
+      "atomic_positions": [
+        324.0,
+        10.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        50,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "83": {
+      "sample_id": 83,
+      "atomic_positions": [
+        403.0,
+        386.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "84": {
+      "sample_id": 84,
+      "atomic_positions": [
+        351.0,
+        239.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        164,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "85": {
+      "sample_id": 85,
+      "atomic_positions": [
+        352.0,
+        261.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        130,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "86": {
+      "sample_id": 86,
+      "atomic_positions": [
+        301.0,
+        335.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "87": {
+      "sample_id": 87,
+      "atomic_positions": [
+        274.0,
+        112.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        66,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "88": {
+      "sample_id": 88,
+      "atomic_positions": [
+        19.0,
+        213.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        100,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "89": {
+      "sample_id": 89,
+      "atomic_positions": [
+        402.0,
+        61.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "90": {
+      "sample_id": 90,
+      "atomic_positions": [
+        204.0,
+        136.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        86,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "91": {
+      "sample_id": 91,
+      "atomic_positions": [
+        121.0,
+        237.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        202,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "92": {
+      "sample_id": 92,
+      "atomic_positions": [
+        98.0,
+        436.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "93": {
+      "sample_id": 93,
+      "atomic_positions": [
+        95.0,
+        12.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "94": {
+      "sample_id": 94,
+      "atomic_positions": [
+        452.0,
+        239.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        162,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "95": {
+      "sample_id": 95,
+      "atomic_positions": [
+        402.0,
+        163.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "96": {
+      "sample_id": 96,
+      "atomic_positions": [
+        453.0,
+        362.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        60,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "97": {
+      "sample_id": 97,
+      "atomic_positions": [
+        174.0,
+        136.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        84,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "98": {
+      "sample_id": 98,
+      "atomic_positions": [
+        22.0,
+        312.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        50,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "99": {
+      "sample_id": 99,
+      "atomic_positions": [
+        301.0,
+        10.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        50,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "100": {
+      "sample_id": 100,
+      "atomic_positions": [
+        428.0,
+        261.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        120,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "101": {
+      "sample_id": 101,
+      "atomic_positions": [
+        375.0,
+        163.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "102": {
+      "sample_id": 102,
+      "atomic_positions": [
+        73.0,
+        335.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "103": {
+      "sample_id": 103,
+      "atomic_positions": [
+        230.0,
+        163.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        134,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "104": {
+      "sample_id": 104,
+      "atomic_positions": [
+        428.0,
+        436.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "105": {
+      "sample_id": 105,
+      "atomic_positions": [
+        402.0,
+        11.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        50,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "106": {
+      "sample_id": 106,
+      "atomic_positions": [
+        454.0,
+        486.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        44,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "107": {
+      "sample_id": 107,
+      "atomic_positions": [
+        251.0,
+        163.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        116,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "108": {
+      "sample_id": 108,
+      "atomic_positions": [
+        20.0,
+        163.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        64,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "109": {
+      "sample_id": 109,
+      "atomic_positions": [
+        327.0,
+        463.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        58,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "110": {
+      "sample_id": 110,
+      "atomic_positions": [
+        351.0,
+        11.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        50,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "111": {
+      "sample_id": 111,
+      "atomic_positions": [
+        324.0,
+        213.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        80,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "112": {
+      "sample_id": 112,
+      "atomic_positions": [
+        178.0,
+        62.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        84,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "113": {
+      "sample_id": 113,
+      "atomic_positions": [
+        425.0,
+        11.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        50,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "114": {
+      "sample_id": 114,
+      "atomic_positions": [
+        324.0,
+        137.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "115": {
+      "sample_id": 115,
+      "atomic_positions": [
+        22.0,
+        436.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        50,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "116": {
+      "sample_id": 116,
+      "atomic_positions": [
+        95.0,
+        213.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        170,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "117": {
+      "sample_id": 117,
+      "atomic_positions": [
+        98.0,
+        335.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "118": {
+      "sample_id": 118,
+      "atomic_positions": [
+        251.0,
+        412.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "119": {
+      "sample_id": 119,
+      "atomic_positions": [
+        200.0,
+        112.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        84,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "120": {
+      "sample_id": 120,
+      "atomic_positions": [
+        425.0,
+        87.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "121": {
+      "sample_id": 121,
+      "atomic_positions": [
+        151.0,
+        35.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        92,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "122": {
+      "sample_id": 122,
+      "atomic_positions": [
+        48.0,
+        436.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        60,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "123": {
+      "sample_id": 123,
+      "atomic_positions": [
+        48.0,
+        486.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        44,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "124": {
+      "sample_id": 124,
+      "atomic_positions": [
+        125.0,
+        62.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        84,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "125": {
+      "sample_id": 125,
+      "atomic_positions": [
+        251.0,
+        285.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        58,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "126": {
+      "sample_id": 126,
+      "atomic_positions": [
+        22.0,
+        362.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        50,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "127": {
+      "sample_id": 127,
+      "atomic_positions": [
+        402.0,
+        36.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        60,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "128": {
+      "sample_id": 128,
+      "atomic_positions": [
+        274.0,
+        163.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        72,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "129": {
+      "sample_id": 129,
+      "atomic_positions": [
+        452.0,
+        112.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        58,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "130": {
+      "sample_id": 130,
+      "atomic_positions": [
+        204.0,
+        237.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        230,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "131": {
+      "sample_id": 131,
+      "atomic_positions": [
+        377.0,
+        285.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        66,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "132": {
+      "sample_id": 132,
+      "atomic_positions": [
+        428.0,
+        285.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        66,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "133": {
+      "sample_id": 133,
+      "atomic_positions": [
+        403.0,
+        362.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "134": {
+      "sample_id": 134,
+      "atomic_positions": [
+        351.0,
+        87.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "135": {
+      "sample_id": 135,
+      "atomic_positions": [
+        324.0,
+        112.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "136": {
+      "sample_id": 136,
+      "atomic_positions": [
+        174.0,
+        312.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "137": {
+      "sample_id": 137,
+      "atomic_positions": [
+        274.0,
+        188.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        78,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "138": {
+      "sample_id": 138,
+      "atomic_positions": [
+        250.0,
+        436.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "139": {
+      "sample_id": 139,
+      "atomic_positions": [
+        98.0,
+        312.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "140": {
+      "sample_id": 140,
+      "atomic_positions": [
+        327.0,
+        335.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "141": {
+      "sample_id": 141,
+      "atomic_positions": [
+        174.0,
+        486.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        48,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "142": {
+      "sample_id": 142,
+      "atomic_positions": [
+        274.0,
+        61.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "143": {
+      "sample_id": 143,
+      "atomic_positions": [
+        98.0,
+        35.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        92,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "144": {
+      "sample_id": 144,
+      "atomic_positions": [
+        274.0,
+        214.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        84,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "145": {
+      "sample_id": 145,
+      "atomic_positions": [
+        99.0,
+        136.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        84,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "146": {
+      "sample_id": 146,
+      "atomic_positions": [
+        476.0,
+        163.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        48,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "147": {
+      "sample_id": 147,
+      "atomic_positions": [
+        73.0,
+        261.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        200,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "148": {
+      "sample_id": 148,
+      "atomic_positions": [
+        174.0,
+        261.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        176,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "149": {
+      "sample_id": 149,
+      "atomic_positions": [
+        377.0,
+        436.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "150": {
+      "sample_id": 150,
+      "atomic_positions": [
+        151.0,
+        136.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        84,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "151": {
+      "sample_id": 151,
+      "atomic_positions": [
+        42.0,
+        213.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        162,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "152": {
+      "sample_id": 152,
+      "atomic_positions": [
+        327.0,
+        412.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "153": {
+      "sample_id": 153,
+      "atomic_positions": [
+        403.0,
+        412.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "154": {
+      "sample_id": 154,
+      "atomic_positions": [
+        274.0,
+        137.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        78,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "155": {
+      "sample_id": 155,
+      "atomic_positions": [
+        123.0,
+        412.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "156": {
+      "sample_id": 156,
+      "atomic_positions": [
+        225.0,
+        362.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "157": {
+      "sample_id": 157,
+      "atomic_positions": [
+        125.0,
+        213.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        172,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "158": {
+      "sample_id": 158,
+      "atomic_positions": [
+        250.0,
+        10.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        104,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "159": {
+      "sample_id": 159,
+      "atomic_positions": [
+        452.0,
+        87.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        58,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "160": {
+      "sample_id": 160,
+      "atomic_positions": [
+        324.0,
+        188.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "161": {
+      "sample_id": 161,
+      "atomic_positions": [
+        72.0,
+        213.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        182,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "162": {
+      "sample_id": 162,
+      "atomic_positions": [
+        453.0,
+        412.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        60,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "163": {
+      "sample_id": 163,
+      "atomic_positions": [
+        227.0,
+        186.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        110,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "164": {
+      "sample_id": 164,
+      "atomic_positions": [
+        276.0,
+        362.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "165": {
+      "sample_id": 165,
+      "atomic_positions": [
+        174.0,
+        35.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        92,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "166": {
+      "sample_id": 166,
+      "atomic_positions": [
+        178.0,
+        213.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        168,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "167": {
+      "sample_id": 167,
+      "atomic_positions": [
+        151.0,
+        85.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        84,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "168": {
+      "sample_id": 168,
+      "atomic_positions": [
+        121.0,
+        186.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        84,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "169": {
+      "sample_id": 169,
+      "atomic_positions": [
+        149.0,
+        335.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "170": {
+      "sample_id": 170,
+      "atomic_positions": [
+        174.0,
+        186.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        84,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "171": {
+      "sample_id": 171,
+      "atomic_positions": [
+        73.0,
+        412.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "172": {
+      "sample_id": 172,
+      "atomic_positions": [
+        301.0,
+        486.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        44,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "173": {
+      "sample_id": 173,
+      "atomic_positions": [
+        276.0,
+        261.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        162,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "174": {
+      "sample_id": 174,
+      "atomic_positions": [
+        174.0,
+        436.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "175": {
+      "sample_id": 175,
+      "atomic_positions": [
+        301.0,
+        261.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        106,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "176": {
+      "sample_id": 176,
+      "atomic_positions": [
+        351.0,
+        188.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "177": {
+      "sample_id": 177,
+      "atomic_positions": [
+        327.0,
+        386.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "178": {
+      "sample_id": 178,
+      "atomic_positions": [
+        19.0,
+        62.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        64,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "179": {
+      "sample_id": 179,
+      "atomic_positions": [
+        46.0,
+        186.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        104,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "180": {
+      "sample_id": 180,
+      "atomic_positions": [
+        174.0,
+        362.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "181": {
+      "sample_id": 181,
+      "atomic_positions": [
+        225.0,
+        386.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "182": {
+      "sample_id": 182,
+      "atomic_positions": [
+        95.0,
+        113.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        84,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "183": {
+      "sample_id": 183,
+      "atomic_positions": [
+        204.0,
+        35.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        145,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "184": {
+      "sample_id": 184,
+      "atomic_positions": [
+        475.0,
+        11.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        30,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "185": {
+      "sample_id": 185,
+      "atomic_positions": [
+        402.0,
+        137.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "186": {
+      "sample_id": 186,
+      "atomic_positions": [
+        324.0,
+        87.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "187": {
+      "sample_id": 187,
+      "atomic_positions": [
+        148.0,
+        112.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        84,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "188": {
+      "sample_id": 188,
+      "atomic_positions": [
+        98.0,
+        385.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "189": {
+      "sample_id": 189,
+      "atomic_positions": [
+        428.0,
+        312.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "190": {
+      "sample_id": 190,
+      "atomic_positions": [
+        428.0,
+        463.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        58,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "191": {
+      "sample_id": 191,
+      "atomic_positions": [
+        148.0,
+        12.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "192": {
+      "sample_id": 192,
+      "atomic_positions": [
+        301.0,
+        463.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        58,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "193": {
+      "sample_id": 193,
+      "atomic_positions": [
+        95.0,
+        62.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        84,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "194": {
+      "sample_id": 194,
+      "atomic_positions": [
+        375.0,
+        61.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "195": {
+      "sample_id": 195,
+      "atomic_positions": [
+        378.0,
+        385.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "196": {
+      "sample_id": 196,
+      "atomic_positions": [
+        479.0,
+        436.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        50,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "197": {
+      "sample_id": 197,
+      "atomic_positions": [
+        428.0,
+        486.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        48,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "198": {
+      "sample_id": 198,
+      "atomic_positions": [
+        402.0,
+        239.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        116,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "199": {
+      "sample_id": 199,
+      "atomic_positions": [
+        200.0,
+        12.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        100,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "200": {
+      "sample_id": 200,
+      "atomic_positions": [
+        274.0,
+        11.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        76,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "201": {
+      "sample_id": 201,
+      "atomic_positions": [
+        301.0,
+        312.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "202": {
+      "sample_id": 202,
+      "atomic_positions": [
+        46.0,
+        237.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        182,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "203": {
+      "sample_id": 203,
+      "atomic_positions": [
+        230.0,
+        62.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        108,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "204": {
+      "sample_id": 204,
+      "atomic_positions": [
+        48.0,
+        463.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        48,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "205": {
+      "sample_id": 205,
+      "atomic_positions": [
+        479.0,
+        312.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        50,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "206": {
+      "sample_id": 206,
+      "atomic_positions": [
+        351.0,
+        137.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "207": {
+      "sample_id": 207,
+      "atomic_positions": [
+        402.0,
+        87.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "208": {
+      "sample_id": 208,
+      "atomic_positions": [
+        225.0,
+        312.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "209": {
+      "sample_id": 209,
+      "atomic_positions": [
+        402.0,
+        188.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "210": {
+      "sample_id": 210,
+      "atomic_positions": [
+        98.0,
+        412.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "211": {
+      "sample_id": 211,
+      "atomic_positions": [
+        375.0,
+        239.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        126,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "212": {
+      "sample_id": 212,
+      "atomic_positions": [
+        98.0,
+        285.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        58,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "213": {
+      "sample_id": 213,
+      "atomic_positions": [
+        124.0,
+        436.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "214": {
+      "sample_id": 214,
+      "atomic_positions": [
+        352.0,
+        463.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        58,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "215": {
+      "sample_id": 215,
+      "atomic_positions": [
+        250.0,
+        463.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        58,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "216": {
+      "sample_id": 216,
+      "atomic_positions": [
+        453.0,
+        463.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        48,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "217": {
+      "sample_id": 217,
+      "atomic_positions": [
+        377.0,
+        486.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        48,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "218": {
+      "sample_id": 218,
+      "atomic_positions": [
+        352.0,
+        386.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "219": {
+      "sample_id": 219,
+      "atomic_positions": [
+        149.0,
+        486.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        48,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "220": {
+      "sample_id": 220,
+      "atomic_positions": [
+        351.0,
+        112.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "221": {
+      "sample_id": 221,
+      "atomic_positions": [
+        276.0,
+        312.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "222": {
+      "sample_id": 222,
+      "atomic_positions": [
+        301.0,
+        87.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "223": {
+      "sample_id": 223,
+      "atomic_positions": [
+        227.0,
+        35.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        150,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "224": {
+      "sample_id": 224,
+      "atomic_positions": [
+        476.0,
+        87.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        48,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "225": {
+      "sample_id": 225,
+      "atomic_positions": [
+        403.0,
+        285.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        78,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "226": {
+      "sample_id": 226,
+      "atomic_positions": [
+        48.0,
+        412.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        60,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "227": {
+      "sample_id": 227,
+      "atomic_positions": [
+        327.0,
+        362.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "228": {
+      "sample_id": 228,
+      "atomic_positions": [
+        402.0,
+        112.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "229": {
+      "sample_id": 229,
+      "atomic_positions": [
+        72.0,
+        112.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        84,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "230": {
+      "sample_id": 230,
+      "atomic_positions": [
+        69.0,
+        237.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        215,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "231": {
+      "sample_id": 231,
+      "atomic_positions": [
+        352.0,
+        311.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "232": {
+      "sample_id": 232,
+      "atomic_positions": [
+        250.0,
+        362.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "233": {
+      "sample_id": 233,
+      "atomic_positions": [
+        276.0,
+        285.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        66,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "234": {
+      "sample_id": 234,
+      "atomic_positions": [
+        204.0,
+        86.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        86,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "235": {
+      "sample_id": 235,
+      "atomic_positions": [
+        327.0,
+        312.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "236": {
+      "sample_id": 236,
+      "atomic_positions": [
+        225.0,
+        261.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        176,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "237": {
+      "sample_id": 237,
+      "atomic_positions": [
+        124.0,
+        335.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "238": {
+      "sample_id": 238,
+      "atomic_positions": [
+        428.0,
+        362.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "239": {
+      "sample_id": 239,
+      "atomic_positions": [
+        121.0,
+        85.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        84,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "240": {
+      "sample_id": 240,
+      "atomic_positions": [
+        327.0,
+        436.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "241": {
+      "sample_id": 241,
+      "atomic_positions": [
+        327.0,
+        285.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        66,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "242": {
+      "sample_id": 242,
+      "atomic_positions": [
+        148.0,
+        62.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        84,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "243": {
+      "sample_id": 243,
+      "atomic_positions": [
+        454.0,
+        335.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        60,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "244": {
+      "sample_id": 244,
+      "atomic_positions": [
+        73.0,
+        285.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        58,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "245": {
+      "sample_id": 245,
+      "atomic_positions": [
+        425.0,
+        188.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "246": {
+      "sample_id": 246,
+      "atomic_positions": [
+        48.0,
+        335.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        60,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "247": {
+      "sample_id": 247,
+      "atomic_positions": [
+        352.0,
+        362.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "248": {
+      "sample_id": 248,
+      "atomic_positions": [
+        274.0,
+        239.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        218,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "249": {
+      "sample_id": 249,
+      "atomic_positions": [
+        22.0,
+        463.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        42,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "250": {
+      "sample_id": 250,
+      "atomic_positions": [
+        251.0,
+        239.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        240,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "251": {
+      "sample_id": 251,
+      "atomic_positions": [
+        200.0,
+        463.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        58,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "252": {
+      "sample_id": 252,
+      "atomic_positions": [
+        227.0,
+        136.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        110,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "253": {
+      "sample_id": 253,
+      "atomic_positions": [
+        149.0,
+        463.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        58,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "254": {
+      "sample_id": 254,
+      "atomic_positions": [
+        250.0,
+        87.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        96,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "255": {
+      "sample_id": 255,
+      "atomic_positions": [
+        425.0,
+        163.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "256": {
+      "sample_id": 256,
+      "atomic_positions": [
+        230.0,
+        112.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        114,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "257": {
+      "sample_id": 257,
+      "atomic_positions": [
+        403.0,
+        261.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        110,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "258": {
+      "sample_id": 258,
+      "atomic_positions": [
+        301.0,
+        188.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "259": {
+      "sample_id": 259,
+      "atomic_positions": [
+        301.0,
+        285.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        78,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "260": {
+      "sample_id": 260,
+      "atomic_positions": [
+        46.0,
+        35.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        86,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "261": {
+      "sample_id": 261,
+      "atomic_positions": [
+        301.0,
+        112.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "262": {
+      "sample_id": 262,
+      "atomic_positions": [
+        230.0,
+        12.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        104,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "263": {
+      "sample_id": 263,
+      "atomic_positions": [
+        124.0,
+        486.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        48,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "264": {
+      "sample_id": 264,
+      "atomic_positions": [
+        251.0,
+        36.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        150,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "265": {
+      "sample_id": 265,
+      "atomic_positions": [
+        403.0,
+        312.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "266": {
+      "sample_id": 266,
+      "atomic_positions": [
+        274.0,
+        36.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        64,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "267": {
+      "sample_id": 267,
+      "atomic_positions": [
+        250.0,
+        112.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        104,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "268": {
+      "sample_id": 268,
+      "atomic_positions": [
+        20.0,
+        12.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        38,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "269": {
+      "sample_id": 269,
+      "atomic_positions": [
+        324.0,
+        61.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "270": {
+      "sample_id": 270,
+      "atomic_positions": [
+        375.0,
+        86.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "271": {
+      "sample_id": 271,
+      "atomic_positions": [
+        425.0,
+        239.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        148,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "272": {
+      "sample_id": 272,
+      "atomic_positions": [
+        225.0,
+        285.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        58,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "273": {
+      "sample_id": 273,
+      "atomic_positions": [
+        250.0,
+        335.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "274": {
+      "sample_id": 274,
+      "atomic_positions": [
+        251.0,
+        213.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        230,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "275": {
+      "sample_id": 275,
+      "atomic_positions": [
+        377.0,
+        412.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "276": {
+      "sample_id": 276,
+      "atomic_positions": [
+        453.0,
+        261.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        170,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "277": {
+      "sample_id": 277,
+      "atomic_positions": [
+        301.0,
+        163.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "278": {
+      "sample_id": 278,
+      "atomic_positions": [
+        251.0,
+        312.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "279": {
+      "sample_id": 279,
+      "atomic_positions": [
+        324.0,
+        239.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        170,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "280": {
+      "sample_id": 280,
+      "atomic_positions": [
+        479.0,
+        285.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        76,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "281": {
+      "sample_id": 281,
+      "atomic_positions": [
+        476.0,
+        239.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        108,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "282": {
+      "sample_id": 282,
+      "atomic_positions": [
+        476.0,
+        188.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        44,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "283": {
+      "sample_id": 283,
+      "atomic_positions": [
+        124.0,
+        285.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        58,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "284": {
+      "sample_id": 284,
+      "atomic_positions": [
+        301.0,
+        362.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "285": {
+      "sample_id": 285,
+      "atomic_positions": [
+        16.0,
+        237.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        110,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "286": {
+      "sample_id": 286,
+      "atomic_positions": [
+        174.0,
+        237.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        202,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "287": {
+      "sample_id": 287,
+      "atomic_positions": [
+        324.0,
+        36.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        60,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "288": {
+      "sample_id": 288,
+      "atomic_positions": [
+        148.0,
+        213.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        178,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "289": {
+      "sample_id": 289,
+      "atomic_positions": [
+        276.0,
+        385.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "290": {
+      "sample_id": 290,
+      "atomic_positions": [
+        227.0,
+        85.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        102,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "291": {
+      "sample_id": 291,
+      "atomic_positions": [
+        454.0,
+        312.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        60,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "292": {
+      "sample_id": 292,
+      "atomic_positions": [
+        22.0,
+        285.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        80,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "293": {
+      "sample_id": 293,
+      "atomic_positions": [
+        48.0,
+        362.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        60,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "294": {
+      "sample_id": 294,
+      "atomic_positions": [
+        16.0,
+        86.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        64,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "295": {
+      "sample_id": 295,
+      "atomic_positions": [
+        200.0,
+        213.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        216,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "296": {
+      "sample_id": 296,
+      "atomic_positions": [
+        178.0,
+        112.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        84,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "297": {
+      "sample_id": 297,
+      "atomic_positions": [
+        479.0,
+        463.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        42,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "298": {
+      "sample_id": 298,
+      "atomic_positions": [
+        16.0,
+        136.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        64,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "299": {
+      "sample_id": 299,
+      "atomic_positions": [
+        98.0,
+        261.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        196,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "300": {
+      "sample_id": 300,
+      "atomic_positions": [
+        72.0,
+        12.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "301": {
+      "sample_id": 301,
+      "atomic_positions": [
+        174.0,
+        412.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "302": {
+      "sample_id": 302,
+      "atomic_positions": [
+        452.0,
+        188.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        58,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "303": {
+      "sample_id": 303,
+      "atomic_positions": [
+        68.0,
+        85.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        84,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "304": {
+      "sample_id": 304,
+      "atomic_positions": [
+        98.0,
+        186.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        84,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "305": {
+      "sample_id": 305,
+      "atomic_positions": [
+        375.0,
+        11.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        50,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "306": {
+      "sample_id": 306,
+      "atomic_positions": [
+        46.0,
+        136.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        104,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "307": {
+      "sample_id": 307,
+      "atomic_positions": [
+        47.0,
+        312.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        60,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "308": {
+      "sample_id": 308,
+      "atomic_positions": [
+        352.0,
+        335.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "309": {
+      "sample_id": 309,
+      "atomic_positions": [
+        225.0,
+        486.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        48,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "310": {
+      "sample_id": 310,
+      "atomic_positions": [
+        403.0,
+        463.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        58,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "311": {
+      "sample_id": 311,
+      "atomic_positions": [
+        121.0,
+        35.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        92,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "312": {
+      "sample_id": 312,
+      "atomic_positions": [
+        73.0,
+        463.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        58,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "313": {
+      "sample_id": 313,
+      "atomic_positions": [
+        378.0,
+        261.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        132,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "314": {
+      "sample_id": 314,
+      "atomic_positions": [
+        375.0,
+        137.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "315": {
+      "sample_id": 315,
+      "atomic_positions": [
+        200.0,
+        412.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "316": {
+      "sample_id": 316,
+      "atomic_positions": [
+        452.0,
+        36.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        48,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "317": {
+      "sample_id": 317,
+      "atomic_positions": [
+        149.0,
+        312.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "318": {
+      "sample_id": 318,
+      "atomic_positions": [
+        351.0,
+        36.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        60,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "319": {
+      "sample_id": 319,
+      "atomic_positions": [
+        475.0,
+        137.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        48,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "320": {
+      "sample_id": 320,
+      "atomic_positions": [
+        69.0,
+        35.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        92,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "321": {
+      "sample_id": 321,
+      "atomic_positions": [
+        22.0,
+        335.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        50,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "322": {
+      "sample_id": 322,
+      "atomic_positions": [
+        403.0,
+        335.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "323": {
+      "sample_id": 323,
+      "atomic_positions": [
+        479.0,
+        486.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        30,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "324": {
+      "sample_id": 324,
+      "atomic_positions": [
+        425.0,
+        61.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "325": {
+      "sample_id": 325,
+      "atomic_positions": [
+        125.0,
+        163.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        84,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "326": {
+      "sample_id": 326,
+      "atomic_positions": [
+        351.0,
+        214.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        80,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "327": {
+      "sample_id": 327,
+      "atomic_positions": [
+        225.0,
+        412.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "328": {
+      "sample_id": 328,
+      "atomic_positions": [
+        48.0,
+        386.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        60,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "329": {
+      "sample_id": 329,
+      "atomic_positions": [
+        174.0,
+        285.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        58,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "330": {
+      "sample_id": 330,
+      "atomic_positions": [
+        46.0,
+        85.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        104,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "331": {
+      "sample_id": 331,
+      "atomic_positions": [
+        200.0,
+        312.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "332": {
+      "sample_id": 332,
+      "atomic_positions": [
+        42.0,
+        163.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        104,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "333": {
+      "sample_id": 333,
+      "atomic_positions": [
+        121.0,
+        136.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        84,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "334": {
+      "sample_id": 334,
+      "atomic_positions": [
+        454.0,
+        285.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        62,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "335": {
+      "sample_id": 335,
+      "atomic_positions": [
+        124.0,
+        261.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        181,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "336": {
+      "sample_id": 336,
+      "atomic_positions": [
+        476.0,
+        112.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        48,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "337": {
+      "sample_id": 337,
+      "atomic_positions": [
+        73.0,
+        385.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "338": {
+      "sample_id": 338,
+      "atomic_positions": [
+        276.0,
+        412.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "339": {
+      "sample_id": 339,
+      "atomic_positions": [
+        425.0,
+        214.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        80,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "340": {
+      "sample_id": 340,
+      "atomic_positions": [
+        476.0,
+        36.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        44,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "341": {
+      "sample_id": 341,
+      "atomic_positions": [
+        428.0,
+        412.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "342": {
+      "sample_id": 342,
+      "atomic_positions": [
+        425.0,
+        112.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "343": {
+      "sample_id": 343,
+      "atomic_positions": [
+        428.0,
+        386.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "344": {
+      "sample_id": 344,
+      "atomic_positions": [
+        149.0,
+        386.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "345": {
+      "sample_id": 345,
+      "atomic_positions": [
+        22.0,
+        386.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        50,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "346": {
+      "sample_id": 346,
+      "atomic_positions": [
+        225.0,
+        436.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "347": {
+      "sample_id": 347,
+      "atomic_positions": [
+        479.0,
+        362.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        50,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "348": {
+      "sample_id": 348,
+      "atomic_positions": [
+        98.0,
+        85.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        84,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "349": {
+      "sample_id": 349,
+      "atomic_positions": [
+        124.0,
+        362.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "350": {
+      "sample_id": 350,
+      "atomic_positions": [
+        425.0,
+        137.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "351": {
+      "sample_id": 351,
+      "atomic_positions": [
+        479.0,
+        261.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        112,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "352": {
+      "sample_id": 352,
+      "atomic_positions": [
+        425.0,
+        36.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        60,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "353": {
+      "sample_id": 353,
+      "atomic_positions": [
+        200.0,
+        62.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        84,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "354": {
+      "sample_id": 354,
+      "atomic_positions": [
+        174.0,
+        86.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        84,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "355": {
+      "sample_id": 355,
+      "atomic_positions": [
+        476.0,
+        213.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        88,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "356": {
+      "sample_id": 356,
+      "atomic_positions": [
+        475.0,
+        61.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        48,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "357": {
+      "sample_id": 357,
+      "atomic_positions": [
+        124.0,
+        312.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "358": {
+      "sample_id": 358,
+      "atomic_positions": [
+        204.0,
+        186.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        86,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "359": {
+      "sample_id": 359,
+      "atomic_positions": [
+        16.0,
+        186.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        64,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "360": {
+      "sample_id": 360,
+      "atomic_positions": [
+        124.0,
+        385.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "361": {
+      "sample_id": 361,
+      "atomic_positions": [
+        178.0,
+        163.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        84,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "362": {
+      "sample_id": 362,
+      "atomic_positions": [
+        16.0,
+        35.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        54,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "363": {
+      "sample_id": 363,
+      "atomic_positions": [
+        225.0,
+        463.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        58,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "364": {
+      "sample_id": 364,
+      "atomic_positions": [
+        479.0,
+        412.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        50,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "365": {
+      "sample_id": 365,
+      "atomic_positions": [
+        72.0,
+        163.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        84,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "366": {
+      "sample_id": 366,
+      "atomic_positions": [
+        301.0,
+        412.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "367": {
+      "sample_id": 367,
+      "atomic_positions": [
+        147.0,
+        163.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        84,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "368": {
+      "sample_id": 368,
+      "atomic_positions": [
+        200.0,
+        163.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        84,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "369": {
+      "sample_id": 369,
+      "atomic_positions": [
+        95.0,
+        163.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        84,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "370": {
+      "sample_id": 370,
+      "atomic_positions": [
+        69.0,
+        136.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        84,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "371": {
+      "sample_id": 371,
+      "atomic_positions": [
+        124.0,
+        463.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        58,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "372": {
+      "sample_id": 372,
+      "atomic_positions": [
+        20.0,
+        112.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        64,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "373": {
+      "sample_id": 373,
+      "atomic_positions": [
+        98.0,
+        362.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "374": {
+      "sample_id": 374,
+      "atomic_positions": [
+        72.0,
+        62.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        84,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "375": {
+      "sample_id": 375,
+      "atomic_positions": [
+        98.0,
+        237.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        204,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "376": {
+      "sample_id": 376,
+      "atomic_positions": [
+        22.0,
+        261.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        104,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "377": {
+      "sample_id": 377,
+      "atomic_positions": [
+        42.0,
+        113.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        104,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "378": {
+      "sample_id": 378,
+      "atomic_positions": [
+        73.0,
+        436.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        68,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    },
+    "379": {
+      "sample_id": 379,
+      "atomic_positions": [
+        68.0,
+        186.0
+      ],
+      "vpcf_origin": [
+        500.0,
+        498.0
+      ],
+      "vpcf_shape": [
+        999,
+        999
+      ],
+      "peaks_shape": [
+        84,
+        5
+      ],
+      "crystal_label": "unlabeled"
+    }
+  }
+}

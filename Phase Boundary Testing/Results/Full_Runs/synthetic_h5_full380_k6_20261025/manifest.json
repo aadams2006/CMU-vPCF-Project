@@ -1,0 +1,51 @@
+{
+  "protocol": "Fresh transductive full-image clustering; no held-out split or generalization claim",
+  "samples": 380,
+  "training_samples": 380,
+  "test_samples": 0,
+  "ground_truth_available": false,
+  "k": 6,
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "architecture": [
+    7,
+    500,
+    500,
+    2000,
+    6
+  ],
+  "feature_method": "statistical",
+  "normalization": "minmax fitted on all 380",
+  "pretrain_epochs": 50,
+  "pretrain_batch_size": 64,
+  "pretrain_optimizer": "Adam default lr=0.001",
+  "refinement_steps": 200,
+  "refinement_batch_size": 380,
+  "target_update_interval": 5,
+  "refinement_optimizer": "SGD lr=0.01",
+  "idec_gamma": 0.1,
+  "early_stopping": false,
+  "initialization": "fresh random network then KMeans n_init=20 on pretrained embeddings",
+  "python": "3.12.5",
+  "tensorflow": "2.20.0",
+  "numpy": "2.3.3",
+  "source_data_sha256": {
+    "SyntheticModel_HfO_80pm_vPCFs_65.h5": "e75be49618e783ebc4356d9842853aa694c704b16153c4d50f678d137bb6167d",
+    "SyntheticModel_HfO_80pm_gaussian_HAADF.dm3": "2c03d0f5d29d6a1a5e19de5c635ea732dbc1c830e81d44210804ee58d0b729c1"
+  },
+  "source_sha256": {
+    "run_full_sample_k6.py": "1f46be9e0206ecc2317c81b0d06a1cc35206b4ec2ecf02409858008c7db02154",
+    "dec.py": "9f51e3a06dc35dd0e050940d71e00cfc1096d8c3912e63a073316d580f3a7e87",
+    "idec.py": "1e00cb9bcb3d0b6717034ef8178a0c5ee321cb06040c91769c52df753dcd0976",
+    "vpcf_data_loader.py": "2996a5869e9b041505ad8fa109e6ff91b4dc7011aea63e32be5344531b84dd86",
+    "metrics.py": "5f0ba90c0df30e0656b1930567e0f3dfdebe0967fd3ac646f1872c7e469f905b",
+    "cluster_region_figures.py": "fcbacd40e8a417c3548bc6bb335b4b852435f0c98680b7384669bbaaaa41d3c8",
+    "vpcf_to_image_mapper.py": "e1ea0ce0f7da5dd1a6052f5159271cd6b520d7dafe47f636603e910d946b62a5"
+  },
+  "base_commit": "38c85e1007786e2702a3d3dbe8f3029172c06b18"
+}

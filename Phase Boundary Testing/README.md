@@ -1,5 +1,34 @@
 # Phase-boundary model evaluation
 
+## Full original-image K=6 training on all 380 vPCFs
+
+`run_full_sample_k6.py` trains fresh DEC/IDEC networks on every original H5
+sample, using the existing seven statistical features and 7–500–500–2000–6
+architecture. It fits min-max scaling on all 380 observations, pretrains for
+50 epochs, then runs 200 full-batch refinement updates with targets refreshed
+every five updates. Five independent seeds (42–46) are retained without selection.
+This is a fixed full-image clustering protocol, with no held-out split or
+generalization claim. No physical ground-truth mask is supplied.
+
+```powershell
+python run_full_sample_k6.py --output Results/Full_Runs/<new-directory>
+python verify_full_sample_k6.py --run Results/Full_Runs/<new-directory>
+```
+
+Results are saved in `Results/Full_Runs/synthetic_h5_full380_k6_20261025/`:
+final weights, histories, initial and final embeddings/centers, probabilities,
+cluster counts, internal metrics in input and embedding spaces, seed stability,
+cross-model agreement, and original-image maps for every seed. Each trained
+checkpoint is reloaded into a fresh instance and checked against its saved
+predictions. Source snapshots, data hashes and an artifact inventory are included.
+Use `REPORT.md` for interpretation and `seed_42/{dec,idec}/cluster_regions.png`
+as the fixed reference figures. Maps keep cluster names in the legend.
+
+The older October 12 H5 runs and their 12/380 caveat remain archived in their
+original folders. The new run changes training coverage, scaling and training
+duration, so comparison with the smoke test is not a controlled isolation of
+sample count alone. All 380 assignments in the new run are in-sample results.
+
 ## Region-style map-back figures
 
 See [MAP_BACK_LOGIC.md](MAP_BACK_LOGIC.md) for how the existing coordinate mapper

@@ -1,0 +1,68 @@
+{
+  "passed": true,
+  "model_runs": 10,
+  "samples_per_run": 380,
+  "held_out_test": false,
+  "checks": [
+    {
+      "seed": 42,
+      "model": "dec",
+      "occupied_clusters": 6,
+      "weights_sha256": "bcb5bac8ddc33a4b018f3508b4775e481116bc85892a0786b8d3fa57ac064dab"
+    },
+    {
+      "seed": 42,
+      "model": "idec",
+      "occupied_clusters": 6,
+      "weights_sha256": "ae4c24e53bc8bebca59f1bfbcf1d6d764b04efca726cbcbfac34907209f32aa5"
+    },
+    {
+      "seed": 43,
+      "model": "dec",
+      "occupied_clusters": 6,
+      "weights_sha256": "fe35bee1eb8072a155dd75c5ba000dc92bf1facbe4ad657f9a791e17ad5394a8"
+    },
+    {
+      "seed": 43,
+      "model": "idec",
+      "occupied_clusters": 6,
+      "weights_sha256": "a4e93dcb2691b87c3e5cf50dd0383a0b3f7968b63a6bc7649c7e6a2bae51ec76"
+    },
+    {
+      "seed": 44,
+      "model": "dec",
+      "occupied_clusters": 6,
+      "weights_sha256": "317da31a79609d9b94cd96b5e1cd605c2325ebb15bb1299ea6ecab881155b2a9"
+    },
+    {
+      "seed": 44,
+      "model": "idec",
+      "occupied_clusters": 6,
+      "weights_sha256": "ab2e6eac5fa9812cc82a79eb64be5216d7e64b5bf3d19348be34767f417bafed"
+    },
+    {
+      "seed": 45,
+      "model": "dec",
+      "occupied_clusters": 6,
+      "weights_sha256": "35f6be31391d4cda11b1132e6916e5751b5e0550b79e0f45b1a531ac6f731ed2"
+    },
+    {
+      "seed": 45,
+      "model": "idec",
+      "occupied_clusters": 6,
+      "weights_sha256": "836ddbddc0a4e24ff85a27fb42c256e0dc7e94066fd09bee4135997bd431f17b"
+    },
+    {
+      "seed": 46,
+      "model": "dec",
+      "occupied_clusters": 6,
+      "weights_sha256": "0dba0c438b689a0d38d11c2b81968817cb81cbecb6540e4747301ddfad5b7419"
+    },
+    {
+      "seed": 46,
+      "model": "idec",
+      "occupied_clusters": 6,
+      "weights_sha256": "1981d0da27fa9b34e17abe25a6cf490844c17677ea9aa1a2f69c4251d5dfbf61"
+    }
+  ]
+}

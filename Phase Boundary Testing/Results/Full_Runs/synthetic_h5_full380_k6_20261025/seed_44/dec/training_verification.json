@@ -1,0 +1,10 @@
+{
+  "pretraining_encoder_delta": 4.8353352546691895,
+  "refinement_encoder_delta": 0.16007429361343384,
+  "center_delta": 0.08460146933794022,
+  "gradient_updates": 200,
+  "autoencoder_epochs": 50,
+  "training_samples": 380,
+  "initialized_from_previous_weights": false,
+  "reload_predictions_match": true
+}
